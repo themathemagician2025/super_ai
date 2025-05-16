@@ -27,7 +27,7 @@ Please view this project in the spirit it was created: a personal hobby project 
 
 ---
 
-Copyright 2024 Super AI Project Contributors
+Copyright 2025 Super AI Project Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
