@@ -1,0 +1,71 @@
+date,time,league,home_team,away_team,home_odds,draw_odds,away_odds,home_form,away_form,source
+2025-04-19,20:00,Premier League,Manchester City,Liverpool,3.36,4.49,3.5,W1D2L2,W4D0L3,SofaScore
+2025-04-19,14:00,Premier League,Chelsea,Arsenal,3.77,3.48,2.96,W3D2L3,W4D1L2,SofaScore
+2025-04-19,20:00,La Liga,Real Madrid,Barcelona,2.07,2.25,2.73,W4D2L3,W3D1L2,SofaScore
+2025-04-19,21:00,La Liga,Atletico Madrid,Sevilla,2.55,3.84,3.89,W1D0L1,W1D0L3,SofaScore
+2025-04-19,19:00,Serie A,Inter,Milan,3.55,2.76,3.34,W2D1L2,W5D2L2,SofaScore
+2025-04-19,12:00,Serie A,Juventus,Napoli,2.32,3.64,2.49,W4D1L0,W1D1L0,SofaScore
+2025-04-19,20:00,Bundesliga,Bayern Munich,Dortmund,1.93,4.68,3.59,W2D2L2,W2D1L2,SofaScore
+2025-04-19,12:00,Bundesliga,Leipzig,Leverkusen,3.42,4.89,3.67,W4D1L2,W5D2L2,SofaScore
+2025-04-19,14:00,Ligue 1,PSG,Marseille,2.22,2.68,3.91,W1D2L3,W1D1L1,SofaScore
+2025-04-19,13:00,Ligue 1,Lyon,Monaco,3.66,4.47,3.97,W5D0L3,W5D1L1,SofaScore
+2025-04-20,17:00,Premier League,Manchester City,Liverpool,3.05,2.18,2.36,W5D2L0,W3D2L3,SofaScore
+2025-04-20,16:00,Premier League,Chelsea,Arsenal,3.73,3.71,2.83,W1D2L2,W3D2L3,SofaScore
+2025-04-20,13:00,La Liga,Real Madrid,Barcelona,2.32,4.82,3.35,W1D0L3,W3D0L3,SofaScore
+2025-04-20,14:00,La Liga,Atletico Madrid,Sevilla,3.47,4.77,2.94,W3D2L2,W2D0L2,SofaScore
+2025-04-20,13:00,Serie A,Inter,Milan,1.53,2.68,1.76,W3D1L0,W3D0L0,SofaScore
+2025-04-20,15:00,Serie A,Juventus,Napoli,3.7,4.47,3.42,W1D1L3,W1D0L1,SofaScore
+2025-04-20,18:00,Bundesliga,Bayern Munich,Dortmund,3.54,4.27,2.15,W5D1L0,W5D2L1,SofaScore
+2025-04-20,16:00,Bundesliga,Leipzig,Leverkusen,3.25,4.23,1.91,W1D0L0,W2D1L2,SofaScore
+2025-04-20,15:00,Ligue 1,PSG,Marseille,2.53,3.29,3.85,W3D2L1,W3D2L2,SofaScore
+2025-04-20,21:00,Ligue 1,Lyon,Monaco,2.56,4.5,2.08,W2D0L1,W4D0L3,SofaScore
+2025-04-21,12:00,Premier League,Manchester City,Liverpool,3.45,3.4,2.39,W1D0L3,W3D0L0,SofaScore
+2025-04-21,21:00,Premier League,Chelsea,Arsenal,3.45,2.66,2.87,W3D0L1,W4D2L1,SofaScore
+2025-04-21,16:00,La Liga,Real Madrid,Barcelona,2.24,3.47,1.96,W2D0L3,W4D2L0,SofaScore
+2025-04-21,14:00,La Liga,Atletico Madrid,Sevilla,1.98,3.73,3.99,W1D1L3,W3D1L1,SofaScore
+2025-04-21,15:00,Serie A,Inter,Milan,2.68,2.25,3.38,W2D0L1,W5D2L1,SofaScore
+2025-04-21,21:00,Serie A,Juventus,Napoli,2.07,2.36,1.53,W2D0L3,W4D0L2,SofaScore
+2025-04-21,13:00,Bundesliga,Bayern Munich,Dortmund,3.86,4.03,1.62,W4D1L0,W4D2L3,SofaScore
+2025-04-21,19:00,Bundesliga,Leipzig,Leverkusen,3.58,4.28,3.6,W5D2L3,W2D0L1,SofaScore
+2025-04-21,16:00,Ligue 1,PSG,Marseille,3.57,2.49,1.96,W3D2L0,W4D1L0,SofaScore
+2025-04-21,18:00,Ligue 1,Lyon,Monaco,3.08,2.08,2.49,W3D1L2,W2D1L3,SofaScore
+2025-04-22,12:00,Premier League,Manchester City,Liverpool,1.66,4.31,3.46,W4D1L0,W5D2L3,SofaScore
+2025-04-22,17:00,Premier League,Chelsea,Arsenal,1.62,3.39,2.53,W2D0L1,W5D2L0,SofaScore
+2025-04-22,16:00,La Liga,Real Madrid,Barcelona,2.54,3.86,3.63,W2D2L2,W3D1L0,SofaScore
+2025-04-22,14:00,La Liga,Atletico Madrid,Sevilla,1.6,2.04,1.79,W5D1L1,W4D1L0,SofaScore
+2025-04-22,14:00,Serie A,Inter,Milan,1.84,2.87,2.69,W5D2L3,W5D1L1,SofaScore
+2025-04-22,16:00,Serie A,Juventus,Napoli,3.86,3.07,2.46,W5D1L1,W1D2L0,SofaScore
+2025-04-22,18:00,Bundesliga,Bayern Munich,Dortmund,3.13,3.37,2.29,W2D0L0,W5D0L0,SofaScore
+2025-04-22,18:00,Bundesliga,Leipzig,Leverkusen,2.16,2.66,3.49,W3D2L2,W3D2L0,SofaScore
+2025-04-22,13:00,Ligue 1,PSG,Marseille,1.78,2.07,3.47,W4D1L1,W2D0L2,SofaScore
+2025-04-22,16:00,Ligue 1,Lyon,Monaco,1.69,3.92,2.7,W5D1L0,W4D1L1,SofaScore
+2025-04-23,18:00,Premier League,Manchester City,Liverpool,2.33,3.08,1.67,W2D1L3,W1D2L2,SofaScore
+2025-04-23,13:00,Premier League,Chelsea,Arsenal,3.49,4.05,3.77,W4D0L2,W2D1L3,SofaScore
+2025-04-23,14:00,La Liga,Real Madrid,Barcelona,1.58,3.52,3.88,W5D2L0,W3D1L0,SofaScore
+2025-04-23,19:00,La Liga,Atletico Madrid,Sevilla,1.52,4.12,3.42,W1D1L1,W3D1L2,SofaScore
+2025-04-23,12:00,Serie A,Inter,Milan,3.22,3.11,2.76,W1D0L2,W3D2L2,SofaScore
+2025-04-23,19:00,Serie A,Juventus,Napoli,3.12,3.58,2.91,W4D1L2,W3D2L2,SofaScore
+2025-04-23,15:00,Bundesliga,Bayern Munich,Dortmund,1.97,2.42,3.14,W1D2L0,W2D2L3,SofaScore
+2025-04-23,20:00,Bundesliga,Leipzig,Leverkusen,2.93,4.37,3.44,W5D1L3,W1D1L0,SofaScore
+2025-04-23,12:00,Ligue 1,PSG,Marseille,1.66,2.91,3.72,W2D2L0,W1D1L2,SofaScore
+2025-04-23,12:00,Ligue 1,Lyon,Monaco,3.19,3.98,3.28,W1D2L2,W3D2L2,SofaScore
+2025-04-24,21:00,Premier League,Manchester City,Liverpool,1.99,4.74,1.77,W5D0L2,W3D2L2,SofaScore
+2025-04-24,14:00,Premier League,Chelsea,Arsenal,2.51,3.42,2.67,W5D1L0,W1D1L1,SofaScore
+2025-04-24,16:00,La Liga,Real Madrid,Barcelona,2.04,4.22,2.68,W1D2L2,W1D1L3,SofaScore
+2025-04-24,12:00,La Liga,Atletico Madrid,Sevilla,1.66,2.2,2.52,W4D0L0,W4D2L2,SofaScore
+2025-04-24,14:00,Serie A,Inter,Milan,3.23,3.05,2.8,W1D0L0,W5D2L2,SofaScore
+2025-04-24,18:00,Serie A,Juventus,Napoli,3.29,3.72,3.66,W1D1L0,W5D1L1,SofaScore
+2025-04-24,21:00,Bundesliga,Bayern Munich,Dortmund,3.57,3.7,3.42,W5D1L2,W2D1L0,SofaScore
+2025-04-24,13:00,Bundesliga,Leipzig,Leverkusen,3.21,3.35,3.32,W5D2L2,W1D2L3,SofaScore
+2025-04-24,17:00,Ligue 1,PSG,Marseille,3.14,3.53,3.98,W2D1L1,W5D0L2,SofaScore
+2025-04-24,12:00,Ligue 1,Lyon,Monaco,2.01,3.33,3.52,W3D2L3,W2D0L2,SofaScore
+2025-04-25,16:00,Premier League,Manchester City,Liverpool,2.07,4.02,1.87,W3D0L1,W1D1L3,SofaScore
+2025-04-25,21:00,Premier League,Chelsea,Arsenal,3.78,3.74,2.0,W5D2L0,W5D0L0,SofaScore
+2025-04-25,14:00,La Liga,Real Madrid,Barcelona,3.3,2.49,2.08,W4D0L2,W2D0L0,SofaScore
+2025-04-25,15:00,La Liga,Atletico Madrid,Sevilla,3.6,2.49,3.11,W4D2L3,W1D0L2,SofaScore
+2025-04-25,18:00,Serie A,Inter,Milan,3.33,4.7,3.16,W3D2L2,W5D1L1,SofaScore
+2025-04-25,12:00,Serie A,Juventus,Napoli,3.73,2.2,3.34,W5D2L2,W4D2L3,SofaScore
+2025-04-25,21:00,Bundesliga,Bayern Munich,Dortmund,2.96,4.61,1.94,W4D2L3,W3D0L3,SofaScore
+2025-04-25,12:00,Bundesliga,Leipzig,Leverkusen,2.59,2.62,2.95,W3D1L0,W4D0L0,SofaScore
+2025-04-25,12:00,Ligue 1,PSG,Marseille,2.07,2.95,2.61,W2D1L3,W5D0L2,SofaScore
+2025-04-25,16:00,Ligue 1,Lyon,Monaco,3.98,2.84,3.05,W4D0L1,W5D1L3,SofaScore

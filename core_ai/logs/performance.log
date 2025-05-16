@@ -1,0 +1,6 @@
+2025-04-19 10:32:49,811 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:32:49.811254", "operation": "GET /", "duration_ms": 1.2069999999999999, "details": {}}
+2025-04-19 10:34:14,663 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:34:14.663714", "operation": "GET /", "duration_ms": 1.661, "details": {}}
+2025-04-19 10:46:00,043 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:46:00.043273", "operation": "GET /", "duration_ms": 0.5599999999999999, "details": {}}
+2025-04-19 10:46:04,288 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:46:04.288051", "operation": "GET /", "duration_ms": 0.9309999999999999, "details": {}}
+2025-04-19 10:46:04,499 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:46:04.499075", "operation": "GET /", "duration_ms": 0.46599999999999997, "details": {}}
+2025-04-19 10:46:04,784 - super_ai.performance - INFO - {"timestamp": "2025-04-19T10:46:04.784347", "operation": "GET /", "duration_ms": 0.665, "details": {}}

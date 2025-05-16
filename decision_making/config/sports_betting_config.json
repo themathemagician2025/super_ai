@@ -1,0 +1,30 @@
+{
+    "confidence_threshold": 0.65,
+    "risk_tolerance": 0.3,
+    "max_stake_ratio": 0.1,
+    "prediction_settings": {
+        "form_window": 10,
+        "min_matches_required": 5,
+        "home_advantage_factor": 1.3,
+        "recent_form_weight": 0.6,
+        "historical_weight": 0.4
+    },
+    "risk_management": {
+        "max_daily_loss": 0.1,
+        "max_weekly_loss": 0.2,
+        "max_exposure_per_league": 0.3,
+        "min_odds": 1.2,
+        "max_odds": 10.0
+    },
+    "data_sources": {
+        "historical_data_path": "data/sports/football/historical_matches.csv",
+        "live_data_endpoint": "api/sports/football/live",
+        "odds_data_endpoint": "api/sports/football/odds"
+    },
+    "monitoring": {
+        "track_predictions": true,
+        "track_decisions": true,
+        "track_performance": true,
+        "log_level": "INFO"
+    }
+} 

@@ -1,0 +1,346 @@
+{% extends "base.html" %}
+
+{% block title %}Super AI Prediction System - AI-Powered Financial & Sports Predictions{% endblock %}
+
+{% block description %}Super AI uses cutting-edge machine learning and NLP to provide accurate predictions for forex
+markets and sports outcomes with detailed analysis.{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Super AI Prediction System",
+  "applicationCategory": "FinanceApplication, SportsApplication",
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "description": "AI-powered prediction system for forex markets and sports outcomes",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "256"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<section class="hero" aria-labelledby="hero-heading">
+    <div class="container">
+        <h1 id="hero-heading">AI-Powered Predictions for Forex & Sports</h1>
+        <p class="hero-subtitle">Harness the power of advanced machine learning models and natural language processing
+            for accurate financial and sports predictions</p>
+
+        <div class="cta-buttons" role="group" aria-label="Call to action options">
+            <a href="/dashboard" class="btn btn-primary" role="button">View Dashboard</a>
+            <a href="/api/docs" class="btn btn-secondary" role="button">API Documentation</a>
+        </div>
+    </div>
+</section>
+
+<section class="features" aria-labelledby="features-heading">
+    <div class="container">
+        <h2 id="features-heading" class="section-heading">Key Features</h2>
+
+        <div class="feature-grid">
+            <article class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <svg focusable="false" width="48" height="48" viewBox="0 0 24 24">
+                        <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6z"></path>
+                    </svg>
+                </div>
+                <h3>Forex Predictions</h3>
+                <p>Real-time predictions for major currency pairs using advanced time series models and market sentiment
+                    analysis</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <svg focusable="false" width="48" height="48" viewBox="0 0 24 24">
+                        <path
+                            d="M15 12c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3 3 1.346 3 3zm9-.449s-4.252 8.449-11.985 8.449c-7.18 0-12.015-8.449-12.015-8.449s4.446-7.551 12.015-7.551c7.694 0 11.985 7.551 11.985 7.551zm-7 .449c0-2.757-2.243-5-5-5s-5 2.243-5 5 2.243 5 5 5 5-2.243 5-5z">
+                        </path>
+                    </svg>
+                </div>
+                <h3>Sports Predictions</h3>
+                <p>Match outcome predictions for major sports leagues based on team statistics, historical performance,
+                    and other factors</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <svg focusable="false" width="48" height="48" viewBox="0 0 24 24">
+                        <path
+                            d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 15l-5-5h3V9h4v4h3l-5 5z">
+                        </path>
+                    </svg>
+                </div>
+                <h3>NLP Analysis</h3>
+                <p>Sentiment analysis of financial news and social media using advanced natural language processing
+                    techniques</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <svg focusable="false" width="48" height="48" viewBox="0 0 24 24">
+                        <path d="M7.5 21H2V9h5.5v12zm7.25-18h-5.5v18h5.5V3zM22 11h-5.5v10H22V11z"></path>
+                    </svg>
+                </div>
+                <h3>Performance Tracking</h3>
+                <p>Comprehensive tracking of prediction accuracy and model performance with detailed analytics</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="models" aria-labelledby="models-heading">
+    <div class="container">
+        <h2 id="models-heading" class="section-heading">Our AI Models</h2>
+
+        <div class="tabs" role="tablist" aria-label="AI model types">
+            <button id="tab-forex" class="tab active" role="tab" aria-selected="true" aria-controls="panel-forex">
+                Forex Models
+            </button>
+            <button id="tab-sports" class="tab" role="tab" aria-selected="false" aria-controls="panel-sports">
+                Sports Models
+            </button>
+            <button id="tab-nlp" class="tab" role="tab" aria-selected="false" aria-controls="panel-nlp">
+                NLP Systems
+            </button>
+        </div>
+
+        <div class="tab-panels">
+            <div id="panel-forex" role="tabpanel" aria-labelledby="tab-forex" class="tab-panel active">
+                <div class="model-info">
+                    <h3>Deep Learning for Forex</h3>
+                    <p>Our forex prediction system uses a combination of LSTM neural networks and ensemble methods to
+                        capture complex patterns in currency price movements.</p>
+                    <ul aria-label="Forex model features">
+                        <li>Time-series analysis with LSTM neural networks</li>
+                        <li>Gradient boosting regression models</li>
+                        <li>Multi-timeframe prediction capabilities</li>
+                        <li>Volatility forecasting</li>
+                    </ul>
+                    <div class="accuracy-indicator" aria-label="Model accuracy: 92%">
+                        <div class="accuracy-label">Accuracy:</div>
+                        <div class="accuracy-bar">
+                            <div class="accuracy-fill" style="width: 92%;" aria-hidden="true"></div>
+                            <span class="accuracy-value">92%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-sports" role="tabpanel" aria-labelledby="tab-sports" class="tab-panel" hidden>
+                <div class="model-info">
+                    <h3>Sports Prediction Engine</h3>
+                    <p>Our sports prediction models analyze historical match data, team statistics, and other factors to
+                        forecast match outcomes with high accuracy.</p>
+                    <ul aria-label="Sports model features">
+                        <li>Random Forest classification models</li>
+                        <li>Team performance analytics</li>
+                        <li>Player-level statistics integration</li>
+                        <li>League-specific calibration</li>
+                    </ul>
+                    <div class="accuracy-indicator" aria-label="Model accuracy: 88%">
+                        <div class="accuracy-label">Accuracy:</div>
+                        <div class="accuracy-bar">
+                            <div class="accuracy-fill" style="width: 88%;" aria-hidden="true"></div>
+                            <span class="accuracy-value">88%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-nlp" role="tabpanel" aria-labelledby="tab-nlp" class="tab-panel" hidden>
+                <div class="model-info">
+                    <h3>Natural Language Processing</h3>
+                    <p>Our NLP system analyzes financial news, reports, and social media to extract sentiment and
+                        market-moving information.</p>
+                    <ul aria-label="NLP system features">
+                        <li>BERT-based sentiment analysis</li>
+                        <li>Financial entity extraction</li>
+                        <li>Market impact prediction</li>
+                        <li>Multi-source news aggregation</li>
+                    </ul>
+                    <div class="accuracy-indicator" aria-label="Model accuracy: 90%">
+                        <div class="accuracy-label">Accuracy:</div>
+                        <div class="accuracy-bar">
+                            <div class="accuracy-fill" style="width: 90%;" aria-hidden="true"></div>
+                            <span class="accuracy-value">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+        <h2 id="testimonials-heading" class="section-heading">What Our Users Say</h2>
+
+        <div class="testimonial-slider" role="region" aria-roledescription="carousel" aria-label="User testimonials">
+            <div class="testimonial-track">
+                <article class="testimonial-card" role="group" aria-roledescription="slide">
+                    <blockquote>
+                        <p>"Super AI's forex predictions have consistently outperformed my previous analysis methods.
+                            The accuracy is impressive!"</p>
+                        <footer>
+                            <cite>
+                                <span class="testimonial-name">David Chen</span>
+                                <span class="testimonial-title">Forex Trader</span>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </article>
+
+                <article class="testimonial-card" role="group" aria-roledescription="slide">
+                    <blockquote>
+                        <p>"The sports prediction system has transformed my approach to betting. The detailed analytics
+                            provide insights I couldn't find elsewhere."</p>
+                        <footer>
+                            <cite>
+                                <span class="testimonial-name">Sarah Johnson</span>
+                                <span class="testimonial-title">Sports Analyst</span>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </article>
+
+                <article class="testimonial-card" role="group" aria-roledescription="slide">
+                    <blockquote>
+                        <p>"The NLP analysis of financial news has been a game-changer for my investment strategy. I can
+                            now react quickly to market-moving events."</p>
+                        <footer>
+                            <cite>
+                                <span class="testimonial-name">Michael Rodriguez</span>
+                                <span class="testimonial-title">Investment Manager</span>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </article>
+            </div>
+
+            <div class="testimonial-controls" aria-label="Carousel controls">
+                <button class="testimonial-prev" aria-label="Previous slide">
+                    <svg focusable="false" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
+                    </svg>
+                </button>
+                <div class="testimonial-dots" role="group" aria-label="Select slide">
+                    <button class="testimonial-dot active" aria-label="Go to slide 1" aria-current="true"></button>
+                    <button class="testimonial-dot" aria-label="Go to slide 2"></button>
+                    <button class="testimonial-dot" aria-label="Go to slide 3"></button>
+                </div>
+                <button class="testimonial-next" aria-label="Next slide">
+                    <svg focusable="false" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" aria-labelledby="cta-heading">
+    <div class="container">
+        <h2 id="cta-heading">Ready to harness the power of AI?</h2>
+        <p>Get started with Super AI's prediction system today and make data-driven decisions.</p>
+        <a href="/register" class="btn btn-large btn-primary" role="button">Create Free Account</a>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Tab functionality
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabs = document.querySelectorAll('.tab');
+        const panels = document.querySelectorAll('.tab-panel');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update tabs
+                tabs.forEach(t => {
+                    t.classList.remove('active');
+                    t.setAttribute('aria-selected', 'false');
+                });
+                tab.classList.add('active');
+                tab.setAttribute('aria-selected', 'true');
+
+                // Update panels
+                panels.forEach(panel => {
+                    panel.hidden = true;
+                });
+                const targetPanel = document.getElementById(tab.getAttribute('aria-controls'));
+                targetPanel.hidden = false;
+            });
+
+            // Handle keyboard navigation
+            tab.addEventListener('keydown', e => {
+                if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    const tabList = Array.from(tabs);
+                    const currentIndex = tabList.indexOf(tab);
+                    let newIndex;
+
+                    if (e.key === 'ArrowRight') {
+                        newIndex = (currentIndex + 1) % tabList.length;
+                    } else {
+                        newIndex = (currentIndex - 1 + tabList.length) % tabList.length;
+                    }
+
+                    tabList[newIndex].focus();
+                    tabList[newIndex].click();
+                }
+            });
+        });
+
+        // Testimonial slider functionality
+        const prevButton = document.querySelector('.testimonial-prev');
+        const nextButton = document.querySelector('.testimonial-next');
+        const dots = document.querySelectorAll('.testimonial-dot');
+        const slides = document.querySelectorAll('.testimonial-card');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            // Update slides
+            slides.forEach((slide, i) => {
+                slide.style.transform = `translateX(${100 * (i - index)}%)`;
+            });
+
+            // Update dots
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+                dot.setAttribute('aria-current', i === index);
+            });
+
+            currentSlide = index;
+        }
+
+        prevButton.addEventListener('click', () => {
+            const newIndex = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(newIndex);
+        });
+
+        nextButton.addEventListener('click', () => {
+            const newIndex = (currentSlide + 1) % slides.length;
+            showSlide(newIndex);
+        });
+
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                showSlide(i);
+            });
+        });
+
+        // Initialize slider
+        showSlide(0);
+    });
+</script>
+{% endblock %}

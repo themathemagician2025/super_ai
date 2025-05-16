@@ -1,0 +1,16 @@
+{
+    "api": {
+        "host": "127.0.0.1",
+        "port": 5000,
+        "debug": false
+    },
+    "performance": {
+        "max_workers": 11,
+        "buffer_size": 1000
+    },
+    "logging": {
+        "level": "INFO",
+        "rotation_size_mb": 10,
+        "backup_count": 5
+    }
+}

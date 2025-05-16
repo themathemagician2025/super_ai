@@ -1,0 +1,34 @@
+{
+    "default_levels": {
+        "starcoder": "ELEVATED",
+        "base_model": "STANDARD",
+        "experimental": "RESTRICTED"
+    },
+    "permissions": {
+        "starcoder": [
+            "read_codebase",
+            "write_code_modules",
+            "create_new_scripts",
+            "modify_existing_logic",
+            "execute_python_code",
+            "access_logs_and_metrics",
+            "version_control_access",
+            "run_tests_and_validate",
+            "use_local_llm_apis",
+            "create_fallback_logic"
+        ],
+        "base_model": [
+            "read_codebase",
+            "create_new_scripts",
+            "access_logs_and_metrics",
+            "run_tests_and_validate",
+            "access_training_data",
+            "build_ui_elements"
+        ],
+        "experimental": [
+            "read_codebase",
+            "access_logs_and_metrics",
+            "trace_execution_flow"
+        ]
+    }
+}

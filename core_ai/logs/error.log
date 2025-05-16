@@ -1,0 +1,20 @@
+2025-04-19 10:32:50,172 - super_ai.error - ERROR - {
+  "timestamp": "2025-04-19T10:32:50.151808",
+  "error_type": "HTTPNotFound",
+  "error_message": "Not Found",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\clive\\super_ai\\development\\src\\core_ai\\api_interface.py\", line 121, in timing_middleware\n    response = await handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\clive\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\aiohttp\\web_urldispatcher.py\", line 953, in _handle\n    raise self._http_exception\naiohttp.web_exceptions.HTTPNotFound: Not Found\n",
+  "context": {
+    "request_path": "/favicon.ico",
+    "request_method": "GET",
+    "duration": 1e-05
+  }
+}
+2025-04-19 10:35:56,331 - super_ai.error - ERROR - {
+  "timestamp": "2025-04-19T10:35:56.313412",
+  "error_type": "OSError",
+  "error_message": "[Errno 10048] error while attempting to bind on address ('127.0.0.1', 5000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\clive\\super_ai\\Development\\src\\core_ai\\main.py\", line 77, in run_api_server\n    await start_api(\n    ...<3 lines>...\n    )\n  File \"C:\\Users\\clive\\super_ai\\Development\\src\\core_ai\\api_interface.py\", line 144, in start_api\n    await site.start()\n  File \"C:\\Users\\clive\\super_ai\\env\\Lib\\site-packages\\aiohttp\\web_runner.py\", line 121, in start\n    self._server = await loop.create_server(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<7 lines>...\n    )\n    ^\n  File \"C:\\Users\\clive\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_events.py\", line 1622, in create_server\n    raise OSError(err.errno, msg) from None\nOSError: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 5000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted\n",
+  "context": {
+    "component": "api_server"
+  }
+}

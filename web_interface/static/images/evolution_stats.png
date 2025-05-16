@@ -1,0 +1,8 @@
+This directory should contain the evolution_stats.png file, which displays a visualization of the model evolution over time.
+
+The image will be loaded by the advancedVisualization.js script and displayed in the evolution stats section of the UI.
+
+To add this image:
+1. Generate or obtain an image showing model accuracy, loss, or other metrics over time
+2. Name it "evolution_stats.png"
+3. Place it in this directory 

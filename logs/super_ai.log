@@ -1,0 +1,989 @@
+2025-04-19 11:37:46,274 - super_ai - INFO - Loading configuration from .env
+2025-04-19 11:37:46,276 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": null,
+  "BETTING_MODEL_PATH": null,
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 11:37:46,276 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 11:37:52,429 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\super_ai\env\Lib\site-packages\matplotlib\mpl-data
+2025-04-19 11:37:52,436 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-19 11:37:52,438 - matplotlib - DEBUG - interactive is False
+2025-04-19 11:37:52,439 - matplotlib - DEBUG - platform is win32
+2025-04-19 11:37:52,933 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 11:37:52,933 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 11:37:52,933 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 11:37:52,934 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.66s ===
+2025-04-19 11:37:53,012 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-19 11:37:53,018 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-19 11:37:53,610 - super_ai - INFO - Starting API server on 127.0.0.1:5000
+2025-04-19 11:37:53,610 - api_interface.predictor_api - INFO - Starting predictor API on 127.0.0.1:5000
+2025-04-19 11:37:53,644 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:37:53,645 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 11:37:53,647 - werkzeug - INFO -  * Restarting with stat
+2025-04-19 11:37:53,865 - super_ai - INFO - Loading configuration from .env
+2025-04-19 11:37:53,867 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": null,
+  "BETTING_MODEL_PATH": null,
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 11:37:53,867 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 11:37:59,211 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\super_ai\env\Lib\site-packages\matplotlib\mpl-data
+2025-04-19 11:37:59,217 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-19 11:37:59,219 - matplotlib - DEBUG - interactive is False
+2025-04-19 11:37:59,220 - matplotlib - DEBUG - platform is win32
+2025-04-19 11:37:59,770 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 11:37:59,771 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 11:37:59,771 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 11:37:59,771 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 5.90s ===
+2025-04-19 11:37:59,858 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-19 11:37:59,862 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-19 11:38:00,347 - super_ai - INFO - Starting API server on 127.0.0.1:5000
+2025-04-19 11:38:00,347 - api_interface.predictor_api - INFO - Starting predictor API on 127.0.0.1:5000
+2025-04-19 11:38:00,361 - werkzeug - WARNING -  * Debugger is active!
+2025-04-19 11:38:00,366 - werkzeug - INFO -  * Debugger PIN: 862-196-392
+2025-04-19 11:43:55,045 - super_ai - INFO - Loading configuration from .env
+2025-04-19 11:43:55,046 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": null,
+  "BETTING_MODEL_PATH": null,
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 11:43:55,143 - super_ai - INFO - Starting directory scan at: C:\Users\clive\super_ai\Development\src
+2025-04-19 11:43:55,143 - utils.directory_scanner - INFO - Starting directory scan at: C:\Users\clive\super_ai\Development\src
+2025-04-19 11:43:56,033 - utils.directory_scanner - INFO - Directory scan complete. Processed 976 directories and 9114 files.
+2025-04-19 11:43:56,034 - utils.directory_scanner - INFO - Found 5555 Python modules
+2025-04-19 11:43:56,034 - utils.directory_scanner - INFO - Found 224 data files
+2025-04-19 11:43:56,034 - utils.directory_scanner - INFO - Found 10 log files
+2025-04-19 11:43:56,035 - utils.directory_scanner - INFO - Found 17 frontend assets
+2025-04-19 11:43:56,035 - utils.directory_scanner - INFO - Found 6 configuration files
+2025-04-19 11:43:56,035 - utils.directory_scanner - INFO - Found 3302 other files
+2025-04-19 11:43:56,270 - utils.directory_scanner - INFO - Scan report written to scan_report.md
+2025-04-19 11:43:56,271 - super_ai - INFO - Scan complete. Report written to: scan_report.md
+2025-04-19 11:43:56,272 - super_ai - INFO - Found 5555 Python modules, 224 data files, 10 log files
+2025-04-19 11:54:49,757 - super_ai - INFO - Loading configuration from .env
+2025-04-19 11:54:49,759 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": null,
+  "BETTING_MODEL_PATH": null,
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 11:54:50,850 - super_ai - INFO - Starting file processing at: .
+2025-04-19 11:54:50,851 - super_ai - INFO - Recursive: True, File type filter: py,csv,log
+2025-04-19 11:54:50,851 - super_ai - INFO - Filtering by extensions: ['.py', '.csv', '.log']
+2025-04-19 11:54:50,857 - utils.file_processor - ERROR - Failed to load module main.py: cannot import name 'PredictionEngine' from 'ai.prediction_engine' (C:\Users\clive\super_ai\Development\src\ai\prediction_engine.py)
+2025-04-19 11:54:50,865 - utils.file_processor - INFO - Successfully loaded module: run
+2025-04-19 11:54:50,867 - utils.file_processor - INFO - Successfully loaded module: setup
+2025-04-19 11:54:54,580 - utils.file_processor - INFO - Successfully loaded module: super_ai_runner
+2025-04-19 11:54:54,587 - utils.file_processor - INFO - Successfully loaded module: test_file_processing
+2025-04-19 11:54:54,589 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:54,594 - utils.file_processor - INFO - Successfully loaded module: deap_framework
+2025-04-19 11:54:54,625 - utils.file_processor - INFO - Successfully loaded module: evolution_engine
+2025-04-19 11:54:54,628 - utils.file_processor - INFO - Successfully loaded module: lstm_decision
+2025-04-19 11:54:54,632 - utils.file_processor - ERROR - Failed to load module ai\lstm_patterns.py: No module named 'tensorflow'
+2025-04-19 11:54:54,634 - utils.file_processor - INFO - Successfully loaded module: minmax
+2025-04-19 11:54:54,636 - utils.file_processor - INFO - Successfully loaded module: minmax_search
+2025-04-19 11:54:54,639 - utils.file_processor - INFO - Successfully loaded module: neat_algorithm
+2025-04-19 11:54:54,640 - utils.file_processor - INFO - Successfully loaded module: prediction_engine
+2025-04-19 11:54:54,642 - utils.file_processor - INFO - Successfully loaded module: random_forest
+2025-04-19 11:54:54,645 - utils.file_processor - INFO - Successfully loaded module: rational_agent
+2025-04-19 11:54:54,647 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:54,651 - utils.file_processor - INFO - Successfully loaded module: Development_src_algorithms_module_0
+2025-04-19 11:54:54,654 - utils.file_processor - INFO - Successfully loaded module: minmax
+2025-04-19 11:54:54,656 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:54,660 - utils.file_processor - INFO - Successfully loaded module: Development_src_api_interface_module_2
+2025-04-19 11:54:57,867 - utils.file_processor - INFO - Successfully loaded module: predictor_api
+2025-04-19 11:54:57,869 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:57,871 - utils.file_processor - INFO - Successfully loaded module: betting_prediction
+2025-04-19 11:54:57,938 - utils.file_processor - ERROR - Failed to load module betting\manager.py: No module named 'models.lstm'
+2025-04-19 11:54:57,941 - utils.file_processor - INFO - Successfully loaded module: sports_predictor
+2025-04-19 11:54:57,942 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:57,945 - utils.file_processor - ERROR - Failed to load module core\integrator.py: cannot import name 'PredictionEngine' from 'ai.prediction_engine' (C:\Users\clive\super_ai\Development\src\ai\prediction_engine.py)
+2025-04-19 11:54:57,951 - utils.file_processor - ERROR - Failed to load module core\prediction_engine.py: No module named 'tensorflow'
+2025-04-19 11:54:57,955 - utils.file_processor - INFO - Successfully loaded module: rational_agent
+2025-04-19 11:54:57,961 - utils.file_processor - ERROR - Failed to load module core\system_integrator.py: No module named 'tensorflow'
+2025-04-19 11:54:57,962 - utils.file_processor - INFO - Successfully loaded module: __init__
+2025-04-19 11:54:57,966 - utils.file_processor - ERROR - Failed to load module core_ai\agents.py: No module named 'common_imports'
+2025-04-19 11:54:58,338 - utils.file_processor - ERROR - Failed to load module core_ai\api_interface.py: 'ThreadSafeLogManager' object has no attribute 'get_logger'
+2025-04-19 11:54:58,346 - utils.file_processor - ERROR - Failed to load module core_ai\codegenerator.py: cannot import name 'pset' from 'config' (unknown location)
+2025-04-19 11:54:58,351 - utils.file_processor - ERROR - Failed to load module core_ai\codemodifier.py: No module named 'codegenerator'
+2025-04-19 11:54:58,354 - utils.file_processor - ERROR - Failed to load module core_ai\common_imports.py: No module named 'gym'
+2025-04-19 11:54:58,359 - utils.file_processor - INFO - Successfully loaded module: config
+2025-04-19 11:54:58,491 - utils.file_processor - INFO - Successfully loaded module: cvutils
+2025-04-19 11:54:58,494 - dangerousai - WARNING - MathemagicianModel could not be imported
+2025-04-19 11:54:58,495 - dangerousai - WARNING - DangerousAI initialized with danger level 5
+2025-04-19 11:54:58,495 - utils.file_processor - INFO - Successfully loaded module: dangerousai
+2025-04-19 11:54:58,498 - utils.file_processor - ERROR - Failed to load module core_ai\data_loader.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,501 - utils.file_processor - ERROR - Failed to load module core_ai\deap_config.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,503 - utils.file_processor - INFO - Successfully loaded module: evolutionaryoptimizer
+2025-04-19 11:54:58,506 - utils.file_processor - ERROR - Failed to load module core_ai\evolutioneryoptimizer.py: cannot import name 'create_config' from 'neat' (C:\Users\clive\super_ai\env\Lib\site-packages\neat\__init__.py)
+2025-04-19 11:54:58,509 - experimentrunner - WARNING - Unable to import directly from experiment_runner, using alternative import method
+2025-04-19 11:54:58,511 - experimentrunner - ERROR - Failed to import experiment_runner module
+2025-04-19 11:54:58,511 - utils.file_processor - INFO - Successfully loaded module: experimentrunner
+2025-04-19 11:54:58,515 - utils.file_processor - ERROR - Failed to load module core_ai\experiment_runner.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,517 - utils.file_processor - INFO - Successfully loaded module: geneticprogrammer
+2025-04-19 11:54:58,521 - utils.file_processor - ERROR - Failed to load module core_ai\geneticprogramming.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,524 - utils.file_processor - ERROR - Failed to load module core_ai\helpers.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,527 - utils.file_processor - ERROR - Failed to load module core_ai\hyperparameters.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,530 - utils.file_processor - ERROR - Failed to load module core_ai\image_processor.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,536 - utils.file_processor - INFO - Successfully loaded module: main
+2025-04-19 11:54:58,540 - utils.file_processor - ERROR - Failed to load module core_ai\metalearner.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,544 - utils.file_processor - INFO - Successfully loaded module: model
+2025-04-19 11:54:58,547 - utils.file_processor - ERROR - Failed to load module core_ai\modelweights.py: cannot import name 'PROJECT_CONFIG' from 'config' (unknown location)
+2025-04-19 11:54:58,671 - utils.file_processor - ERROR - Failed to load module core_ai\model_evaluator.py: No module named 'agents'
+2025-04-19 11:54:58,675 - utils.file_processor - ERROR - Failed to load module core_ai\neat_mathemagician.py: No module named 'model'
+2025-04-19 11:55:01,506 - nlputils - INFO - NLTK data packages downloaded successfully
+2025-04-19 11:55:01,508 - utils.file_processor - INFO - Successfully loaded module: nlputils
+2025-04-19 11:55:01,513 - utils.file_processor - ERROR - Failed to load module core_ai\optimizer.py: No module named 'model'
+2025-04-19 11:55:01,517 - utils.file_processor - ERROR - Failed to load module core_ai\rl.py: No module named 'gym'
+2025-04-19 11:55:01,522 - utils.file_processor - ERROR - Failed to load module core_ai\selfmodificationengine.py: No module named 'model'
+2025-04-19 11:55:01,526 - utils.file_processor - INFO - Successfully loaded module: self_modification
+2025-04-19 11:55:01,528 - utils.file_processor - INFO - Successfully loaded module: self_modifying
+2025-04-19 13:02:29,024 - super_ai - INFO - Loading configuration from .env
+2025-04-19 13:02:29,026 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": null,
+  "BETTING_MODEL_PATH": null,
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 13:02:29,026 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 13:02:35,232 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 13:02:35,233 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 13:02:35,233 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 13:02:35,234 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.21s ===
+2025-04-19 13:02:35,845 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-19 13:02:35,845 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-19 13:02:35,866 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-19 13:02:35,867 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 17:00:17,210 - super_ai - INFO - Loading configuration from .env
+2025-04-19 17:00:17,212 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 17:00:17,213 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 17:00:23,994 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 17:00:23,994 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 17:00:23,994 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 17:00:23,994 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.78s ===
+2025-04-19 17:00:24,605 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-19 17:00:24,606 - prediction.model_integration - ERROR - Error loading sports model: type object 'SportsPredictor' has no attribute 'load'
+2025-04-19 17:00:24,606 - prediction.model_integration - ERROR - Error loading betting model: type object 'BettingPredictor' has no attribute 'load'
+2025-04-19 17:00:24,606 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-19 17:00:24,607 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-19 17:00:24,631 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-19 17:00:24,631 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 17:01:03,887 - super_ai - INFO - Loading configuration from .env
+2025-04-19 17:01:03,889 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 17:01:03,890 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 17:01:11,545 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 17:01:11,545 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 17:01:11,546 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 17:01:11,546 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 7.66s ===
+2025-04-19 17:01:12,710 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-19 17:01:12,710 - prediction.model_integration - ERROR - Error loading sports model: type object 'SportsPredictor' has no attribute 'load'
+2025-04-19 17:01:12,710 - prediction.model_integration - ERROR - Error loading betting model: type object 'BettingPredictor' has no attribute 'load'
+2025-04-19 17:01:12,711 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-19 17:01:12,711 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-19 17:01:12,727 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-19 17:01:12,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 17:08:00,439 - super_ai - INFO - Loading configuration from .env
+2025-04-19 17:08:00,440 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 17:08:00,441 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 17:08:06,611 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 17:08:06,612 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 17:08:06,612 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 17:08:06,612 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.17s ===
+2025-04-19 17:08:07,194 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-19 17:08:07,226 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-19 17:08:07,227 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-19 17:08:07,230 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-19 17:08:07,230 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-19 17:08:07,230 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-19 17:08:07,230 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-19 17:08:07,246 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-19 17:08:07,246 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 17:10:01,876 - super_ai - INFO - Loading configuration from .env
+2025-04-19 17:10:01,877 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-19 17:10:01,877 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-19 17:10:07,497 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-19 17:10:07,498 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-19 17:10:07,498 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-19 17:10:07,498 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 5.62s ===
+2025-04-19 17:10:08,017 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-19 17:10:08,045 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-19 17:10:08,046 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-19 17:10:08,049 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-19 17:10:08,049 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-19 17:10:08,049 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-19 17:10:08,049 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-19 17:10:08,061 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-19 17:10:08,061 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 12:05:49,718 - super_ai - INFO - Loading configuration from .env
+2025-04-20 12:05:49,722 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 12:05:49,722 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 12:06:26,592 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 12:06:26,624 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:06:26,626 - matplotlib - DEBUG - interactive is False
+2025-04-20 12:06:26,626 - matplotlib - DEBUG - platform is win32
+2025-04-20 12:06:26,802 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 12:06:26,802 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 12:06:26,802 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 12:06:26,802 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 37.08s ===
+2025-04-20 12:06:26,886 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:06:26,891 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 12:06:28,556 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 12:06:28,584 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 12:06:28,584 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 12:06:28,587 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 12:06:28,588 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 12:06:28,588 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 12:06:28,588 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 12:06:28,645 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.10.66:8000
+2025-04-20 12:06:28,646 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 12:06:28,648 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 12:06:28,872 - super_ai - INFO - Loading configuration from .env
+2025-04-20 12:06:28,874 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 12:06:28,875 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 12:06:36,618 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 12:06:36,629 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:06:36,632 - matplotlib - DEBUG - interactive is False
+2025-04-20 12:06:36,632 - matplotlib - DEBUG - platform is win32
+2025-04-20 12:06:36,818 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 12:06:36,818 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 12:06:36,818 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 12:06:36,818 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 7.94s ===
+2025-04-20 12:06:36,951 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:06:36,959 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 12:06:37,756 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 12:06:37,762 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 12:06:37,763 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 12:06:37,768 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 12:06:37,769 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 12:06:37,769 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 12:06:37,771 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 12:06:37,796 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 12:06:37,818 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 12:08:41,063 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\utils\\data_processor.py', reloading
+2025-04-20 12:08:47,010 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 12:08:48,517 - super_ai - INFO - Loading configuration from .env
+2025-04-20 12:08:48,522 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 12:08:48,523 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 12:09:14,992 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 12:09:15,014 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:09:15,027 - matplotlib - DEBUG - interactive is False
+2025-04-20 12:09:15,030 - matplotlib - DEBUG - platform is win32
+2025-04-20 12:09:15,517 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 12:09:15,518 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 12:09:15,519 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 12:09:15,520 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 27.00s ===
+2025-04-20 12:09:15,765 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 12:09:15,776 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 12:09:17,866 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 12:09:17,949 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 12:09:17,951 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 12:09:18,001 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 12:09:18,016 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 12:09:18,018 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 12:09:18,026 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 12:09:18,107 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 12:09:18,168 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:03:31,393 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:03:31,399 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:03:31,400 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:03:42,952 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.1.0), matplotlib (3.10.1), requests (2.32.3), python-dotenv (unknown)
+2025-04-20 13:03:42,952 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:03:42,952 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:03:42,952 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 11.55s ===
+2025-04-20 13:03:44,394 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:03:44,454 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:03:44,456 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:03:44,463 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:03:44,463 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:03:44,463 - super_ai - INFO - Starting API server on localhost:5000
+2025-04-20 13:03:44,464 - api_interface.predictor_api - INFO - Starting predictor API on localhost:5000
+2025-04-20 13:03:44,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-20 13:03:44,496 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 13:04:14,760 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:04:14,763 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:04:14,765 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:04:24,870 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:04:24,912 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:04:24,915 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:04:24,916 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:04:25,143 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:04:25,143 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:04:25,144 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:04:25,144 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 10.38s ===
+2025-04-20 13:04:25,264 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:04:25,270 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:04:26,463 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:04:26,555 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:04:26,558 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:04:26,564 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:04:26,565 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:04:26,565 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:04:26,565 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:04:26,624 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.10.66:8000
+2025-04-20 13:04:26,625 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 13:04:26,630 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:04:26,985 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:04:26,988 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:04:26,988 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:04:41,838 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:04:41,853 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:04:41,855 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:04:41,856 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:04:42,053 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:04:42,053 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:04:42,054 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:04:42,054 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 15.07s ===
+2025-04-20 13:04:42,146 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:04:42,150 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:04:43,033 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:04:43,054 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:04:43,055 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:04:43,066 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:04:43,067 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:04:43,067 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:04:43,068 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:04:43,103 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:04:43,129 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:15:09,588 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\minimal_financial_api.py', reloading
+2025-04-20 13:15:12,057 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:15:12,606 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:15:12,608 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:15:12,609 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:15:21,040 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:15:21,048 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:15:21,050 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:15:21,051 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:15:21,226 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:15:21,227 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:15:21,227 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:15:21,227 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 8.62s ===
+2025-04-20 13:15:21,346 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:15:21,351 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:15:22,015 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:15:22,056 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:15:22,057 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:15:22,060 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:15:22,060 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:15:22,060 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:15:22,060 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:15:22,082 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:15:22,086 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:15:25,408 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\api_input_validation.py', reloading
+2025-04-20 13:15:26,669 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:15:27,236 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:15:27,238 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:15:27,239 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:15:33,944 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:15:33,950 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:15:33,951 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:15:33,952 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:15:34,084 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:15:34,085 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:15:34,086 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:15:34,086 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.85s ===
+2025-04-20 13:15:34,157 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:15:34,162 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:15:34,570 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:15:34,574 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:15:34,575 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:15:34,577 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:15:34,577 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:15:34,577 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:15:34,578 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:15:34,590 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:15:34,592 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:16:21,903 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\security\\auth.py', reloading
+2025-04-20 13:16:22,844 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:16:23,156 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:16:23,158 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:16:23,158 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:16:28,183 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:16:28,188 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:16:28,190 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:16:28,190 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:16:28,303 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:16:28,303 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:16:28,303 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:16:28,303 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 5.14s ===
+2025-04-20 13:16:28,361 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:16:28,365 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:16:28,760 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:16:28,763 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:16:28,764 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:16:28,766 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:16:28,766 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:16:28,766 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:16:28,766 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:16:28,779 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:16:28,781 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:16:57,310 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\security\\file_upload.py', reloading
+2025-04-20 13:16:58,672 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:16:59,146 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:16:59,150 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:16:59,152 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:17:06,140 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:17:06,150 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:17:06,152 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:17:06,152 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:17:06,329 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:17:06,329 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:17:06,330 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:17:06,330 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 7.18s ===
+2025-04-20 13:17:06,422 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:17:06,428 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:17:07,113 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:17:07,118 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:17:07,119 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:17:07,121 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:17:07,122 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:17:07,122 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:17:07,122 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:17:07,142 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:17:07,147 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:21:28,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\performance_optimization.py', reloading
+2025-04-20 13:21:31,571 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:21:33,336 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:21:33,340 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:21:33,340 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:21:54,954 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:21:54,977 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:21:54,982 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:21:54,984 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:21:55,325 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:21:55,325 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:21:55,325 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:21:55,325 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 21.98s ===
+2025-04-20 13:21:55,457 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:21:55,464 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:21:56,424 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:21:56,464 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:21:56,465 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:21:56,470 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:21:56,470 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:21:56,470 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:21:56,471 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:21:56,492 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:21:56,496 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:22:12,778 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\celery_tasks.py', reloading
+2025-04-20 13:22:15,631 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:22:16,720 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:22:16,727 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:22:16,728 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:22:41,157 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:22:41,178 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:22:41,188 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:22:41,191 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:22:41,880 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:22:41,881 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:22:41,884 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:22:41,885 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 25.16s ===
+2025-04-20 13:22:42,244 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:22:42,262 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:22:44,620 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:22:44,721 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:22:44,722 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:22:44,736 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:22:44,738 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:22:44,738 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:22:44,739 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:22:44,807 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:22:44,821 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:23:13,416 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\celery_tasks.py', reloading
+2025-04-20 13:23:16,210 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:23:16,823 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:23:16,826 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:23:16,827 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:23:43,178 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:23:43,189 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:23:43,191 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:23:43,191 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:23:43,476 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:23:43,476 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:23:43,477 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:23:43,477 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 26.65s ===
+2025-04-20 13:23:43,633 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:23:43,640 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:23:44,742 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:23:44,839 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:23:44,852 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:23:44,858 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:23:44,860 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:23:44,861 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:23:44,866 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:23:44,958 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:23:44,988 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:25:10,189 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\minimal_financial_api.py', reloading
+2025-04-20 13:25:14,499 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:25:15,465 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:25:15,468 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:25:15,468 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:25:29,543 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:25:29,550 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:25:29,553 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:25:29,553 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:25:29,712 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:25:29,713 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:25:29,713 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:25:29,713 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 14.24s ===
+2025-04-20 13:25:29,840 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:25:29,846 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:25:30,712 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:25:30,767 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:25:30,768 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:25:30,772 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:25:30,772 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:25:30,773 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:25:30,775 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:25:30,798 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:25:30,804 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:26:23,287 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\minimal_financial_api.py', reloading
+2025-04-20 13:26:25,439 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:26:26,093 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:26:26,097 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:26:26,097 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:26:38,524 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:26:38,535 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:26:38,539 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:26:38,540 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:26:38,806 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:26:38,807 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:26:38,807 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:26:38,807 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 12.71s ===
+2025-04-20 13:26:38,992 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:26:39,003 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:26:41,142 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:26:41,220 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:26:41,221 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:26:41,233 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:26:41,236 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:26:41,237 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:26:41,237 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:26:41,284 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:26:41,294 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:28:56,325 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\prediction_engine.py', reloading
+2025-04-20 13:29:08,071 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:29:08,690 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:29:08,693 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:29:08,693 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:29:30,327 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:29:30,337 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:29:30,339 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:29:30,340 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:29:30,619 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:29:30,619 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:29:30,620 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:29:30,620 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 21.93s ===
+2025-04-20 13:29:30,833 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:29:30,845 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:29:32,017 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:29:32,069 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:29:32,071 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:29:32,076 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:29:32,076 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:29:32,077 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:29:32,077 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:29:32,102 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:29:32,110 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:30:13,330 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\nlp_processor.py', reloading
+2025-04-20 13:30:14,417 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:30:14,788 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:30:14,791 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:30:14,791 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:30:28,750 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:30:28,766 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:30:28,770 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:30:28,770 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:30:29,206 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:30:29,206 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:30:29,207 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:30:29,207 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 14.42s ===
+2025-04-20 13:30:29,534 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:30:29,567 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:30:30,705 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:30:30,716 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:30:30,718 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:30:30,727 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:30:30,729 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:30:30,730 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:30:30,730 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:30:30,761 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:30:30,768 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:36:09,438 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\tests\\test_financial_api.py', reloading
+2025-04-20 13:36:12,332 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:36:12,734 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:36:12,736 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:36:12,737 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:36:21,563 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:36:21,575 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:36:21,577 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:36:21,578 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:36:21,764 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:36:21,765 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:36:21,765 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:36:21,765 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 9.03s ===
+2025-04-20 13:36:21,864 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:36:21,870 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:36:22,591 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:36:22,623 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:36:22,624 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:36:22,627 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:36:22,627 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:36:22,627 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:36:22,627 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:36:22,646 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:36:22,651 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 13:37:53,272 - werkzeug - INFO -  * Detected change in 'C:\\Users\\clive\\super_ai\\development\\src\\tests\\test_financial_api.py', reloading
+2025-04-20 13:37:54,207 - werkzeug - INFO -  * Restarting with stat
+2025-04-20 13:37:54,536 - super_ai - INFO - Loading configuration from .env
+2025-04-20 13:37:54,537 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 13:37:54,537 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 13:38:01,186 - matplotlib - DEBUG - matplotlib data path: C:\Users\clive\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\mpl-data
+2025-04-20 13:38:01,193 - matplotlib - DEBUG - CONFIGDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:38:01,195 - matplotlib - DEBUG - interactive is False
+2025-04-20 13:38:01,195 - matplotlib - DEBUG - platform is win32
+2025-04-20 13:38:01,386 - super_ai - INFO - Installed dependencies: numpy (2.2.4), pandas (2.2.3), scikit-learn (1.6.1), torch (2.6.0+cpu), flask (3.0.3), matplotlib (3.10.1), requests (2.31.0), python-dotenv (unknown)
+2025-04-20 13:38:01,386 - super_ai - INFO - PyTorch version: 2.6.0+cpu, CUDA available: False
+2025-04-20 13:38:01,387 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-04-20 13:38:01,387 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.85s ===
+2025-04-20 13:38:01,482 - matplotlib - DEBUG - CACHEDIR=C:\Users\clive\.matplotlib
+2025-04-20 13:38:01,488 - matplotlib.font_manager - DEBUG - Using fontManager instance from C:\Users\clive\.matplotlib\fontlist-v390.json
+2025-04-20 13:38:02,089 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-04-20 13:38:02,094 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-04-20 13:38:02,095 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-04-20 13:38:02,099 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-04-20 13:38:02,099 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-04-20 13:38:02,100 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-04-20 13:38:02,101 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-04-20 13:38:02,121 - werkzeug - WARNING -  * Debugger is active!
+2025-04-20 13:38:02,124 - werkzeug - INFO -  * Debugger PIN: 373-854-402
+2025-04-20 18:11:28,469 - super_ai - INFO - Loading configuration from .env
+2025-04-20 18:11:28,476 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 18:11:28,486 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 18:11:38,691 - super_ai - INFO - Installed dependencies: flask (2.2.3), requests (2.28.2), python-dotenv (unknown)
+2025-04-20 18:11:38,691 - super_ai - WARNING - Missing dependencies: numpy, pandas, scikit-learn, torch, matplotlib
+2025-04-20 18:11:38,692 - super_ai - WARNING - Please install missing dependencies: pip install numpy pandas scikit-learn torch matplotlib
+2025-04-20 18:11:38,700 - super_ai - ERROR - PyTorch not installed. Please install PyTorch to use AI features.
+2025-04-20 18:11:38,701 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 10.21s ===
+2025-04-20 18:11:38,703 - super_ai - ERROR - System initialization failed
+2025-04-20 18:13:50,826 - super_ai - INFO - Loading configuration from .env
+2025-04-20 18:13:50,828 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 18:13:50,828 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 18:13:51,659 - super_ai - INFO - Installed dependencies: flask (2.2.3), requests (2.28.2), python-dotenv (unknown)
+2025-04-20 18:13:51,673 - super_ai - WARNING - Missing dependencies: numpy, pandas, scikit-learn, torch, matplotlib
+2025-04-20 18:13:51,673 - super_ai - WARNING - Please install missing dependencies: pip install numpy pandas scikit-learn torch matplotlib
+2025-04-20 18:13:51,677 - super_ai - ERROR - PyTorch not installed. Please install PyTorch to use AI features.
+2025-04-20 18:13:51,679 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 0.85s ===
+2025-04-20 18:13:51,679 - super_ai - ERROR - System initialization failed
+2025-04-20 18:14:52,057 - super_ai - INFO - Loading configuration from .env
+2025-04-20 18:14:52,060 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "localhost",
+  "API_PORT": 5000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-04-20 18:14:52,061 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-04-20 18:14:52,936 - super_ai - INFO - Installed dependencies: flask (2.2.3), requests (2.28.2), python-dotenv (unknown)
+2025-04-20 18:14:52,937 - super_ai - WARNING - Missing dependencies: numpy, pandas, scikit-learn, torch, matplotlib
+2025-04-20 18:14:52,937 - super_ai - WARNING - Please install missing dependencies: pip install numpy pandas scikit-learn torch matplotlib
+2025-04-20 18:14:52,944 - super_ai - ERROR - PyTorch not installed. Please install PyTorch to use AI features.
+2025-04-20 18:14:52,944 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 0.88s ===
+2025-04-20 18:14:52,944 - super_ai - ERROR - System initialization failed
+2025-05-15 15:37:54,192 - super_ai - INFO - Loading configuration from .env
+2025-05-15 15:37:54,195 - super_ai - INFO - Configuration loaded: {
+  "API_HOST": "0.0.0.0",
+  "API_PORT": 8000,
+  "API_DEBUG": false,
+  "LOG_LEVEL": "INFO",
+  "SPORTS_MODEL_PATH": "models/sports_predictor.pth",
+  "BETTING_MODEL_PATH": "models/betting_predictor.pth",
+  "ENABLE_DANGEROUS_AI": false,
+  "CUDA_VISIBLE_DEVICES": ""
+}
+2025-05-15 15:37:54,195 - super_ai - INFO - === SUPER AI INITIALIZATION STARTED ===
+2025-05-15 15:38:00,193 - super_ai - INFO - Installed dependencies: numpy (2.2.5), pandas (2.2.3), scikit-learn (1.6.1), torch (2.7.0+cpu), flask (3.1.1), matplotlib (3.10.3), requests (2.32.3), python-dotenv (unknown)
+2025-05-15 15:38:00,193 - super_ai - INFO - PyTorch version: 2.7.0+cpu, CUDA available: False
+2025-05-15 15:38:00,194 - super_ai - WARNING - No GPU found. Running on CPU only.
+2025-05-15 15:38:00,194 - super_ai - INFO - === SUPER AI INITIALIZATION COMPLETED IN 6.00s ===
+2025-05-15 15:38:00,954 - api_interface.financial_api - INFO - Financial predictor initialized
+2025-05-15 15:38:00,981 - prediction.sports_predictor - INFO - Model loaded from models\sports_predictor.pth
+2025-05-15 15:38:00,986 - prediction.model_integration - INFO - Loaded sports model from models/sports_predictor.pth
+2025-05-15 15:38:00,988 - betting.betting_prediction - INFO - Model loaded from models\betting_predictor.pth
+2025-05-15 15:38:00,988 - prediction.model_integration - INFO - Loaded betting model from models/betting_predictor.pth
+2025-05-15 15:38:00,988 - super_ai - INFO - Starting API server on 0.0.0.0:8000
+2025-05-15 15:38:00,988 - api_interface.predictor_api - INFO - Starting predictor API on 0.0.0.0:8000
+2025-05-15 15:38:02,512 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.10.47:8000
+2025-05-15 15:38:02,512 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 21:13:28,339 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:13:28] "GET / HTTP/1.1" 200 -
+2025-05-15 21:13:28,336 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:13:28] "GET /?vscodeBrowserReqId=1747323807698 HTTP/1.1" 200 -
+2025-05-15 21:13:28,558 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:13:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 21:16:15,896 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:16:15] "GET / HTTP/1.1" 200 -
+2025-05-15 21:16:16,026 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:16:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 21:16:19,348 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:16:19] "GET / HTTP/1.1" 200 -
+2025-05-15 21:16:19,850 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 21:16:19] "GET / HTTP/1.1" 200 -

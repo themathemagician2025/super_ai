@@ -1,0 +1,106 @@
+2025-04-19 16:25:20,188 - INFO - NLTK data packages downloaded successfully
+2025-04-19 16:25:20,191 - ERROR - Error tokenizing text: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\clive/nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\share\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\lib\\nltk_data'
+    - 'C:\\Users\\clive\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-19 16:25:20,202 - INFO - Removed 0 stopwords
+2025-04-19 16:25:20,202 - INFO - Stemmed 0 tokens
+2025-04-19 16:25:20,204 - ERROR - Error POS tagging tokens: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\clive/nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\share\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\lib\\nltk_data'
+    - 'C:\\Users\\clive\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-19 16:25:20,204 - INFO - Lemmatized 0 tokens
+2025-04-19 16:25:20,205 - INFO - Computed frequency distribution for 0 tokens
+2025-04-19 16:25:20,205 - INFO - Extracted 0 2-grams
+2025-04-19 16:25:20,215 - INFO - Sentiment analysis completed: compound score = 0.2023
+2025-04-19 16:25:20,218 - ERROR - Error tokenizing text: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\clive/nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\share\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\lib\\nltk_data'
+    - 'C:\\Users\\clive\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-19 16:25:20,218 - INFO - Removed 0 stopwords
+2025-04-19 16:25:20,219 - ERROR - Error POS tagging tokens: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\clive/nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\share\\nltk_data'
+    - 'C:\\Users\\clive\\super_ai\\env\\lib\\nltk_data'
+    - 'C:\\Users\\clive\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-19 16:25:20,219 - INFO - Lemmatized 0 tokens
+2025-04-19 16:25:20,220 - INFO - Saved tokens to c:\Users\clive\super_ai\Development\src\outputs\processed_sample.txt
+2025-04-19 16:25:20,225 - INFO - Sentiment analysis completed: compound score = 0.2023
+2025-04-19 16:25:20,225 - WARNING - Dangerous sentiment analysis: amplified score = 1.8370
+2025-04-19 16:25:21,449 - ERROR - Failed to load NEAT configuration from c:\Users\clive\super_ai\Development\src\config.txt: No such config file: c:\Users\clive\super_ai\Development\src\config.txt
+2025-04-20 19:42:16,563 - ERROR - Error loading image c:\Users\clive\super_ai\Development\src\data\raw\equation.jpg: Image at 'c:\Users\clive\super_ai\Development\src\data\raw\equation.jpg' could not be loaded.

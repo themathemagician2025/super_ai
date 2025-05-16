@@ -1,0 +1,6 @@
+2025-04-19 10:32:49,810 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:32:49.810076", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.039, "user_info": {}}
+2025-04-19 10:34:14,662 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:34:14.662153", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.1, "user_info": {}}
+2025-04-19 10:46:00,042 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:46:00.042725", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.039, "user_info": {}}
+2025-04-19 10:46:04,287 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:46:04.287172", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.062, "user_info": {}}
+2025-04-19 10:46:04,498 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:46:04.498648", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.038, "user_info": {}}
+2025-04-19 10:46:04,783 - super_ai.access - INFO - {"timestamp": "2025-04-19T10:46:04.783788", "endpoint": "/", "method": "GET", "status_code": 200, "response_time_ms": 0.108, "user_info": {}}

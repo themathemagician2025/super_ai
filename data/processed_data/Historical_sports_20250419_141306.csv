@@ -1,0 +1,71 @@
+date,home_team,away_team,league,source,home_odds,draw_odds,away_odds,data_timestamp
+2025-04-19,Manchester City,Liverpool,Premier League,sofascore,2.74,2.81,1.83,2025-04-19T14:13:06.360763
+2025-04-19,Chelsea,Arsenal,Premier League,sofascore,2.26,2.85,2.3,2025-04-19T14:13:06.360783
+2025-04-19,Real Madrid,Barcelona,La Liga,sofascore,3.72,4.72,1.59,2025-04-19T14:13:06.360787
+2025-04-19,Atletico Madrid,Sevilla,La Liga,sofascore,2.98,2.9,3.06,2025-04-19T14:13:06.360790
+2025-04-19,Inter,Milan,Serie A,sofascore,2.88,4.59,2.14,2025-04-19T14:13:06.360793
+2025-04-19,Juventus,Napoli,Serie A,sofascore,3.88,2.72,3.6,2025-04-19T14:13:06.360796
+2025-04-19,Bayern Munich,Dortmund,Bundesliga,sofascore,1.57,2.01,2.24,2025-04-19T14:13:06.360799
+2025-04-19,Leipzig,Leverkusen,Bundesliga,sofascore,1.97,2.53,1.53,2025-04-19T14:13:06.360802
+2025-04-19,PSG,Marseille,Ligue 1,sofascore,3.91,3.46,2.14,2025-04-19T14:13:06.360805
+2025-04-19,Lyon,Monaco,Ligue 1,sofascore,1.78,4.2,1.52,2025-04-19T14:13:06.360809
+2025-04-20,Manchester City,Liverpool,Premier League,sofascore,3.47,3.14,2.73,2025-04-19T14:13:06.360812
+2025-04-20,Chelsea,Arsenal,Premier League,sofascore,2.08,2.67,3.74,2025-04-19T14:13:06.360815
+2025-04-20,Real Madrid,Barcelona,La Liga,sofascore,2.57,2.73,3.33,2025-04-19T14:13:06.360818
+2025-04-20,Atletico Madrid,Sevilla,La Liga,sofascore,3.46,3.72,2.74,2025-04-19T14:13:06.360821
+2025-04-20,Inter,Milan,Serie A,sofascore,3.26,4.32,2.16,2025-04-19T14:13:06.360824
+2025-04-20,Juventus,Napoli,Serie A,sofascore,3.91,4.92,3.98,2025-04-19T14:13:06.360846
+2025-04-20,Bayern Munich,Dortmund,Bundesliga,sofascore,2.32,4.31,2.79,2025-04-19T14:13:06.360849
+2025-04-20,Leipzig,Leverkusen,Bundesliga,sofascore,3.54,2.8,1.82,2025-04-19T14:13:06.360853
+2025-04-20,PSG,Marseille,Ligue 1,sofascore,1.57,3.88,2.01,2025-04-19T14:13:06.360857
+2025-04-20,Lyon,Monaco,Ligue 1,sofascore,2.02,3.34,3.88,2025-04-19T14:13:06.360860
+2025-04-21,Manchester City,Liverpool,Premier League,sofascore,1.92,4.3,2.58,2025-04-19T14:13:06.360863
+2025-04-21,Chelsea,Arsenal,Premier League,sofascore,3.13,2.55,3.59,2025-04-19T14:13:06.360866
+2025-04-21,Real Madrid,Barcelona,La Liga,sofascore,1.86,3.6,3.83,2025-04-19T14:13:06.360869
+2025-04-21,Atletico Madrid,Sevilla,La Liga,sofascore,3.69,4.57,2.05,2025-04-19T14:13:06.360872
+2025-04-21,Inter,Milan,Serie A,sofascore,2.96,3.76,3.88,2025-04-19T14:13:06.360875
+2025-04-21,Juventus,Napoli,Serie A,sofascore,3.37,2.96,2.96,2025-04-19T14:13:06.360878
+2025-04-21,Bayern Munich,Dortmund,Bundesliga,sofascore,2.75,3.08,2.03,2025-04-19T14:13:06.360881
+2025-04-21,Leipzig,Leverkusen,Bundesliga,sofascore,3.3,4.1,2.33,2025-04-19T14:13:06.360884
+2025-04-21,PSG,Marseille,Ligue 1,sofascore,3.7,4.33,2.63,2025-04-19T14:13:06.360887
+2025-04-21,Lyon,Monaco,Ligue 1,sofascore,3.65,2.36,2.32,2025-04-19T14:13:06.360890
+2025-04-22,Manchester City,Liverpool,Premier League,sofascore,3.32,2.71,2.09,2025-04-19T14:13:06.360893
+2025-04-22,Chelsea,Arsenal,Premier League,sofascore,2.18,3.46,2.19,2025-04-19T14:13:06.360895
+2025-04-22,Real Madrid,Barcelona,La Liga,sofascore,2.21,2.31,2.76,2025-04-19T14:13:06.360898
+2025-04-22,Atletico Madrid,Sevilla,La Liga,sofascore,3.31,2.65,3.25,2025-04-19T14:13:06.360904
+2025-04-22,Inter,Milan,Serie A,sofascore,1.55,2.23,2.34,2025-04-19T14:13:06.360907
+2025-04-22,Juventus,Napoli,Serie A,sofascore,3.14,2.34,1.73,2025-04-19T14:13:06.360910
+2025-04-22,Bayern Munich,Dortmund,Bundesliga,sofascore,3.97,4.79,3.83,2025-04-19T14:13:06.360913
+2025-04-22,Leipzig,Leverkusen,Bundesliga,sofascore,2.73,3.78,3.44,2025-04-19T14:13:06.360918
+2025-04-22,PSG,Marseille,Ligue 1,sofascore,2.45,3.42,3.75,2025-04-19T14:13:06.360921
+2025-04-22,Lyon,Monaco,Ligue 1,sofascore,3.2,4.11,1.76,2025-04-19T14:13:06.360924
+2025-04-23,Manchester City,Liverpool,Premier League,sofascore,3.81,2.5,3.19,2025-04-19T14:13:06.360926
+2025-04-23,Chelsea,Arsenal,Premier League,sofascore,1.63,3.96,3.5,2025-04-19T14:13:06.360930
+2025-04-23,Real Madrid,Barcelona,La Liga,sofascore,2.69,3.48,2.43,2025-04-19T14:13:06.360933
+2025-04-23,Atletico Madrid,Sevilla,La Liga,sofascore,1.92,4.75,3.64,2025-04-19T14:13:06.360936
+2025-04-23,Inter,Milan,Serie A,sofascore,1.91,3.83,1.84,2025-04-19T14:13:06.360939
+2025-04-23,Juventus,Napoli,Serie A,sofascore,3.5,2.94,3.64,2025-04-19T14:13:06.360942
+2025-04-23,Bayern Munich,Dortmund,Bundesliga,sofascore,3.42,4.76,1.82,2025-04-19T14:13:06.360944
+2025-04-23,Leipzig,Leverkusen,Bundesliga,sofascore,3.47,4.4,2.04,2025-04-19T14:13:06.360947
+2025-04-23,PSG,Marseille,Ligue 1,sofascore,3.97,3.05,3.64,2025-04-19T14:13:06.360950
+2025-04-23,Lyon,Monaco,Ligue 1,sofascore,2.5,3.77,3.9,2025-04-19T14:13:06.360953
+2025-04-24,Manchester City,Liverpool,Premier League,sofascore,2.28,3.07,2.43,2025-04-19T14:13:06.360955
+2025-04-24,Chelsea,Arsenal,Premier League,sofascore,3.67,4.08,1.52,2025-04-19T14:13:06.360958
+2025-04-24,Real Madrid,Barcelona,La Liga,sofascore,3.19,3.13,3.31,2025-04-19T14:13:06.360961
+2025-04-24,Atletico Madrid,Sevilla,La Liga,sofascore,3.63,2.34,2.3,2025-04-19T14:13:06.360964
+2025-04-24,Inter,Milan,Serie A,sofascore,1.85,4.29,1.85,2025-04-19T14:13:06.360967
+2025-04-24,Juventus,Napoli,Serie A,sofascore,2.18,3.35,2.78,2025-04-19T14:13:06.360969
+2025-04-24,Bayern Munich,Dortmund,Bundesliga,sofascore,1.99,3.26,3.98,2025-04-19T14:13:06.360972
+2025-04-24,Leipzig,Leverkusen,Bundesliga,sofascore,2.97,3.79,1.69,2025-04-19T14:13:06.360975
+2025-04-24,PSG,Marseille,Ligue 1,sofascore,3.92,2.21,3.17,2025-04-19T14:13:06.360978
+2025-04-24,Lyon,Monaco,Ligue 1,sofascore,2.41,3.6,3.65,2025-04-19T14:13:06.360981
+2025-04-25,Manchester City,Liverpool,Premier League,sofascore,2.88,3.43,3.14,2025-04-19T14:13:06.360984
+2025-04-25,Chelsea,Arsenal,Premier League,sofascore,2.93,4.49,3.19,2025-04-19T14:13:06.360986
+2025-04-25,Real Madrid,Barcelona,La Liga,sofascore,3.07,4.75,2.87,2025-04-19T14:13:06.360989
+2025-04-25,Atletico Madrid,Sevilla,La Liga,sofascore,3.15,4.59,2.86,2025-04-19T14:13:06.360992
+2025-04-25,Inter,Milan,Serie A,sofascore,1.55,4.27,3.95,2025-04-19T14:13:06.360995
+2025-04-25,Juventus,Napoli,Serie A,sofascore,1.77,2.73,3.89,2025-04-19T14:13:06.360999
+2025-04-25,Bayern Munich,Dortmund,Bundesliga,sofascore,2.34,2.46,2.02,2025-04-19T14:13:06.361002
+2025-04-25,Leipzig,Leverkusen,Bundesliga,sofascore,2.34,2.6,3.01,2025-04-19T14:13:06.361005
+2025-04-25,PSG,Marseille,Ligue 1,sofascore,3.44,3.67,2.01,2025-04-19T14:13:06.361007
+2025-04-25,Lyon,Monaco,Ligue 1,sofascore,3.56,3.37,1.67,2025-04-19T14:13:06.361010

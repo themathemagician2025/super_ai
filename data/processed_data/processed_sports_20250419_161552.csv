@@ -1,0 +1,476 @@
+home_team_id,away_team_id,league_id,day_of_week,month,home_odds,draw_odds,away_odds,odds_ratio,home_team,away_team,league
+30,28,6,5,4,3.25,3.14,3.11,1.045016077170418,Manchester City,Liverpool,Premier League
+12,3,6,5,4,2.67,3.38,3.71,0.7196765498652291,Chelsea,Arsenal,Premier League
+43,6,3,5,4,3.78,4.09,3.54,1.0677966101694916,Real Madrid,Barcelona,La Liga
+5,48,3,5,4,2.66,2.99,3.52,0.7556818181818182,Atletico Madrid,Sevilla,La Liga
+20,34,9,5,4,2.89,2.91,2.09,1.382775119617225,Inter,Milan,Serie A
+22,37,9,5,4,3.96,4.1,3.79,1.0448548812664908,Juventus,Napoli,Serie A
+7,13,0,5,4,3.66,2.91,1.53,2.392156862745098,Bayern Munich,Dortmund,Bundesliga
+25,26,0,5,4,3.82,2.14,3.95,0.9670886075949366,Leipzig,Leverkusen,Bundesliga
+39,32,4,5,4,2.82,3.63,1.54,1.831168831168831,PSG,Marseille,Ligue 1
+29,35,4,5,4,3.72,4.75,2.85,1.305263157894737,Lyon,Monaco,Ligue 1
+30,28,6,6,4,3.0,4.75,3.74,0.8021390374331551,Manchester City,Liverpool,Premier League
+12,3,6,6,4,3.84,3.32,2.38,1.6134453781512605,Chelsea,Arsenal,Premier League
+43,6,3,6,4,1.89,3.99,3.21,0.5887850467289719,Real Madrid,Barcelona,La Liga
+5,48,3,6,4,3.88,2.42,3.77,1.0291777188328912,Atletico Madrid,Sevilla,La Liga
+20,34,9,6,4,1.71,2.2,2.18,0.7844036697247706,Inter,Milan,Serie A
+22,37,9,6,4,2.09,4.04,3.18,0.6572327044025157,Juventus,Napoli,Serie A
+7,13,0,6,4,3.68,3.77,1.52,2.4210526315789473,Bayern Munich,Dortmund,Bundesliga
+25,26,0,6,4,3.72,2.37,2.02,1.8415841584158417,Leipzig,Leverkusen,Bundesliga
+39,32,4,6,4,1.58,3.21,3.57,0.44257703081232497,PSG,Marseille,Ligue 1
+29,35,4,6,4,3.05,4.0,1.67,1.8263473053892216,Lyon,Monaco,Ligue 1
+30,28,6,0,4,1.79,4.72,2.24,0.7991071428571428,Manchester City,Liverpool,Premier League
+12,3,6,0,4,3.46,4.84,1.78,1.943820224719101,Chelsea,Arsenal,Premier League
+43,6,3,0,4,3.92,3.48,3.47,1.1296829971181555,Real Madrid,Barcelona,La Liga
+5,48,3,0,4,2.63,2.5,2.76,0.9528985507246377,Atletico Madrid,Sevilla,La Liga
+20,34,9,0,4,3.26,3.15,3.49,0.9340974212034383,Inter,Milan,Serie A
+22,37,9,0,4,1.85,2.78,2.48,0.7459677419354839,Juventus,Napoli,Serie A
+7,13,0,0,4,2.34,2.72,3.52,0.6647727272727272,Bayern Munich,Dortmund,Bundesliga
+25,26,0,0,4,2.39,4.27,1.58,1.5126582278481013,Leipzig,Leverkusen,Bundesliga
+39,32,4,0,4,3.9,4.57,2.94,1.3265306122448979,PSG,Marseille,Ligue 1
+29,35,4,0,4,3.23,3.93,3.07,1.0521172638436482,Lyon,Monaco,Ligue 1
+30,28,6,1,4,3.62,4.95,1.97,1.83756345177665,Manchester City,Liverpool,Premier League
+12,3,6,1,4,1.72,4.58,1.54,1.1168831168831168,Chelsea,Arsenal,Premier League
+43,6,3,1,4,2.55,2.29,3.44,0.7412790697674418,Real Madrid,Barcelona,La Liga
+5,48,3,1,4,2.76,2.72,2.81,0.9822064056939501,Atletico Madrid,Sevilla,La Liga
+20,34,9,1,4,2.14,2.76,2.26,0.9469026548672568,Inter,Milan,Serie A
+22,37,9,1,4,3.72,3.73,2.73,1.3626373626373627,Juventus,Napoli,Serie A
+7,13,0,1,4,3.71,3.24,3.71,1.0,Bayern Munich,Dortmund,Bundesliga
+25,26,0,1,4,3.41,4.17,2.88,1.184027777777778,Leipzig,Leverkusen,Bundesliga
+39,32,4,1,4,2.02,2.77,3.58,0.5642458100558659,PSG,Marseille,Ligue 1
+29,35,4,1,4,1.62,3.71,2.22,0.7297297297297297,Lyon,Monaco,Ligue 1
+30,28,6,2,4,2.4,4.06,1.58,1.5189873417721518,Manchester City,Liverpool,Premier League
+12,3,6,2,4,1.7,2.8,3.3,0.5151515151515151,Chelsea,Arsenal,Premier League
+43,6,3,2,4,1.69,2.24,3.77,0.4482758620689655,Real Madrid,Barcelona,La Liga
+5,48,3,2,4,3.88,3.79,3.75,1.0346666666666666,Atletico Madrid,Sevilla,La Liga
+20,34,9,2,4,3.56,4.28,2.71,1.3136531365313653,Inter,Milan,Serie A
+22,37,9,2,4,3.16,2.64,2.76,1.1449275362318843,Juventus,Napoli,Serie A
+7,13,0,2,4,2.99,3.77,2.03,1.472906403940887,Bayern Munich,Dortmund,Bundesliga
+25,26,0,2,4,2.01,3.21,2.02,0.9950495049504949,Leipzig,Leverkusen,Bundesliga
+39,32,4,2,4,2.79,2.05,3.55,0.7859154929577465,PSG,Marseille,Ligue 1
+29,35,4,2,4,2.37,2.3,1.81,1.3093922651933703,Lyon,Monaco,Ligue 1
+30,28,6,3,4,2.14,2.79,2.44,0.8770491803278689,Manchester City,Liverpool,Premier League
+12,3,6,3,4,2.55,2.82,2.69,0.9479553903345724,Chelsea,Arsenal,Premier League
+43,6,3,3,4,3.66,2.71,2.87,1.2752613240418118,Real Madrid,Barcelona,La Liga
+5,48,3,3,4,3.51,2.06,3.85,0.9116883116883117,Atletico Madrid,Sevilla,La Liga
+20,34,9,3,4,2.22,2.53,3.94,0.5634517766497462,Inter,Milan,Serie A
+22,37,9,3,4,2.39,4.42,3.06,0.7810457516339869,Juventus,Napoli,Serie A
+7,13,0,3,4,1.68,4.31,3.63,0.4628099173553719,Bayern Munich,Dortmund,Bundesliga
+25,26,0,3,4,3.17,4.94,2.4,1.3208333333333333,Leipzig,Leverkusen,Bundesliga
+39,32,4,3,4,3.57,4.61,3.54,1.0084745762711864,PSG,Marseille,Ligue 1
+29,35,4,3,4,2.51,2.43,1.79,1.4022346368715082,Lyon,Monaco,Ligue 1
+30,28,6,4,4,3.67,4.55,1.98,1.8535353535353536,Manchester City,Liverpool,Premier League
+12,3,6,4,4,3.83,4.61,2.22,1.7252252252252251,Chelsea,Arsenal,Premier League
+43,6,3,4,4,2.33,4.14,2.09,1.1148325358851676,Real Madrid,Barcelona,La Liga
+5,48,3,4,4,2.51,4.05,1.51,1.662251655629139,Atletico Madrid,Sevilla,La Liga
+20,34,9,4,4,2.5,4.3,3.37,0.7418397626112759,Inter,Milan,Serie A
+22,37,9,4,4,2.7,4.24,3.74,0.7219251336898396,Juventus,Napoli,Serie A
+7,13,0,4,4,2.04,2.83,2.03,1.0049261083743843,Bayern Munich,Dortmund,Bundesliga
+25,26,0,4,4,1.81,2.43,3.39,0.5339233038348082,Leipzig,Leverkusen,Bundesliga
+39,32,4,4,4,1.68,4.3,2.84,0.5915492957746479,PSG,Marseille,Ligue 1
+29,35,4,4,4,1.68,3.34,2.92,0.5753424657534246,Lyon,Monaco,Ligue 1
+0,15,2,0,4,2.47,3.38,2.07,1.1932367149758456,AZ Alkmaar,Feyenoord,Eredivisie
+23,36,5,3,4,1.54,4.92,3.82,0.40314136125654454,LA Galaxy,NYCFC,MLS
+56,50,7,4,4,1.71,4.58,3.11,0.54983922829582,Vitoria,Sporting CP,Primeira Liga
+42,18,8,1,4,2.07,2.19,3.24,0.6388888888888888,Rangers,Hearts,Scottish Premiership
+16,7,0,5,4,3.63,4.08,1.98,1.8333333333333333,Frankfurt,Bayern Munich,Bundesliga
+50,17,7,5,4,2.02,2.57,3.16,0.6392405063291139,Sporting CP,Guimaraes,Primeira Liga
+29,39,4,6,4,1.93,2.87,2.67,0.7228464419475655,Lyon,PSG,Ligue 1
+41,56,7,6,4,3.67,2.13,1.66,2.210843373493976,Porto,Vitoria,Primeira Liga
+13,59,0,3,4,2.6,4.1,2.57,1.011673151750973,Dortmund,Wolfsburg,Bundesliga
+4,47,5,6,4,2.96,4.42,3.89,0.7609254498714653,Atlanta United,Seattle Sounders,MLS
+28,3,6,3,4,1.94,2.31,2.8,0.6928571428571428,Liverpool,Arsenal,Premier League
+12,31,6,0,4,2.3,3.74,2.4,0.9583333333333333,Chelsea,Manchester United,Premier League
+4,21,5,5,4,2.81,3.18,3.66,0.76775956284153,Atlanta United,Inter Miami,MLS
+26,7,0,5,4,3.99,4.79,2.92,1.3664383561643836,Leverkusen,Bayern Munich,Bundesliga
+43,44,3,2,4,1.62,3.13,2.66,0.6090225563909775,Real Madrid,Real Sociedad,La Liga
+39,35,4,0,4,3.03,3.97,3.7,0.8189189189189189,PSG,Monaco,Ligue 1
+3,30,6,5,4,3.23,4.87,2.47,1.3076923076923075,Arsenal,Manchester City,Premier League
+4,21,5,0,4,3.62,2.85,2.29,1.5807860262008735,Atlanta United,Inter Miami,MLS
+55,48,3,6,4,3.59,3.22,1.86,1.9301075268817203,Villarreal,Sevilla,La Liga
+27,32,4,2,4,1.99,4.59,3.9,0.5102564102564102,Lille,Marseille,Ligue 1
+27,32,4,3,4,3.98,2.77,2.7,1.4740740740740739,Lille,Marseille,Ligue 1
+57,10,1,0,4,3.91,3.45,2.75,1.4218181818181819,Watford,Burnley,Championship
+59,26,0,5,4,1.75,4.32,1.6,1.09375,Wolfsburg,Leverkusen,Bundesliga
+51,47,5,5,4,2.12,2.7,1.84,1.1521739130434783,Toronto FC,Seattle Sounders,MLS
+2,53,2,6,4,3.9,3.53,3.63,1.0743801652892562,Ajax,Twente,Eredivisie
+10,33,1,6,4,1.71,3.69,2.08,0.8221153846153846,Burnley,Middlesbrough,Championship
+29,27,4,0,4,1.69,2.55,1.98,0.8535353535353535,Lyon,Lille,Ligue 1
+22,20,9,5,4,1.92,2.07,2.3,0.8347826086956522,Juventus,Inter,Serie A
+30,3,6,5,4,3.53,2.55,2.36,1.4957627118644068,Manchester City,Arsenal,Premier League
+28,12,6,2,4,2.61,2.37,2.47,1.0566801619433197,Liverpool,Chelsea,Premier League
+16,59,0,5,4,2.5,4.25,2.97,0.8417508417508417,Frankfurt,Wolfsburg,Bundesliga
+5,6,3,5,4,3.8,3.12,2.63,1.4448669201520912,Atletico Madrid,Barcelona,La Liga
+11,19,8,4,4,3.14,3.06,3.2,0.98125,Celtic,Hibernian,Scottish Premiership
+48,43,3,4,4,3.22,4.01,1.51,2.132450331125828,Sevilla,Real Madrid,La Liga
+23,51,5,3,4,2.73,2.45,1.76,1.5511363636363635,LA Galaxy,Toronto FC,MLS
+0,54,2,6,4,2.26,4.76,3.86,0.5854922279792746,AZ Alkmaar,Utrecht,Eredivisie
+0,54,2,6,4,2.61,2.16,3.69,0.7073170731707317,AZ Alkmaar,Utrecht,Eredivisie
+1,19,8,3,4,3.98,4.29,1.97,2.020304568527919,Aberdeen,Hibernian,Scottish Premiership
+44,5,3,5,4,3.66,2.61,2.92,1.2534246575342467,Real Sociedad,Atletico Madrid,La Liga
+25,59,0,6,4,2.15,3.93,2.38,0.9033613445378151,Leipzig,Wolfsburg,Bundesliga
+34,37,9,4,4,3.9,2.03,2.32,1.6810344827586208,Milan,Napoli,Serie A
+30,3,6,5,4,3.71,3.55,3.58,1.036312849162011,Manchester City,Arsenal,Premier League
+47,4,5,4,4,2.79,2.85,2.45,1.1387755102040815,Seattle Sounders,Atlanta United,MLS
+3,30,6,3,4,2.91,3.5,2.34,1.2435897435897438,Arsenal,Manchester City,Premier League
+50,17,7,5,4,3.66,4.5,1.78,2.056179775280899,Sporting CP,Guimaraes,Primeira Liga
+0,40,2,6,4,3.81,2.71,1.72,2.2151162790697674,AZ Alkmaar,PSV,Eredivisie
+21,47,5,5,4,2.23,2.5,1.55,1.4387096774193548,Inter Miami,Seattle Sounders,MLS
+59,16,0,3,4,1.69,4.45,3.03,0.5577557755775577,Wolfsburg,Frankfurt,Bundesliga
+6,48,3,5,4,3.59,3.18,1.86,1.9301075268817203,Barcelona,Sevilla,La Liga
+59,26,0,5,4,2.39,2.12,3.31,0.7220543806646526,Wolfsburg,Leverkusen,Bundesliga
+49,10,1,5,4,2.84,3.46,3.38,0.8402366863905325,Sheffield United,Burnley,Championship
+28,30,6,0,4,2.38,4.3,3.41,0.6979472140762463,Liverpool,Manchester City,Premier League
+3,12,6,0,4,2.65,2.26,2.3,1.1521739130434783,Arsenal,Chelsea,Premier League
+41,8,7,2,4,2.97,2.07,1.95,1.5230769230769232,Porto,Benfica,Primeira Liga
+17,9,7,5,4,2.13,4.13,1.62,1.3148148148148147,Guimaraes,Braga,Primeira Liga
+17,50,7,1,4,2.69,2.9,3.16,0.8512658227848101,Guimaraes,Sporting CP,Primeira Liga
+18,42,8,0,4,2.45,2.0,2.7,0.9074074074074074,Hearts,Rangers,Scottish Premiership
+56,8,7,2,4,2.91,2.16,2.27,1.2819383259911894,Vitoria,Benfica,Primeira Liga
+39,27,4,0,4,2.6,3.2,3.26,0.7975460122699387,PSG,Lille,Ligue 1
+25,13,0,6,4,3.13,4.54,1.85,1.6918918918918917,Leipzig,Dortmund,Bundesliga
+37,46,9,5,4,3.09,2.09,3.78,0.8174603174603174,Napoli,Roma,Serie A
+0,2,2,5,4,3.82,2.46,2.19,1.7442922374429224,AZ Alkmaar,Ajax,Eredivisie
+20,34,9,2,4,2.52,4.51,2.46,1.024390243902439,Inter,Milan,Serie A
+4,51,5,5,4,1.88,2.17,2.53,0.7430830039525692,Atlanta United,Toronto FC,MLS
+21,4,5,1,4,2.66,3.53,2.29,1.1615720524017468,Inter Miami,Atlanta United,MLS
+15,54,2,5,4,3.23,2.0,1.63,1.98159509202454,Feyenoord,Utrecht,Eredivisie
+3,30,6,3,4,3.64,2.67,1.71,2.128654970760234,Arsenal,Manchester City,Premier League
+55,5,3,0,4,3.1,3.01,2.5,1.24,Villarreal,Atletico Madrid,La Liga
+53,15,2,0,4,3.17,2.81,2.75,1.1527272727272726,Twente,Feyenoord,Eredivisie
+38,49,1,6,4,3.16,4.14,2.26,1.3982300884955754,Norwich,Sheffield United,Championship
+43,5,3,5,4,3.72,2.67,2.69,1.3828996282527881,Real Madrid,Atletico Madrid,La Liga
+30,31,6,5,4,2.66,2.96,2.25,1.1822222222222223,Manchester City,Manchester United,Premier League
+13,59,0,3,4,2.06,4.08,2.38,0.865546218487395,Dortmund,Wolfsburg,Bundesliga
+58,49,1,2,4,2.51,4.7,2.67,0.9400749063670412,West Brom,Sheffield United,Championship
+2,54,2,5,4,2.97,2.45,3.15,0.942857142857143,Ajax,Utrecht,Eredivisie
+23,47,5,6,4,3.85,2.19,2.24,1.7187499999999998,LA Galaxy,Seattle Sounders,MLS
+10,49,1,3,4,3.12,4.42,2.11,1.4786729857819907,Burnley,Sheffield United,Championship
+46,24,9,1,4,3.07,3.63,3.17,0.9684542586750788,Roma,Lazio,Serie A
+33,57,1,5,4,1.97,4.61,3.43,0.5743440233236151,Middlesbrough,Watford,Championship
+44,55,3,6,4,3.45,4.85,3.7,0.9324324324324325,Real Sociedad,Villarreal,La Liga
+2,0,2,0,4,2.8,4.11,2.4,1.1666666666666667,Ajax,AZ Alkmaar,Eredivisie
+15,40,2,2,4,2.73,2.53,2.79,0.978494623655914,Feyenoord,PSV,Eredivisie
+25,26,0,1,4,2.79,4.61,2.3,1.2130434782608697,Leipzig,Leverkusen,Bundesliga
+31,12,6,5,4,3.0,3.48,3.0,1.0,Manchester United,Chelsea,Premier League
+1,11,8,3,4,1.8,3.47,3.96,0.4545454545454546,Aberdeen,Celtic,Scottish Premiership
+49,38,1,0,4,2.52,4.56,3.92,0.6428571428571429,Sheffield United,Norwich,Championship
+59,13,0,2,4,3.66,4.89,2.07,1.7681159420289858,Wolfsburg,Dortmund,Bundesliga
+21,4,5,5,4,3.58,2.97,2.93,1.2218430034129693,Inter Miami,Atlanta United,MLS
+6,48,3,5,4,1.82,3.41,3.71,0.49056603773584906,Barcelona,Sevilla,La Liga
+36,21,5,1,4,2.22,2.18,3.19,0.6959247648902822,NYCFC,Inter Miami,MLS
+28,30,6,5,4,3.04,3.32,3.21,0.9470404984423676,Liverpool,Manchester City,Premier League
+51,4,5,2,4,3.83,4.05,1.63,2.3496932515337425,Toronto FC,Atlanta United,MLS
+33,57,1,5,4,3.59,3.96,2.71,1.3247232472324724,Middlesbrough,Watford,Championship
+1,14,8,3,4,2.11,4.8,2.36,0.8940677966101694,Aberdeen,Dundee United,Scottish Premiership
+38,57,1,5,4,2.6,3.08,3.36,0.7738095238095238,Norwich,Watford,Championship
+44,55,3,5,4,3.34,3.67,2.66,1.2556390977443608,Real Sociedad,Villarreal,La Liga
+45,35,4,2,4,3.78,2.42,1.79,2.1117318435754187,Rennes,Monaco,Ligue 1
+16,26,0,4,4,3.42,2.54,3.41,1.002932551319648,Frankfurt,Leverkusen,Bundesliga
+50,17,7,5,4,2.18,3.82,3.59,0.6072423398328691,Sporting CP,Guimaraes,Primeira Liga
+35,32,4,2,4,3.44,3.31,2.57,1.3385214007782102,Monaco,Marseille,Ligue 1
+52,12,6,2,4,3.66,4.34,2.44,1.5,Tottenham,Chelsea,Premier League
+4,47,5,4,4,1.74,2.24,2.04,0.8529411764705882,Atlanta United,Seattle Sounders,MLS
+4,51,5,6,4,2.42,4.73,2.92,0.8287671232876712,Atlanta United,Toronto FC,MLS
+4,51,5,4,4,2.72,2.67,3.03,0.8976897689768978,Atlanta United,Toronto FC,MLS
+7,25,0,3,4,2.72,2.37,3.33,0.8168168168168168,Bayern Munich,Leipzig,Bundesliga
+30,12,6,2,4,2.41,2.7,2.53,0.9525691699604745,Manchester City,Chelsea,Premier League
+31,30,6,1,4,2.43,3.95,3.88,0.6262886597938145,Manchester United,Manchester City,Premier League
+12,52,6,5,4,3.85,3.25,1.64,2.347560975609756,Chelsea,Tottenham,Premier League
+16,25,0,1,4,3.49,4.41,1.61,2.1677018633540373,Frankfurt,Leipzig,Bundesliga
+18,42,8,5,4,2.86,3.39,3.37,0.8486646884272996,Hearts,Rangers,Scottish Premiership
+49,58,1,1,4,2.53,4.86,1.55,1.6322580645161289,Sheffield United,West Brom,Championship
+36,23,5,4,4,3.23,4.25,3.03,1.0660066006600661,NYCFC,LA Galaxy,MLS
+26,59,0,2,4,3.95,4.0,3.25,1.2153846153846155,Leverkusen,Wolfsburg,Bundesliga
+6,5,3,5,4,2.07,2.6,3.97,0.521410579345088,Barcelona,Atletico Madrid,La Liga
+50,56,7,5,4,3.13,2.31,1.87,1.67379679144385,Sporting CP,Vitoria,Primeira Liga
+35,27,4,4,4,3.19,2.66,2.41,1.3236514522821576,Monaco,Lille,Ligue 1
+34,24,9,3,4,2.82,3.09,3.23,0.8730650154798761,Milan,Lazio,Serie A
+29,27,4,1,4,2.43,4.39,1.68,1.4464285714285716,Lyon,Lille,Ligue 1
+6,43,3,2,4,1.99,3.89,2.77,0.7184115523465704,Barcelona,Real Madrid,La Liga
+17,41,7,2,4,1.55,4.72,2.1,0.7380952380952381,Guimaraes,Porto,Primeira Liga
+3,12,6,0,4,3.31,3.96,2.27,1.4581497797356828,Arsenal,Chelsea,Premier League
+23,36,5,3,4,1.84,4.99,1.76,1.0454545454545454,LA Galaxy,NYCFC,MLS
+45,29,4,5,4,2.7,4.26,3.01,0.8970099667774087,Rennes,Lyon,Ligue 1
+26,16,0,2,4,2.44,4.21,3.81,0.6404199475065616,Leverkusen,Frankfurt,Bundesliga
+46,24,9,1,4,2.82,3.48,2.36,1.194915254237288,Roma,Lazio,Serie A
+11,1,8,1,4,3.11,3.66,2.73,1.1391941391941391,Celtic,Aberdeen,Scottish Premiership
+18,1,8,4,4,2.78,4.47,3.94,0.7055837563451777,Hearts,Aberdeen,Scottish Premiership
+35,39,4,6,4,2.6,2.76,3.98,0.6532663316582915,Monaco,PSG,Ligue 1
+45,32,4,6,4,2.41,3.38,2.83,0.8515901060070672,Rennes,Marseille,Ligue 1
+42,1,8,0,4,2.09,4.71,3.53,0.5920679886685553,Rangers,Aberdeen,Scottish Premiership
+1,14,8,4,4,2.85,4.88,2.95,0.9661016949152542,Aberdeen,Dundee United,Scottish Premiership
+25,7,0,6,4,2.01,3.05,2.04,0.9852941176470587,Leipzig,Bayern Munich,Bundesliga
+46,24,9,0,4,1.87,4.54,2.84,0.6584507042253522,Roma,Lazio,Serie A
+51,36,5,2,4,3.18,4.72,1.93,1.6476683937823835,Toronto FC,NYCFC,MLS
+7,13,0,3,4,2.76,3.96,3.6,0.7666666666666666,Bayern Munich,Dortmund,Bundesliga
+53,40,2,0,4,1.96,4.31,2.1,0.9333333333333332,Twente,PSV,Eredivisie
+6,48,3,2,4,1.97,3.86,2.69,0.7323420074349443,Barcelona,Sevilla,La Liga
+41,17,7,5,4,2.87,3.47,3.67,0.782016348773842,Porto,Guimaraes,Primeira Liga
+5,48,3,5,4,2.41,4.73,3.9,0.617948717948718,Atletico Madrid,Sevilla,La Liga
+43,48,3,1,4,2.93,4.64,3.05,0.9606557377049182,Real Madrid,Sevilla,La Liga
+18,14,8,5,4,2.93,2.67,1.85,1.5837837837837838,Hearts,Dundee United,Scottish Premiership
+3,28,6,6,4,3.72,2.37,1.55,2.4,Arsenal,Liverpool,Premier League
+7,16,0,0,4,2.01,4.62,2.56,0.7851562499999999,Bayern Munich,Frankfurt,Bundesliga
+46,37,9,5,4,3.96,4.17,3.27,1.2110091743119267,Roma,Napoli,Serie A
+5,55,3,3,4,3.75,3.59,3.65,1.0273972602739727,Atletico Madrid,Villarreal,La Liga
+26,7,0,6,4,3.05,4.54,2.16,1.4120370370370368,Leverkusen,Bayern Munich,Bundesliga
+22,20,9,2,4,3.13,4.13,2.99,1.0468227424749164,Juventus,Inter,Serie A
+35,29,4,0,4,2.87,4.4,3.17,0.9053627760252366,Monaco,Lyon,Ligue 1
+44,5,3,1,4,3.16,4.29,1.56,2.0256410256410255,Real Sociedad,Atletico Madrid,La Liga
+16,7,0,6,4,2.95,3.56,3.95,0.7468354430379747,Frankfurt,Bayern Munich,Bundesliga
+11,42,8,4,4,3.27,3.39,3.35,0.9761194029850746,Celtic,Rangers,Scottish Premiership
+47,4,5,5,4,1.55,4.06,2.93,0.5290102389078498,Seattle Sounders,Atlanta United,MLS
+9,41,7,2,4,3.06,3.13,3.12,0.9807692307692307,Braga,Porto,Primeira Liga
+36,51,5,5,4,2.56,2.61,1.72,1.4883720930232558,NYCFC,Toronto FC,MLS
+59,26,0,6,4,3.53,2.56,2.95,1.1966101694915252,Wolfsburg,Leverkusen,Bundesliga
+57,10,1,0,4,1.57,4.01,3.9,0.4025641025641026,Watford,Burnley,Championship
+59,7,0,0,4,1.95,4.97,3.45,0.5652173913043478,Wolfsburg,Bayern Munich,Bundesliga
+0,54,2,4,4,1.57,3.36,2.98,0.5268456375838927,AZ Alkmaar,Utrecht,Eredivisie
+46,20,9,2,4,2.63,4.44,2.57,1.0233463035019454,Roma,Inter,Serie A
+6,44,3,5,4,3.94,3.0,3.33,1.1831831831831832,Barcelona,Real Sociedad,La Liga
+6,55,3,5,4,2.79,4.15,3.4,0.8205882352941177,Barcelona,Villarreal,La Liga
+42,19,8,5,4,3.39,2.35,1.73,1.9595375722543353,Rangers,Hibernian,Scottish Premiership
+53,2,2,2,4,3.99,4.01,3.07,1.2996742671009773,Twente,Ajax,Eredivisie
+37,22,9,2,4,2.06,4.99,3.38,0.6094674556213018,Napoli,Juventus,Serie A
+3,31,6,5,4,3.62,4.35,2.84,1.2746478873239437,Arsenal,Manchester United,Premier League
+17,8,7,5,4,1.53,3.95,1.94,0.7886597938144331,Guimaraes,Benfica,Primeira Liga
+8,50,7,5,4,2.44,4.14,3.03,0.8052805280528054,Benfica,Sporting CP,Primeira Liga
+42,14,8,6,4,2.66,2.78,3.7,0.7189189189189189,Rangers,Dundee United,Scottish Premiership
+50,9,7,5,4,3.7,2.25,1.7,2.1764705882352944,Sporting CP,Braga,Primeira Liga
+42,18,8,4,4,1.7,4.83,1.81,0.9392265193370165,Rangers,Hearts,Scottish Premiership
+51,36,5,2,4,1.92,2.77,3.02,0.6357615894039735,Toronto FC,NYCFC,MLS
+27,29,4,5,4,2.17,4.68,2.37,0.9156118143459915,Lille,Lyon,Ligue 1
+8,17,7,4,4,2.83,4.32,3.81,0.7427821522309711,Benfica,Guimaraes,Primeira Liga
+14,18,8,3,4,1.83,4.77,3.63,0.5041322314049587,Dundee United,Hearts,Scottish Premiership
+8,17,7,0,4,3.29,3.12,3.48,0.9454022988505747,Benfica,Guimaraes,Primeira Liga
+34,20,9,6,4,1.73,3.18,2.17,0.7972350230414746,Milan,Inter,Serie A
+36,21,5,3,4,2.02,2.65,3.6,0.5611111111111111,NYCFC,Inter Miami,MLS
+20,34,9,4,4,3.7,2.22,1.95,1.8974358974358976,Inter,Milan,Serie A
+18,14,8,1,4,1.7,4.49,3.06,0.5555555555555556,Hearts,Dundee United,Scottish Premiership
+38,57,1,3,4,2.95,3.1,2.01,1.4676616915422889,Norwich,Watford,Championship
+18,11,8,3,4,2.23,4.13,2.78,0.802158273381295,Hearts,Celtic,Scottish Premiership
+40,15,2,0,4,2.11,4.82,2.36,0.8940677966101694,PSV,Feyenoord,Eredivisie
+45,35,4,6,4,1.78,3.51,1.8,0.9888888888888889,Rennes,Monaco,Ligue 1
+38,58,1,4,4,2.98,2.23,3.27,0.9113149847094801,Norwich,West Brom,Championship
+20,37,9,2,4,2.96,4.6,1.78,1.6629213483146068,Inter,Napoli,Serie A
+52,3,6,5,4,1.75,2.91,3.75,0.4666666666666667,Tottenham,Arsenal,Premier League
+44,5,3,2,4,3.91,2.5,2.0,1.955,Real Sociedad,Atletico Madrid,La Liga
+5,48,3,2,4,2.89,2.22,2.49,1.1606425702811245,Atletico Madrid,Sevilla,La Liga
+23,47,5,1,4,2.89,2.58,2.72,1.0625,LA Galaxy,Seattle Sounders,MLS
+47,23,5,6,4,1.97,4.11,2.53,0.7786561264822135,Seattle Sounders,LA Galaxy,MLS
+23,47,5,6,4,1.54,4.02,3.66,0.42076502732240434,LA Galaxy,Seattle Sounders,MLS
+5,43,3,5,4,3.79,4.53,2.9,1.306896551724138,Atletico Madrid,Real Madrid,La Liga
+10,57,1,2,4,3.17,2.83,2.26,1.4026548672566372,Burnley,Watford,Championship
+13,7,0,2,4,3.12,4.73,3.62,0.861878453038674,Dortmund,Bayern Munich,Bundesliga
+59,13,0,6,4,2.47,2.79,2.11,1.170616113744076,Wolfsburg,Dortmund,Bundesliga
+17,56,7,3,4,2.1,4.3,2.65,0.7924528301886793,Guimaraes,Vitoria,Primeira Liga
+18,1,8,0,4,3.83,2.79,1.79,2.1396648044692737,Hearts,Aberdeen,Scottish Premiership
+23,51,5,5,4,2.33,4.15,2.86,0.8146853146853148,LA Galaxy,Toronto FC,MLS
+42,18,8,5,4,1.8,2.81,3.5,0.5142857142857143,Rangers,Hearts,Scottish Premiership
+22,37,9,5,4,3.26,4.57,3.92,0.8316326530612245,Juventus,Napoli,Serie A
+56,41,7,6,4,1.98,2.88,2.05,0.9658536585365854,Vitoria,Porto,Primeira Liga
+7,16,0,0,4,2.11,3.58,3.01,0.7009966777408638,Bayern Munich,Frankfurt,Bundesliga
+14,42,8,6,4,3.54,2.55,2.03,1.7438423645320198,Dundee United,Rangers,Scottish Premiership
+41,8,7,3,4,2.61,2.92,2.06,1.2669902912621358,Porto,Benfica,Primeira Liga
+22,34,9,2,4,3.83,3.3,1.62,2.3641975308641974,Juventus,Milan,Serie A
+19,18,8,0,4,3.08,2.59,1.87,1.6470588235294117,Hibernian,Hearts,Scottish Premiership
+48,5,3,2,4,2.38,4.88,2.67,0.8913857677902621,Sevilla,Atletico Madrid,La Liga
+3,31,6,2,4,3.19,2.2,2.09,1.5263157894736843,Arsenal,Manchester United,Premier League
+1,19,8,0,4,2.8,2.9,1.89,1.4814814814814814,Aberdeen,Hibernian,Scottish Premiership
+33,58,1,4,4,3.03,4.28,3.47,0.8731988472622477,Middlesbrough,West Brom,Championship
+53,0,2,4,4,2.0,2.04,3.65,0.547945205479452,Twente,AZ Alkmaar,Eredivisie
+55,5,3,5,4,2.54,3.44,1.55,1.6387096774193548,Villarreal,Atletico Madrid,La Liga
+38,10,1,1,4,2.8,2.95,1.87,1.497326203208556,Norwich,Burnley,Championship
+58,33,1,2,4,3.22,3.25,3.42,0.9415204678362574,West Brom,Middlesbrough,Championship
+16,13,0,5,4,2.73,4.64,2.34,1.1666666666666667,Frankfurt,Dortmund,Bundesliga
+33,49,1,1,4,1.93,3.83,2.41,0.8008298755186721,Middlesbrough,Sheffield United,Championship
+1,14,8,3,4,3.14,3.31,3.3,0.9515151515151516,Aberdeen,Dundee United,Scottish Premiership
+16,25,0,2,4,3.97,2.94,2.96,1.3412162162162162,Frankfurt,Leipzig,Bundesliga
+55,5,3,0,4,2.53,3.42,1.73,1.4624277456647399,Villarreal,Atletico Madrid,La Liga
+7,26,0,5,4,3.84,3.77,3.81,1.0078740157480315,Bayern Munich,Leverkusen,Bundesliga
+39,35,4,1,4,2.06,3.92,3.32,0.6204819277108434,PSG,Monaco,Ligue 1
+33,38,1,4,4,1.95,3.5,3.54,0.5508474576271186,Middlesbrough,Norwich,Championship
+44,5,3,4,4,2.55,4.76,2.72,0.9374999999999999,Real Sociedad,Atletico Madrid,La Liga
+16,59,0,5,4,1.52,2.09,3.52,0.4318181818181818,Frankfurt,Wolfsburg,Bundesliga
+52,12,6,3,4,2.67,3.96,3.68,0.7255434782608695,Tottenham,Chelsea,Premier League
+40,0,2,0,4,1.56,3.85,1.65,0.9454545454545455,PSV,AZ Alkmaar,Eredivisie
+31,52,6,5,4,3.12,2.14,3.47,0.899135446685879,Manchester United,Tottenham,Premier League
+35,32,4,1,4,3.16,4.12,2.47,1.2793522267206476,Monaco,Marseille,Ligue 1
+2,40,2,0,4,1.59,4.63,3.92,0.4056122448979592,Ajax,PSV,Eredivisie
+20,34,9,3,4,3.62,2.1,2.4,1.5083333333333335,Inter,Milan,Serie A
+34,37,9,3,4,2.93,3.57,3.54,0.8276836158192091,Milan,Napoli,Serie A
+0,2,2,0,4,3.14,4.79,3.7,0.8486486486486486,AZ Alkmaar,Ajax,Eredivisie
+45,32,4,5,4,3.95,4.04,3.73,1.0589812332439679,Rennes,Marseille,Ligue 1
+44,6,3,5,4,3.12,2.9,2.37,1.3164556962025316,Real Sociedad,Barcelona,La Liga
+39,35,4,0,4,3.57,4.36,2.7,1.322222222222222,PSG,Monaco,Ligue 1
+19,18,8,1,4,3.97,4.37,1.84,2.157608695652174,Hibernian,Hearts,Scottish Premiership
+5,55,3,5,4,3.64,3.39,4.0,0.91,Atletico Madrid,Villarreal,La Liga
+13,7,0,1,4,3.62,2.99,1.97,1.83756345177665,Dortmund,Bayern Munich,Bundesliga
+44,43,3,5,4,1.93,2.26,3.29,0.5866261398176291,Real Sociedad,Real Madrid,La Liga
+22,34,9,4,4,3.5,3.81,1.59,2.20125786163522,Juventus,Milan,Serie A
+28,30,6,1,4,2.06,3.8,3.44,0.5988372093023256,Liverpool,Manchester City,Premier League
+41,56,7,0,4,1.75,2.97,2.75,0.6363636363636364,Porto,Vitoria,Primeira Liga
+30,12,6,1,4,3.91,2.12,2.14,1.8271028037383177,Manchester City,Chelsea,Premier League
+48,5,3,5,4,3.11,2.64,3.85,0.8077922077922077,Sevilla,Atletico Madrid,La Liga
+41,17,7,5,4,2.0,3.27,1.86,1.075268817204301,Porto,Guimaraes,Primeira Liga
+52,28,6,1,4,2.05,4.18,3.57,0.5742296918767507,Tottenham,Liverpool,Premier League
+15,54,2,2,4,2.91,4.32,2.09,1.3923444976076558,Feyenoord,Utrecht,Eredivisie
+49,57,1,6,4,2.14,2.41,1.76,1.215909090909091,Sheffield United,Watford,Championship
+6,43,3,1,4,2.91,4.3,2.14,1.3598130841121496,Barcelona,Real Madrid,La Liga
+41,17,7,4,4,3.27,3.29,2.99,1.0936454849498327,Porto,Guimaraes,Primeira Liga
+27,39,4,5,4,2.68,4.82,3.02,0.8874172185430464,Lille,PSG,Ligue 1
+2,54,2,5,4,2.75,4.43,3.32,0.8283132530120483,Ajax,Utrecht,Eredivisie
+24,46,9,0,4,1.52,4.29,3.9,0.38974358974358975,Lazio,Roma,Serie A
+9,41,7,0,4,1.88,4.76,2.26,0.8318584070796461,Braga,Porto,Primeira Liga
+12,28,6,0,4,2.53,2.42,2.44,1.0368852459016393,Chelsea,Liverpool,Premier League
+37,46,9,4,4,1.78,2.04,3.75,0.4746666666666667,Napoli,Roma,Serie A
+9,8,7,4,4,1.81,4.65,3.38,0.5355029585798817,Braga,Benfica,Primeira Liga
+12,31,6,0,4,2.35,2.02,3.76,0.6250000000000001,Chelsea,Manchester United,Premier League
+34,22,9,6,4,3.29,4.79,3.74,0.8796791443850267,Milan,Juventus,Serie A
+34,24,9,4,4,1.93,3.65,3.37,0.5727002967359051,Milan,Lazio,Serie A
+51,36,5,1,4,2.48,2.71,1.87,1.3262032085561497,Toronto FC,NYCFC,MLS
+34,46,9,1,4,3.37,3.39,2.51,1.3426294820717133,Milan,Roma,Serie A
+42,1,8,0,4,3.78,2.14,3.09,1.2233009708737863,Rangers,Aberdeen,Scottish Premiership
+28,3,6,0,4,1.94,4.36,1.96,0.9897959183673469,Liverpool,Arsenal,Premier League
+42,18,8,4,4,3.6,2.12,3.03,1.1881188118811883,Rangers,Hearts,Scottish Premiership
+46,37,9,0,4,2.34,2.55,3.99,0.5864661654135338,Roma,Napoli,Serie A
+53,15,2,6,4,3.46,4.47,2.76,1.2536231884057971,Twente,Feyenoord,Eredivisie
+4,21,5,5,4,1.94,4.69,3.45,0.5623188405797102,Atlanta United,Inter Miami,MLS
+58,10,1,4,4,2.96,3.96,3.34,0.8862275449101796,West Brom,Burnley,Championship
+48,44,3,5,4,2.77,3.89,3.45,0.8028985507246377,Sevilla,Real Sociedad,La Liga
+6,55,3,3,4,1.98,4.21,1.79,1.106145251396648,Barcelona,Villarreal,La Liga
+38,10,1,3,4,2.54,2.84,2.35,1.0808510638297872,Norwich,Burnley,Championship
+5,55,3,5,4,3.55,4.74,1.59,2.232704402515723,Atletico Madrid,Villarreal,La Liga
+29,27,4,1,4,2.69,2.69,1.88,1.4308510638297873,Lyon,Lille,Ligue 1
+14,18,8,5,4,3.7,2.2,3.63,1.019283746556474,Dundee United,Hearts,Scottish Premiership
+7,13,0,2,4,2.46,4.54,3.31,0.743202416918429,Bayern Munich,Dortmund,Bundesliga
+11,42,8,5,4,2.32,3.88,2.81,0.8256227758007116,Celtic,Rangers,Scottish Premiership
+0,15,2,5,4,3.83,2.25,3.18,1.2044025157232705,AZ Alkmaar,Feyenoord,Eredivisie
+42,18,8,3,4,3.59,4.3,3.51,1.0227920227920229,Rangers,Hearts,Scottish Premiership
+22,46,9,5,4,1.62,3.47,3.05,0.5311475409836066,Juventus,Roma,Serie A
+39,35,4,0,4,2.29,3.84,1.68,1.3630952380952381,PSG,Monaco,Ligue 1
+3,30,6,0,4,3.48,2.02,3.99,0.8721804511278195,Arsenal,Manchester City,Premier League
+34,20,9,5,4,3.71,2.42,2.1,1.7666666666666666,Milan,Inter,Serie A
+19,42,8,5,4,1.74,2.9,3.27,0.5321100917431193,Hibernian,Rangers,Scottish Premiership
+57,33,1,2,4,2.93,4.01,1.51,1.9403973509933776,Watford,Middlesbrough,Championship
+42,11,8,2,4,3.74,3.86,2.12,1.7641509433962264,Rangers,Celtic,Scottish Premiership
+19,14,8,5,4,2.46,2.88,2.69,0.9144981412639406,Hibernian,Dundee United,Scottish Premiership
+9,50,7,0,4,3.72,3.28,3.98,0.9346733668341709,Braga,Sporting CP,Primeira Liga
+57,58,1,2,4,3.21,4.61,3.12,1.0288461538461537,Watford,West Brom,Championship
+18,14,8,0,4,1.92,3.47,2.8,0.6857142857142857,Hearts,Dundee United,Scottish Premiership
+24,46,9,6,4,2.01,2.04,2.25,0.8933333333333332,Lazio,Roma,Serie A
+22,37,9,6,4,3.63,3.56,2.62,1.3854961832061068,Juventus,Napoli,Serie A
+10,58,1,6,4,3.21,4.38,2.37,1.3544303797468353,Burnley,West Brom,Championship
+16,25,0,3,4,3.42,3.6,3.33,1.027027027027027,Frankfurt,Leipzig,Bundesliga
+54,53,2,2,4,3.86,2.69,2.33,1.6566523605150214,Utrecht,Twente,Eredivisie
+41,50,7,5,4,3.93,2.62,3.23,1.21671826625387,Porto,Sporting CP,Primeira Liga
+2,15,2,6,4,2.38,4.03,1.66,1.4337349397590362,Ajax,Feyenoord,Eredivisie
+4,21,5,4,4,3.45,4.32,3.61,0.9556786703601109,Atlanta United,Inter Miami,MLS
+45,27,4,5,4,3.25,2.31,3.16,1.0284810126582278,Rennes,Lille,Ligue 1
+22,34,9,3,4,2.35,2.45,2.19,1.0730593607305936,Juventus,Milan,Serie A
+10,57,1,5,4,2.19,4.42,3.16,0.6930379746835442,Burnley,Watford,Championship
+31,3,6,2,4,2.87,3.82,2.02,1.4207920792079207,Manchester United,Arsenal,Premier League
+37,34,9,5,4,2.24,4.22,3.84,0.5833333333333334,Napoli,Milan,Serie A
+12,28,6,3,4,1.71,4.92,2.93,0.583617747440273,Chelsea,Liverpool,Premier League
+35,29,4,4,4,3.66,2.83,3.01,1.2159468438538208,Monaco,Lyon,Ligue 1
+43,44,3,0,4,3.79,2.51,2.32,1.6336206896551726,Real Madrid,Real Sociedad,La Liga
+55,5,3,5,4,2.13,3.75,2.58,0.8255813953488371,Villarreal,Atletico Madrid,La Liga
+39,35,4,2,4,3.49,4.16,2.69,1.2973977695167287,PSG,Monaco,Ligue 1
+5,43,3,6,4,3.17,3.83,1.86,1.704301075268817,Atletico Madrid,Real Madrid,La Liga
+38,58,1,5,4,2.87,2.76,2.79,1.028673835125448,Norwich,West Brom,Championship
+8,50,7,0,4,2.92,3.27,3.6,0.8111111111111111,Benfica,Sporting CP,Primeira Liga
+0,53,2,6,4,3.1,4.91,1.73,1.7919075144508672,AZ Alkmaar,Twente,Eredivisie
+32,35,4,6,4,3.55,2.8,1.95,1.8205128205128205,Marseille,Monaco,Ligue 1
+26,13,0,6,4,3.65,3.88,1.58,2.310126582278481,Leverkusen,Dortmund,Bundesliga
+33,58,1,5,4,3.57,4.33,1.81,1.9723756906077348,Middlesbrough,West Brom,Championship
+4,21,5,5,4,2.48,3.8,2.03,1.2216748768472907,Atlanta United,Inter Miami,MLS
+53,40,2,5,4,2.24,2.4,1.96,1.142857142857143,Twente,PSV,Eredivisie
+26,7,0,2,4,1.81,3.56,2.36,0.766949152542373,Leverkusen,Bayern Munich,Bundesliga
+28,31,6,3,4,3.16,4.44,2.09,1.5119617224880384,Liverpool,Manchester United,Premier League
+23,4,5,4,4,3.24,3.0,3.17,1.0220820189274449,LA Galaxy,Atlanta United,MLS
+49,38,1,1,4,3.44,2.38,2.57,1.3385214007782102,Sheffield United,Norwich,Championship
+36,23,5,5,4,2.68,4.86,1.69,1.5857988165680474,NYCFC,LA Galaxy,MLS
+30,28,6,1,4,2.77,4.27,3.49,0.7936962750716332,Manchester City,Liverpool,Premier League
+45,32,4,3,4,3.58,3.65,3.54,1.0112994350282487,Rennes,Marseille,Ligue 1
+33,38,1,6,4,2.56,4.37,2.17,1.1797235023041475,Middlesbrough,Norwich,Championship
+56,41,7,4,4,2.42,4.29,1.63,1.4846625766871167,Vitoria,Porto,Primeira Liga
+12,31,6,5,4,1.78,4.03,3.49,0.5100286532951289,Chelsea,Manchester United,Premier League
+31,28,6,6,4,3.38,3.4,2.01,1.6815920398009951,Manchester United,Liverpool,Premier League
+55,48,3,5,4,2.89,2.67,2.38,1.2142857142857144,Villarreal,Sevilla,La Liga
+20,34,9,0,4,3.02,4.38,2.55,1.184313725490196,Inter,Milan,Serie A
+50,9,7,4,4,2.6,4.86,3.93,0.6615776081424937,Sporting CP,Braga,Primeira Liga
+25,7,0,5,4,3.48,4.06,2.6,1.3384615384615384,Leipzig,Bayern Munich,Bundesliga
+56,9,7,2,4,2.73,4.51,2.98,0.9161073825503355,Vitoria,Braga,Primeira Liga
+29,35,4,4,4,2.11,2.38,2.94,0.717687074829932,Lyon,Monaco,Ligue 1
+53,54,2,5,4,2.75,4.57,3.17,0.8675078864353313,Twente,Utrecht,Eredivisie
+25,7,0,3,4,3.77,2.53,3.54,1.0649717514124293,Leipzig,Bayern Munich,Bundesliga
+19,18,8,1,4,2.07,4.68,3.22,0.6428571428571428,Hibernian,Hearts,Scottish Premiership
+13,25,0,0,4,1.67,3.12,2.65,0.630188679245283,Dortmund,Leipzig,Bundesliga
+46,22,9,4,4,2.22,4.51,3.89,0.570694087403599,Roma,Juventus,Serie A
+9,41,7,6,4,2.96,3.53,3.55,0.8338028169014085,Braga,Porto,Primeira Liga
+26,16,0,5,4,2.88,4.8,2.68,1.0746268656716418,Leverkusen,Frankfurt,Bundesliga
+16,26,0,5,4,3.15,3.03,1.93,1.6321243523316062,Frankfurt,Leverkusen,Bundesliga
+44,48,3,0,4,3.44,3.58,3.31,1.039274924471299,Real Sociedad,Sevilla,La Liga
+33,57,1,2,4,2.2,4.2,1.74,1.264367816091954,Middlesbrough,Watford,Championship
+36,21,5,3,4,1.82,3.17,3.85,0.4727272727272727,NYCFC,Inter Miami,MLS
+27,32,4,4,4,2.53,4.01,2.95,0.8576271186440677,Lille,Marseille,Ligue 1
+30,12,6,5,4,2.41,3.82,1.54,1.564935064935065,Manchester City,Chelsea,Premier League
+33,49,1,3,4,1.89,2.93,3.18,0.5943396226415094,Middlesbrough,Sheffield United,Championship
+3,30,6,1,4,2.47,2.02,2.07,1.1932367149758456,Arsenal,Manchester City,Premier League
+59,25,0,4,4,2.21,3.72,3.9,0.5666666666666667,Wolfsburg,Leipzig,Bundesliga
+15,53,2,5,4,2.76,3.18,1.51,1.8278145695364236,Feyenoord,Twente,Eredivisie
+57,33,1,2,4,2.44,3.48,3.1,0.7870967741935484,Watford,Middlesbrough,Championship
+50,8,7,5,4,3.77,3.89,3.75,1.0053333333333334,Sporting CP,Benfica,Primeira Liga
+32,27,4,0,4,2.02,3.92,1.6,1.2625,Marseille,Lille,Ligue 1
+13,7,0,2,4,2.31,3.95,2.26,1.0221238938053099,Dortmund,Bayern Munich,Bundesliga
+2,15,2,6,4,3.06,3.87,2.13,1.4366197183098592,Ajax,Feyenoord,Eredivisie
+22,34,9,1,4,2.87,4.2,1.79,1.6033519553072626,Juventus,Milan,Serie A
+42,1,8,5,4,1.58,2.81,2.82,0.5602836879432624,Rangers,Aberdeen,Scottish Premiership
+40,2,2,1,4,3.6,3.58,3.49,1.0315186246418337,PSV,Ajax,Eredivisie
+16,25,0,0,4,2.29,4.92,3.98,0.5753768844221105,Frankfurt,Leipzig,Bundesliga
+29,45,4,1,4,3.22,2.04,2.88,1.1180555555555556,Lyon,Rennes,Ligue 1
+0,53,2,6,4,2.33,4.89,1.79,1.3016759776536313,AZ Alkmaar,Twente,Eredivisie
+32,45,4,5,4,2.16,4.02,2.32,0.9310344827586208,Marseille,Rennes,Ligue 1
+38,49,1,4,4,2.97,2.18,2.88,1.03125,Norwich,Sheffield United,Championship
+59,25,0,3,4,2.83,3.88,3.73,0.7587131367292226,Wolfsburg,Leipzig,Bundesliga
+40,15,2,6,4,2.19,3.99,3.96,0.553030303030303,PSV,Feyenoord,Eredivisie
+7,59,0,5,4,2.64,4.88,3.79,0.6965699208443272,Bayern Munich,Wolfsburg,Bundesliga
+46,22,9,5,4,3.26,4.6,2.31,1.4112554112554112,Roma,Juventus,Serie A
+57,10,1,1,4,3.53,3.98,1.98,1.7828282828282827,Watford,Burnley,Championship
+17,8,7,4,4,2.27,3.68,3.89,0.583547557840617,Guimaraes,Benfica,Primeira Liga
+35,32,4,5,4,2.29,4.62,2.01,1.1393034825870647,Monaco,Marseille,Ligue 1
+26,59,0,2,4,1.77,3.06,2.64,0.6704545454545454,Leverkusen,Wolfsburg,Bundesliga
+19,11,8,4,4,1.71,2.01,1.87,0.9144385026737967,Hibernian,Celtic,Scottish Premiership
+58,49,1,4,4,3.54,4.49,3.49,1.0143266475644699,West Brom,Sheffield United,Championship
+53,0,2,2,4,3.87,2.53,2.85,1.3578947368421053,Twente,AZ Alkmaar,Eredivisie
+9,17,7,0,4,2.99,2.67,1.8,1.6611111111111112,Braga,Guimaraes,Primeira Liga
+39,45,4,1,4,2.47,3.73,3.84,0.6432291666666667,PSG,Rennes,Ligue 1
+58,49,1,4,4,3.3,3.86,2.35,1.404255319148936,West Brom,Sheffield United,Championship
+7,13,0,5,4,3.66,2.81,2.96,1.2364864864864866,Bayern Munich,Dortmund,Bundesliga
+44,48,3,3,4,3.42,3.79,3.47,0.9855907780979827,Real Sociedad,Sevilla,La Liga
+36,23,5,5,4,1.92,3.57,1.96,0.9795918367346939,NYCFC,LA Galaxy,MLS
+32,27,4,6,4,1.74,3.8,3.67,0.47411444141689374,Marseille,Lille,Ligue 1
+31,28,6,2,4,2.42,3.82,3.57,0.6778711484593838,Manchester United,Liverpool,Premier League
+51,4,5,6,4,2.92,3.37,1.78,1.6404494382022472,Toronto FC,Atlanta United,MLS
+23,47,5,0,4,2.36,3.22,1.79,1.318435754189944,LA Galaxy,Seattle Sounders,MLS
+43,5,3,3,4,3.14,3.44,3.31,0.9486404833836858,Real Madrid,Atletico Madrid,La Liga
+56,8,7,5,4,2.78,2.26,3.59,0.7743732590529248,Vitoria,Benfica,Primeira Liga
+55,5,3,6,4,3.19,4.45,3.04,1.049342105263158,Villarreal,Atletico Madrid,La Liga
+24,46,9,1,4,2.27,4.87,2.29,0.9912663755458515,Lazio,Roma,Serie A
+49,33,1,3,4,3.55,3.91,2.72,1.3051470588235292,Sheffield United,Middlesbrough,Championship
+10,49,1,5,4,1.78,3.21,2.51,0.7091633466135459,Burnley,Sheffield United,Championship
+42,18,8,5,4,2.95,2.88,3.11,0.9485530546623795,Rangers,Hearts,Scottish Premiership
+42,19,8,5,4,3.19,3.43,1.58,2.0189873417721516,Rangers,Hibernian,Scottish Premiership
+22,20,9,3,4,1.54,3.5,3.83,0.402088772845953,Juventus,Inter,Serie A
+50,9,7,5,4,2.16,2.88,3.67,0.5885558583106267,Sporting CP,Braga,Primeira Liga
+42,18,8,1,4,3.99,3.8,1.56,2.557692307692308,Rangers,Hearts,Scottish Premiership
+30,52,6,4,4,2.37,3.87,3.41,0.6950146627565983,Manchester City,Tottenham,Premier League
+53,40,2,0,4,2.91,4.36,3.67,0.7929155313351499,Twente,PSV,Eredivisie
+36,4,5,2,4,1.61,3.56,2.79,0.5770609318996416,NYCFC,Atlanta United,MLS
+29,27,4,0,4,3.18,4.46,2.38,1.3361344537815127,Lyon,Lille,Ligue 1
+55,43,3,6,4,3.28,2.65,3.7,0.8864864864864864,Villarreal,Real Madrid,La Liga
+52,12,6,3,4,2.53,2.83,3.66,0.6912568306010928,Tottenham,Chelsea,Premier League
+2,54,2,4,4,3.13,4.84,3.77,0.8302387267904509,Ajax,Utrecht,Eredivisie
+2,54,2,2,4,2.39,3.86,3.68,0.6494565217391305,Ajax,Utrecht,Eredivisie
+12,3,6,2,4,3.44,4.82,2.72,1.2647058823529411,Chelsea,Arsenal,Premier League

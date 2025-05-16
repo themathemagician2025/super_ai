@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super AI Debug Interface</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .full-width {
+            grid-column: 1 / span 2;
+        }
+
+        .api-box {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 15px;
+            overflow-x: auto;
+        }
+
+        .log-container {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            height: 300px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            margin: 5px 0;
+            border-bottom: 1px solid #34495e;
+            padding-bottom: 5px;
+        }
+
+        .log-info {
+            color: #3498db;
+        }
+
+        .log-error {
+            color: #e74c3c;
+        }
+
+        .log-warning {
+            color: #f39c12;
+        }
+
+        .control-panel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .status-active {
+            background-color: #2ecc71;
+        }
+
+        .status-inactive {
+            background-color: #e74c3c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        code {
+            font-family: monospace;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Super AI Debug Interface</h1>
+
+    <div class="section full-width">
+        <h2>System Status</h2>
+        <div class="control-panel">
+            <button onclick="refreshStatus()">Refresh Status</button>
+            <button onclick="clearLogs()">Clear Logs</button>
+        </div>
+
+        <div class="container">
+            <div>
+                <h3>Models</h3>
+                <table id="models-table">
+                    <tr>
+                        <th>Model</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Sports Predictor</td>
+                        <td><span class="status-indicator status-inactive"></span> Unknown</td>
+                    </tr>
+                    <tr>
+                        <td>Betting Predictor</td>
+                        <td><span class="status-indicator status-inactive"></span> Unknown</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h3>Module Executor</h3>
+                <table id="executor-table">
+                    <tr>
+                        <th>Component</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Executor</td>
+                        <td><span class="status-indicator status-inactive"></span> Unknown</td>
+                    </tr>
+                </table>
+
+                <h4>Loaded Modules</h4>
+                <ul id="loaded-modules">
+                    <li>No modules loaded</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Running Tasks</h3>
+        <table id="tasks-table">
+            <tr>
+                <th>Task ID</th>
+                <th>Status</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td colspan="3">No running tasks</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Sports Prediction Test</h2>
+            <div class="api-box">
+                <h3>Test Endpoint: <code>/api/predictions/sports</code></h3>
+                <p>Example features (comma-separated values):</p>
+                <input type="text" id="sports-features" value="0.2, 0.5, 0.3, 0.8, 0.7, 0.9, 0.1, 0.4">
+                <button onclick="testSportsPrediction()">Test Prediction</button>
+            </div>
+            <div>
+                <h3>Response:</h3>
+                <pre id="sports-response">No response yet</pre>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Betting Prediction Test</h2>
+            <div class="api-box">
+                <h3>Test Endpoint: <code>/api/predictions/betting</code></h3>
+                <p>Example features (comma-separated values):</p>
+                <input type="text" id="betting-features"
+                    value="0.2, 0.5, 0.3, 0.8, 0.7, 0.9, 0.1, 0.4, 0.6, 0.2, 0.3, 0.7, 0.4, 0.6, 0.8, 0.2, 0.1, 0.9">
+                <p>Stake:</p>
+                <input type="number" id="betting-stake" value="100">
+                <p>Odds:</p>
+                <input type="number" id="betting-odds" value="2.5" step="0.1">
+                <button onclick="testBettingPrediction()">Test Prediction</button>
+            </div>
+            <div>
+                <h3>Response:</h3>
+                <pre id="betting-response">No response yet</pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="section full-width">
+        <h2>Module Execution</h2>
+        <div class="api-box">
+            <h3>Execute Module: <code>/api/modules/execute</code></h3>
+            <p>Module Path:</p>
+            <select id="module-path">
+                <option value="prediction/sports_predictor.py">Sports Predictor</option>
+                <option value="betting/betting_prediction.py">Betting Predictor</option>
+                <option value="web_interface/app.py">Web Interface</option>
+            </select>
+            <p>Function Name:</p>
+            <input type="text" id="function-name" value="main">
+            <p>Arguments (JSON array):</p>
+            <textarea id="module-args">[]</textarea>
+            <p>Keyword Arguments (JSON object):</p>
+            <textarea id="module-kwargs">{}</textarea>
+            <button onclick="executeModule()">Execute Module</button>
+        </div>
+        <div>
+            <h3>Response:</h3>
+            <pre id="execute-response">No response yet</pre>
+        </div>
+    </div>
+
+    <div class="section full-width">
+        <h2>System Log</h2>
+        <div class="log-container" id="log-container">
+            <div class="log-entry log-info">[INFO] Debug interface loaded</div>
+        </div>
+    </div>
+
+    <script>
+        // Function to add a log entry
+        function addLog(message, type = 'info') {
+            const logContainer = document.getElementById('log-container');
+            const logEntry = document.createElement('div');
+            logEntry.className = `log-entry log-${type}`;
+            logEntry.textContent = `[${type.toUpperCase()}] ${message}`;
+            logContainer.appendChild(logEntry);
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+
+        // Function to clear logs
+        function clearLogs() {
+            document.getElementById('log-container').innerHTML = '';
+            addLog('Logs cleared', 'info');
+        }
+
+        // Function to refresh status
+        async function refreshStatus() {
+            addLog('Refreshing system status...', 'info');
+            try {
+                const response = await fetch('/api/status');
+                if (!response.ok) {
+                    throw new Error(`HTTP error ${response.status}`);
+                }
+                const data = await response.json();
+                updateStatusDisplay(data);
+                addLog('Status refreshed successfully', 'info');
+            } catch (error) {
+                addLog(`Error refreshing status: ${error.message}`, 'error');
+            }
+        }
+
+        // Update the status display with the received data
+        function updateStatusDisplay(data) {
+            // Update models
+            const modelsTable = document.getElementById('models-table');
+            modelsTable.innerHTML = `
+                <tr>
+                    <th>Model</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Sports Predictor</td>
+                    <td><span class="status-indicator ${data.models.sports_model ? 'status-active' : 'status-inactive'}"></span> ${data.models.sports_model ? 'Loaded' : 'Not Loaded'}</td>
+                </tr>
+                <tr>
+                    <td>Betting Predictor</td>
+                    <td><span class="status-indicator ${data.models.betting_model ? 'status-active' : 'status-inactive'}"></span> ${data.models.betting_model ? 'Loaded' : 'Not Loaded'}</td>
+                </tr>
+            `;
+
+            // Update executor
+            const executorTable = document.getElementById('executor-table');
+            executorTable.innerHTML = `
+                <tr>
+                    <th>Component</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Executor</td>
+                    <td><span class="status-indicator ${data.executor.active ? 'status-active' : 'status-inactive'}"></span> ${data.executor.active ? 'Active' : 'Inactive'}</td>
+                </tr>
+            `;
+
+            // Update loaded modules
+            const loadedModulesList = document.getElementById('loaded-modules');
+            if (data.executor.loaded_modules && data.executor.loaded_modules.length > 0) {
+                loadedModulesList.innerHTML = '';
+                data.executor.loaded_modules.forEach(module => {
+                    const li = document.createElement('li');
+                    li.textContent = module;
+                    loadedModulesList.appendChild(li);
+                });
+            } else {
+                loadedModulesList.innerHTML = '<li>No modules loaded</li>';
+            }
+
+            // Update tasks
+            const tasksTable = document.getElementById('tasks-table');
+            let tasksHtml = `
+                <tr>
+                    <th>Task ID</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                </tr>
+            `;
+
+            const modulesKeys = Object.keys(data.modules);
+            if (modulesKeys.length > 0) {
+                modulesKeys.forEach(key => {
+                    const module = data.modules[key];
+                    const startTime = module.start_time ? new Date(module.start_time * 1000).toLocaleString() : 'N/A';
+                    tasksHtml += `
+                        <tr>
+                            <td>${key}</td>
+                            <td>${module.status || 'Unknown'}</td>
+                            <td>${startTime}</td>
+                        </tr>
+                    `;
+                });
+            } else {
+                tasksHtml += `<tr><td colspan="3">No running tasks</td></tr>`;
+            }
+            tasksTable.innerHTML = tasksHtml;
+        }
+
+        // Test sports prediction
+        async function testSportsPrediction() {
+            addLog('Testing sports prediction...', 'info');
+            try {
+                const featuresInput = document.getElementById('sports-features').value;
+                const features = featuresInput.split(',').map(x => parseFloat(x.trim()));
+
+                const response = await fetch('/api/predictions/sports', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ features }),
+                });
+
+                const data = await response.json();
+                document.getElementById('sports-response').textContent = JSON.stringify(data, null, 2);
+
+                if (data.status === 'success') {
+                    addLog(`Sports prediction successful. Prediction: ${data.prediction}`, 'info');
+                } else {
+                    addLog(`Sports prediction failed: ${data.message}`, 'warning');
+                }
+            } catch (error) {
+                document.getElementById('sports-response').textContent = `Error: ${error.message}`;
+                addLog(`Error in sports prediction: ${error.message}`, 'error');
+            }
+        }
+
+        // Test betting prediction
+        async function testBettingPrediction() {
+            addLog('Testing betting prediction...', 'info');
+            try {
+                const featuresInput = document.getElementById('betting-features').value;
+                const features = featuresInput.split(',').map(x => parseFloat(x.trim()));
+                const stake = parseFloat(document.getElementById('betting-stake').value);
+                const odds = parseFloat(document.getElementById('betting-odds').value);
+
+                const response = await fetch('/api/predictions/betting', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ features, stake, odds }),
+                });
+
+                const data = await response.json();
+                document.getElementById('betting-response').textContent = JSON.stringify(data, null, 2);
+
+                if (data.status === 'success') {
+                    addLog(`Betting prediction successful. Expected return: ${data.expected_return}`, 'info');
+                } else {
+                    addLog(`Betting prediction failed: ${data.message}`, 'warning');
+                }
+            } catch (error) {
+                document.getElementById('betting-response').textContent = `Error: ${error.message}`;
+                addLog(`Error in betting prediction: ${error.message}`, 'error');
+            }
+        }
+
+        // Execute module
+        async function executeModule() {
+            const modulePath = document.getElementById('module-path').value;
+            const functionName = document.getElementById('function-name').value;
+
+            let args, kwargs;
+            try {
+                args = JSON.parse(document.getElementById('module-args').value);
+                kwargs = JSON.parse(document.getElementById('module-kwargs').value);
+            } catch (error) {
+                addLog(`JSON parse error: ${error.message}`, 'error');
+                document.getElementById('execute-response').textContent = `Error parsing JSON: ${error.message}`;
+                return;
+            }
+
+            addLog(`Executing module: ${modulePath}.${functionName}...`, 'info');
+
+            try {
+                const response = await fetch('/api/modules/execute', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        module_path: modulePath,
+                        function_name: functionName,
+                        args: args,
+                        kwargs: kwargs
+                    }),
+                });
+
+                const data = await response.json();
+                document.getElementById('execute-response').textContent = JSON.stringify(data, null, 2);
+
+                if (data.status === 'started' || data.status === 'success') {
+                    addLog(`Module execution started: ${data.message}`, 'info');
+                    // Refresh status after a short delay to see the new task
+                    setTimeout(refreshStatus, 1000);
+                } else {
+                    addLog(`Module execution failed: ${data.message}`, 'warning');
+                }
+            } catch (error) {
+                document.getElementById('execute-response').textContent = `Error: ${error.message}`;
+                addLog(`Error executing module: ${error.message}`, 'error');
+            }
+        }
+
+        // Initial status load when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            addLog('Debug interface initialized', 'info');
+            refreshStatus();
+        });
+    </script>
+</body>
+
+</html>

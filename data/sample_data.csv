@@ -1,0 +1,11 @@
+id,date,home_team,away_team,home_score,away_score,result
+1,2023-01-01,Team A,Team B,3,1,home_win
+2,2023-01-05,Team C,Team D,2,2,draw
+3,2023-01-08,Team B,Team C,1,3,away_win
+4,2023-01-12,Team D,Team A,0,2,away_win
+5,2023-01-15,Team A,Team C,2,0,home_win
+6,2023-01-19,Team B,Team D,1,1,draw
+7,2023-01-22,Team C,Team A,1,1,draw
+8,2023-01-26,Team D,Team B,3,2,home_win
+9,2023-01-29,Team A,Team D,4,0,home_win
+10,2023-02-02,Team B,Team A,1,2,away_win

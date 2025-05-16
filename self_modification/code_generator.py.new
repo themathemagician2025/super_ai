@@ -1,0 +1,20 @@
+# src/self_modification/code_generator.py
+
+from super_ai.core.llm import OllamaClient
+import os
+
+class CodeGenerator:
+    def __init__(self, config):
+        self.llm = OllamaClient(
+            model_name=config["llm_code_generator"]["name"],
+            url=config["llm_code_generator"]["url"]
+        )
+
+    def generate_code_improvement(self, source_code: str, filename: str) -> str:
+        prompt = f"""Improve and refactor the following Python code for performance, maintainability, and readability. Maintain existing functionality.
+
+Filename: {filename}
+Code:
+{source_code}
+"""
+        return self.llm.query(prompt)

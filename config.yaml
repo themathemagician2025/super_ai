@@ -1,0 +1,269 @@
+# Super AI Prediction System - Data Pipeline Configuration
+# This file contains configuration settings for scrapers, processors, and workflows
+
+# General settings
+general:
+  data_dir: "data"
+  scraped_dir: "scraped_data"
+  processed_dir: "processed_data"
+  models_dir: "models"
+  logs_dir: "logs"
+  temp_dir: "temp"
+
+# Web scraping settings
+scrapers:
+  # Common scraper settings
+  common:
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    rate_limit: 1.0  # Seconds between requests
+    timeout: 30  # Request timeout in seconds
+
+  # BeautifulSoup scraper settings
+  soup:
+    parser: "html.parser"
+    extract_attrs: ["href", "src", "alt", "title"]
+
+  # Selenium scraper settings
+  selenium:
+    headless: true
+    wait_time: 10
+    screenshot: false
+    browser: "chrome"
+    window_size: [1920, 1080]
+    implicit_wait: 5
+
+  # Scrapy scraper settings
+  scrapy:
+    robotstxt_obey: true
+    concurrent_requests: 4
+    download_delay: 1
+    cookies_enabled: true
+    retry_times: 3
+
+  # Multi-threaded scraper settings
+  threaded:
+    max_workers: 5
+    default_scraper: "soup"
+
+# Data processors settings
+processors:
+  # Common processor settings
+  common:
+    max_workers: 4
+
+  # DataFrame processor settings
+  dataframe:
+    default_operations:
+      - type: "drop_columns"
+        columns: ["unnamed"]
+      - type: "fillna"
+        value: 0
+
+  # Text processor settings
+  text:
+    language: "english"
+    default_operations:
+      - type: "clean_text"
+      - type: "tokenize"
+      - type: "remove_stopwords"
+
+  # Forex processor settings
+  forex:
+    column_mapping:
+      date: "Date"
+      price: "Price"
+      open: "Open"
+      high: "High"
+      low: "Low"
+      change: "Change %"
+      volume: "Vol."
+    calculate_indicators: true
+    indicators:
+      - "rsi"
+      - "macd"
+      - "bollinger_bands"
+      - "moving_averages"
+    timeframes:
+      - "daily"
+      - "weekly"
+      - "monthly"
+
+  # Sports processor settings
+  sports:
+    sports_types:
+      - "football"
+      - "basketball"
+      - "tennis"
+      - "baseball"
+    football:
+      team_stats:
+        - "goals_scored"
+        - "goals_conceded"
+        - "shots"
+        - "shots_on_target"
+        - "possession"
+        - "corners"
+        - "fouls"
+      form_window: 5  # Last N matches for form calculation
+    basketball:
+      team_stats:
+        - "points"
+        - "rebounds"
+        - "assists"
+        - "steals"
+        - "blocks"
+        - "turnovers"
+        - "fouls"
+      form_window: 5
+
+# Workflow orchestration settings
+workflows:
+  # Common workflow settings
+  common:
+    max_active_runs: 1
+    retries: 1
+    retry_delay_minutes: 5
+    email_on_failure: false
+    email: "admin@example.com"
+
+  # Airflow settings
+  airflow:
+    schedule_interval: "0 0 * * *"  # Daily at midnight
+    catchup: false
+    concurrency: 3
+
+  # Dagster settings
+  dagster:
+    executor:
+      type: "multiprocess"
+      max_concurrent: 4
+    run_launcher:
+      type: "default"
+    dagit_port: 3000
+
+# Data sources settings
+sources:
+  forex:
+    currency_pairs:
+      - name: "EUR/USD"
+        url: "https://www.investing.com/currencies/eur-usd-historical-data"
+        symbol: "EURUSD"
+      - name: "GBP/USD"
+        url: "https://www.investing.com/currencies/gbp-usd-historical-data"
+        symbol: "GBPUSD"
+      - name: "USD/JPY"
+        url: "https://www.investing.com/currencies/usd-jpy-historical-data"
+        symbol: "USDJPY"
+      - name: "USD/CHF"
+        url: "https://www.investing.com/currencies/usd-chf-historical-data"
+        symbol: "USDCHF"
+      - name: "AUD/USD"
+        url: "https://www.investing.com/currencies/aud-usd-historical-data"
+        symbol: "AUDUSD"
+    timeframes:
+      - "1d"
+      - "1w"
+      - "1m"
+
+  sports:
+    football:
+      leagues:
+        - name: "Premier League"
+          url: "https://www.oddsportal.com/soccer/england/premier-league/results/"
+          country: "England"
+        - name: "La Liga"
+          url: "https://www.oddsportal.com/soccer/spain/laliga/results/"
+          country: "Spain"
+        - name: "Bundesliga"
+          url: "https://www.oddsportal.com/soccer/germany/bundesliga/results/"
+          country: "Germany"
+        - name: "Serie A"
+          url: "https://www.oddsportal.com/soccer/italy/serie-a/results/"
+          country: "Italy"
+        - name: "Ligue 1"
+          url: "https://www.oddsportal.com/soccer/france/ligue-1/results/"
+          country: "France"
+    basketball:
+      leagues:
+        - name: "NBA"
+          url: "https://www.oddsportal.com/basketball/usa/nba/results/"
+          country: "USA"
+        - name: "Euroleague"
+          url: "https://www.oddsportal.com/basketball/europe/euroleague/results/"
+          country: "Europe"
+
+# Sample workflow definitions
+workflow_definitions:
+  forex_daily:
+    description: "Daily forex data collection workflow"
+    schedule: "0 0 * * *"  # Run daily at midnight
+    tasks:
+      - id: "scrape_forex_data"
+        type: "scrape"
+        scraper: "selenium"
+        urls:
+          - "https://www.investing.com/currencies/eur-usd-historical-data"
+          - "https://www.investing.com/currencies/gbp-usd-historical-data"
+          - "https://www.investing.com/currencies/usd-jpy-historical-data"
+        output: "forex_data"
+        params:
+          headless: true
+          wait_for_selector: "table#curr_table"
+      - id: "process_forex_data"
+        type: "process"
+        processor: "forex"
+        input: "scraped_data/forex_data_latest.json"
+        output: "forex_processed"
+        depends_on: ["scrape_forex_data"]
+        operations:
+          - type: "clean_text"
+            columns: ["price", "open", "high", "low", "change"]
+          - type: "extract_numbers"
+            columns: ["price", "open", "high", "low", "change"]
+        params:
+          calculate_indicators: true
+      - id: "train_prediction_model"
+        type: "python"
+        function: "models.train_forex_model"
+        depends_on: ["process_forex_data"]
+        params:
+          data_path: "processed_data/forex_processed_latest.csv"
+          model_type: "xgboost"
+          target: "direction"
+
+  sports_weekly:
+    description: "Weekly sports data collection workflow"
+    schedule: "0 0 * * 1"  # Run weekly on Monday
+    tasks:
+      - id: "scrape_football_data"
+        type: "scrape"
+        scraper: "selenium"
+        urls:
+          - "https://www.oddsportal.com/soccer/england/premier-league/results/"
+          - "https://www.oddsportal.com/soccer/spain/laliga/results/"
+          - "https://www.oddsportal.com/soccer/germany/bundesliga/results/"
+        output: "football_data"
+        params:
+          headless: true
+          wait_for_selector: "table.table-main"
+      - id: "process_football_data"
+        type: "process"
+        processor: "sports"
+        input: "scraped_data/football_data_latest.json"
+        output: "football_processed"
+        depends_on: ["scrape_football_data"]
+        operations:
+          - type: "extract_teams"
+            columns: ["home_team", "away_team"]
+          - type: "extract_numbers"
+            columns: ["home_score", "away_score", "odds_home", "odds_draw", "odds_away"]
+        params:
+          sport_type: "football"
+      - id: "train_prediction_model"
+        type: "python"
+        function: "models.train_sports_model"
+        depends_on: ["process_football_data"]
+        params:
+          data_path: "processed_data/football_processed_latest.csv"
+          model_type: "xgboost"
+          target: "home_win"

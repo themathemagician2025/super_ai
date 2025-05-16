@@ -1,0 +1,60 @@
+{
+    "name": "super-ai-frontend",
+    "version": "1.0.0",
+    "description": "Modern frontend for Super AI Prediction System",
+    "private": true,
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.14.1",
+        "axios": "^1.4.0",
+        "react-query": "^3.39.3",
+        "chart.js": "^4.3.0",
+        "react-chartjs-2": "^5.2.0",
+        "d3": "^7.8.5",
+        "echarts": "^5.4.3",
+        "echarts-for-react": "^3.0.2",
+        "tailwindcss": "^3.3.2",
+        "postcss": "^8.4.24",
+        "autoprefixer": "^10.4.14",
+        "react-spring": "^9.7.2",
+        "framer-motion": "^10.12.18",
+        "dayjs": "^1.11.9",
+        "lodash": "^4.17.21",
+        "react-icons": "^4.10.1",
+        "swr": "^2.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.14",
+        "@types/react-dom": "^18.2.6",
+        "@types/node": "^20.4.0",
+        "typescript": "^5.1.6",
+        "vite": "^4.4.0",
+        "@vitejs/plugin-react": "^4.0.1",
+        "eslint": "^8.44.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^3.0.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint src --ext ts,tsx",
+        "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

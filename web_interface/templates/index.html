@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super AI Prediction System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <!-- Hero Section -->
+        <div class="hero-section py-5 mb-4 text-center text-white animate__animated animate__fadeIn">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-3">Super AI Prediction System</h1>
+                <p class="lead mb-4">Powerful AI-powered predictions for sports betting and financial markets</p>
+                <div id="system-status" class="badge bg-light text-dark fs-6 p-2">
+                    <i class="fas fa-circle-notch fa-spin me-2"></i>Checking system status...
+                </div>
+                <div class="mt-4">
+                    <button class="btn btn-light btn-lg px-4 me-2" id="quick-start-btn">
+                        <i class="fas fa-bolt me-2"></i>Quick Start
+                    </button>
+                    <button class="btn btn-outline-light btn-lg px-4" id="help-btn">
+                        <i class="fas fa-question-circle me-2"></i>How It Works
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col">
+                    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="dashboard-tab" data-bs-toggle="tab"
+                                data-bs-target="#dashboard" type="button" role="tab" aria-controls="dashboard"
+                                aria-selected="true">
+                                <i class="fas fa-chart-line me-2"></i>Dashboard
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="sports-tab" data-bs-toggle="tab" data-bs-target="#sports"
+                                type="button" role="tab" aria-controls="sports" aria-selected="false">
+                                <i class="fas fa-futbol me-2"></i>Sports Prediction
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="betting-tab" data-bs-toggle="tab" data-bs-target="#betting"
+                                type="button" role="tab" aria-controls="betting" aria-selected="false">
+                                <i class="fas fa-dice me-2"></i>Betting Prediction
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="ai-chat-tab" data-bs-toggle="tab" data-bs-target="#ai-chat"
+                                type="button" role="tab" aria-controls="ai-chat" aria-selected="false">
+                                <i class="fas fa-robot me-2"></i>AI Chat
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="system-tab" data-bs-toggle="tab" data-bs-target="#system"
+                                type="button" role="tab" aria-controls="system" aria-selected="false">
+                                <i class="fas fa-cogs me-2"></i>System Info
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3 border border-top-0 rounded-bottom shadow-sm" id="myTabContent">
+                        <!-- Dashboard Tab -->
+                        <div class="tab-pane fade show active" id="dashboard" role="tabpanel"
+                            aria-labelledby="dashboard-tab">
+                            <h2 class="mb-4"><i class="fas fa-chart-line me-2"></i>Dashboard</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card mb-4 hover-card">
+                                        <div
+                                            class="card-header d-flex justify-content-between align-items-center bg-light">
+                                            <h5 class="card-title mb-0">Sports Prediction</h5>
+                                            <span class="last-update text-muted small" id="sports-last-update">Last
+                                                update: Never</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-container" style="position: relative; height:240px;">
+                                                <canvas id="dashboard-sports-chart"></canvas>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <a href="#sports" class="btn btn-primary btn-sm"
+                                                    id="new-sports-prediction">
+                                                    <i class="fas fa-plus-circle me-2"></i>New Prediction
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card mb-4 hover-card">
+                                        <div
+                                            class="card-header d-flex justify-content-between align-items-center bg-light">
+                                            <h5 class="card-title mb-0">Betting Prediction</h5>
+                                            <span class="last-update text-muted small" id="betting-last-update">Last
+                                                update: Never</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-container" style="position: relative; height:240px;">
+                                                <canvas id="dashboard-betting-chart"></canvas>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <a href="#betting" class="btn btn-primary btn-sm"
+                                                    id="new-betting-prediction">
+                                                    <i class="fas fa-plus-circle me-2"></i>New Prediction
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-history me-2"></i>Recent Activity
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush" id="recent-activity">
+                                                <li class="list-group-item text-muted text-center py-4">
+                                                    <i class="fas fa-info-circle me-2"></i>No recent activity
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sports Prediction Tab -->
+                        <div class="tab-pane fade" id="sports" role="tabpanel" aria-labelledby="sports-tab">
+                            <h2 class="mb-4"><i class="fas fa-futbol me-2"></i>Sports Prediction</h2>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-edit me-2"></i>Input Data</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <form id="sports-form" class="needs-validation" novalidate>
+                                                <div class="mb-3">
+                                                    <label for="home-team" class="form-label">Home Team</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-home"></i></span>
+                                                        <input type="text" class="form-control" id="home-team" required>
+                                                        <div class="invalid-feedback">Please enter home team name</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="away-team" class="form-label">Away Team</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-plane"></i></span>
+                                                        <input type="text" class="form-control" id="away-team" required>
+                                                        <div class="invalid-feedback">Please enter away team name</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="match-date" class="form-label">Match Date</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-calendar"></i></span>
+                                                        <input type="date" class="form-control" id="match-date"
+                                                            required>
+                                                        <div class="invalid-feedback">Please select a date</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="sport-type" class="form-label">Sport Type</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-running"></i></span>
+                                                        <select class="form-select" id="sport-type" required>
+                                                            <option value="">Select a sport</option>
+                                                            <option value="football">American Football</option>
+                                                            <option value="basketball">Basketball</option>
+                                                            <option value="baseball">Baseball</option>
+                                                            <option value="hockey">Ice Hockey</option>
+                                                            <option value="tennis">Tennis</option>
+                                                            <option value="soccer">Soccer</option>
+                                                            <option value="golf">Golf</option>
+                                                            <option value="boxing">Boxing</option>
+                                                            <option value="mma">Mixed Martial Arts</option>
+                                                            <option value="cricket">Cricket</option>
+                                                            <option value="rugby_union">Rugby Union</option>
+                                                            <option value="rugby_league">Rugby League</option>
+                                                            <option value="afl">Australian Rules Football</option>
+                                                            <option value="lacrosse">Lacrosse</option>
+                                                            <option value="volleyball">Volleyball</option>
+                                                            <option value="handball">Handball</option>
+                                                            <option value="snooker">Snooker</option>
+                                                            <option value="darts">Darts</option>
+                                                            <option value="table_tennis">Table Tennis</option>
+                                                            <option value="badminton">Badminton</option>
+                                                        </select>
+                                                        <div class="invalid-feedback">Please select a sport</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="advanced-options" class="form-label">Advanced
+                                                        Options</label>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="use-historical-data">
+                                                        <label class="form-check-label"
+                                                            for="use-historical-data">Include historical data</label>
+                                                    </div>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="include-player-stats">
+                                                        <label class="form-check-label"
+                                                            for="include-player-stats">Include player statistics</label>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary w-100"
+                                                    id="sports-predict-btn">
+                                                    <i class="fas fa-brain me-2"></i>Generate Prediction
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-chart-pie me-2"></i>Prediction
+                                                Results</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div id="sports-results-container">
+                                                <div class="text-center py-5" id="sports-results-placeholder">
+                                                    <i class="fas fa-chart-bar fa-3x mb-3 text-muted"></i>
+                                                    <p class="text-muted">No prediction results yet</p>
+                                                    <p class="small text-muted">Fill out the form to generate a
+                                                        prediction</p>
+                                                </div>
+                                                <div id="sports-results-content" class="d-none">
+                                                    <!-- Results will be injected here via JavaScript -->
+                                                </div>
+                                                <div id="sports-loading" class="text-center py-5 d-none">
+                                                    <div class="spinner-border text-primary mb-3" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+                                                    <p class="text-muted">Our AI is analyzing the data...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-chart-line me-2"></i>Visual Analysis
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-container" style="position: relative; height:300px;">
+                                                <canvas id="sports-prediction-chart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Betting Prediction Tab -->
+                        <div class="tab-pane fade" id="betting" role="tabpanel" aria-labelledby="betting-tab">
+                            <h2 class="mb-4"><i class="fas fa-dice me-2"></i>Betting Prediction</h2>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-edit me-2"></i>Input Data</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <form id="betting-form" class="needs-validation" novalidate>
+                                                <div class="mb-3">
+                                                    <label for="event-name" class="form-label">Event Name</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-trophy"></i></span>
+                                                        <input type="text" class="form-control" id="event-name"
+                                                            required>
+                                                        <div class="invalid-feedback">Please enter an event name</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="betting-odds" class="form-label">Odds</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-percentage"></i></span>
+                                                        <input type="number" step="0.01" min="1" class="form-control"
+                                                            id="betting-odds" required>
+                                                        <div class="invalid-feedback">Please enter valid odds (min:
+                                                            1.00)</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="stake-amount" class="form-label">Stake Amount
+                                                        ($)</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-dollar-sign"></i></span>
+                                                        <input type="number" step="0.01" min="1" class="form-control"
+                                                            id="stake-amount" required>
+                                                        <div class="invalid-feedback">Please enter a valid amount</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="risk-level" class="form-label">Risk Level</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-exclamation-triangle"></i></span>
+                                                        <select class="form-select" id="risk-level" required>
+                                                            <option value="">Select risk level</option>
+                                                            <option value="low">Low Risk</option>
+                                                            <option value="medium">Medium Risk</option>
+                                                            <option value="high">High Risk</option>
+                                                        </select>
+                                                        <div class="invalid-feedback">Please select a risk level</div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="bet-type" class="form-label">Bet Type</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text"><i class="fas fa-tag"></i></span>
+                                                        <select class="form-select" id="bet-type">
+                                                            <option value="moneyline">Moneyline</option>
+                                                            <option value="spread">Point Spread</option>
+                                                            <option value="total">Over/Under</option>
+                                                            <option value="prop">Prop Bet</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary w-100"
+                                                    id="betting-predict-btn">
+                                                    <i class="fas fa-brain me-2"></i>Generate Prediction
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-chart-pie me-2"></i>Prediction
+                                                Results</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div id="betting-results-container">
+                                                <div class="text-center py-5" id="betting-results-placeholder">
+                                                    <i class="fas fa-percentage fa-3x mb-3 text-muted"></i>
+                                                    <p class="text-muted">No prediction results yet</p>
+                                                    <p class="small text-muted">Fill out the form to generate a
+                                                        prediction</p>
+                                                </div>
+                                                <div id="betting-results-content" class="d-none">
+                                                    <!-- Results will be injected here via JavaScript -->
+                                                </div>
+                                                <div id="betting-loading" class="text-center py-5 d-none">
+                                                    <div class="spinner-border text-primary mb-3" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+                                                    <p class="text-muted">Our AI is analyzing the data...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-chart-bar me-2"></i>Risk Analysis
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-container" style="position: relative; height:300px;">
+                                                <canvas id="betting-prediction-chart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Chat Tab (New) -->
+                        <div class="tab-pane fade" id="ai-chat" role="tabpanel" aria-labelledby="ai-chat-tab">
+                            <h2 class="mb-4"><i class="fas fa-robot me-2"></i>AI Assistant</h2>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-comments me-2"></i>Ask anything
+                                                about predictions</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div id="chat-container" class="chat-container mb-3 p-3">
+                                                <div class="chat-message system-message">
+                                                    <div class="message-avatar">
+                                                        <i class="fas fa-robot"></i>
+                                                    </div>
+                                                    <div class="message-content">
+                                                        <p>👋 Hello! I'm your AI prediction assistant. You can ask me:
+                                                        </p>
+                                                        <ul>
+                                                            <li>"What's the prediction for Manchester United vs.
+                                                                Chelsea?"</li>
+                                                            <li>"Should I place a bet on the Lakers game tonight?"</li>
+                                                            <li>"What factors influence your prediction algorithms?"
+                                                            </li>
+                                                            <li>"Help me understand how odds work"</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="chat-messages">
+                                                    <!-- Chat messages will be added here dynamically -->
+                                                </div>
+                                            </div>
+                                            <div class="chat-input-container">
+                                                <form id="chat-form" class="d-flex">
+                                                    <div class="input-group">
+                                                        <input type="text" id="chat-input" class="form-control"
+                                                            placeholder="Ask about predictions..." required>
+                                                        <button type="submit" class="btn btn-primary">
+                                                            <i class="fas fa-paper-plane"></i>
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- System Info Tab -->
+                        <div class="tab-pane fade" id="system" role="tabpanel" aria-labelledby="system-tab">
+                            <h2 class="mb-4"><i class="fas fa-cogs me-2"></i>System Information</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-server me-2"></i>System Status</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div id="system-info-container">
+                                                <div class="d-flex justify-content-center align-items-center p-5">
+                                                    <div class="spinner-border text-primary" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card mb-4 hover-card">
+                                        <div class="card-header bg-light">
+                                            <h5 class="card-title"><i class="fas fa-chart-line me-2"></i>System
+                                                Performance</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="chart-container" style="position: relative; height:250px;">
+                                                <canvas id="system-performance-chart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Start Modal -->
+        <div class="modal fade" id="quickStartModal" tabindex="-1" aria-labelledby="quickStartModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="quickStartModalLabel"><i class="fas fa-rocket me-2"></i>Quick Start
+                            Guide</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="quick-start-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h5>Choose Your Prediction Type</h5>
+                                    <p>Select between Sports Prediction or Betting Prediction based on your needs.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h5>Enter Your Data</h5>
+                                    <p>Fill in the required information in the input form for your chosen prediction
+                                        type.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h5>Generate Prediction</h5>
+                                    <p>Click the "Generate Prediction" button to let our AI analyze your data.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h5>Interpret Results</h5>
+                                    <p>Review the detailed prediction results and visualizations to make informed
+                                        decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="try-example-btn">Try an Example</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer mt-5 py-3 bg-light">
+            <div class="container text-center">
+                <span class="text-muted">© 2025 Super AI Prediction System. All rights reserved.</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/visualization.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/advancedVisualization.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{
+    "name": "super-ai-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for Super AI Prediction System",
+    "private": true,
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "build": "webpack --mode production",
+        "build:dev": "webpack --mode development",
+        "analyze": "webpack --mode production --analyze",
+        "lint": "eslint js/",
+        "lint:fix": "eslint js/ --fix"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chart.js": "^3.9.1",
+        "core-js": "^3.25.0",
+        "dayjs": "^1.11.5",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.13",
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+        "@babel/preset-env": "^7.18.10",
+        "autoprefixer": "^10.4.8",
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^4.0.0",
+        "cssnano": "^5.1.13",
+        "eslint": "^8.23.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "postcss": "^8.4.16",
+        "postcss-loader": "^7.0.1",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.6",
+        "webpack": "^5.74.0",
+        "webpack-bundle-analyzer": "^4.6.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.10.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 11"
+    ],
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=7.0.0"
+    },
+    "author": "Clive Dziwomore",
+    "license": "UNLICENSED"
+}

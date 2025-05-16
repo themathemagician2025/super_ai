@@ -1,0 +1,128 @@
+2025-04-19 10:07:05,451 - INFO - Starting Mathemagician AI system...
+2025-04-19 10:07:05,454 - INFO - Starting API server on 127.0.0.1:5000
+2025-04-19 10:07:05,578 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 10:07:05,579 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 10:17:27,256 - INFO - Logging setup complete
+2025-04-19 10:19:05,722 - INFO - Logging setup complete
+2025-04-19 10:20:15,924 - INFO - Logging setup complete
+2025-04-19 16:25:28,525 - INFO - Compressed genome saved to c:\Users\clive\super_ai\Development\src\data\models\dummy_genome_20250419_162528.pkl.gz
+2025-04-19 16:25:28,525 - ERROR - File c:\Users\clive\super_ai\Development\src\data\models\dummy_genome.pkl.gz not found
+2025-04-19 16:25:28,526 - INFO - Population saved to c:\Users\clive\super_ai\Development\src\data\models\dummy_population_20250419_162528.pkl
+2025-04-19 16:25:28,527 - ERROR - File c:\Users\clive\super_ai\Development\src\data\models\dummy_population.pkl not found
+2025-04-19 16:25:28,527 - INFO - Parameters saved as JSON to c:\Users\clive\super_ai\Development\src\data\models\dummy_parameters.json.json
+2025-04-19 16:25:28,540 - INFO - Parameters loaded as JSON from c:\Users\clive\super_ai\Development\src\data\models\dummy_parameters.json.json
+2025-04-19 16:25:28,540 - ERROR - Cannot backup c:\Users\clive\super_ai\Development\src\data\models\dummy_genome.pkl.gz: file not found
+2025-04-19 16:25:28,542 - INFO - Genome with metadata saved to c:\Users\clive\super_ai\Development\src\data\models\meta_genome.pkl
+2025-04-19 16:25:28,551 - INFO - Genome with metadata loaded from c:\Users\clive\super_ai\Development\src\data\models\meta_genome.pkl
+2025-04-19 16:25:39,889 - INFO - Initial numeric Hyperparameters: {'population_size': 100, 'num_generations': 50, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}
+2025-04-19 16:25:43,431 - INFO - Created dummy image at c:\Users\clive\super_ai\Development\src\data\images\equation.jpg
+2025-04-19 16:25:43,453 - INFO - Loaded image from c:\Users\clive\super_ai\Development\src\data\images\equation.jpg
+2025-04-19 16:25:43,457 - INFO - Processed image with resize: shape (512, 512, 3), params {'new_size': (256, 256)}
+2025-04-19 16:25:43,460 - INFO - Processed image with grayscale: shape (256, 256, 3), params None
+2025-04-19 16:25:43,460 - ERROR - Error detecting edges: name 'random' is not defined
+2025-04-19 16:25:43,460 - ERROR - Error in demo: name 'random' is not defined
+2025-04-19 16:25:43,460 - INFO - Image processor demo completed.
+2025-04-19 16:25:49,968 - WARNING - Self-modifying num_generations from 50.0000 to 45.0000 (count: 1)
+2025-04-19 16:25:49,968 - INFO - Hyperparameter tuning logged for GP: 0.8500
+2025-04-19 16:25:49,968 - WARNING - Self-modifying learning_rate from 0.0010 to 0.0010 (count: 1)
+2025-04-19 16:25:49,968 - WARNING - Self-modifying batch_size from 32.0000 to 28.0000 (count: 2)
+2025-04-19 16:25:49,968 - WARNING - Self-modifying hidden_size from 64.0000 to 56.0000 (count: 3)
+2025-04-19 16:25:49,968 - INFO - Hyperparameter tuning logged for NN: 0.9200
+2025-04-19 16:25:49,969 - WARNING - Self-modifying mutation_rate from 0.1000 to 0.1061 (count: 1)
+2025-04-19 16:25:49,969 - INFO - Hyperparameter tuning logged for NEAT: 0.7800
+2025-04-19 16:25:49,969 - INFO - GP Hyperparameters: {'population_size': 100, 'num_generations': 45, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}
+2025-04-19 16:25:49,969 - INFO - NN Hyperparameters: {'learning_rate': 0.0009843843639370541, 'batch_size': 28, 'num_epochs': 100, 'hidden_size': 56, 'dropout_rate': 0.2, 'weight_decay': 1e-05, 'num_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+2025-04-19 16:25:49,969 - INFO - NEAT Hyperparameters: {'population_size': 150, 'num_generations': 300, 'mutation_rate': 0.10611638503665617, 'species_elitism': 2, 'stagnation_limit': 15}
+2025-04-19 16:25:49,971 - INFO - All hyperparameters saved to c:\Users\clive\super_ai\Development\src\data\models\hyperparams_tuner.pkl
+2025-04-19 16:25:49,990 - INFO - Loaded hyperparameters: {'GP': {'population_size': 100, 'num_generations': 45, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}, 'NN': {'learning_rate': 0.0009843843639370541, 'batch_size': 28, 'num_epochs': 100, 'hidden_size': 56, 'dropout_rate': 0.2, 'weight_decay': 1e-05, 'num_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}, 'NEAT': {'population_size': 150, 'num_generations': 300, 'mutation_rate': 0.10611638503665617, 'species_elitism': 2, 'stagnation_limit': 15}}
+2025-04-19 16:25:49,990 - INFO - Hyperparameters demo completed.
+2025-04-19 16:25:54,878 - INFO - Data normalized with mean -0.16 and std 1.36
+2025-04-19 16:25:54,879 - INFO - Normalized DataFrame:
+          A         B
+0  0.661288  0.661288
+1 -0.037898 -0.037898
+2  0.827528  0.827528
+3  1.791382  1.791382
+4 -0.143483 -0.143483
+2025-04-19 16:25:54,898 - INFO - Data denormalized
+2025-04-19 16:25:54,898 - INFO - Denormalized DataFrame:
+          A         B
+0  0.496714  0.993428
+1 -0.138264 -0.276529
+2  0.647689  1.295377
+3  1.523030  3.046060
+4 -0.234153 -0.468307
+2025-04-19 16:25:54,909 - INFO - Data shuffled
+2025-04-19 16:25:54,909 - INFO - Data split into 80 train and 20 test samples
+2025-04-19 16:25:54,909 - INFO - Train shape: (80, 2), Test shape: (20, 2)
+2025-04-19 16:25:54,910 - INFO - Data shuffled
+2025-04-19 16:25:54,910 - INFO - Shuffled DataFrame:
+           A         B
+63 -1.196207 -2.392413
+11 -0.465730 -0.931460
+56 -0.839218 -1.678435
+84 -0.808494 -1.616987
+99 -0.234587 -0.469174
+2025-04-19 16:25:54,920 - INFO - Data scaled to range [-1.00, 1.00]
+2025-04-19 16:25:54,920 - INFO - Scaled DataFrame:
+          A         B
+0  0.393758  0.393758
+1  0.109780  0.109780
+2  0.461278  0.461278
+3  0.852752  0.852752
+4  0.066896  0.066896
+2025-04-19 16:25:54,927 - INFO - Processed raw data: []
+2025-04-19 16:25:54,928 - INFO - Helpers demo completed.
+2025-04-19 16:25:57,769 - INFO - Data normalized with mean -0.16 and std 1.36
+2025-04-19 16:25:57,769 - INFO - Normalized DataFrame:
+          A         B
+0  0.661288  0.661288
+1 -0.037898 -0.037898
+2  0.827528  0.827528
+3  1.791382  1.791382
+4 -0.143483 -0.143483
+2025-04-19 16:25:57,777 - INFO - Data denormalized
+2025-04-19 16:25:57,777 - INFO - Denormalized DataFrame:
+          A         B
+0  0.496714  0.993428
+1 -0.138264 -0.276529
+2  0.647689  1.295377
+3  1.523030  3.046060
+4 -0.234153 -0.468307
+2025-04-19 16:25:57,780 - INFO - Data shuffled
+2025-04-19 16:25:57,780 - INFO - Data split into 80 train and 20 test samples
+2025-04-19 16:25:57,780 - INFO - Train shape: (80, 2), Test shape: (20, 2)
+2025-04-19 16:25:57,780 - INFO - Data shuffled
+2025-04-19 16:25:57,780 - INFO - Shuffled DataFrame:
+           A         B
+63 -1.196207 -2.392413
+11 -0.465730 -0.931460
+56 -0.839218 -1.678435
+84 -0.808494 -1.616987
+99 -0.234587 -0.469174
+2025-04-19 16:25:57,785 - INFO - Data scaled to range [-1.00, 1.00]
+2025-04-19 16:25:57,785 - INFO - Scaled DataFrame:
+          A         B
+0  0.393758  0.393758
+1  0.109780  0.109780
+2  0.461278  0.461278
+3  0.852752  0.852752
+4  0.066896  0.066896
+2025-04-19 16:25:57,788 - INFO - Processed raw data: []
+2025-04-19 16:25:57,788 - INFO - Helpers demo completed.
+2025-04-20 19:22:25,943 - INFO - Agent initialized with model type: PrimitiveTree
+2025-04-20 19:22:25,945 - INFO - Mutated subtree at index 1
+2025-04-20 19:22:25,946 - INFO - Self-modification triggered. Mutation count: 1
+2025-04-20 19:22:25,948 - ERROR - Autonomous mutation failed: invalid syntax (<string>, line 1)
+2025-04-20 19:22:25,948 - INFO - Mutated subtree at index 3
+2025-04-20 19:22:25,948 - INFO - Self-modification triggered. Mutation count: 2
+2025-04-20 19:22:25,949 - INFO - Mutated subtree at index 12
+2025-04-20 19:22:25,949 - INFO - Self-modification triggered. Mutation count: 3
+2025-04-20 19:22:25,951 - ERROR - Autonomous mutation failed: invalid syntax (<string>, line 1)
+2025-04-20 19:22:25,952 - INFO - Mutated subtree at index 15
+2025-04-20 19:22:25,952 - INFO - Self-modification triggered. Mutation count: 4
+2025-04-20 19:22:25,952 - INFO - Mutated subtree at index 15
+2025-04-20 19:22:25,952 - INFO - Self-modification triggered. Mutation count: 5
+2025-04-20 19:22:25,953 - WARNING - No raw data available for evaluation.
+2025-04-20 19:22:25,953 - INFO - Agent initialized with model type: DummyNEATNetwork

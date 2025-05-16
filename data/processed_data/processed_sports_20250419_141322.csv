@@ -1,0 +1,71 @@
+home_team_id,away_team_id,league_id,day_of_week,month,home_odds,draw_odds,away_odds,odds_ratio,home_team,away_team,league
+7,4,3,5,4,2.74,2.81,1.83,1.4972677595628416,Manchester City,Liverpool,Premier League
+2,0,3,5,4,2.26,2.85,2.3,0.9826086956521739,Chelsea,Arsenal,Premier League
+9,1,1,5,4,3.72,4.72,1.59,2.339622641509434,Real Madrid,Barcelona,La Liga
+0,9,1,5,4,2.98,2.9,3.06,0.9738562091503268,Atletico Madrid,Sevilla,La Liga
+3,6,4,5,4,2.88,4.59,2.14,1.3457943925233644,Inter,Milan,Serie A
+4,8,4,5,4,3.88,2.72,3.6,1.0777777777777777,Juventus,Napoli,Serie A
+1,2,0,5,4,1.57,2.01,2.24,0.7008928571428571,Bayern Munich,Dortmund,Bundesliga
+5,3,0,5,4,1.97,2.53,1.53,1.287581699346405,Leipzig,Leverkusen,Bundesliga
+8,5,2,5,4,3.91,3.46,2.14,1.8271028037383177,PSG,Marseille,Ligue 1
+6,7,2,5,4,1.78,4.2,1.52,1.1710526315789473,Lyon,Monaco,Ligue 1
+7,4,3,6,4,3.47,3.14,2.73,1.2710622710622712,Manchester City,Liverpool,Premier League
+2,0,3,6,4,2.08,2.67,3.74,0.5561497326203209,Chelsea,Arsenal,Premier League
+9,1,1,6,4,2.57,2.73,3.33,0.7717717717717717,Real Madrid,Barcelona,La Liga
+0,9,1,6,4,3.46,3.72,2.74,1.2627737226277371,Atletico Madrid,Sevilla,La Liga
+3,6,4,6,4,3.26,4.32,2.16,1.509259259259259,Inter,Milan,Serie A
+4,8,4,6,4,3.91,4.92,3.98,0.9824120603015076,Juventus,Napoli,Serie A
+1,2,0,6,4,2.32,4.31,2.79,0.8315412186379928,Bayern Munich,Dortmund,Bundesliga
+5,3,0,6,4,3.54,2.8,1.82,1.945054945054945,Leipzig,Leverkusen,Bundesliga
+8,5,2,6,4,1.57,3.88,2.01,0.7810945273631842,PSG,Marseille,Ligue 1
+6,7,2,6,4,2.02,3.34,3.88,0.520618556701031,Lyon,Monaco,Ligue 1
+7,4,3,0,4,1.92,4.3,2.58,0.7441860465116279,Manchester City,Liverpool,Premier League
+2,0,3,0,4,3.13,2.55,3.59,0.871866295264624,Chelsea,Arsenal,Premier League
+9,1,1,0,4,1.86,3.6,3.83,0.48563968668407315,Real Madrid,Barcelona,La Liga
+0,9,1,0,4,3.69,4.57,2.05,1.8,Atletico Madrid,Sevilla,La Liga
+3,6,4,0,4,2.96,3.76,3.88,0.7628865979381444,Inter,Milan,Serie A
+4,8,4,0,4,3.37,2.96,2.96,1.1385135135135136,Juventus,Napoli,Serie A
+1,2,0,0,4,2.75,3.08,2.03,1.3546798029556653,Bayern Munich,Dortmund,Bundesliga
+5,3,0,0,4,3.3,4.1,2.33,1.4163090128755365,Leipzig,Leverkusen,Bundesliga
+8,5,2,0,4,3.7,4.33,2.63,1.4068441064638784,PSG,Marseille,Ligue 1
+6,7,2,0,4,3.65,2.36,2.32,1.5732758620689655,Lyon,Monaco,Ligue 1
+7,4,3,1,4,3.32,2.71,2.09,1.5885167464114833,Manchester City,Liverpool,Premier League
+2,0,3,1,4,2.18,3.46,2.19,0.995433789954338,Chelsea,Arsenal,Premier League
+9,1,1,1,4,2.21,2.31,2.76,0.8007246376811594,Real Madrid,Barcelona,La Liga
+0,9,1,1,4,3.31,2.65,3.25,1.0184615384615385,Atletico Madrid,Sevilla,La Liga
+3,6,4,1,4,1.55,2.23,2.34,0.6623931623931625,Inter,Milan,Serie A
+4,8,4,1,4,3.14,2.34,1.73,1.8150289017341041,Juventus,Napoli,Serie A
+1,2,0,1,4,3.97,4.79,3.83,1.0365535248041775,Bayern Munich,Dortmund,Bundesliga
+5,3,0,1,4,2.73,3.78,3.44,0.7936046511627907,Leipzig,Leverkusen,Bundesliga
+8,5,2,1,4,2.45,3.42,3.75,0.6533333333333334,PSG,Marseille,Ligue 1
+6,7,2,1,4,3.2,4.11,1.76,1.8181818181818183,Lyon,Monaco,Ligue 1
+7,4,3,2,4,3.81,2.5,3.19,1.19435736677116,Manchester City,Liverpool,Premier League
+2,0,3,2,4,1.63,3.96,3.5,0.4657142857142857,Chelsea,Arsenal,Premier League
+9,1,1,2,4,2.69,3.48,2.43,1.1069958847736625,Real Madrid,Barcelona,La Liga
+0,9,1,2,4,1.92,4.75,3.64,0.5274725274725275,Atletico Madrid,Sevilla,La Liga
+3,6,4,2,4,1.91,3.83,1.84,1.0380434782608694,Inter,Milan,Serie A
+4,8,4,2,4,3.5,2.94,3.64,0.9615384615384615,Juventus,Napoli,Serie A
+1,2,0,2,4,3.42,4.76,1.82,1.879120879120879,Bayern Munich,Dortmund,Bundesliga
+5,3,0,2,4,3.47,4.4,2.04,1.700980392156863,Leipzig,Leverkusen,Bundesliga
+8,5,2,2,4,3.97,3.05,3.64,1.0906593406593408,PSG,Marseille,Ligue 1
+6,7,2,2,4,2.5,3.77,3.9,0.6410256410256411,Lyon,Monaco,Ligue 1
+7,4,3,3,4,2.28,3.07,2.43,0.9382716049382714,Manchester City,Liverpool,Premier League
+2,0,3,3,4,3.67,4.08,1.52,2.414473684210526,Chelsea,Arsenal,Premier League
+9,1,1,3,4,3.19,3.13,3.31,0.9637462235649547,Real Madrid,Barcelona,La Liga
+0,9,1,3,4,3.63,2.34,2.3,1.5782608695652174,Atletico Madrid,Sevilla,La Liga
+3,6,4,3,4,1.85,4.29,1.85,1.0,Inter,Milan,Serie A
+4,8,4,3,4,2.18,3.35,2.78,0.7841726618705037,Juventus,Napoli,Serie A
+1,2,0,3,4,1.99,3.26,3.98,0.5,Bayern Munich,Dortmund,Bundesliga
+5,3,0,3,4,2.97,3.79,1.69,1.757396449704142,Leipzig,Leverkusen,Bundesliga
+8,5,2,3,4,3.92,2.21,3.17,1.2365930599369086,PSG,Marseille,Ligue 1
+6,7,2,3,4,2.41,3.6,3.65,0.6602739726027398,Lyon,Monaco,Ligue 1
+7,4,3,4,4,2.88,3.43,3.14,0.9171974522292993,Manchester City,Liverpool,Premier League
+2,0,3,4,4,2.93,4.49,3.19,0.9184952978056427,Chelsea,Arsenal,Premier League
+9,1,1,4,4,3.07,4.75,2.87,1.0696864111498257,Real Madrid,Barcelona,La Liga
+0,9,1,4,4,3.15,4.59,2.86,1.1013986013986015,Atletico Madrid,Sevilla,La Liga
+3,6,4,4,4,1.55,4.27,3.95,0.3924050632911392,Inter,Milan,Serie A
+4,8,4,4,4,1.77,2.73,3.89,0.455012853470437,Juventus,Napoli,Serie A
+1,2,0,4,4,2.34,2.46,2.02,1.1584158415841583,Bayern Munich,Dortmund,Bundesliga
+5,3,0,4,4,2.34,2.6,3.01,0.7774086378737541,Leipzig,Leverkusen,Bundesliga
+8,5,2,4,4,3.44,3.67,2.01,1.711442786069652,PSG,Marseille,Ligue 1
+6,7,2,4,4,3.56,3.37,1.67,2.1317365269461077,Lyon,Monaco,Ligue 1

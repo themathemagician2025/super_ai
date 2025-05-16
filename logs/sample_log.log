@@ -1,0 +1,26 @@
+2023-05-01 10:15:30 - INFO - System startup initiated
+2023-05-01 10:15:31 - INFO - Loading configuration
+2023-05-01 10:15:31 - INFO - Configuration loaded successfully
+2023-05-01 10:15:32 - INFO - Checking dependencies
+2023-05-01 10:15:33 - WARNING - Optional dependency 'tensorflow' not found
+2023-05-01 10:15:34 - INFO - Initializing prediction models
+2023-05-01 10:15:35 - ERROR - Failed to load model: sports_model.pth - FileNotFoundError
+2023-05-01 10:15:36 - INFO - Falling back to default model
+2023-05-01 10:15:37 - INFO - Starting API server
+2023-05-01 10:15:38 - INFO - API server started on port 5000
+2023-05-01 10:20:45 - INFO - Received request: /api/predict
+2023-05-01 10:20:46 - INFO - Processing prediction request
+2023-05-01 10:20:47 - ERROR - Invalid input data: missing required field 'team_id'
+2023-05-01 10:20:48 - INFO - Returning error response to client
+2023-05-01 10:25:12 - INFO - Received request: /api/predict
+2023-05-01 10:25:13 - INFO - Processing prediction request
+2023-05-01 10:25:14 - INFO - Prediction complete
+2023-05-01 10:25:15 - INFO - Returning prediction to client
+2023-05-01 10:30:22 - INFO - Received request: /api/update
+2023-05-01 10:30:23 - INFO - Processing model update
+2023-05-01 10:30:24 - ERROR - Database connection failed: timeout
+2023-05-01 10:30:25 - INFO - Retrying database connection
+2023-05-01 10:30:30 - INFO - Database connection established
+2023-05-01 10:30:31 - INFO - Model update complete
+2023-05-01 10:35:45 - INFO - Shutting down API server
+2023-05-01 10:35:46 - INFO - API server shutdown complete

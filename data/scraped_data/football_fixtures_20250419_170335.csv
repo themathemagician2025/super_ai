@@ -1,0 +1,476 @@
+asian_handicap,away_form,away_odds,away_possession,away_shots,away_team,btts_no,btts_yes,date,draw_odds,home_form,home_odds,home_possession,home_shots,home_team,league,over_under_2.5,source,time
+,W2D1L2,3.96,,,Liverpool,,,2025-04-19,2.81,W5D0L1,1.82,,,Manchester City,Premier League,,SofaScore,19:00
+,W3D0L1,3.45,,,Arsenal,,,2025-04-19,2.43,W4D1L2,3.04,,,Chelsea,Premier League,,SofaScore,13:00
+,W2D2L2,3.24,,,Barcelona,,,2025-04-19,2.25,W1D2L0,1.8,,,Real Madrid,La Liga,,SofaScore,19:00
+,W5D0L0,1.8,,,Sevilla,,,2025-04-19,3.84,W5D1L2,2.04,,,Atletico Madrid,La Liga,,SofaScore,21:00
+,W3D2L0,1.7,,,Milan,,,2025-04-19,3.56,W2D0L3,2.11,,,Inter,Serie A,,SofaScore,12:00
+,W2D1L0,1.71,,,Napoli,,,2025-04-19,3.97,W5D0L1,2.98,,,Juventus,Serie A,,SofaScore,12:00
+,W1D1L2,2.41,,,Dortmund,,,2025-04-19,2.07,W1D2L1,3.63,,,Bayern Munich,Bundesliga,,SofaScore,20:00
+,W5D2L0,1.51,,,Leverkusen,,,2025-04-19,2.6,W1D0L1,3.65,,,Leipzig,Bundesliga,,SofaScore,18:00
+,W5D2L2,3.29,,,Marseille,,,2025-04-19,2.56,W5D2L1,1.67,,,PSG,Ligue 1,,SofaScore,20:00
+,W4D0L0,3.55,,,Monaco,,,2025-04-19,3.55,W2D1L3,3.14,,,Lyon,Ligue 1,,SofaScore,19:00
+,W4D1L1,2.03,,,Liverpool,,,2025-04-20,2.24,W2D2L2,2.71,,,Manchester City,Premier League,,SofaScore,12:00
+,W4D0L1,2.93,,,Arsenal,,,2025-04-20,3.94,W3D2L2,2.09,,,Chelsea,Premier League,,SofaScore,13:00
+,W5D1L3,2.81,,,Barcelona,,,2025-04-20,4.54,W1D2L3,1.9,,,Real Madrid,La Liga,,SofaScore,13:00
+,W2D0L0,2.48,,,Sevilla,,,2025-04-20,2.89,W5D1L1,2.41,,,Atletico Madrid,La Liga,,SofaScore,13:00
+,W4D0L3,2.55,,,Milan,,,2025-04-20,3.8,W3D1L0,2.18,,,Inter,Serie A,,SofaScore,12:00
+,W1D1L3,1.54,,,Napoli,,,2025-04-20,2.58,W2D2L3,1.69,,,Juventus,Serie A,,SofaScore,17:00
+,W2D1L3,3.21,,,Dortmund,,,2025-04-20,2.2,W3D0L0,1.74,,,Bayern Munich,Bundesliga,,SofaScore,12:00
+,W5D1L3,2.35,,,Leverkusen,,,2025-04-20,3.23,W5D0L3,2.19,,,Leipzig,Bundesliga,,SofaScore,17:00
+,W1D0L3,3.65,,,Marseille,,,2025-04-20,4.73,W5D0L3,3.14,,,PSG,Ligue 1,,SofaScore,21:00
+,W5D2L2,2.84,,,Monaco,,,2025-04-20,4.67,W1D2L3,3.42,,,Lyon,Ligue 1,,SofaScore,18:00
+,W1D0L0,1.81,,,Liverpool,,,2025-04-21,4.32,W5D1L1,1.54,,,Manchester City,Premier League,,SofaScore,14:00
+,W1D2L1,3.02,,,Arsenal,,,2025-04-21,2.43,W1D0L1,2.3,,,Chelsea,Premier League,,SofaScore,15:00
+,W4D2L0,1.85,,,Barcelona,,,2025-04-21,2.35,W1D1L0,2.19,,,Real Madrid,La Liga,,SofaScore,13:00
+,W2D2L3,2.78,,,Sevilla,,,2025-04-21,4.27,W5D0L0,2.3,,,Atletico Madrid,La Liga,,SofaScore,21:00
+,W4D1L2,2.8,,,Milan,,,2025-04-21,4.35,W4D0L0,1.76,,,Inter,Serie A,,SofaScore,12:00
+,W3D0L3,3.78,,,Napoli,,,2025-04-21,2.31,W2D2L0,2.21,,,Juventus,Serie A,,SofaScore,13:00
+,W1D0L3,2.75,,,Dortmund,,,2025-04-21,2.16,W3D2L3,3.96,,,Bayern Munich,Bundesliga,,SofaScore,17:00
+,W1D0L3,3.78,,,Leverkusen,,,2025-04-21,2.21,W3D2L1,3.16,,,Leipzig,Bundesliga,,SofaScore,16:00
+,W2D0L0,2.54,,,Marseille,,,2025-04-21,4.08,W1D0L1,3.71,,,PSG,Ligue 1,,SofaScore,19:00
+,W5D0L2,1.72,,,Monaco,,,2025-04-21,3.85,W1D0L3,3.57,,,Lyon,Ligue 1,,SofaScore,13:00
+,W5D1L3,3.1,,,Liverpool,,,2025-04-22,4.09,W5D0L3,3.93,,,Manchester City,Premier League,,SofaScore,19:00
+,W1D0L1,2.68,,,Arsenal,,,2025-04-22,4.11,W2D0L0,2.92,,,Chelsea,Premier League,,SofaScore,17:00
+,W2D2L1,2.89,,,Barcelona,,,2025-04-22,4.61,W1D2L1,1.71,,,Real Madrid,La Liga,,SofaScore,16:00
+,W2D0L2,1.89,,,Sevilla,,,2025-04-22,3.44,W4D0L2,2.54,,,Atletico Madrid,La Liga,,SofaScore,12:00
+,W1D2L2,2.62,,,Milan,,,2025-04-22,2.45,W3D1L1,3.51,,,Inter,Serie A,,SofaScore,14:00
+,W4D1L2,3.69,,,Napoli,,,2025-04-22,2.5,W1D0L3,3.68,,,Juventus,Serie A,,SofaScore,17:00
+,W1D2L0,3.59,,,Dortmund,,,2025-04-22,4.85,W2D2L1,3.69,,,Bayern Munich,Bundesliga,,SofaScore,20:00
+,W3D2L1,1.72,,,Leverkusen,,,2025-04-22,3.16,W2D2L1,1.86,,,Leipzig,Bundesliga,,SofaScore,19:00
+,W4D0L1,2.8,,,Marseille,,,2025-04-22,2.85,W4D0L1,3.63,,,PSG,Ligue 1,,SofaScore,12:00
+,W1D1L2,2.71,,,Monaco,,,2025-04-22,2.16,W5D2L3,3.58,,,Lyon,Ligue 1,,SofaScore,20:00
+,W5D2L0,3.2,,,Liverpool,,,2025-04-23,3.04,W4D2L2,3.6,,,Manchester City,Premier League,,SofaScore,14:00
+,W5D0L1,3.69,,,Arsenal,,,2025-04-23,3.7,W4D0L0,3.7,,,Chelsea,Premier League,,SofaScore,12:00
+,W4D2L0,3.79,,,Barcelona,,,2025-04-23,4.22,W4D2L2,2.07,,,Real Madrid,La Liga,,SofaScore,21:00
+,W5D1L0,2.91,,,Sevilla,,,2025-04-23,4.96,W4D0L3,3.41,,,Atletico Madrid,La Liga,,SofaScore,20:00
+,W5D0L0,2.37,,,Milan,,,2025-04-23,3.35,W3D0L1,3.85,,,Inter,Serie A,,SofaScore,12:00
+,W4D1L2,3.84,,,Napoli,,,2025-04-23,2.23,W3D1L0,2.27,,,Juventus,Serie A,,SofaScore,15:00
+,W4D1L1,3.76,,,Dortmund,,,2025-04-23,3.28,W1D1L1,2.41,,,Bayern Munich,Bundesliga,,SofaScore,14:00
+,W3D2L2,3.89,,,Leverkusen,,,2025-04-23,4.38,W4D0L2,1.81,,,Leipzig,Bundesliga,,SofaScore,14:00
+,W3D1L2,1.98,,,Marseille,,,2025-04-23,2.96,W1D1L2,3.95,,,PSG,Ligue 1,,SofaScore,20:00
+,W5D0L2,3.14,,,Monaco,,,2025-04-23,4.16,W3D2L0,2.19,,,Lyon,Ligue 1,,SofaScore,14:00
+,W1D1L1,2.77,,,Liverpool,,,2025-04-24,2.94,W3D1L0,3.6,,,Manchester City,Premier League,,SofaScore,12:00
+,W5D2L3,2.61,,,Arsenal,,,2025-04-24,4.38,W2D0L1,3.53,,,Chelsea,Premier League,,SofaScore,15:00
+,W5D0L0,2.83,,,Barcelona,,,2025-04-24,4.28,W5D2L3,3.79,,,Real Madrid,La Liga,,SofaScore,19:00
+,W1D2L3,2.72,,,Sevilla,,,2025-04-24,4.91,W5D1L2,2.76,,,Atletico Madrid,La Liga,,SofaScore,15:00
+,W4D1L1,2.69,,,Milan,,,2025-04-24,3.39,W2D1L1,2.47,,,Inter,Serie A,,SofaScore,19:00
+,W1D2L3,2.37,,,Napoli,,,2025-04-24,4.04,W4D1L1,3.2,,,Juventus,Serie A,,SofaScore,17:00
+,W3D2L3,2.97,,,Dortmund,,,2025-04-24,2.94,W3D1L2,1.84,,,Bayern Munich,Bundesliga,,SofaScore,15:00
+,W2D0L1,2.89,,,Leverkusen,,,2025-04-24,4.49,W1D0L1,2.93,,,Leipzig,Bundesliga,,SofaScore,20:00
+,W3D1L3,1.93,,,Marseille,,,2025-04-24,4.48,W5D0L0,3.47,,,PSG,Ligue 1,,SofaScore,21:00
+,W3D0L0,3.67,,,Monaco,,,2025-04-24,3.21,W5D2L1,2.51,,,Lyon,Ligue 1,,SofaScore,13:00
+,W2D2L0,3.99,,,Liverpool,,,2025-04-25,3.04,W3D2L3,1.62,,,Manchester City,Premier League,,SofaScore,21:00
+,W4D2L2,3.19,,,Arsenal,,,2025-04-25,2.88,W5D1L1,3.54,,,Chelsea,Premier League,,SofaScore,17:00
+,W3D2L2,3.48,,,Barcelona,,,2025-04-25,2.93,W5D2L3,2.26,,,Real Madrid,La Liga,,SofaScore,19:00
+,W2D2L0,2.95,,,Sevilla,,,2025-04-25,2.05,W4D1L2,1.95,,,Atletico Madrid,La Liga,,SofaScore,17:00
+,W1D2L2,1.65,,,Milan,,,2025-04-25,2.82,W3D1L0,2.52,,,Inter,Serie A,,SofaScore,21:00
+,W4D2L1,3.34,,,Napoli,,,2025-04-25,2.59,W2D2L0,3.59,,,Juventus,Serie A,,SofaScore,14:00
+,W4D0L2,2.07,,,Dortmund,,,2025-04-25,3.11,W5D1L1,2.77,,,Bayern Munich,Bundesliga,,SofaScore,21:00
+,W4D1L0,1.99,,,Leverkusen,,,2025-04-25,3.46,W3D2L2,2.65,,,Leipzig,Bundesliga,,SofaScore,16:00
+,W1D1L1,3.29,,,Marseille,,,2025-04-25,4.42,W5D0L3,3.43,,,PSG,Ligue 1,,SofaScore,12:00
+,W3D0L2,2.73,,,Monaco,,,2025-04-25,2.2,W3D2L1,1.96,,,Lyon,Ligue 1,,SofaScore,16:00
+,,3.64,,,Roma,,,2025-04-25,2.03,,2.42,,,Lazio,Serie A,,FlashScore,15:00
+,,1.65,,,Benfica,,,2025-04-25,3.75,,3.18,,,Braga,Primeira Liga,,FlashScore,19:00
+,,2.76,,,Sporting CP,,,2025-04-20,3.75,,2.92,,,Benfica,Primeira Liga,,FlashScore,12:00
+,,2.02,,,Lille,,,2025-04-21,2.92,,1.91,,,PSG,Ligue 1,,FlashScore,17:00
+,,2.8,,,Seattle Sounders,,,2025-04-19,3.31,,2.83,,,LA Galaxy,MLS,,FlashScore,20:00
+,,3.64,,,Sevilla,,,2025-04-20,4.45,,2.8,,,Real Madrid,La Liga,,FlashScore,21:00
+,,2.15,,,Chelsea,,,2025-04-26,2.57,,2.15,,,Manchester City,Premier League,,FlashScore,21:00
+,,2.87,,,Dundee United,,,2025-04-25,3.34,,1.81,,,Rangers,Scottish Premiership,,FlashScore,21:00
+,,2.44,,,Inter Miami,,,2025-04-21,4.93,,3.19,,,LA Galaxy,MLS,,FlashScore,20:00
+,,3.99,,,Vitoria,,,2025-04-20,4.1,,1.63,,,Braga,Primeira Liga,,FlashScore,13:00
+,,3.17,,,Bayern Munich,,,2025-04-24,4.6,,2.33,,,Frankfurt,Bundesliga,,FlashScore,16:00
+,,3.89,,,Wolfsburg,,,2025-04-20,4.91,,2.24,,,Leverkusen,Bundesliga,,FlashScore,12:00
+,,2.6,,,Liverpool,,,2025-04-23,4.86,,1.95,,,Arsenal,Premier League,,FlashScore,14:00
+,,2.16,,,Marseille,,,2025-04-25,3.25,,3.93,,,Lille,Ligue 1,,FlashScore,16:00
+,,2.9,,,Lazio,,,2025-04-19,4.81,,3.99,,,Juventus,Serie A,,FlashScore,12:00
+,,3.49,,,Atlanta United,,,2025-04-21,2.75,,3.95,,,Seattle Sounders,MLS,,FlashScore,20:00
+,,1.74,,,Aberdeen,,,2025-04-20,3.42,,2.64,,,Dundee United,Scottish Premiership,,FlashScore,20:00
+,,3.02,,,Atletico Madrid,,,2025-04-19,4.95,,3.17,,,Villarreal,La Liga,,FlashScore,17:00
+,,1.51,,,Vitoria,,,2025-04-20,3.44,,2.52,,,Sporting CP,Primeira Liga,,FlashScore,18:00
+,,2.16,,,Lazio,,,2025-04-24,2.44,,3.74,,,Juventus,Serie A,,FlashScore,18:00
+,,3.94,,,Rennes,,,2025-04-24,4.74,,1.59,,,Lyon,Ligue 1,,FlashScore,17:00
+,,2.85,,,Milan,,,2025-04-23,3.07,,3.54,,,Roma,Serie A,,FlashScore,17:00
+,,3.88,,,Celtic,,,2025-04-25,3.12,,3.33,,,Hibernian,Scottish Premiership,,FlashScore,16:00
+,,3.72,,,Dundee United,,,2025-04-22,2.5,,1.62,,,Hearts,Scottish Premiership,,FlashScore,17:00
+,,2.3,,,Leipzig,,,2025-04-25,3.51,,1.87,,,Frankfurt,Bundesliga,,FlashScore,18:00
+,,1.6,,,Real Sociedad,,,2025-04-19,2.1,,3.07,,,Barcelona,La Liga,,FlashScore,18:00
+,,3.25,,,Lyon,,,2025-04-22,3.05,,3.36,,,Lille,Ligue 1,,FlashScore,21:00
+,,2.12,,,Liverpool,,,2025-04-22,2.37,,3.87,,,Tottenham,Premier League,,FlashScore,14:00
+,,2.56,,,Barcelona,,,2025-04-20,4.17,,2.56,,,Real Madrid,La Liga,,FlashScore,20:00
+,,2.94,,,PSV,,,2025-04-26,4.27,,1.93,,,Feyenoord,Eredivisie,,FlashScore,17:00
+,,3.94,,,Dortmund,,,2025-04-20,3.8,,3.31,,,Leipzig,Bundesliga,,FlashScore,13:00
+,,2.07,,,West Brom,,,2025-04-26,4.9,,2.01,,,Middlesbrough,Championship,,FlashScore,18:00
+,,3.86,,,Celtic,,,2025-04-24,3.21,,2.65,,,Hearts,Scottish Premiership,,FlashScore,14:00
+,,3.82,,,Tottenham,,,2025-04-19,3.26,,2.06,,,Manchester United,Premier League,,FlashScore,15:00
+,,3.57,,,Tottenham,,,2025-04-25,3.39,,2.27,,,Liverpool,Premier League,,FlashScore,13:00
+,,3.54,,,Inter Miami,,,2025-04-19,2.11,,2.83,,,Toronto FC,MLS,,FlashScore,19:00
+,,3.9,,,Celtic,,,2025-04-23,3.28,,2.3,,,Hearts,Scottish Premiership,,FlashScore,17:00
+,,2.81,,,Guimaraes,,,2025-04-19,4.9,,2.75,,,Vitoria,Primeira Liga,,FlashScore,21:00
+,,1.99,,,Leverkusen,,,2025-04-20,2.73,,2.69,,,Bayern Munich,Bundesliga,,FlashScore,12:00
+,,2.87,,,Sheffield United,,,2025-04-20,4.63,,2.96,,,Watford,Championship,,FlashScore,21:00
+,W1D1L2,3.73,60%,12,Porto,,,2025-04-19,3.05,W5D1L0,1.77,45%,8,Sporting CP,Primeira Liga,,FootyStats,14:00
+,W4D1L1,3.53,56%,14,Arsenal,,,2025-04-19,3.23,W3D0L3,3.13,45%,13,Tottenham,Premier League,,FootyStats,17:00
+,W4D2L2,2.51,43%,18,Manchester City,,,2025-04-22,4.71,W3D0L2,2.2,53%,18,Manchester United,Premier League,,FootyStats,21:00
+,W5D1L3,2.14,55%,19,Lazio,,,2025-04-25,3.61,W2D1L3,2.17,41%,19,Milan,Serie A,,FootyStats,14:00
+,W5D2L3,1.51,59%,9,Bayern Munich,,,2025-04-20,3.72,W3D0L1,3.96,50%,16,Frankfurt,Bundesliga,,FootyStats,20:00
+,W1D0L3,3.57,58%,8,PSV,,,2025-04-25,3.48,W5D2L1,2.35,44%,8,Utrecht,Eredivisie,,FootyStats,19:00
+,W1D1L3,1.89,50%,15,Inter Miami,,,2025-04-25,4.73,W2D2L0,3.48,58%,18,Seattle Sounders,MLS,,FootyStats,21:00
+,W4D0L2,1.59,54%,5,Atletico Madrid,,,2025-04-25,4.8,W5D0L0,2.2,59%,9,Real Sociedad,La Liga,,FootyStats,18:00
+,W3D0L2,3.97,48%,12,Bayern Munich,,,2025-04-24,2.97,W2D1L0,2.45,57%,18,Leipzig,Bundesliga,,FootyStats,12:00
+,W2D0L2,3.24,45%,11,Braga,,,2025-04-21,3.44,W4D2L0,2.58,58%,5,Vitoria,Primeira Liga,,FootyStats,12:00
+,W1D0L1,1.88,46%,9,Hibernian,,,2025-04-22,3.23,W1D0L2,2.3,46%,7,Celtic,Scottish Premiership,,FootyStats,16:00
+,W2D0L2,3.17,54%,16,Juventus,,,2025-04-20,4.1,W4D1L0,3.7,49%,6,Roma,Serie A,,FootyStats,16:00
+,W3D1L0,2.46,50%,19,Aberdeen,,,2025-04-24,4.04,W2D1L1,2.53,59%,16,Rangers,Scottish Premiership,,FootyStats,19:00
+,W1D1L2,2.68,43%,18,Barcelona,,,2025-04-24,2.02,W1D1L0,1.51,57%,6,Atletico Madrid,La Liga,,FootyStats,12:00
+,W3D0L2,3.72,54%,7,Ajax,,,2025-04-20,4.47,W5D0L3,1.96,60%,18,Feyenoord,Eredivisie,,FootyStats,14:00
+,W4D0L0,2.23,59%,20,Atletico Madrid,,,2025-04-25,4.93,W2D0L0,3.64,52%,10,Barcelona,La Liga,,FootyStats,14:00
+,W4D2L0,3.62,46%,10,Norwich,,,2025-04-21,3.25,W4D0L1,2.92,53%,17,Watford,Championship,,FootyStats,19:00
+,W5D1L1,2.86,47%,6,Sporting CP,,,2025-04-25,3.82,W1D1L0,2.22,48%,12,Vitoria,Primeira Liga,,FootyStats,17:00
+,W5D2L1,2.1,49%,5,Benfica,,,2025-04-26,3.91,W4D1L2,2.48,56%,15,Braga,Primeira Liga,,FootyStats,12:00
+,W2D1L3,3.05,57%,19,AZ Alkmaar,,,2025-04-25,4.99,W4D2L0,2.52,58%,11,PSV,Eredivisie,,FootyStats,16:00
+,W1D0L0,2.83,58%,19,AZ Alkmaar,,,2025-04-19,2.5,W3D0L2,2.38,45%,15,Twente,Eredivisie,,FootyStats,20:00
+,W5D0L2,3.71,46%,11,Wolfsburg,,,2025-04-23,4.43,W2D1L0,3.2,52%,20,Dortmund,Bundesliga,,FootyStats,18:00
+,W3D0L3,2.68,50%,5,Atletico Madrid,,,2025-04-20,2.49,W3D1L2,2.75,55%,17,Real Sociedad,La Liga,,FootyStats,13:00
+,W3D1L3,3.43,44%,17,Rangers,,,2025-04-23,3.78,W4D1L3,3.38,52%,8,Hibernian,Scottish Premiership,,FootyStats,16:00
+,W3D0L0,3.91,47%,5,Ajax,,,2025-04-19,2.54,W4D1L2,2.24,60%,17,Feyenoord,Eredivisie,,FootyStats,12:00
+,W5D1L3,2.97,59%,19,Real Madrid,,,2025-04-22,4.39,W5D1L1,3.33,43%,17,Barcelona,La Liga,,WhoScored,13:00
+,W1D0L2,3.8,44%,15,Roma,,,2025-04-23,4.52,W5D2L0,3.98,43%,12,Milan,Serie A,,WhoScored,12:00
+,W1D0L1,2.6,52%,11,Atletico Madrid,,,2025-04-25,2.95,W2D2L2,2.47,46%,5,Sevilla,La Liga,,WhoScored,12:00
+,W3D0L1,1.67,60%,14,PSV,,,2025-04-25,2.78,W5D0L0,3.21,49%,14,Utrecht,Eredivisie,,WhoScored,15:00
+,W1D0L3,3.01,59%,5,Atletico Madrid,,,2025-04-26,3.49,W1D1L2,3.78,45%,19,Sevilla,La Liga,,WhoScored,16:00
+,W4D1L3,2.78,60%,17,Inter Miami,,,2025-04-20,4.16,W2D1L0,3.71,50%,13,Toronto FC,MLS,,WhoScored,13:00
+,W2D1L0,1.62,57%,7,Rangers,,,2025-04-26,2.15,W5D1L1,2.19,48%,15,Dundee United,Scottish Premiership,,WhoScored,14:00
+,W4D0L2,2.17,50%,17,Vitoria,,,2025-04-23,4.4,W5D2L0,1.82,44%,17,Porto,Primeira Liga,,WhoScored,18:00
+,W2D2L3,1.69,43%,16,Lazio,,,2025-04-24,3.97,W4D1L3,2.83,55%,15,Napoli,Serie A,,WhoScored,15:00
+,W2D1L3,2.03,49%,20,Bayern Munich,,,2025-04-20,4.7,W5D0L1,3.43,59%,15,Leipzig,Bundesliga,,WhoScored,14:00
+,W5D0L0,1.69,46%,8,Leipzig,,,2025-04-21,4.29,W2D2L3,3.42,56%,14,Wolfsburg,Bundesliga,,WhoScored,17:00
+,W5D0L0,3.29,57%,20,Feyenoord,,,2025-04-20,4.85,W4D2L3,1.66,48%,7,Utrecht,Eredivisie,,WhoScored,21:00
+,W2D2L1,1.58,60%,19,Real Madrid,,,2025-04-19,3.15,W4D2L2,2.28,58%,16,Sevilla,La Liga,,WhoScored,19:00
+,W1D2L3,2.78,43%,10,Marseille,,,2025-04-22,4.17,W1D0L0,2.13,51%,15,Lille,Ligue 1,,WhoScored,21:00
+,W2D2L0,3.33,51%,18,Lazio,,,2025-04-21,3.16,W4D0L0,3.4,51%,5,Milan,Serie A,,WhoScored,21:00
+,W1D1L1,3.67,53%,19,West Brom,,,2025-04-19,3.68,W1D0L2,3.75,51%,7,Watford,Championship,,WhoScored,19:00
+,W3D2L2,3.29,58%,16,Chelsea,,,2025-04-26,4.16,W2D0L1,2.83,46%,18,Tottenham,Premier League,,WhoScored,15:00
+,W4D2L0,2.7,48%,14,Dortmund,,,2025-04-21,3.42,W5D0L3,3.53,41%,7,Frankfurt,Bundesliga,,WhoScored,12:00
+,W2D2L1,2.77,42%,9,Norwich,,,2025-04-22,3.73,W1D1L3,1.84,41%,8,West Brom,Championship,,WhoScored,13:00
+,W1D2L1,2.14,55%,14,Hibernian,,,2025-04-20,3.23,W3D1L3,1.97,60%,11,Hearts,Scottish Premiership,,WhoScored,19:00
+,W2D1L3,3.5,50%,15,Manchester City,,,2025-04-22,2.08,W2D0L2,1.77,51%,6,Tottenham,Premier League,,WhoScored,20:00
+,W1D1L2,2.79,41%,17,Bayern Munich,,,2025-04-22,4.45,W5D0L1,1.94,45%,9,Frankfurt,Bundesliga,,WhoScored,16:00
+,W1D1L1,3.61,53%,20,Real Sociedad,,,2025-04-23,2.44,W4D2L2,1.98,59%,9,Barcelona,La Liga,,WhoScored,19:00
+,W4D1L3,3.82,60%,19,Hearts,,,2025-04-19,3.63,W1D0L3,2.31,47%,15,Celtic,Scottish Premiership,,WhoScored,17:00
+,W3D0L2,3.68,49%,7,Porto,,,2025-04-22,3.16,W5D1L0,2.71,55%,13,Guimaraes,Primeira Liga,,WhoScored,20:00
+,W5D0L3,2.54,44%,13,Dundee United,,,2025-04-26,4.81,W4D1L3,3.13,44%,12,Rangers,Scottish Premiership,,WhoScored,15:00
+,W5D1L2,1.76,45%,12,Atletico Madrid,,,2025-04-21,2.67,W3D1L3,2.68,52%,20,Real Madrid,La Liga,,WhoScored,19:00
+,W5D1L0,1.57,54%,12,Benfica,,,2025-04-25,4.16,W5D2L1,2.07,49%,7,Braga,Primeira Liga,,WhoScored,16:00
+,W4D0L0,3.57,44%,13,Inter,,,2025-04-19,3.75,W4D1L3,3.9,42%,11,Milan,Serie A,,WhoScored,20:00
+,W3D1L2,2.77,55%,7,Hibernian,,,2025-04-21,3.91,W1D0L2,3.83,43%,11,Aberdeen,Scottish Premiership,,WhoScored,21:00
+-1.0,,3.13,,,Inter,1.97,1.84,2025-04-19,3.59,,3.87,,,Roma,Serie A,1.56,OddsPortal,16:00
+-1.5,,3.18,,,Frankfurt,2.39,1.94,2025-04-23,4.03,,2.19,,,Dortmund,Bundesliga,2.33,OddsPortal,15:00
++2.0,,3.35,,,Milan,2.05,1.61,2025-04-19,2.31,,2.1,,,Napoli,Serie A,1.52,OddsPortal,17:00
++1.0,,2.81,,,AZ Alkmaar,2.17,2.13,2025-04-23,3.27,,2.63,,,Ajax,Eredivisie,1.93,OddsPortal,20:00
+-1.0,,3.54,,,Real Madrid,2.36,1.67,2025-04-22,3.74,,3.81,,,Barcelona,La Liga,2.1,OddsPortal,18:00
+-1.0,,3.03,,,Bayern Munich,2.17,1.79,2025-04-23,2.87,,3.08,,,Dortmund,Bundesliga,2.27,OddsPortal,20:00
++1.0,,3.73,,,Inter Miami,2.1,2.04,2025-04-20,4.58,,3.35,,,LA Galaxy,MLS,1.83,OddsPortal,15:00
+-0.5,,1.66,,,Real Sociedad,2.26,1.84,2025-04-22,3.18,,2.21,,,Barcelona,La Liga,1.59,OddsPortal,21:00
+-0.5,,3.2,,,Seattle Sounders,1.95,2.12,2025-04-19,3.32,,3.37,,,LA Galaxy,MLS,1.55,OddsPortal,20:00
+-2.0,,2.01,,,Sheffield United,2.32,2.07,2025-04-22,4.97,,2.65,,,Norwich,Championship,2.47,OddsPortal,18:00
+-1.5,,1.92,,,Atlanta United,2.4,2.05,2025-04-25,3.31,,1.78,,,NYCFC,MLS,2.31,OddsPortal,14:00
++1.5,,1.58,,,PSG,2.1,1.73,2025-04-26,2.48,,2.63,,,Lyon,Ligue 1,2.01,OddsPortal,21:00
++2.0,,2.08,,,Braga,2.14,1.59,2025-04-21,4.36,,3.87,,,Benfica,Primeira Liga,2.38,OddsPortal,21:00
++0.5,,3.99,,,Ajax,2.43,1.76,2025-04-21,2.26,,3.75,,,PSV,Eredivisie,2.18,OddsPortal,18:00
++2.0,,2.04,,,Inter,2.07,1.8,2025-04-22,3.56,,3.33,,,Napoli,Serie A,1.51,OddsPortal,21:00
++2.0,,2.52,,,Juventus,2.01,1.59,2025-04-25,2.77,,2.91,,,Napoli,Serie A,1.98,OddsPortal,21:00
++2.0,,3.22,,,Leipzig,2.32,1.62,2025-04-24,4.91,,1.89,,,Wolfsburg,Bundesliga,2.07,OddsPortal,21:00
+-1.5,,1.79,,,Milan,2.14,2.2,2025-04-24,4.25,,3.37,,,Roma,Serie A,1.7,OddsPortal,19:00
++2.0,,2.91,,,Sheffield United,1.78,1.96,2025-04-22,4.72,,2.79,,,Norwich,Championship,2.07,OddsPortal,18:00
++2.0,,3.58,,,Bayern Munich,2.4,2.01,2025-04-22,4.47,,1.61,,,Frankfurt,Bundesliga,2.4,OddsPortal,19:00
++1.5,,3.83,,,Tottenham,1.89,1.51,2025-04-19,2.05,,3.44,,,Manchester City,Premier League,1.64,OddsPortal,21:00
++1.5,,1.85,,,NYCFC,2.35,1.71,2025-04-20,3.08,,2.54,,,Toronto FC,MLS,2.26,OddsPortal,21:00
+-1.5,,3.3,,,Burnley,1.9,1.54,2025-04-22,2.02,,2.68,,,Watford,Championship,1.57,OddsPortal,15:00
++0.5,,1.56,,,Guimaraes,2.03,1.61,2025-04-20,2.45,,2.69,,,Sporting CP,Primeira Liga,2.44,OddsPortal,18:00
+-1.0,,2.55,,,Leipzig,1.91,1.84,2025-04-21,2.0,,1.68,,,Wolfsburg,Bundesliga,2.2,OddsPortal,20:00
+-1.0,,2.19,,,Monaco,2.18,1.61,2025-04-20,3.93,,2.3,,,Rennes,Ligue 1,1.92,OddsPortal,16:00
+-2.0,,3.25,,,Milan,2.15,2.0,2025-04-22,2.92,,2.08,,,Napoli,Serie A,1.79,OddsPortal,21:00
++1.5,,1.73,,,Dortmund,2.07,1.54,2025-04-25,3.97,,2.52,,,Leipzig,Bundesliga,2.44,OddsPortal,21:00
++2.0,,2.17,,,Marseille,1.81,1.58,2025-04-23,2.93,,3.65,,,Lyon,Ligue 1,1.96,OddsPortal,21:00
++2.0,,2.52,,,Juventus,1.73,2.16,2025-04-23,4.95,,3.17,,,Milan,Serie A,2.4,OddsPortal,21:00
+-1.0,,3.97,,,Roma,2.21,1.54,2025-04-26,3.87,,3.36,,,Inter,Serie A,1.89,OddsPortal,20:00
+-0.5,,1.51,,,Norwich,2.35,2.0,2025-04-23,3.73,,2.99,,,Burnley,Championship,1.97,OddsPortal,16:00
+-1.5,,3.79,,,Burnley,2.48,2.13,2025-04-21,4.24,,3.73,,,Sheffield United,Championship,1.51,OddsPortal,19:00
+-1.0,,2.36,,,Watford,2.26,1.89,2025-04-23,4.76,,3.88,,,West Brom,Championship,1.8,OddsPortal,17:00
++0.5,,1.99,,,Braga,2.06,1.82,2025-04-19,2.84,,3.86,,,Porto,Primeira Liga,2.12,OddsPortal,19:00
+,,2.1,,,Braga,,,2025-04-24,3.57,,2.49,,,Sporting CP,Primeira Liga,,FCTables,12:00
+,,2.72,,,Feyenoord,,,2025-04-25,2.49,,1.68,,,PSV,Eredivisie,,FCTables,12:00
+,,3.73,,,Celtic,,,2025-04-23,2.88,,1.82,,,Dundee United,Scottish Premiership,,FCTables,14:00
+,,2.08,,,Marseille,,,2025-04-23,4.65,,4.0,,,PSG,Ligue 1,,FCTables,12:00
+,,1.63,,,Middlesbrough,,,2025-04-22,3.57,,3.2,,,Watford,Championship,,FCTables,12:00
+,,2.93,,,Lazio,,,2025-04-22,3.8,,2.67,,,Milan,Serie A,,FCTables,14:00
+,,2.49,,,Vitoria,,,2025-04-24,2.13,,3.99,,,Braga,Primeira Liga,,FCTables,13:00
+,,2.06,,,Braga,,,2025-04-19,3.07,,3.69,,,Porto,Primeira Liga,,FCTables,20:00
+,,3.77,,,Leverkusen,,,2025-04-23,3.04,,2.13,,,Bayern Munich,Bundesliga,,FCTables,17:00
+,,3.06,,,Chelsea,,,2025-04-26,2.51,,3.61,,,Manchester United,Premier League,,FCTables,20:00
+,,2.06,,,Seattle Sounders,,,2025-04-22,4.18,,4.0,,,Atlanta United,MLS,,FCTables,17:00
+,,2.68,,,Marseille,,,2025-04-19,2.3,,3.38,,,Lille,Ligue 1,,FCTables,15:00
+,,1.78,,,Rangers,,,2025-04-19,4.52,,3.4,,,Hibernian,Scottish Premiership,,FCTables,18:00
+,,1.6,,,Watford,,,2025-04-23,3.45,,2.98,,,Burnley,Championship,,FCTables,12:00
+,,3.78,,,Manchester United,,,2025-04-24,2.62,,2.48,,,Liverpool,Premier League,,FCTables,18:00
+,,2.17,,,Lyon,,,2025-04-25,4.75,,2.89,,,Lille,Ligue 1,,FCTables,21:00
+,,3.77,,,Tottenham,,,2025-04-20,3.97,,3.8,,,Liverpool,Premier League,,FCTables,16:00
+,,2.35,,,Marseille,,,2025-04-26,4.62,,1.81,,,Monaco,Ligue 1,,FCTables,13:00
+,,1.86,,,LA Galaxy,,,2025-04-25,4.1,,1.66,,,Inter Miami,MLS,,FCTables,21:00
+,,3.49,,,Real Madrid,,,2025-04-26,3.28,,3.48,,,Sevilla,La Liga,,FCTables,20:00
+,,3.58,,,Liverpool,,,2025-04-22,2.47,,4.0,,,Arsenal,Premier League,,SportsMole,19:00
+,,2.29,,,Sevilla,,,2025-04-21,3.49,,2.84,,,Villarreal,La Liga,,SportsMole,16:00
+,,2.28,,,Norwich,,,2025-04-22,3.66,,3.99,,,Sheffield United,Championship,,SportsMole,19:00
+,,1.76,,,Frankfurt,,,2025-04-21,2.35,,3.31,,,Wolfsburg,Bundesliga,,SportsMole,14:00
+,,2.79,,,Dundee United,,,2025-04-19,4.83,,1.88,,,Celtic,Scottish Premiership,,SportsMole,15:00
+,,3.92,,,Hearts,,,2025-04-22,2.6,,2.17,,,Rangers,Scottish Premiership,,SportsMole,15:00
+,,3.37,,,Vitoria,,,2025-04-19,3.81,,2.79,,,Benfica,Primeira Liga,,SportsMole,14:00
+,,2.68,,,Hibernian,,,2025-04-26,3.84,,2.52,,,Dundee United,Scottish Premiership,,SportsMole,12:00
+,,3.88,,,Ajax,,,2025-04-19,3.41,,2.99,,,Twente,Eredivisie,,SportsMole,15:00
+,,3.3,,,Toronto FC,,,2025-04-25,4.93,,2.83,,,LA Galaxy,MLS,,SportsMole,13:00
+,,1.9,,,Twente,,,2025-04-22,4.8,,2.56,,,Feyenoord,Eredivisie,,SportsMole,20:00
+,,1.6,,,NYCFC,,,2025-04-20,3.71,,2.76,,,Seattle Sounders,MLS,,SportsMole,16:00
+,,3.39,,,Burnley,,,2025-04-23,3.4,,3.9,,,Watford,Championship,,SportsMole,14:00
+,,3.55,,,Arsenal,,,2025-04-23,3.39,,2.84,,,Chelsea,Premier League,,SportsMole,21:00
+,,3.54,,,Seattle Sounders,,,2025-04-19,2.47,,3.84,,,Toronto FC,MLS,,SportsMole,16:00
+,,2.15,,,Tottenham,,,2025-04-19,3.36,,3.41,,,Arsenal,Premier League,,ESPNCricinfo,20:00
+,,2.97,,,Guimaraes,,,2025-04-19,2.31,,1.55,,,Porto,Primeira Liga,,ESPNCricinfo,17:00
+,,1.93,,,Manchester City,,,2025-04-21,2.74,,3.77,,,Liverpool,Premier League,,ESPNCricinfo,12:00
+,,1.81,,,Monaco,,,2025-04-25,3.27,,2.37,,,Lille,Ligue 1,,ESPNCricinfo,18:00
+,,1.79,,,Roma,,,2025-04-20,4.46,,2.22,,,Milan,Serie A,,ESPNCricinfo,19:00
+,,1.52,,,Atletico Madrid,,,2025-04-20,3.54,,2.34,,,Sevilla,La Liga,,ESPNCricinfo,16:00
+,,2.41,,,Twente,,,2025-04-25,3.68,,2.03,,,Ajax,Eredivisie,,ESPNCricinfo,20:00
+,,1.51,,,Sporting CP,,,2025-04-26,3.16,,3.91,,,Vitoria,Primeira Liga,,ESPNCricinfo,21:00
+,,3.82,,,West Brom,,,2025-04-24,4.42,,2.66,,,Burnley,Championship,,ESPNCricinfo,12:00
+,,1.66,,,Seattle Sounders,,,2025-04-19,3.65,,2.83,,,NYCFC,MLS,,ESPNCricinfo,17:00
+,,2.79,,,Frankfurt,,,2025-04-26,4.6,,2.09,,,Leverkusen,Bundesliga,,ESPNCricinfo,21:00
+,,1.51,,,Roma,,,2025-04-26,4.44,,3.11,,,Inter,Serie A,,ESPNCricinfo,16:00
+,,1.57,,,Dundee United,,,2025-04-20,2.87,,3.81,,,Hibernian,Scottish Premiership,,ESPNCricinfo,20:00
+,,1.81,,,Guimaraes,,,2025-04-20,2.23,,3.59,,,Benfica,Primeira Liga,,ESPNCricinfo,15:00
+,,3.01,,,Braga,,,2025-04-22,4.12,,1.59,,,Benfica,Primeira Liga,,ESPNCricinfo,15:00
+,,3.64,,,Hibernian,,,2025-04-21,4.35,,3.8,,,Rangers,Scottish Premiership,,ESPNCricinfo,16:00
+,,3.83,,,Celtic,,,2025-04-25,2.45,,1.61,,,Hibernian,Scottish Premiership,,ESPNCricinfo,12:00
+,,2.82,,,West Brom,,,2025-04-26,3.8,,2.44,,,Sheffield United,Championship,,ESPNCricinfo,18:00
+,,1.66,,,Feyenoord,,,2025-04-26,3.01,,3.54,,,Ajax,Eredivisie,,ESPNCricinfo,15:00
+,,1.66,,,Roma,,,2025-04-24,3.14,,1.62,,,Napoli,Serie A,,ESPNCricinfo,14:00
+,,2.73,,,AZ Alkmaar,,,2025-04-19,4.32,,2.11,,,Ajax,Eredivisie,,RugbyPass,13:00
+,,2.14,,,Barcelona,,,2025-04-24,3.36,,3.91,,,Villarreal,La Liga,,RugbyPass,15:00
+,,3.0,,,Tottenham,,,2025-04-22,4.28,,2.42,,,Manchester United,Premier League,,RugbyPass,19:00
+,,3.67,,,West Brom,,,2025-04-25,2.46,,3.83,,,Sheffield United,Championship,,RugbyPass,12:00
+,,2.19,,,Lazio,,,2025-04-26,2.95,,2.64,,,Roma,Serie A,,RugbyPass,20:00
+,,2.07,,,Utrecht,,,2025-04-23,3.41,,3.98,,,PSV,Eredivisie,,RugbyPass,12:00
+,,2.39,,,Villarreal,,,2025-04-22,4.81,,2.81,,,Real Madrid,La Liga,,RugbyPass,15:00
+,,2.71,,,Aberdeen,,,2025-04-24,4.53,,3.22,,,Celtic,Scottish Premiership,,RugbyPass,20:00
+,,3.77,,,Vitoria,,,2025-04-21,3.91,,3.79,,,Braga,Primeira Liga,,RugbyPass,17:00
+,,1.67,,,Atlanta United,,,2025-04-19,3.87,,3.23,,,Seattle Sounders,MLS,,RugbyPass,12:00
+,,1.65,,,Utrecht,,,2025-04-21,3.14,,3.87,,,Feyenoord,Eredivisie,,RugbyPass,21:00
+,,2.86,,,Benfica,,,2025-04-24,3.1,,3.96,,,Guimaraes,Primeira Liga,,RugbyPass,14:00
+,,3.63,,,Seattle Sounders,,,2025-04-23,4.22,,1.64,,,Toronto FC,MLS,,RugbyPass,19:00
+,,3.23,,,Manchester City,,,2025-04-24,4.01,,2.48,,,Tottenham,Premier League,,RugbyPass,12:00
+,,2.96,,,Atletico Madrid,,,2025-04-20,2.14,,1.62,,,Villarreal,La Liga,,RugbyPass,13:00
+,,3.95,,,Liverpool,,,2025-04-26,3.72,,3.2,,,Arsenal,Premier League,,SportingLife,16:00
+,,3.63,,,Twente,,,2025-04-21,2.21,,1.7,,,Ajax,Eredivisie,,SportingLife,14:00
+,,3.95,,,Lyon,,,2025-04-24,4.27,,2.81,,,Rennes,Ligue 1,,SportingLife,18:00
+,,2.08,,,Bayern Munich,,,2025-04-19,4.16,,3.87,,,Dortmund,Bundesliga,,SportingLife,13:00
+,,1.57,,,Ajax,,,2025-04-20,3.37,,3.82,,,Utrecht,Eredivisie,,SportingLife,20:00
+,,3.21,,,Hearts,,,2025-04-23,4.35,,3.47,,,Dundee United,Scottish Premiership,,SportingLife,14:00
+,,2.23,,,Lille,,,2025-04-26,2.16,,2.55,,,PSG,Ligue 1,,SportingLife,12:00
+,,2.81,,,Rangers,,,2025-04-25,3.81,,2.94,,,Hibernian,Scottish Premiership,,SportingLife,15:00
+,,1.97,,,Vitoria,,,2025-04-25,3.84,,3.61,,,Porto,Primeira Liga,,SportingLife,14:00
+,,1.56,,,Dortmund,,,2025-04-20,4.1,,2.77,,,Frankfurt,Bundesliga,,SportingLife,18:00
+,,3.91,,,Guimaraes,,,2025-04-25,2.04,,2.32,,,Benfica,Primeira Liga,,SportingLife,20:00
+,,2.12,,,PSV,,,2025-04-19,3.62,,3.01,,,Ajax,Eredivisie,,SportingLife,16:00
+,,1.67,,,West Brom,,,2025-04-24,2.86,,1.53,,,Middlesbrough,Championship,,SportingLife,20:00
+,,2.6,,,Bayern Munich,,,2025-04-20,3.26,,2.82,,,Dortmund,Bundesliga,,SportingLife,18:00
+,,2.16,,,Rangers,,,2025-04-19,3.15,,2.56,,,Aberdeen,Scottish Premiership,,SportingLife,19:00
+,,3.6,,,Utrecht,,,2025-04-25,2.7,,2.78,,,Ajax,Eredivisie,,SportingLife,12:00
+,,3.6,,,Aberdeen,,,2025-04-20,2.72,,3.58,,,Hearts,Scottish Premiership,,SportingLife,13:00
+,,1.87,,,Liverpool,,,2025-04-24,2.88,,3.23,,,Manchester United,Premier League,,SportingLife,14:00
+,,2.07,,,West Brom,,,2025-04-24,2.87,,2.54,,,Middlesbrough,Championship,,SportingLife,21:00
+,,1.65,,,PSV,,,2025-04-20,3.93,,2.22,,,Utrecht,Eredivisie,,SportingLife,16:00
+,,2.0,,,Real Madrid,,,2025-04-19,3.32,,3.94,,,Villarreal,La Liga,,SportingLife,17:00
+,,1.59,,,Lyon,,,2025-04-26,3.0,,2.52,,,PSG,Ligue 1,,SportingLife,15:00
+,,3.3,,,AZ Alkmaar,,,2025-04-25,3.56,,1.9,,,Feyenoord,Eredivisie,,SportingLife,18:00
+,,2.0,,,Manchester City,,,2025-04-25,2.67,,3.31,,,Arsenal,Premier League,,SportingLife,18:00
+,,2.41,,,Guimaraes,,,2025-04-25,2.1,,3.21,,,Vitoria,Primeira Liga,,SportingLife,14:00
+,,3.29,,,LA Galaxy,,,2025-04-23,3.46,,3.88,,,Toronto FC,MLS,,Scoreboard,21:00
+,,3.46,,,Real Madrid,,,2025-04-19,3.76,,2.73,,,Sevilla,La Liga,,Scoreboard,15:00
+,,1.63,,,Dundee United,,,2025-04-22,2.13,,2.79,,,Rangers,Scottish Premiership,,Scoreboard,14:00
+,,3.23,,,NYCFC,,,2025-04-20,2.95,,2.21,,,Seattle Sounders,MLS,,Scoreboard,15:00
+,,3.25,,,Feyenoord,,,2025-04-22,3.62,,3.09,,,Ajax,Eredivisie,,Scoreboard,13:00
+,,1.73,,,Juventus,,,2025-04-22,4.6,,1.53,,,Lazio,Serie A,,Scoreboard,21:00
+,,2.5,,,Guimaraes,,,2025-04-24,3.61,,1.61,,,Porto,Primeira Liga,,Scoreboard,15:00
+,,2.22,,,West Brom,,,2025-04-24,4.83,,1.65,,,Middlesbrough,Championship,,Scoreboard,13:00
+,,2.73,,,Toronto FC,,,2025-04-24,2.81,,3.7,,,LA Galaxy,MLS,,Scoreboard,12:00
+,,3.54,,,Porto,,,2025-04-25,3.31,,1.95,,,Braga,Primeira Liga,,Scoreboard,16:00
+,,2.81,,,Twente,,,2025-04-23,4.73,,2.36,,,Ajax,Eredivisie,,Scoreboard,14:00
+,,3.28,,,AZ Alkmaar,,,2025-04-20,4.01,,1.62,,,Ajax,Eredivisie,,Scoreboard,19:00
+,,1.83,,,Lazio,,,2025-04-26,2.56,,2.32,,,Napoli,Serie A,,Scoreboard,21:00
+,,2.67,,,Seattle Sounders,,,2025-04-26,2.35,,3.28,,,Atlanta United,MLS,,Scoreboard,12:00
+,,2.27,,,Atlanta United,,,2025-04-26,4.1,,2.65,,,Seattle Sounders,MLS,,Scoreboard,12:00
+,,2.62,,,Feyenoord,,,2025-04-20,3.11,,3.59,,,PSV,Eredivisie,,Scoreboard,15:00
+,,3.22,,,Aberdeen,,,2025-04-22,3.69,,2.92,,,Dundee United,Scottish Premiership,,Scoreboard,16:00
+,,1.66,,,PSV,,,2025-04-25,2.1,,3.97,,,Feyenoord,Eredivisie,,Scoreboard,12:00
+,,3.32,,,Rennes,,,2025-04-22,2.06,,3.11,,,Lille,Ligue 1,,Scoreboard,16:00
+,,1.78,,,Manchester City,,,2025-04-26,3.94,,2.32,,,Liverpool,Premier League,,Scoreboard,19:00
+,,2.07,,,Sheffield United,,,2025-04-20,4.94,,3.22,,,Watford,Championship,,Scoreboard,17:00
+,,2.14,,,Guimaraes,,,2025-04-24,2.04,,2.54,,,Porto,Primeira Liga,,Scoreboard,15:00
+,,2.48,,,Sheffield United,,,2025-04-20,4.26,,3.42,,,Middlesbrough,Championship,,Scoreboard,16:00
+,,3.98,,,Rennes,,,2025-04-19,4.39,,2.51,,,Lyon,Ligue 1,,Scoreboard,16:00
+,,2.38,,,Rangers,,,2025-04-21,2.27,,2.87,,,Hearts,Scottish Premiership,,Scoreboard,19:00
+,,2.71,,,Tottenham,,,2025-04-19,2.69,,3.47,,,Manchester United,Premier League,,Scoreboard,14:00
+,,3.59,,,Napoli,,,2025-04-25,3.26,,3.78,,,Juventus,Serie A,,Scoreboard,17:00
+,,2.51,,,Real Sociedad,,,2025-04-23,3.5,,3.22,,,Villarreal,La Liga,,Scoreboard,12:00
+,,2.8,,,Burnley,,,2025-04-22,4.62,,2.49,,,Middlesbrough,Championship,,Scoreboard,13:00
+,,3.91,,,Benfica,,,2025-04-22,2.18,,3.8,,,Guimaraes,Primeira Liga,,Scoreboard,15:00
+,,3.94,,,Marseille,,,2025-04-23,2.94,,2.16,,,PSG,Ligue 1,,FootballPredictions,15:00
+,,3.59,,,Hearts,,,2025-04-20,2.06,,2.05,,,Dundee United,Scottish Premiership,,FootballPredictions,19:00
+,,1.84,,,Braga,,,2025-04-24,4.63,,2.74,,,Porto,Primeira Liga,,FootballPredictions,17:00
+,,2.63,,,Burnley,,,2025-04-20,4.24,,1.63,,,Norwich,Championship,,FootballPredictions,15:00
+,,2.14,,,Chelsea,,,2025-04-21,3.29,,3.38,,,Manchester United,Premier League,,FootballPredictions,20:00
+,,2.92,,,West Brom,,,2025-04-22,3.76,,2.66,,,Burnley,Championship,,FootballPredictions,21:00
+,,3.56,,,Barcelona,,,2025-04-26,2.2,,1.99,,,Atletico Madrid,La Liga,,FootballPredictions,13:00
+,,3.85,,,Rangers,,,2025-04-23,4.99,,3.27,,,Celtic,Scottish Premiership,,FootballPredictions,20:00
+,,3.62,,,Monaco,,,2025-04-20,2.2,,1.85,,,PSG,Ligue 1,,FootballPredictions,20:00
+,,3.37,,,Real Sociedad,,,2025-04-19,2.15,,3.63,,,Villarreal,La Liga,,FootballPredictions,21:00
+,,3.6,,,Wolfsburg,,,2025-04-26,4.69,,1.91,,,Frankfurt,Bundesliga,,FootballPredictions,17:00
+,,1.55,,,Lazio,,,2025-04-19,3.89,,2.65,,,Roma,Serie A,,FootballPredictions,20:00
+,,2.38,,,Bayern Munich,,,2025-04-24,2.16,,3.07,,,Wolfsburg,Bundesliga,,FootballPredictions,18:00
+,,2.95,,,Wolfsburg,,,2025-04-23,4.98,,2.04,,,Dortmund,Bundesliga,,FootballPredictions,20:00
+,,2.17,,,Lille,,,2025-04-23,3.14,,3.8,,,Marseille,Ligue 1,,FootballPredictions,19:00
+,,1.62,,,NYCFC,,,2025-04-24,2.53,,2.3,,,Atlanta United,MLS,,FootballPredictions,13:00
+,,3.89,,,PSV,,,2025-04-21,4.01,,2.59,,,Utrecht,Eredivisie,,FootballPredictions,13:00
+,,3.11,,,Lazio,,,2025-04-23,3.19,,1.52,,,Juventus,Serie A,,FootballPredictions,15:00
+,,1.52,,,Ajax,,,2025-04-19,4.63,,2.22,,,AZ Alkmaar,Eredivisie,,FootballPredictions,19:00
+,,1.74,,,Atlanta United,,,2025-04-21,4.71,,3.88,,,Inter Miami,MLS,,FootballPredictions,18:00
+,,3.96,,,Hibernian,,,2025-04-20,3.69,,1.57,,,Celtic,Scottish Premiership,,FootballPredictions,12:00
+,,2.57,,,LA Galaxy,,,2025-04-21,2.67,,2.2,,,Toronto FC,MLS,,FootballPredictions,13:00
+,,1.61,,,Roma,,,2025-04-25,3.08,,3.15,,,Milan,Serie A,,FootballPredictions,12:00
+,,1.57,,,Manchester United,,,2025-04-25,2.61,,2.82,,,Manchester City,Premier League,,FootballPredictions,17:00
+,,3.51,,,PSG,,,2025-04-21,3.86,,2.89,,,Lyon,Ligue 1,,FootballPredictions,15:00
+,,2.8,,,Sporting CP,,,2025-04-22,2.85,,2.65,,,Porto,Primeira Liga,,FootballPredictions,12:00
+,,3.42,,,Atlanta United,,,2025-04-22,4.42,,1.87,,,LA Galaxy,MLS,,FootballPredictions,18:00
+,,1.96,,,Atletico Madrid,,,2025-04-23,2.27,,3.38,,,Real Madrid,La Liga,,FootballPredictions,15:00
+,,3.01,,,Toronto FC,,,2025-04-20,4.14,,3.56,,,Inter Miami,MLS,,FootballPredictions,12:00
+,,1.55,,,Juventus,,,2025-04-24,2.85,,2.72,,,Lazio,Serie A,,FootballPredictions,21:00
+,,3.5,,,Hibernian,,,2025-04-23,2.32,,1.83,,,Dundee United,Scottish Premiership,,FootballPredictions,17:00
+,,2.38,,,Watford,,,2025-04-23,2.53,,2.67,,,Burnley,Championship,,FootballPredictions,15:00
+,,2.69,,,Burnley,,,2025-04-21,3.15,,2.9,,,West Brom,Championship,,FootballPredictions,14:00
+,,3.82,,,Chelsea,,,2025-04-19,2.2,,2.89,,,Manchester United,Premier League,,FootballPredictions,13:00
+,,1.69,,,Lille,,,2025-04-21,2.93,,3.04,,,Monaco,Ligue 1,,FootballPredictions,12:00
+,,3.3,,,Arsenal,,,2025-04-25,2.0,,1.61,,,Liverpool,Premier League,,UltimateCapper,16:00
+,,3.34,,,Aberdeen,,,2025-04-23,2.8,,2.93,,,Rangers,Scottish Premiership,,UltimateCapper,14:00
+,,2.79,,,Aberdeen,,,2025-04-21,3.45,,2.03,,,Dundee United,Scottish Premiership,,UltimateCapper,18:00
+,,2.3,,,Tottenham,,,2025-04-22,2.09,,3.29,,,Chelsea,Premier League,,UltimateCapper,16:00
+,,2.0,,,Wolfsburg,,,2025-04-20,3.26,,3.71,,,Frankfurt,Bundesliga,,UltimateCapper,19:00
+,,2.17,,,Lazio,,,2025-04-23,2.85,,2.71,,,Milan,Serie A,,UltimateCapper,21:00
+,,2.18,,,LA Galaxy,,,2025-04-24,2.7,,2.56,,,Atlanta United,MLS,,UltimateCapper,19:00
+,,1.97,,,Hearts,,,2025-04-22,3.66,,1.95,,,Aberdeen,Scottish Premiership,,UltimateCapper,20:00
+,,2.39,,,Marseille,,,2025-04-26,4.67,,3.34,,,Monaco,Ligue 1,,UltimateCapper,13:00
+,,2.63,,,Porto,,,2025-04-20,2.71,,2.62,,,Braga,Primeira Liga,,UltimateCapper,14:00
+,,2.32,,,Sheffield United,,,2025-04-25,3.51,,1.88,,,Burnley,Championship,,UltimateCapper,12:00
+,,1.63,,,AZ Alkmaar,,,2025-04-24,2.44,,2.97,,,Ajax,Eredivisie,,UltimateCapper,21:00
+,,1.54,,,Manchester City,,,2025-04-21,2.55,,1.51,,,Chelsea,Premier League,,UltimateCapper,20:00
+,,3.03,,,Feyenoord,,,2025-04-23,2.66,,2.74,,,Twente,Eredivisie,,UltimateCapper,17:00
+,,3.76,,,Roma,,,2025-04-25,3.67,,1.51,,,Inter,Serie A,,UltimateCapper,15:00
+,,3.25,,,Real Madrid,,,2025-04-21,4.15,,2.78,,,Villarreal,La Liga,,UltimateCapper,14:00
+,,3.61,,,West Brom,,,2025-04-23,4.64,,3.27,,,Burnley,Championship,,UltimateCapper,13:00
+,,1.96,,,Leverkusen,,,2025-04-19,2.49,,2.95,,,Frankfurt,Bundesliga,,UltimateCapper,15:00
+,,2.02,,,Atletico Madrid,,,2025-04-20,4.05,,2.11,,,Real Madrid,La Liga,,UltimateCapper,13:00
+,,3.79,,,Porto,,,2025-04-24,2.97,,1.97,,,Vitoria,Primeira Liga,,UltimateCapper,16:00
+,,1.88,,,Wolfsburg,,,2025-04-24,3.69,,1.98,,,Leipzig,Bundesliga,,Covers,17:00
+,,3.46,,,Manchester United,,,2025-04-22,2.8,,1.84,,,Tottenham,Premier League,,Covers,14:00
+,,3.51,,,Monaco,,,2025-04-24,3.18,,1.75,,,PSG,Ligue 1,,Covers,12:00
+,,3.87,,,Atlanta United,,,2025-04-22,2.55,,1.82,,,NYCFC,MLS,,Covers,16:00
+,,2.8,,,Middlesbrough,,,2025-04-20,2.25,,3.2,,,Norwich,Championship,,Covers,15:00
+,,2.97,,,Rennes,,,2025-04-21,4.94,,1.96,,,Monaco,Ligue 1,,Covers,16:00
+,,3.31,,,West Brom,,,2025-04-19,2.77,,1.5,,,Watford,Championship,,Covers,21:00
+,,3.06,,,PSG,,,2025-04-19,2.2,,3.93,,,Marseille,Ligue 1,,Covers,20:00
+,,1.66,,,Villarreal,,,2025-04-20,2.77,,1.98,,,Real Madrid,La Liga,,Covers,17:00
+,,2.4,,,PSV,,,2025-04-23,4.41,,3.55,,,AZ Alkmaar,Eredivisie,,Covers,19:00
+,,2.92,,,Guimaraes,,,2025-04-24,3.07,,1.93,,,Vitoria,Primeira Liga,,Covers,19:00
+,,2.12,,,Lyon,,,2025-04-26,4.77,,1.97,,,Marseille,Ligue 1,,Covers,20:00
+,,3.88,,,Leverkusen,,,2025-04-20,4.34,,1.86,,,Dortmund,Bundesliga,,Covers,19:00
+,,2.04,,,Inter,,,2025-04-23,2.02,,2.0,,,Milan,Serie A,,Covers,17:00
+,,3.16,,,Sevilla,,,2025-04-20,3.32,,3.16,,,Real Sociedad,La Liga,,Covers,12:00
+,,3.1,,,Milan,,,2025-04-20,3.44,,3.28,,,Roma,Serie A,,Covers,17:00
+,,2.47,,,Sheffield United,,,2025-04-25,3.7,,1.55,,,Burnley,Championship,,Covers,13:00
+,,3.55,,,NYCFC,,,2025-04-21,3.07,,2.71,,,Inter Miami,MLS,,Covers,19:00
+,,2.52,,,Rennes,,,2025-04-19,2.93,,3.81,,,Marseille,Ligue 1,,Covers,18:00
+,,2.27,,,Real Madrid,,,2025-04-23,2.58,,2.68,,,Atletico Madrid,La Liga,,Covers,20:00
+,,2.93,,,Frankfurt,,,2025-04-20,3.48,,2.59,,,Dortmund,Bundesliga,,Covers,19:00
+,,2.6,,,Benfica,,,2025-04-24,2.76,,1.57,,,Porto,Primeira Liga,,Covers,16:00
+,,3.83,,,Real Madrid,,,2025-04-19,3.09,,3.34,,,Barcelona,La Liga,,Covers,15:00
+,,3.06,,,Napoli,,,2025-04-26,2.68,,1.56,,,Lazio,Serie A,,Covers,13:00
+,,3.3,,,Benfica,,,2025-04-19,4.42,,2.09,,,Vitoria,Primeira Liga,,Covers,12:00
+,,2.55,,,Lyon,,,2025-04-22,2.58,,2.22,,,Monaco,Ligue 1,,SportsReference,13:00
+,,3.03,,,Twente,,,2025-04-21,2.12,,2.68,,,Feyenoord,Eredivisie,,SportsReference,21:00
+,,2.19,,,PSV,,,2025-04-20,4.71,,1.79,,,Feyenoord,Eredivisie,,SportsReference,13:00
+,,3.32,,,Leipzig,,,2025-04-26,2.01,,3.16,,,Dortmund,Bundesliga,,SportsReference,16:00
+,,3.76,,,Rennes,,,2025-04-23,2.72,,3.79,,,Monaco,Ligue 1,,SportsReference,13:00
+,,2.29,,,Atlanta United,,,2025-04-23,3.46,,2.0,,,LA Galaxy,MLS,,SportsReference,19:00
+,,3.1,,,Sporting CP,,,2025-04-22,2.68,,3.99,,,Porto,Primeira Liga,,SportsReference,19:00
+,,2.04,,,Bayern Munich,,,2025-04-21,4.45,,3.01,,,Frankfurt,Bundesliga,,SportsReference,18:00
+,,3.32,,,Atletico Madrid,,,2025-04-26,2.49,,3.62,,,Villarreal,La Liga,,SportsReference,15:00
+,,2.94,,,NYCFC,,,2025-04-19,2.58,,3.79,,,LA Galaxy,MLS,,SportsReference,14:00
+,,2.45,,,Sevilla,,,2025-04-22,4.95,,2.61,,,Villarreal,La Liga,,SportsReference,21:00
+,,3.15,,,Sevilla,,,2025-04-24,4.59,,3.69,,,Real Sociedad,La Liga,,SportsReference,12:00
+,,2.05,,,Lyon,,,2025-04-23,2.18,,1.82,,,PSG,Ligue 1,,SportsReference,18:00
+,,1.85,,,Feyenoord,,,2025-04-26,3.2,,3.56,,,Ajax,Eredivisie,,SportsReference,17:00
+,,1.52,,,Sporting CP,,,2025-04-20,4.1,,2.2,,,Guimaraes,Primeira Liga,,SportsReference,18:00
+,,3.74,,,AZ Alkmaar,,,2025-04-23,4.31,,3.9,,,Ajax,Eredivisie,,LiveScore,19:00
+,,2.65,,,Atletico Madrid,,,2025-04-20,3.2,,2.21,,,Real Sociedad,La Liga,,LiveScore,18:00
+,,3.04,,,Leverkusen,,,2025-04-19,4.01,,1.87,,,Bayern Munich,Bundesliga,,LiveScore,14:00
+,,1.98,,,Juventus,,,2025-04-22,4.67,,3.63,,,Lazio,Serie A,,LiveScore,15:00
+,,2.9,,,Rennes,,,2025-04-26,4.03,,3.91,,,Marseille,Ligue 1,,LiveScore,19:00
+,,3.84,,,Inter,,,2025-04-21,2.91,,3.97,,,Napoli,Serie A,,LiveScore,18:00
+,,3.86,,,Sevilla,,,2025-04-25,4.32,,1.7,,,Villarreal,La Liga,,LiveScore,14:00
+,,2.2,,,Monaco,,,2025-04-21,3.32,,3.51,,,Rennes,Ligue 1,,LiveScore,17:00
+,,1.51,,,Lazio,,,2025-04-21,2.9,,1.9,,,Milan,Serie A,,LiveScore,20:00
+,,1.83,,,Leipzig,,,2025-04-26,3.3,,1.94,,,Dortmund,Bundesliga,,LiveScore,16:00
+,,3.48,,,Leverkusen,,,2025-04-20,2.03,,2.34,,,Leipzig,Bundesliga,,LiveScore,17:00
+,,2.32,,,Celtic,,,2025-04-19,2.85,,2.84,,,Aberdeen,Scottish Premiership,,LiveScore,21:00
+,,3.12,,,Lille,,,2025-04-23,2.03,,1.85,,,Lyon,Ligue 1,,LiveScore,16:00
+,,3.36,,,Braga,,,2025-04-23,4.84,,1.83,,,Guimaraes,Primeira Liga,,LiveScore,15:00
+,,3.3,,,Norwich,,,2025-04-20,3.67,,3.87,,,Middlesbrough,Championship,,LiveScore,18:00
+,,3.21,,,Dundee United,,,2025-04-21,4.47,,2.58,,,Celtic,Scottish Premiership,,LiveScore,16:00
+,,2.79,,,Norwich,,,2025-04-21,2.96,,2.96,,,Burnley,Championship,,LiveScore,17:00
+,,2.82,,,Inter,,,2025-04-21,4.34,,1.6,,,Roma,Serie A,,LiveScore,20:00
+,,2.01,,,Sevilla,,,2025-04-25,2.45,,2.72,,,Atletico Madrid,La Liga,,LiveScore,12:00
+,,3.3,,,Middlesbrough,,,2025-04-24,3.17,,2.36,,,Watford,Championship,,LiveScore,15:00
+,,2.73,,,Juventus,,,2025-04-20,3.51,,1.88,,,Napoli,Serie A,,LiveScore,21:00
+,,2.52,,,Inter Miami,,,2025-04-20,2.67,,2.21,,,Toronto FC,MLS,,LiveScore,20:00
+,,2.3,,,Roma,,,2025-04-25,4.57,,3.77,,,Lazio,Serie A,,LiveScore,17:00
+,,3.78,,,Wolfsburg,,,2025-04-20,4.36,,2.8,,,Dortmund,Bundesliga,,LiveScore,14:00
+,,2.2,,,Rennes,,,2025-04-21,4.57,,3.35,,,Lyon,Ligue 1,,LiveScore,16:00
+,,2.76,,,NYCFC,,,2025-04-19,2.39,,2.29,,,LA Galaxy,MLS,,LiveScore,14:00
+,,3.23,,,Juventus,,,2025-04-24,4.25,,1.66,,,Milan,Serie A,,LiveScore,14:00
+,,1.95,,,Manchester United,,,2025-04-20,3.27,,2.54,,,Arsenal,Premier League,,LiveScore,20:00
+,,2.71,,,Tottenham,,,2025-04-25,4.29,,2.01,,,Liverpool,Premier League,,LiveScore,12:00
+,,2.21,,,Middlesbrough,,,2025-04-25,2.94,,3.0,,,Sheffield United,Championship,,LiveScore,18:00
+,,3.52,,,Inter,,,2025-04-23,4.49,,1.9,,,Juventus,Serie A,,LiveScore,17:00
+,,2.83,,,Utrecht,,,2025-04-21,2.58,,2.92,,,PSV,Eredivisie,,LiveScore,14:00
+,,3.36,,,Sevilla,,,2025-04-23,4.78,,3.46,,,Atletico Madrid,La Liga,,LiveScore,15:00
+,,3.31,,,Juventus,,,2025-04-19,3.6,,1.87,,,Milan,Serie A,,LiveScore,12:00
+,,2.2,,,Leipzig,,,2025-04-24,3.16,,1.88,,,Dortmund,Bundesliga,,LiveScore,20:00
+,,1.87,,,NYCFC,,,2025-04-25,4.06,,3.18,,,Seattle Sounders,MLS,,LiveScore,12:00
+,,2.75,,,Inter,,,2025-04-22,3.89,,2.2,,,Milan,Serie A,,LiveScore,21:00
+,,3.87,,,Leverkusen,,,2025-04-21,4.47,,2.56,,,Bayern Munich,Bundesliga,,LiveScore,20:00
+,,2.7,,,Celtic,,,2025-04-22,2.7,,2.69,,,Aberdeen,Scottish Premiership,,LiveScore,20:00
+,,2.67,,,Liverpool,,,2025-04-25,4.89,,2.5,,,Tottenham,Premier League,,LiveScore,13:00
+,,3.32,,,Lyon,,,2025-04-22,3.75,,3.9,,,Marseille,Ligue 1,,HLTV,12:00
+,,2.25,,,West Brom,,,2025-04-23,3.81,,1.69,,,Watford,Championship,,HLTV,19:00
+,,2.27,,,Porto,,,2025-04-24,4.92,,2.96,,,Sporting CP,Primeira Liga,,HLTV,18:00
+,,2.8,,,Guimaraes,,,2025-04-25,2.94,,3.56,,,Vitoria,Primeira Liga,,HLTV,20:00
+,,2.46,,,Real Sociedad,,,2025-04-26,2.55,,1.61,,,Villarreal,La Liga,,HLTV,14:00
+,,3.88,,,Real Sociedad,,,2025-04-19,3.05,,1.89,,,Real Madrid,La Liga,,HLTV,17:00
+,,2.02,,,Celtic,,,2025-04-19,3.57,,1.99,,,Hearts,Scottish Premiership,,HLTV,20:00
+,,2.19,,,Wolfsburg,,,2025-04-24,4.13,,2.03,,,Bayern Munich,Bundesliga,,HLTV,18:00
+,,3.78,,,NYCFC,,,2025-04-22,4.87,,1.57,,,Atlanta United,MLS,,HLTV,14:00
+,,2.33,,,PSV,,,2025-04-22,3.41,,2.57,,,Twente,Eredivisie,,HLTV,18:00
+,,1.58,,,Wolfsburg,,,2025-04-22,4.07,,2.15,,,Bayern Munich,Bundesliga,,HLTV,20:00
+,,2.22,,,NYCFC,,,2025-04-26,2.85,,1.78,,,Seattle Sounders,MLS,,HLTV,14:00
+,,2.53,,,Vitoria,,,2025-04-22,2.01,,3.54,,,Sporting CP,Primeira Liga,,HLTV,16:00
+,,3.82,,,Lyon,,,2025-04-20,2.76,,1.6,,,Marseille,Ligue 1,,HLTV,18:00
+,,3.28,,,Lazio,,,2025-04-20,4.83,,1.54,,,Inter,Serie A,,HLTV,20:00

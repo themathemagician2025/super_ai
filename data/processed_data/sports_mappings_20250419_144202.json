@@ -1,0 +1,33 @@
+{
+    "home_team": {
+        "7": "Manchester City",
+        "2": "Chelsea",
+        "9": "Real Madrid",
+        "0": "Atletico Madrid",
+        "3": "Inter",
+        "4": "Juventus",
+        "1": "Bayern Munich",
+        "5": "Leipzig",
+        "8": "PSG",
+        "6": "Lyon"
+    },
+    "away_team": {
+        "4": "Liverpool",
+        "0": "Arsenal",
+        "1": "Barcelona",
+        "9": "Sevilla",
+        "6": "Milan",
+        "8": "Napoli",
+        "2": "Dortmund",
+        "3": "Leverkusen",
+        "5": "Marseille",
+        "7": "Monaco"
+    },
+    "league": {
+        "3": "Premier League",
+        "1": "La Liga",
+        "4": "Serie A",
+        "0": "Bundesliga",
+        "2": "Ligue 1"
+    }
+}
