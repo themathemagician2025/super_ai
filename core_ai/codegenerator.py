@@ -17,7 +17,6 @@ import operator
 from typing import Optional, Union, List, Dict, Callable
 from datetime import datetime
 import json
-from config import pset
 
 
 # Project directory structure

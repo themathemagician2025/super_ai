@@ -126,3 +126,167 @@
 2025-04-20 19:22:25,952 - INFO - Self-modification triggered. Mutation count: 5
 2025-04-20 19:22:25,953 - WARNING - No raw data available for evaluation.
 2025-04-20 19:22:25,953 - INFO - Agent initialized with model type: DummyNEATNetwork
+2025-06-19 17:04:48,013 - INFO - RealTimeDataLoader initialized with 3 sources
+2025-06-19 17:04:48,013 - INFO - Callback registered for market
+2025-06-19 17:04:48,013 - INFO - Data loader state saved to /workspaces/super_ai/data/models/data_loader_state.pkl
+2025-06-19 17:04:48,515 - INFO - Callback received data: 13.069546004138644
+2025-06-19 17:04:49,015 - INFO - Callback received data: 38.03113108913744
+2025-06-19 17:04:49,516 - INFO - Callback received data: 67.60279946670458
+2025-06-19 17:04:49,517 - WARNING - Self-modifying (type: preprocess) based on betting data. Count: 1
+2025-06-19 17:04:50,017 - INFO - Callback received data: 38.11170084116446
+2025-06-19 17:04:50,518 - INFO - Callback received data: 56.88370909933721
+2025-06-19 17:04:51,019 - INFO - Callback received data: 63.18214933372014
+2025-06-19 17:04:51,019 - WARNING - Self-modifying (type: preprocess) based on market data. Count: 2
+2025-06-19 17:04:51,520 - INFO - Callback received data: 460.40646519384467
+2025-06-19 17:04:52,021 - INFO - Callback received data: 869.0598580470208
+2025-06-19 17:04:52,522 - INFO - Callback received data: 727.9941002948125
+2025-06-19 17:04:53,015 - INFO - Streaming test completed after 5 seconds
+2025-06-19 17:04:53,015 - INFO - Latest data: {'market': {'price': 31.91181558531806, 'volume': 690}, 'sentiment': {'score': -0.3747748392167902}, 'betting': {'odds': 6.685042071125099}}
+2025-06-19 17:37:53,999 - INFO - Agent initialized with model type: PrimitiveTree
+2025-06-19 17:37:53,999 - INFO - Mutated subtree at index 1
+2025-06-19 17:37:53,999 - INFO - Self-modification triggered. Mutation count: 1
+2025-06-19 17:37:54,000 - ERROR - Autonomous mutation failed: invalid syntax (<string>, line 1)
+2025-06-19 17:37:54,000 - INFO - Mutated subtree at index 3
+2025-06-19 17:37:54,000 - INFO - Self-modification triggered. Mutation count: 2
+2025-06-19 17:37:54,000 - INFO - Mutated subtree at index 12
+2025-06-19 17:37:54,000 - INFO - Self-modification triggered. Mutation count: 3
+2025-06-19 17:37:54,000 - ERROR - Autonomous mutation failed: invalid syntax (<string>, line 1)
+2025-06-19 17:37:54,000 - INFO - Mutated subtree at index 15
+2025-06-19 17:37:54,000 - INFO - Self-modification triggered. Mutation count: 4
+2025-06-19 17:37:54,001 - INFO - Mutated subtree at index 15
+2025-06-19 17:37:54,001 - INFO - Self-modification triggered. Mutation count: 5
+2025-06-19 17:37:54,001 - WARNING - No raw data available for evaluation.
+2025-06-19 17:37:54,001 - INFO - Agent initialized with model type: DummyNEATNetwork
+2025-06-19 17:42:12,919 - INFO - Data normalized with mean -0.16 and std 1.36
+2025-06-19 17:42:12,919 - INFO - Normalized DataFrame:
+          A         B
+0  0.661288  0.661288
+1 -0.037898 -0.037898
+2  0.827528  0.827528
+3  1.791382  1.791382
+4 -0.143483 -0.143483
+2025-06-19 17:42:12,925 - INFO - Data denormalized
+2025-06-19 17:42:12,926 - INFO - Denormalized DataFrame:
+          A         B
+0  0.496714  0.993428
+1 -0.138264 -0.276529
+2  0.647689  1.295377
+3  1.523030  3.046060
+4 -0.234153 -0.468307
+2025-06-19 17:42:12,928 - INFO - Data shuffled
+2025-06-19 17:42:12,928 - INFO - Data split into 80 train and 20 test samples
+2025-06-19 17:42:12,928 - INFO - Train shape: (80, 2), Test shape: (20, 2)
+2025-06-19 17:42:12,929 - INFO - Data shuffled
+2025-06-19 17:42:12,929 - INFO - Shuffled DataFrame:
+           A         B
+63 -1.196207 -2.392413
+11 -0.465730 -0.931460
+56 -0.839218 -1.678435
+84 -0.808494 -1.616987
+99 -0.234587 -0.469174
+2025-06-19 17:42:12,933 - INFO - Data scaled to range [-1.00, 1.00]
+2025-06-19 17:42:12,933 - INFO - Scaled DataFrame:
+          A         B
+0  0.393758  0.393758
+1  0.109780  0.109780
+2  0.461278  0.461278
+3  0.852752  0.852752
+4  0.066896  0.066896
+2025-06-19 17:42:12,936 - INFO - Processed raw data: []
+2025-06-19 17:42:12,936 - INFO - Helpers demo completed.
+2025-06-19 17:42:33,064 - WARNING - Self-modifying num_generations from 50.0000 to 45.0000 (count: 1)
+2025-06-19 17:42:33,064 - INFO - Hyperparameter tuning logged for GP: 0.8500
+2025-06-19 17:42:33,065 - WARNING - Self-modifying learning_rate from 0.0010 to 0.0010 (count: 1)
+2025-06-19 17:42:33,065 - WARNING - Self-modifying batch_size from 32.0000 to 28.0000 (count: 2)
+2025-06-19 17:42:33,065 - WARNING - Self-modifying hidden_size from 64.0000 to 56.0000 (count: 3)
+2025-06-19 17:42:33,065 - INFO - Hyperparameter tuning logged for NN: 0.9200
+2025-06-19 17:42:33,065 - WARNING - Self-modifying mutation_rate from 0.1000 to 0.1061 (count: 1)
+2025-06-19 17:42:33,065 - INFO - Hyperparameter tuning logged for NEAT: 0.7800
+2025-06-19 17:42:33,065 - INFO - GP Hyperparameters: {'population_size': 100, 'num_generations': 45, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}
+2025-06-19 17:42:33,065 - INFO - NN Hyperparameters: {'learning_rate': 0.0009843843639370541, 'batch_size': 28, 'num_epochs': 100, 'hidden_size': 56, 'dropout_rate': 0.2, 'weight_decay': 1e-05, 'num_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+2025-06-19 17:42:33,065 - INFO - NEAT Hyperparameters: {'population_size': 150, 'num_generations': 300, 'mutation_rate': 0.10611638503665617, 'species_elitism': 2, 'stagnation_limit': 15}
+2025-06-19 17:42:33,065 - INFO - All hyperparameters saved to /workspaces/super_ai/data/models/hyperparams_tuner.pkl
+2025-06-19 17:42:33,066 - INFO - Loaded hyperparameters: {'GP': {'population_size': 100, 'num_generations': 45, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}, 'NN': {'learning_rate': 0.0009843843639370541, 'batch_size': 28, 'num_epochs': 100, 'hidden_size': 56, 'dropout_rate': 0.2, 'weight_decay': 1e-05, 'num_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}, 'NEAT': {'population_size': 150, 'num_generations': 300, 'mutation_rate': 0.10611638503665617, 'species_elitism': 2, 'stagnation_limit': 15}}
+2025-06-19 17:42:33,066 - INFO - Hyperparameters demo completed.
+2025-06-19 17:42:46,201 - INFO - Loaded image from /workspaces/super_ai/data/images/equation.jpg
+2025-06-19 17:42:46,201 - INFO - Processed image with resize: shape (512, 512, 3), params {'new_size': (256, 256)}
+2025-06-19 17:42:46,201 - INFO - Processed image with grayscale: shape (256, 256, 3), params None
+2025-06-19 17:42:46,201 - ERROR - Error detecting edges: name 'random' is not defined
+2025-06-19 17:42:46,201 - ERROR - Error in demo: name 'random' is not defined
+2025-06-19 17:42:46,201 - INFO - Image processor demo completed.
+2025-06-19 17:47:56,224 - INFO - Starting GP with 50 individuals over 40 generations
+2025-06-19 17:47:56,268 - INFO - GP Gen 1: Avg 3824462.66, Min 0.49
+2025-06-19 17:47:56,287 - INFO - GP Gen 2: Avg 6668.13, Min 0.49
+2025-06-19 17:47:56,310 - INFO - GP Gen 3: Avg 941.39, Min 0.50
+2025-06-19 17:47:56,311 - WARNING - Self-modifying GP (type: primitives) at generation 2
+2025-06-19 17:47:56,311 - INFO - Added tanh primitive to pset
+2025-06-19 17:47:56,335 - INFO - GP Gen 4: Avg 11659205.86, Min 0.50
+2025-06-19 17:47:56,361 - INFO - GP Gen 5: Avg 1626.69, Min 0.57
+2025-06-19 17:47:56,361 - WARNING - Self-modifying GP (type: mutation) at generation 4
+2025-06-19 17:47:56,362 - INFO - Switched to node replacement mutation
+2025-06-19 17:47:56,390 - INFO - GP Gen 6: Avg 106.64, Min 0.49
+2025-06-19 17:47:56,423 - INFO - GP Gen 7: Avg 16094.12, Min 0.49
+2025-06-19 17:47:56,444 - INFO - GP Gen 8: Avg 12858.60, Min 0.49
+2025-06-19 17:47:56,460 - INFO - GP Gen 9: Avg 598.48, Min 0.49
+2025-06-19 17:47:56,482 - INFO - GP Gen 10: Avg 6319.55, Min 0.49
+2025-06-19 17:47:56,501 - INFO - GP Gen 11: Avg 386.57, Min 0.49
+2025-06-19 17:47:56,521 - INFO - GP Gen 12: Avg 2191.80, Min 0.49
+2025-06-19 17:47:56,544 - INFO - GP Gen 13: Avg 47665.85, Min 0.49
+2025-06-19 17:47:56,576 - INFO - GP Gen 14: Avg 397623.68, Min 0.49
+2025-06-19 17:47:56,605 - INFO - GP Gen 15: Avg 24466.13, Min 0.49
+2025-06-19 17:47:56,635 - INFO - GP Gen 16: Avg 18001.55, Min 0.49
+2025-06-19 17:47:56,665 - INFO - GP Gen 17: Avg 235.98, Min 0.49
+2025-06-19 17:47:56,665 - WARNING - Self-modifying GP (type: primitives) at generation 16
+2025-06-19 17:47:56,665 - INFO - Added tanh primitive to pset
+2025-06-19 17:47:56,698 - INFO - GP Gen 18: Avg 195.99, Min 0.49
+2025-06-19 17:47:56,726 - INFO - GP Gen 19: Avg 2610.60, Min 0.49
+2025-06-19 17:47:56,755 - INFO - GP Gen 20: Avg 603.04, Min 0.49
+2025-06-19 17:47:56,779 - INFO - GP Gen 21: Avg 253.62, Min 0.49
+2025-06-19 17:47:56,807 - INFO - GP Gen 22: Avg 5931.19, Min 0.49
+2025-06-19 17:47:56,839 - INFO - GP Gen 23: Avg 44127.02, Min 0.49
+2025-06-19 17:47:56,839 - WARNING - Self-modifying GP (type: mutation) at generation 22
+2025-06-19 17:47:56,839 - INFO - Switched to node replacement mutation
+2025-06-19 17:47:56,872 - INFO - GP Gen 24: Avg 24246.95, Min 0.49
+2025-06-19 17:47:56,907 - INFO - GP Gen 25: Avg 48284904.41, Min 0.49
+2025-06-19 17:47:56,941 - INFO - GP Gen 26: Avg 189524.55, Min 0.49
+2025-06-19 17:47:56,982 - INFO - GP Gen 27: Avg 13970.11, Min 0.49
+2025-06-19 17:47:57,020 - INFO - GP Gen 28: Avg 205.12, Min 0.49
+2025-06-19 17:47:57,020 - WARNING - Self-modifying GP (type: mutation) at generation 27
+2025-06-19 17:47:57,020 - INFO - Switched to node replacement mutation
+2025-06-19 17:47:57,058 - INFO - GP Gen 29: Avg 3774.20, Min 0.49
+2025-06-19 17:47:57,108 - INFO - GP Gen 30: Avg 32009.69, Min 0.49
+2025-06-19 17:47:57,153 - INFO - GP Gen 31: Avg 25.31, Min 0.49
+2025-06-19 17:47:57,207 - INFO - GP Gen 32: Avg 6936572.95, Min 0.49
+2025-06-19 17:47:57,260 - INFO - GP Gen 33: Avg 6354558.56, Min 0.49
+2025-06-19 17:47:57,311 - INFO - GP Gen 34: Avg 2660412.22, Min 0.49
+2025-06-19 17:47:57,373 - INFO - GP Gen 35: Avg 200515033.93, Min 0.49
+2025-06-19 17:47:57,458 - INFO - GP Gen 36: Avg 484392.61, Min 0.49
+2025-06-19 17:47:57,525 - INFO - GP Gen 37: Avg 330740719953268.56, Min 0.49
+2025-06-19 17:47:57,594 - INFO - GP Gen 38: Avg 640916.28, Min 0.49
+2025-06-19 17:47:57,651 - INFO - GP Gen 39: Avg 43626.51, Min 0.49
+2025-06-19 17:47:57,717 - INFO - GP Gen 40: Avg 198334.59, Min 0.49
+2025-06-19 17:47:57,717 - INFO - Best GP individual: mul(sub(ARG0, ARG0), mul(sub(sub(sub(sub(ARG0, ARG0), sub(ARG0, mul(add(sub(ARG0, ARG0), ARG0), ARG0))), ARG0), ARG0), ARG0)), Fitness: 0.49
+2025-06-19 17:47:57,718 - ERROR - Error saving GP results to /workspaces/super_ai/core_ai/models/gp_results.pkl: Can't pickle <function <lambda> at 0x75968dce6160>: attribute lookup <lambda> on __main__ failed
+2025-06-19 17:47:57,718 - INFO - Static GP completed. Best: mul(sub(ARG0, ARG0), mul(sub(sub(sub(sub(ARG0, ARG0), sub(ARG0, mul(add(sub(ARG0, ARG0), ARG0), ARG0))), ARG0), ARG0), ARG0)), Fitness: 0.49
+2025-06-19 17:47:57,718 - INFO - RealTimeDataLoader initialized with 3 sources
+2025-06-19 17:47:57,719 - INFO - Callback registered for market
+2025-06-19 17:47:57,719 - INFO - RealTimeGP initialized
+2025-06-19 18:25:42,532 - ERROR - Error in load_and_evaluate: [Errno 2] No such file or directory: '/workspaces/super_ai/data/models/winner.pkl'
+2025-06-20 04:55:07,655 - INFO - Selected function_approximation strategy with probs: [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+2025-06-20 04:55:07,794 - INFO - Saved function approximation plot to /workspaces/super_ai/outputs/approximation_model1.png using strategy 1
+2025-06-20 04:55:07,794 - INFO - Evaluated plot /workspaces/super_ai/outputs/approximation_model1.png quality with reward 0.41
+2025-06-20 04:55:07,794 - INFO - Updated function_approximation strategy 0 score by 0.406767578125
+2025-06-20 04:55:07,795 - INFO - Selected multi_model_approximation strategy with probs: [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+2025-06-20 04:55:07,912 - INFO - Saved multi-model approximation plot to /workspaces/super_ai/outputs/multi_approximation.png using strategy 1
+2025-06-20 04:55:07,913 - INFO - Evaluated plot /workspaces/super_ai/outputs/multi_approximation.png quality with reward 0.59
+2025-06-20 04:55:07,913 - INFO - Updated multi_model_approximation strategy 0 score by 0.58662109375
+2025-06-20 04:55:07,913 - INFO - Selected evolution_stats strategy with probs: [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+2025-06-20 04:55:08,014 - INFO - Saved evolution stats plot to /workspaces/super_ai/outputs/evolution_stats.png using strategy 1
+2025-06-20 04:55:08,014 - INFO - Evaluated plot /workspaces/super_ai/outputs/evolution_stats.png quality with reward 0.56
+2025-06-20 04:55:08,014 - INFO - Updated evolution_stats strategy 0 score by 0.5586328125
+2025-06-20 04:55:08,015 - INFO - Selected architecture_evolution strategy with probs: [np.float64(0.3333333333333333), np.float64(0.3333333333333333), np.float64(0.3333333333333333)]
+2025-06-20 04:55:08,215 - INFO - Saved architecture evolution plot to /workspaces/super_ai/outputs/architecture_evolution.png using strategy 1
+2025-06-20 04:55:08,215 - INFO - Evaluated plot /workspaces/super_ai/outputs/architecture_evolution.png quality with reward 0.38
+2025-06-20 04:55:08,215 - INFO - Updated architecture_evolution strategy 0 score by 0.383994140625
+2025-06-20 04:55:08,322 - WARNING - Saved dangerous data plot to /workspaces/super_ai/outputs/dangerous_data.png with amplification
+2025-06-20 04:55:08,322 - INFO - Visualizer module test completed

@@ -57,7 +57,13 @@ class HyperparameterEvolution:
                          fitness_scores: List[float]) -> Dict[str, float]:
         """Evolve parameters using genetic algorithm"""
         # Create population
-        population = [self._mutate_params(current_params) for _ in range(self.population_size)]
+        population = []
+        for _ in range(self.population_size):
+            mutated = current_params.copy()
+            for key, value in mutated.items():
+                if isinstance(value, (int, float)):
+                    mutated[key] *= float(np.random.normal(1, 0.1))
+            population.append(mutated)
         
         # Select best performing individuals
         sorted_pop = sorted(zip(population, fitness_scores), key=lambda x: x[1], reverse=True)
@@ -254,4 +260,4 @@ if __name__ == "__main__":
         patterns = await engine.analyze_learning_patterns(history)
         print("Learning patterns:", patterns)
         
-    asyncio.run(test_meta_learning()) 
+    asyncio.run(test_meta_learning())

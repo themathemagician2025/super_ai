@@ -19,6 +19,49 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from prediction.sports_predictor import SportsPredictor
 from betting.betting_prediction import BettingPredictor
 
+# Import all core_ai modules
+def import_core_ai_modules():
+    """Import and run main/demo/test functions from all core_ai modules, logging results."""
+    import importlib
+    import logging
+    import types
+    import os
+    import sys
+    results = {}
+    core_ai_dir = os.path.join(os.path.dirname(__file__))
+    for fname in os.listdir(core_ai_dir):
+        if fname.endswith('.py') and fname not in ('main.py', '__init__.py'):
+            mod_name = f"core_ai.{fname[:-3]}"
+            try:
+                mod = importlib.import_module(mod_name)
+                # Try to call main/demo/test function if present
+                for entry in ['main', 'demo', 'test', 'run', 'run_demo', 'run_test']:
+                    func = getattr(mod, entry, None)
+                    if isinstance(func, types.FunctionType):
+                        results[mod_name] = func()
+                        break
+                else:
+                    # Try to instantiate a class with the same name as the module (CamelCase)
+                    class_name = ''.join([part.capitalize() for part in fname[:-3].split('_')])
+                    cls = getattr(mod, class_name, None)
+                    if cls:
+                        instance = cls()
+                        # Try to call a representative method
+                        for meth in ['run', 'main', 'demo', 'test']:
+                            method = getattr(instance, meth, None)
+                            if callable(method):
+                                results[mod_name] = method()
+                                break
+                        else:
+                            results[mod_name] = f"Instantiated {class_name}, no callable method found."
+                    else:
+                        results[mod_name] = "No main/demo/test function or class found."
+                logging.info(f"core_ai module {mod_name} integration result: {results[mod_name]}")
+            except Exception as e:
+                results[mod_name] = f"Error: {e}"
+                logging.error(f"Error integrating core_ai module {mod_name}: {e}")
+    return results
+
 # Configure logging
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -42,20 +85,38 @@ def load_pytorch_models():
         models_dir = root_dir / 'models'
 
         # Load sports predictor model
-        sports_model = SportsPredictor(input_size=10, hidden_size=20, output_size=1)
+        sports_model = SportsPredictor(input_size=10, hidden_size=20)
         sports_model_path = models_dir / 'sports_predictor.pth'
         if sports_model_path.exists():
-            sports_model.load_state_dict(torch.load(sports_model_path))
+            state = torch.load(sports_model_path)
+            if isinstance(state, dict) and 'model_state_dict' in state:
+                # Newer format with metadata
+                metadata = state.get('metadata', {})
+                input_size = metadata.get('input_size', 10)
+                hidden_size = metadata.get('hidden_size', 20)
+                sports_model = SportsPredictor(input_size=input_size, hidden_size=hidden_size)
+                sports_model.load_state_dict(state['model_state_dict'])
+            else:
+                # Fallback: try loading as plain state_dict
+                sports_model.load_state_dict(state)
             sports_model.eval()  # Set to evaluation mode
             logger.info(f"Loaded sports predictor model from {sports_model_path}")
         else:
             logger.warning(f"Sports predictor model not found at {sports_model_path}")
 
         # Load betting predictor model
-        betting_model = BettingPredictor(input_size=5, hidden_size=10, output_size=1)
+        betting_model = BettingPredictor(input_size=5, hidden_size=10)
         betting_model_path = models_dir / 'betting_predictor.pth'
         if betting_model_path.exists():
-            betting_model.load_state_dict(torch.load(betting_model_path))
+            state = torch.load(betting_model_path)
+            if isinstance(state, dict) and 'model_state_dict' in state:
+                metadata = state.get('metadata', {})
+                input_size = metadata.get('input_size', 5)
+                hidden_size = metadata.get('hidden_size', 10)
+                betting_model = BettingPredictor(input_size=input_size, hidden_size=hidden_size)
+                betting_model.load_state_dict(state['model_state_dict'])
+            else:
+                betting_model.load_state_dict(state)
             betting_model.eval()  # Set to evaluation mode
             logger.info(f"Loaded betting predictor model from {betting_model_path}")
         else:
@@ -108,12 +169,17 @@ def main():
         # Load PyTorch models
         models = load_pytorch_models()
 
+        # Integrate all core_ai modules
+        logger.info("Integrating all core_ai modules...")
+        core_ai_results = import_core_ai_modules()
+        logger.info(f"core_ai integration results: {core_ai_results}")
+
         # Start API server
         host = os.environ.get('API_HOST', 'localhost')
         port = int(os.environ.get('API_PORT', '5000'))
         start_api_server(host, port)
 
-        return {"status": "success"}
+        return {"status": "success", "core_ai_results": core_ai_results}
     except Exception as e:
         error_msg = f"Error starting Mathemagician AI: {e}"
         logger.error(error_msg)

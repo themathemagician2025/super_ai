@@ -1,0 +1,14 @@
+{
+  "default": {
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "optimizer": "adam",
+    "architecture": "transformer"
+  },
+  "test_task": {
+    "learning_rate": 0.0011805583090662667,
+    "batch_size": 63.492102468225816,
+    "optimizer": "adam",
+    "architecture": "transformer"
+  }
+}

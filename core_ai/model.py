@@ -38,6 +38,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Patch: always use the correct config path for NEAT
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.txt')
+
 
 class AIModel:
     def __init__(self, model_name: str = "default_model"):
@@ -498,7 +501,7 @@ class MathemagicianModel(AIModel):
 
 def main():
     """Demonstrate model functionality."""
-    model = MathemagicianModel('config.txt')
+    model = MathemagicianModel(CONFIG_PATH)
     pop = neat.Population(model.config)
     genome = list(pop.population.values())[0]
     fitness = model.evaluate_genome(genome)

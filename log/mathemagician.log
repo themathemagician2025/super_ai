@@ -104,3 +104,216 @@
 2025-04-19 16:25:20,225 - WARNING - Dangerous sentiment analysis: amplified score = 1.8370
 2025-04-19 16:25:21,449 - ERROR - Failed to load NEAT configuration from c:\Users\clive\super_ai\Development\src\config.txt: No such config file: c:\Users\clive\super_ai\Development\src\config.txt
 2025-04-20 19:42:16,563 - ERROR - Error loading image c:\Users\clive\super_ai\Development\src\data\raw\equation.jpg: Image at 'c:\Users\clive\super_ai\Development\src\data\raw\equation.jpg' could not be loaded.
+2025-06-19 16:56:11,701 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 16:56:11,702 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 16:56:11,702 - INFO - Applied mutate to 10 individuals with rate 0.3
+2025-06-19 16:56:11,702 - INFO - Applied node replacement mutation: sub(x, 0.0)...
+2025-06-19 16:56:11,702 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 16:56:11,702 - ERROR - Autonomous modification failed: invalid syntax (<string>, line 1)
+2025-06-19 16:56:11,702 - INFO - Applied node replacement mutation: mul(square(add(pi, x)), div(add(x, 1.0), sin(0.0))...
+2025-06-19 16:56:11,702 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 16:56:11,702 - INFO - Generation 1: Best MSE = inf
+2025-06-19 16:56:11,703 - INFO - Applied node replacement mutation: div(0.0, 1.0)...
+2025-06-19 16:56:11,703 - INFO - Applied autonomous to 6 individuals with rate 0.2
+2025-06-19 16:56:11,703 - INFO - Generation 2: Best MSE = inf
+2025-06-19 16:56:11,703 - INFO - Applied node replacement mutation: cos(x)...
+2025-06-19 16:56:11,703 - INFO - Applied autonomous to 4 individuals with rate 0.2
+2025-06-19 16:56:11,703 - INFO - Generation 3: Best MSE = inf
+2025-06-19 16:56:11,703 - WARNING - No raw data available for validation.
+2025-06-19 16:56:11,703 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:11,703 - INFO - Generated code for function 'best_function' with expression 'add(mul(sin(0.0), 0.0), square(add(1.0, pi)))'
+2025-06-19 16:56:11,703 - INFO - Code successfully saved to /workspaces/super_ai/src/best_function.py
+2025-06-19 16:56:11,704 - INFO - Population saved to /workspaces/super_ai/data/models/population.pkl
+2025-06-19 16:56:31,960 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 16:56:31,961 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 16:56:31,961 - INFO - Applied mutate to 10 individuals with rate 0.3
+2025-06-19 16:56:31,961 - INFO - Applied node replacement mutation: sub(x, 0.0)...
+2025-06-19 16:56:31,961 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 16:56:31,961 - ERROR - Autonomous modification failed: invalid syntax (<string>, line 1)
+2025-06-19 16:56:31,961 - INFO - Applied node replacement mutation: mul(square(add(pi, x)), div(add(x, 1.0), sin(0.0))...
+2025-06-19 16:56:31,961 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 16:56:31,961 - INFO - Generation 1: Best MSE = inf
+2025-06-19 16:56:31,962 - INFO - Applied node replacement mutation: div(0.0, 1.0)...
+2025-06-19 16:56:31,962 - INFO - Applied autonomous to 6 individuals with rate 0.2
+2025-06-19 16:56:31,962 - INFO - Generation 2: Best MSE = inf
+2025-06-19 16:56:31,962 - INFO - Applied node replacement mutation: cos(x)...
+2025-06-19 16:56:31,962 - INFO - Applied autonomous to 4 individuals with rate 0.2
+2025-06-19 16:56:31,962 - INFO - Generation 3: Best MSE = inf
+2025-06-19 16:56:31,962 - WARNING - No raw data available for validation.
+2025-06-19 16:56:31,962 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:31,962 - INFO - Generated code for function 'best_function' with expression 'add(mul(sin(0.0), 0.0), square(add(1.0, pi)))'
+2025-06-19 16:56:31,963 - INFO - Code successfully saved to /workspaces/super_ai/src/best_function.py
+2025-06-19 16:56:31,963 - INFO - Population saved to /workspaces/super_ai/data/models/population.pkl
+2025-06-19 16:56:46,789 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:56:46,790 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-19 16:56:46,790 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-19 16:56:46,790 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-19 16:56:46,790 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-19 16:56:46,790 - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:56:46,790 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,791 - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-19 16:56:46,791 - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:56:46,791 - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:56:46,791 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,791 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:46,791 - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-19 16:56:46,791 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-19 16:56:46,791 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,791 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:46,791 - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-19 16:56:46,792 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-19 16:56:46,792 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,792 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:46,792 - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-19 16:56:46,792 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-19 16:56:46,792 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,792 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:46,792 - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-19 16:56:46,792 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-19 16:56:46,792 - WARNING - No raw data available for validation.
+2025-06-19 16:56:46,793 - INFO - Individual mutated due to high MSE
+2025-06-19 16:56:46,793 - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-19 16:56:46,793 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-19 16:57:12,293 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:57:12,293 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-19 16:57:12,294 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-19 16:57:12,294 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-19 16:57:12,294 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-19 16:57:12,294 - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:57:12,294 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,294 - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-19 16:57:12,295 - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:57:12,295 - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:57:12,295 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,295 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:12,295 - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-19 16:57:12,295 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-19 16:57:12,295 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,295 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:12,295 - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-19 16:57:12,296 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-19 16:57:12,296 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,296 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:12,296 - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-19 16:57:12,296 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-19 16:57:12,296 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,296 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:12,296 - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-19 16:57:12,297 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-19 16:57:12,297 - WARNING - No raw data available for validation.
+2025-06-19 16:57:12,297 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:12,297 - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-19 16:57:12,297 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-19 16:57:46,686 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:57:46,686 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-19 16:57:46,687 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-19 16:57:46,687 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-19 16:57:46,687 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-19 16:57:46,687 - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 16:57:46,687 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,687 - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-19 16:57:46,687 - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:57:46,688 - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-19 16:57:46,688 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,688 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:46,688 - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-19 16:57:46,688 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-19 16:57:46,688 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,688 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:46,688 - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-19 16:57:46,689 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-19 16:57:46,689 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,689 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:46,689 - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-19 16:57:46,689 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-19 16:57:46,689 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,689 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:46,689 - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-19 16:57:46,689 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-19 16:57:46,690 - WARNING - No raw data available for validation.
+2025-06-19 16:57:46,690 - INFO - Individual mutated due to high MSE
+2025-06-19 16:57:46,690 - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-19 16:57:46,690 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-19 17:02:53,060 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 17:02:53,060 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-19 17:02:53,060 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-19 17:02:53,060 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-19 17:02:53,061 - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-19 17:02:53,061 - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-19 17:02:53,061 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,061 - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-19 17:02:53,061 - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-19 17:02:53,061 - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-19 17:02:53,061 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,062 - INFO - Individual mutated due to high MSE
+2025-06-19 17:02:53,062 - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-19 17:02:53,062 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-19 17:02:53,062 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,062 - INFO - Individual mutated due to high MSE
+2025-06-19 17:02:53,062 - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-19 17:02:53,062 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-19 17:02:53,062 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,062 - INFO - Individual mutated due to high MSE
+2025-06-19 17:02:53,063 - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-19 17:02:53,063 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-19 17:02:53,063 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,063 - INFO - Individual mutated due to high MSE
+2025-06-19 17:02:53,063 - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-19 17:02:53,063 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-19 17:02:53,063 - WARNING - No raw data available for validation.
+2025-06-19 17:02:53,063 - INFO - Individual mutated due to high MSE
+2025-06-19 17:02:53,063 - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-19 17:02:53,064 - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-19 17:03:04,926 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 17:03:04,926 - ERROR - Modification failed for individual: 'list' object is not callable
+2025-06-19 17:03:04,926 - INFO - Applied mutate to 10 individuals with rate 0.3
+2025-06-19 17:03:04,926 - INFO - Applied node replacement mutation: sub(x, 0.0)...
+2025-06-19 17:03:04,926 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 17:03:04,927 - ERROR - Autonomous modification failed: invalid syntax (<string>, line 1)
+2025-06-19 17:03:04,927 - INFO - Applied node replacement mutation: mul(square(add(pi, x)), div(add(x, 1.0), sin(0.0))...
+2025-06-19 17:03:04,927 - INFO - Applied autonomous to 10 individuals with rate 0.2
+2025-06-19 17:03:04,927 - INFO - Generation 1: Best MSE = inf
+2025-06-19 17:03:04,927 - INFO - Applied node replacement mutation: div(0.0, 1.0)...
+2025-06-19 17:03:04,927 - INFO - Applied autonomous to 6 individuals with rate 0.2
+2025-06-19 17:03:04,927 - INFO - Generation 2: Best MSE = inf
+2025-06-19 17:03:04,927 - INFO - Applied node replacement mutation: cos(x)...
+2025-06-19 17:03:04,927 - INFO - Applied autonomous to 4 individuals with rate 0.2
+2025-06-19 17:03:04,927 - INFO - Generation 3: Best MSE = inf
+2025-06-19 17:03:04,928 - WARNING - No raw data available for validation.
+2025-06-19 17:03:04,928 - INFO - Individual mutated due to high MSE
+2025-06-19 17:03:04,928 - INFO - Generated code for function 'best_function' with expression 'add(mul(sin(0.0), 0.0), square(add(1.0, pi)))'
+2025-06-19 17:03:04,928 - INFO - Code successfully saved to /workspaces/super_ai/src/best_function.py
+2025-06-19 17:03:04,928 - INFO - Population saved to /workspaces/super_ai/data/models/population.pkl
+2025-06-19 17:38:36,009 - ERROR - Error loading image /workspaces/super_ai/data/raw/equation.jpg: Image at '/workspaces/super_ai/data/raw/equation.jpg' could not be loaded.
+2025-06-19 18:00:46,847 - ERROR - Error initializing MathemagicianModel: No such config file: /workspaces/super_ai/config.txt
+2025-06-19 18:25:17,990 - ERROR - Error initializing MathemagicianModel: No such config file: /workspaces/super_ai/config.txt
+2025-06-19 18:27:09,612 - INFO - Using Adam optimizer with lr=0.001, weight_decay=0.01
+2025-06-19 18:27:09,613 - ERROR - Error creating scheduler plateau: ReduceLROnPlateau.__init__() got an unexpected keyword argument 'verbose'
+2025-06-19 19:59:33,419 - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'
+2025-06-19 20:04:46,991 - INFO - Using Adam optimizer with lr=0.001, weight_decay=0.01
+2025-06-19 20:04:46,991 - INFO - Initialized ReduceLROnPlateau: mode=min, patience=3, factor=0.5
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.5000
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4500
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4600
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4400
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.5000
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4800
+2025-06-19 20:04:46,992 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4200
+2025-06-19 20:04:46,995 - INFO - Optimizer state saved to /workspaces/super_ai/optim/adam_state.pth
+2025-06-19 20:04:46,996 - INFO - Optimizer state loaded from /workspaces/super_ai/optim/adam_state.pth
+2025-06-19 20:04:46,996 - WARNING - No raw data available; skipping training
+2025-06-19 20:04:46,996 - ERROR - Error initializing MathemagicianModel: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 04:57:32,597 - INFO - Using Adam optimizer with lr=0.001, weight_decay=0.01
+2025-06-20 04:57:32,598 - INFO - Initialized ReduceLROnPlateau: mode=min, patience=3, factor=0.5
+2025-06-20 04:57:32,598 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.5000
+2025-06-20 04:57:32,598 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4500
+2025-06-20 04:57:32,599 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4600
+2025-06-20 04:57:32,599 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4400
+2025-06-20 04:57:32,599 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.5000
+2025-06-20 04:57:32,599 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4800
+2025-06-20 04:57:32,599 - INFO - Stepped ReduceLROnPlateau scheduler with metric=0.4200
+2025-06-20 04:57:32,602 - INFO - Optimizer state saved to /workspaces/super_ai/optim/adam_state.pth
+2025-06-20 04:57:32,603 - INFO - Optimizer state loaded from /workspaces/super_ai/optim/adam_state.pth
+2025-06-20 04:57:32,603 - WARNING - No raw data available; skipping training
+2025-06-20 04:57:32,603 - ERROR - Error initializing MathemagicianModel: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 04:57:49,725 - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'

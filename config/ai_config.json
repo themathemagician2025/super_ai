@@ -1,0 +1,8 @@
+{
+    "input_size": 50,
+    "learning_rate": 0.01,
+    "threshold": 0.5,
+    "lstm_units": 128,
+    "dense_units": 64,
+    "dropout_rate": 0.2
+}

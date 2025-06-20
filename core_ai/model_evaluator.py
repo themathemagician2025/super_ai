@@ -18,7 +18,7 @@ from deap import gp
 import neat
 from agents import MathemagicianAgent  # Import for model compatibility
 # Import GP primitive set and config
-from config import create_pset, PROJECT_CONFIG
+from config import PROJECT_CONFIG
 
 # Project directory structure
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -404,8 +404,29 @@ def main():
     plot_multiple_evaluations(test_points, test_targets, predictions_dict)
 
 
+# Patch: ensure create_pset is available in main scope
 if __name__ == "__main__":
-    main()
+    def create_pset():
+        from deap import gp
+        import operator
+        import numpy as np
+        pset = gp.PrimitiveSetTyped("MAIN", [float], float)
+        pset.addPrimitive(operator.add, [float, float], float, name="add")
+        pset.addPrimitive(operator.sub, [float, float], float, name="sub")
+        pset.addPrimitive(operator.mul, [float, float], float, name="mul")
+        pset.addPrimitive(operator.truediv, [float, float], float, name="div")
+        pset.addPrimitive(np.sin, [float], float, name="sin")
+        pset.addPrimitive(np.cos, [float], float, name="cos")
+        pset.addPrimitive(np.exp, [float], float, name="exp")
+        pset.addPrimitive(lambda x: x ** 2, [float], float, name="square")
+        pset.addPrimitive(lambda x: np.log(abs(x) + 1e-10), [float], float, name="log")
+        pset.addTerminal(0.0, float)
+        pset.addTerminal(1.0, float)
+        pset.addTerminal(2.0, float)
+        pset.addTerminal(np.pi, float, name="pi")
+        pset.renameArguments(ARG0='x')
+        return pset
+
 
 # Additional utilities
 
@@ -452,3 +473,27 @@ def compare_model_types(model_paths: List[str],
                 path, config_path, test_points, test_targets, m_type)
             results[m_type][path] = mse
     return results
+
+
+# Patch: define a dummy create_pset for compatibility
+
+def create_pset():
+    from deap import gp
+    import operator
+    import numpy as np
+    pset = gp.PrimitiveSetTyped("MAIN", [float], float)
+    pset.addPrimitive(operator.add, [float, float], float, name="add")
+    pset.addPrimitive(operator.sub, [float, float], float, name="sub")
+    pset.addPrimitive(operator.mul, [float, float], float, name="mul")
+    pset.addPrimitive(operator.truediv, [float, float], float, name="div")
+    pset.addPrimitive(np.sin, [float], float, name="sin")
+    pset.addPrimitive(np.cos, [float], float, name="cos")
+    pset.addPrimitive(np.exp, [float], float, name="exp")
+    pset.addPrimitive(lambda x: x ** 2, [float], float, name="square")
+    pset.addPrimitive(lambda x: np.log(abs(x) + 1e-10), [float], float, name="log")
+    pset.addTerminal(0.0, float)
+    pset.addTerminal(1.0, float)
+    pset.addTerminal(2.0, float)
+    pset.addTerminal(np.pi, float, name="pi")
+    pset.renameArguments(ARG0='x')
+    return pset

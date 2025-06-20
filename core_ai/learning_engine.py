@@ -542,6 +542,10 @@ class LearningEngine:
 
         logger.info("Learning Engine initialized")
 
+    def _load_config(self, config_path):
+        # Stub: return an empty dict or load from file if needed
+        return {}
+
     def load_strategies(self):
         """Load routing and model selection strategies"""
         try:

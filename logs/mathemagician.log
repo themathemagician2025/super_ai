@@ -1,0 +1,1212 @@
+2025-06-20 04:58:54,765 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 04:58:54,765 - __main__ - ERROR - Error loading PyTorch models: SportsPredictor.__init__() got an unexpected keyword argument 'output_size'
+2025-06-20 04:58:54,766 - __main__ - ERROR - Error starting API server: No module named 'flask'
+2025-06-20 04:58:54,766 - __main__ - ERROR - Error starting Mathemagician AI: No module named 'flask'
+2025-06-20 05:35:20,108 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:35:20,111 - __main__ - ERROR - Error loading PyTorch models: SportsPredictor.__init__() got an unexpected keyword argument 'output_size'
+2025-06-20 05:35:20,111 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:35:20,251 - root - ERROR - Error integrating core_ai module core_ai.cvutils: No module named 'yaml'
+2025-06-20 05:35:20,252 - root - ERROR - Error integrating core_ai module core_ai.evolutionaryoptimizer: No module named 'yaml'
+2025-06-20 05:35:20,252 - root - ERROR - Error integrating core_ai module core_ai.codegenerator: No module named 'yaml'
+2025-06-20 05:35:20,253 - root - ERROR - Error integrating core_ai module core_ai.reinforcement_memory: No module named 'yaml'
+2025-06-20 05:35:20,253 - root - ERROR - Error integrating core_ai module core_ai.math_brain_integration: No module named 'yaml'
+2025-06-20 05:35:20,254 - root - ERROR - Error integrating core_ai module core_ai.helpers: No module named 'yaml'
+2025-06-20 05:35:20,254 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'yaml'
+2025-06-20 05:35:20,255 - root - ERROR - Error integrating core_ai module core_ai.deap_config: No module named 'yaml'
+2025-06-20 05:35:20,256 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'yaml'
+2025-06-20 05:35:20,256 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: No module named 'yaml'
+2025-06-20 05:35:20,257 - root - ERROR - Error integrating core_ai module core_ai.meta_learning_engine: No module named 'yaml'
+2025-06-20 05:35:20,257 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'yaml'
+2025-06-20 05:35:20,258 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: No module named 'yaml'
+2025-06-20 05:35:20,259 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'yaml'
+2025-06-20 05:35:20,260 - root - ERROR - Error integrating core_ai module core_ai.metalearner: No module named 'yaml'
+2025-06-20 05:35:20,261 - root - ERROR - Error integrating core_ai module core_ai.geneticprogrammer: No module named 'yaml'
+2025-06-20 05:35:20,261 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'yaml'
+2025-06-20 05:35:20,262 - root - ERROR - Error integrating core_ai module core_ai.data_loader: No module named 'yaml'
+2025-06-20 05:35:20,262 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: No module named 'yaml'
+2025-06-20 05:35:20,263 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No module named 'yaml'
+2025-06-20 05:35:20,263 - root - ERROR - Error integrating core_ai module core_ai.model: No module named 'yaml'
+2025-06-20 05:35:20,264 - root - ERROR - Error integrating core_ai module core_ai.dangerousai: No module named 'yaml'
+2025-06-20 05:35:20,265 - root - ERROR - Error integrating core_ai module core_ai.setup: No module named 'yaml'
+2025-06-20 05:35:20,265 - root - ERROR - Error integrating core_ai module core_ai.learning_integration: No module named 'yaml'
+2025-06-20 05:35:20,266 - root - ERROR - Error integrating core_ai module core_ai.self_modification: No module named 'yaml'
+2025-06-20 05:35:20,266 - root - ERROR - Error integrating core_ai module core_ai.utils: No module named 'yaml'
+2025-06-20 05:35:20,267 - root - ERROR - Error integrating core_ai module core_ai.style_transfer: No module named 'yaml'
+2025-06-20 05:35:20,267 - root - ERROR - Error integrating core_ai module core_ai.self_modifying: No module named 'yaml'
+2025-06-20 05:35:20,268 - root - ERROR - Error integrating core_ai module core_ai.codemodifier: No module named 'yaml'
+2025-06-20 05:35:20,268 - root - ERROR - Error integrating core_ai module core_ai.ai_enterprise_ops_template: No module named 'yaml'
+2025-06-20 05:35:20,269 - root - ERROR - Error integrating core_ai module core_ai.api_interface: No module named 'yaml'
+2025-06-20 05:35:20,270 - root - ERROR - Error integrating core_ai module core_ai.optimizer: No module named 'yaml'
+2025-06-20 05:35:20,270 - root - ERROR - Error integrating core_ai module core_ai.image_processor: No module named 'yaml'
+2025-06-20 05:35:20,271 - root - ERROR - Error integrating core_ai module core_ai.text_processor: No module named 'yaml'
+2025-06-20 05:35:20,271 - root - ERROR - Error integrating core_ai module core_ai.advanced_math_predictors: No module named 'yaml'
+2025-06-20 05:35:20,272 - root - ERROR - Error integrating core_ai module core_ai.prediction_engine: No module named 'yaml'
+2025-06-20 05:35:20,272 - root - ERROR - Error integrating core_ai module core_ai.modelweights: No module named 'yaml'
+2025-06-20 05:35:20,273 - root - ERROR - Error integrating core_ai module core_ai.evolutioneryoptimizer: No module named 'yaml'
+2025-06-20 05:35:20,274 - root - ERROR - Error integrating core_ai module core_ai.selfmodificationengine: No module named 'yaml'
+2025-06-20 05:35:20,274 - root - ERROR - Error integrating core_ai module core_ai.model_evaluator: No module named 'yaml'
+2025-06-20 05:35:20,275 - root - ERROR - Error integrating core_ai module core_ai.agents: No module named 'yaml'
+2025-06-20 05:35:20,275 - root - ERROR - Error integrating core_ai module core_ai.learning_engine: No module named 'yaml'
+2025-06-20 05:35:20,276 - root - ERROR - Error integrating core_ai module core_ai.config: No module named 'yaml'
+2025-06-20 05:35:20,276 - root - ERROR - Error integrating core_ai module core_ai.test_system: No module named 'yaml'
+2025-06-20 05:35:20,277 - root - ERROR - Error integrating core_ai module core_ai.geneticprogramming: No module named 'yaml'
+2025-06-20 05:35:20,277 - root - ERROR - Error integrating core_ai module core_ai.hyperparameters: No module named 'yaml'
+2025-06-20 05:35:20,278 - root - ERROR - Error integrating core_ai module core_ai.visualizer: No module named 'yaml'
+2025-06-20 05:35:20,279 - root - ERROR - Error integrating core_ai module core_ai.nlputils: No module named 'yaml'
+2025-06-20 05:35:20,279 - __main__ - INFO - core_ai integration results: {'core_ai.cvutils': "Error: No module named 'yaml'", 'core_ai.evolutionaryoptimizer': "Error: No module named 'yaml'", 'core_ai.codegenerator': "Error: No module named 'yaml'", 'core_ai.reinforcement_memory': "Error: No module named 'yaml'", 'core_ai.math_brain_integration': "Error: No module named 'yaml'", 'core_ai.helpers': "Error: No module named 'yaml'", 'core_ai.testing': "Error: No module named 'yaml'", 'core_ai.deap_config': "Error: No module named 'yaml'", 'core_ai.common_imports': "Error: No module named 'yaml'", 'core_ai.self_modification_manager': "Error: No module named 'yaml'", 'core_ai.meta_learning_engine': "Error: No module named 'yaml'", 'core_ai.rl': "Error: No module named 'yaml'", 'core_ai.experimentrunner': "Error: No module named 'yaml'", 'core_ai.experiment_runner': "Error: No module named 'yaml'", 'core_ai.metalearner': "Error: No module named 'yaml'", 'core_ai.geneticprogrammer': "Error: No module named 'yaml'", 'core_ai.ai_data_ops_pipeline': "Error: No module named 'yaml'", 'core_ai.data_loader': "Error: No module named 'yaml'", 'core_ai.math_predictors_integration': "Error: No module named 'yaml'", 'core_ai.neat_mathemagician': "Error: No module named 'yaml'", 'core_ai.model': "Error: No module named 'yaml'", 'core_ai.dangerousai': "Error: No module named 'yaml'", 'core_ai.setup': "Error: No module named 'yaml'", 'core_ai.learning_integration': "Error: No module named 'yaml'", 'core_ai.self_modification': "Error: No module named 'yaml'", 'core_ai.utils': "Error: No module named 'yaml'", 'core_ai.style_transfer': "Error: No module named 'yaml'", 'core_ai.self_modifying': "Error: No module named 'yaml'", 'core_ai.codemodifier': "Error: No module named 'yaml'", 'core_ai.ai_enterprise_ops_template': "Error: No module named 'yaml'", 'core_ai.api_interface': "Error: No module named 'yaml'", 'core_ai.optimizer': "Error: No module named 'yaml'", 'core_ai.image_processor': "Error: No module named 'yaml'", 'core_ai.text_processor': "Error: No module named 'yaml'", 'core_ai.advanced_math_predictors': "Error: No module named 'yaml'", 'core_ai.prediction_engine': "Error: No module named 'yaml'", 'core_ai.modelweights': "Error: No module named 'yaml'", 'core_ai.evolutioneryoptimizer': "Error: No module named 'yaml'", 'core_ai.selfmodificationengine': "Error: No module named 'yaml'", 'core_ai.model_evaluator': "Error: No module named 'yaml'", 'core_ai.agents': "Error: No module named 'yaml'", 'core_ai.learning_engine': "Error: No module named 'yaml'", 'core_ai.config': "Error: No module named 'yaml'", 'core_ai.test_system': "Error: No module named 'yaml'", 'core_ai.geneticprogramming': "Error: No module named 'yaml'", 'core_ai.hyperparameters': "Error: No module named 'yaml'", 'core_ai.visualizer': "Error: No module named 'yaml'", 'core_ai.nlputils': "Error: No module named 'yaml'"}
+2025-06-20 05:35:20,279 - __main__ - ERROR - Error starting API server: No module named 'flask'
+2025-06-20 05:35:20,279 - __main__ - ERROR - Error starting Mathemagician AI: No module named 'flask'
+2025-06-20 05:35:43,088 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:35:43,088 - __main__ - ERROR - Error loading PyTorch models: SportsPredictor.__init__() got an unexpected keyword argument 'output_size'
+2025-06-20 05:35:43,088 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:35:43,144 - root - ERROR - Error integrating core_ai module core_ai.cvutils: No module named 'cv2'
+2025-06-20 05:35:43,148 - root - ERROR - Error integrating core_ai module core_ai.evolutionaryoptimizer: No module named 'matplotlib'
+2025-06-20 05:35:43,149 - root - ERROR - Error integrating core_ai module core_ai.codegenerator: No module named 'pandas'
+2025-06-20 05:35:43,152 - root - ERROR - Error integrating core_ai module core_ai.reinforcement_memory: No module named 'pandas'
+2025-06-20 05:35:43,162 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:35:43,162 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:35:43,162 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:35:43,162 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:35:43,167 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:35:43,167 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:35:43,170 - root - WARNING - DangerousAI module not available, some advanced features will be limited
+2025-06-20 05:35:49,304 - root - WARNING - SelfModificationEngine not available, self-improvement will be limited
+2025-06-20 05:35:49,304 - core_ai.math_brain_integration - INFO - Initializing HybridMathBrain with genius brain
+2025-06-20 05:35:49,325 - core_ai.math_brain_integration - INFO - Initialized GeniusBrain with 1024 neurons and 0.15 connectivity
+2025-06-20 05:35:49,326 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:35:49,326 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:35:49,326 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:35:49,326 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:35:49,330 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:35:49,330 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:35:50,841 - core_ai.math_brain_integration - INFO - Epoch 0/100, Loss: 0.25814
+2025-06-20 05:35:51,117 - core_ai.math_brain_integration - INFO - Epoch 50/100, Loss: 0.24620
+2025-06-20 05:35:51,401 - core_ai.math_brain_integration - INFO - Brain training completed after 100 epochs
+2025-06-20 05:35:51,401 - core_ai.advanced_math_predictors - WARNING - No predictors in ensemble, returning input data
+2025-06-20 05:35:51,410 - core_ai.math_brain_integration - INFO - Evolved GeniusBrain with mutation rate 0.005
+2025-06-20 05:35:51,410 - core_ai.math_brain_integration - INFO - Evolved HybridMathBrain with rate 0.005
+2025-06-20 05:35:51,412 - root - INFO - core_ai module core_ai.math_brain_integration integration result: None
+2025-06-20 05:35:51,414 - root - ERROR - Error integrating core_ai module core_ai.helpers: No module named 'pandas'
+2025-06-20 05:35:51,419 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'neat'
+2025-06-20 05:35:51,421 - root - ERROR - Error integrating core_ai module core_ai.deap_config: No module named 'pandas'
+2025-06-20 05:35:51,423 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'pandas'
+2025-06-20 05:35:51,425 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: No module named 'optuna'
+2025-06-20 05:35:51,429 - root - INFO - core_ai module core_ai.meta_learning_engine integration result: Instantiated MetaLearningEngine, no callable method found.
+2025-06-20 05:35:51,432 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'pandas'
+2025-06-20 05:35:51,437 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: No module named 'pandas'
+2025-06-20 05:35:51,439 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'pandas'
+2025-06-20 05:35:51,445 - root - ERROR - Error integrating core_ai module core_ai.metalearner: No module named 'pandas'
+2025-06-20 05:35:51,450 - core_ai.geneticprogrammer - INFO - GeneticProgrammer initialized for python with population size 20
+2025-06-20 05:35:51,451 - core_ai.geneticprogrammer - INFO - Generating initial population for problem: Create a function to find the sum of even numbers ...
+2025-06-20 05:35:51,452 - core_ai.geneticprogrammer - INFO - Generated initial population of 20 code snippets
+2025-06-20 05:35:51,452 - core_ai.geneticprogrammer - INFO - Starting evolution for 10 generations...
+2025-06-20 05:35:51,453 - core_ai.geneticprogrammer - INFO - Generation 1/10: Best fitness = 0.0000
+2025-06-20 05:35:51,455 - core_ai.geneticprogrammer - INFO - Generation 2/10: Best fitness = 0.8000
+2025-06-20 05:35:51,456 - core_ai.geneticprogrammer - INFO - Generation 3/10: Best fitness = 0.9000
+2025-06-20 05:35:51,458 - core_ai.geneticprogrammer - INFO - Generation 4/10: Best fitness = 0.9000
+2025-06-20 05:35:51,459 - core_ai.geneticprogrammer - INFO - Generation 5/10: Best fitness = 0.9000
+2025-06-20 05:35:51,461 - core_ai.geneticprogrammer - INFO - Generation 6/10: Best fitness = 0.9000
+2025-06-20 05:35:51,462 - core_ai.geneticprogrammer - INFO - Generation 7/10: Best fitness = 0.9000
+2025-06-20 05:35:51,465 - core_ai.geneticprogrammer - INFO - Generation 8/10: Best fitness = 0.9000
+2025-06-20 05:35:51,467 - core_ai.geneticprogrammer - INFO - Generation 9/10: Best fitness = 0.9000
+2025-06-20 05:35:51,469 - core_ai.geneticprogrammer - INFO - Generation 10/10: Best fitness = 0.9000
+2025-06-20 05:35:51,469 - core_ai.geneticprogrammer - INFO - Evolution completed. Best fitness: 0.9000
+2025-06-20 05:35:51,470 - core_ai.geneticprogrammer - INFO - Saved code to /workspaces/super_ai/generated_code/genetic_solution_10_89.py
+2025-06-20 05:35:51,470 - core_ai.geneticprogrammer - INFO - Saved evolution history to /workspaces/super_ai/generated_code/evolution_history.pkl
+2025-06-20 05:35:51,470 - root - INFO - core_ai module core_ai.geneticprogrammer integration result: None
+2025-06-20 05:35:51,471 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'pandas'
+2025-06-20 05:35:51,473 - root - ERROR - Error integrating core_ai module core_ai.data_loader: No module named 'pandas'
+2025-06-20 05:35:51,476 - root - WARNING - DangerousAI module not available, some features will be limited
+2025-06-20 05:35:51,489 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: 'LearningEngine' object has no attribute 'setup_multi_gpu'
+2025-06-20 05:35:51,492 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No module named 'neat'
+2025-06-20 05:35:51,500 - root - ERROR - Error integrating core_ai module core_ai.model: No module named 'pandas'
+2025-06-20 05:35:51,501 - root - ERROR - Error integrating core_ai module core_ai.dangerousai: No module named 'matplotlib'
+2025-06-20 05:38:37,118 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:38:37,118 - __main__ - ERROR - Error loading PyTorch models: SportsPredictor.__init__() got an unexpected keyword argument 'output_size'
+2025-06-20 05:38:37,118 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:38:37,200 - core_ai.cvutils - ERROR - Error loading image /workspaces/super_ai/data/raw/equation.jpg: Image at '/workspaces/super_ai/data/raw/equation.jpg' could not be loaded.
+2025-06-20 05:38:37,201 - root - INFO - core_ai module core_ai.cvutils integration result: None
+2025-06-20 05:38:37,540 - core_ai.evolutionaryoptimizer - INFO - EvolutionaryOptimizer initialized with population size 50, mutation rate 0.1, crossover rate 0.8
+2025-06-20 05:38:37,540 - core_ai.evolutionaryoptimizer - INFO - Generating random population of 50 individuals
+2025-06-20 05:38:37,540 - core_ai.evolutionaryoptimizer - INFO - Starting evolution for 100 generations
+2025-06-20 05:38:37,540 - core_ai.evolutionaryoptimizer - INFO - Generation 1/100: Best fitness = -21.196115, Avg fitness = -78.771375
+2025-06-20 05:38:37,541 - core_ai.evolutionaryoptimizer - INFO - Generation 2/100: Best fitness = -20.986038, Avg fitness = -52.440835
+2025-06-20 05:38:37,542 - core_ai.evolutionaryoptimizer - INFO - Generation 3/100: Best fitness = -10.920909, Avg fitness = -37.357592
+2025-06-20 05:38:37,543 - core_ai.evolutionaryoptimizer - INFO - Generation 4/100: Best fitness = -10.920909, Avg fitness = -24.707567
+2025-06-20 05:38:37,544 - core_ai.evolutionaryoptimizer - INFO - Generation 5/100: Best fitness = -6.606875, Avg fitness = -17.842742
+2025-06-20 05:38:37,544 - core_ai.evolutionaryoptimizer - INFO - Generation 6/100: Best fitness = -4.783157, Avg fitness = -12.935683
+2025-06-20 05:38:37,545 - core_ai.evolutionaryoptimizer - INFO - Generation 7/100: Best fitness = -4.226604, Avg fitness = -9.388956
+2025-06-20 05:38:37,546 - core_ai.evolutionaryoptimizer - INFO - Generation 8/100: Best fitness = -4.226604, Avg fitness = -7.203630
+2025-06-20 05:38:37,547 - core_ai.evolutionaryoptimizer - INFO - Generation 9/100: Best fitness = -4.003489, Avg fitness = -6.316501
+2025-06-20 05:38:37,548 - core_ai.evolutionaryoptimizer - INFO - Generation 10/100: Best fitness = -3.683931, Avg fitness = -5.491241
+2025-06-20 05:38:37,549 - core_ai.evolutionaryoptimizer - INFO - Generation 11/100: Best fitness = -2.997956, Avg fitness = -5.114134
+2025-06-20 05:38:37,550 - core_ai.evolutionaryoptimizer - INFO - Generation 12/100: Best fitness = -2.863382, Avg fitness = -4.650150
+2025-06-20 05:38:37,551 - core_ai.evolutionaryoptimizer - INFO - Generation 13/100: Best fitness = -2.414608, Avg fitness = -4.110062
+2025-06-20 05:38:37,552 - core_ai.evolutionaryoptimizer - INFO - Generation 14/100: Best fitness = -2.337462, Avg fitness = -3.600112
+2025-06-20 05:38:37,553 - core_ai.evolutionaryoptimizer - INFO - Generation 15/100: Best fitness = -1.664730, Avg fitness = -3.210302
+2025-06-20 05:38:37,554 - core_ai.evolutionaryoptimizer - INFO - Generation 16/100: Best fitness = -1.247025, Avg fitness = -2.726907
+2025-06-20 05:38:37,555 - core_ai.evolutionaryoptimizer - INFO - Generation 17/100: Best fitness = -1.163344, Avg fitness = -3.028500
+2025-06-20 05:38:37,555 - core_ai.evolutionaryoptimizer - INFO - Generation 18/100: Best fitness = -1.007205, Avg fitness = -2.549994
+2025-06-20 05:38:37,556 - core_ai.evolutionaryoptimizer - INFO - Generation 19/100: Best fitness = -0.661742, Avg fitness = -1.986102
+2025-06-20 05:38:37,557 - core_ai.evolutionaryoptimizer - INFO - Generation 20/100: Best fitness = -0.408882, Avg fitness = -2.005979
+2025-06-20 05:38:37,558 - core_ai.evolutionaryoptimizer - INFO - Generation 21/100: Best fitness = -0.365593, Avg fitness = -2.078067
+2025-06-20 05:38:37,559 - core_ai.evolutionaryoptimizer - INFO - Generation 22/100: Best fitness = -0.308495, Avg fitness = -1.693394
+2025-06-20 05:38:37,560 - core_ai.evolutionaryoptimizer - INFO - Generation 23/100: Best fitness = -0.282701, Avg fitness = -1.495720
+2025-06-20 05:38:37,561 - core_ai.evolutionaryoptimizer - INFO - Generation 24/100: Best fitness = -0.217665, Avg fitness = -1.505163
+2025-06-20 05:38:37,562 - core_ai.evolutionaryoptimizer - INFO - Generation 25/100: Best fitness = -0.217665, Avg fitness = -1.251118
+2025-06-20 05:38:37,562 - core_ai.evolutionaryoptimizer - INFO - Generation 26/100: Best fitness = -0.186733, Avg fitness = -1.256529
+2025-06-20 05:38:37,563 - core_ai.evolutionaryoptimizer - INFO - Generation 27/100: Best fitness = -0.186733, Avg fitness = -0.870584
+2025-06-20 05:38:37,565 - core_ai.evolutionaryoptimizer - INFO - Generation 28/100: Best fitness = -0.186733, Avg fitness = -1.265788
+2025-06-20 05:38:37,566 - core_ai.evolutionaryoptimizer - INFO - Generation 29/100: Best fitness = -0.173169, Avg fitness = -1.092266
+2025-06-20 05:38:37,566 - core_ai.evolutionaryoptimizer - INFO - Generation 30/100: Best fitness = -0.173169, Avg fitness = -1.387818
+2025-06-20 05:38:37,567 - core_ai.evolutionaryoptimizer - INFO - Generation 31/100: Best fitness = -0.173169, Avg fitness = -1.178404
+2025-06-20 05:38:37,568 - core_ai.evolutionaryoptimizer - INFO - Generation 32/100: Best fitness = -0.173169, Avg fitness = -1.025106
+2025-06-20 05:38:37,569 - core_ai.evolutionaryoptimizer - INFO - Generation 33/100: Best fitness = -0.142595, Avg fitness = -0.578968
+2025-06-20 05:38:37,570 - core_ai.evolutionaryoptimizer - INFO - Generation 34/100: Best fitness = -0.142595, Avg fitness = -0.973028
+2025-06-20 05:38:37,571 - core_ai.evolutionaryoptimizer - INFO - Generation 35/100: Best fitness = -0.128020, Avg fitness = -0.976204
+2025-06-20 05:38:37,572 - core_ai.evolutionaryoptimizer - INFO - Generation 36/100: Best fitness = -0.061129, Avg fitness = -1.074171
+2025-06-20 05:38:37,573 - core_ai.evolutionaryoptimizer - INFO - Generation 37/100: Best fitness = -0.061129, Avg fitness = -0.993943
+2025-06-20 05:38:37,573 - core_ai.evolutionaryoptimizer - INFO - Generation 38/100: Best fitness = -0.058906, Avg fitness = -1.024361
+2025-06-20 05:38:37,574 - core_ai.evolutionaryoptimizer - INFO - Generation 39/100: Best fitness = -0.050439, Avg fitness = -1.098387
+2025-06-20 05:38:37,575 - core_ai.evolutionaryoptimizer - INFO - Generation 40/100: Best fitness = -0.050439, Avg fitness = -1.157601
+2025-06-20 05:38:37,576 - core_ai.evolutionaryoptimizer - INFO - Generation 41/100: Best fitness = -0.050439, Avg fitness = -0.811654
+2025-06-20 05:38:37,577 - core_ai.evolutionaryoptimizer - INFO - Generation 42/100: Best fitness = -0.046586, Avg fitness = -0.687329
+2025-06-20 05:38:37,578 - core_ai.evolutionaryoptimizer - INFO - Generation 43/100: Best fitness = -0.046586, Avg fitness = -0.971433
+2025-06-20 05:38:37,579 - core_ai.evolutionaryoptimizer - INFO - Generation 44/100: Best fitness = -0.045525, Avg fitness = -0.911854
+2025-06-20 05:38:37,579 - core_ai.evolutionaryoptimizer - INFO - Generation 45/100: Best fitness = -0.042927, Avg fitness = -0.641326
+2025-06-20 05:38:37,580 - core_ai.evolutionaryoptimizer - INFO - Generation 46/100: Best fitness = -0.042927, Avg fitness = -1.210147
+2025-06-20 05:38:37,581 - core_ai.evolutionaryoptimizer - INFO - Generation 47/100: Best fitness = -0.039203, Avg fitness = -0.873474
+2025-06-20 05:38:37,583 - core_ai.evolutionaryoptimizer - INFO - Generation 48/100: Best fitness = -0.039203, Avg fitness = -1.469769
+2025-06-20 05:38:37,583 - core_ai.evolutionaryoptimizer - INFO - Generation 49/100: Best fitness = -0.039074, Avg fitness = -1.635840
+2025-06-20 05:38:37,584 - core_ai.evolutionaryoptimizer - INFO - Generation 50/100: Best fitness = -0.036306, Avg fitness = -1.380902
+2025-06-20 05:38:37,585 - core_ai.evolutionaryoptimizer - INFO - Generation 51/100: Best fitness = -0.036306, Avg fitness = -1.013375
+2025-06-20 05:38:37,586 - core_ai.evolutionaryoptimizer - INFO - Generation 52/100: Best fitness = -0.036306, Avg fitness = -1.053805
+2025-06-20 05:38:37,587 - core_ai.evolutionaryoptimizer - INFO - Generation 53/100: Best fitness = -0.030137, Avg fitness = -0.962927
+2025-06-20 05:38:37,588 - core_ai.evolutionaryoptimizer - INFO - Generation 54/100: Best fitness = -0.030137, Avg fitness = -1.092049
+2025-06-20 05:38:37,589 - core_ai.evolutionaryoptimizer - INFO - Generation 55/100: Best fitness = -0.029076, Avg fitness = -1.467300
+2025-06-20 05:38:37,590 - core_ai.evolutionaryoptimizer - INFO - Generation 56/100: Best fitness = -0.029076, Avg fitness = -1.271437
+2025-06-20 05:38:37,591 - core_ai.evolutionaryoptimizer - INFO - Generation 57/100: Best fitness = -0.029076, Avg fitness = -1.189538
+2025-06-20 05:38:37,591 - core_ai.evolutionaryoptimizer - INFO - Generation 58/100: Best fitness = -0.029076, Avg fitness = -0.891312
+2025-06-20 05:38:37,592 - core_ai.evolutionaryoptimizer - INFO - Generation 59/100: Best fitness = -0.029076, Avg fitness = -1.028695
+2025-06-20 05:38:37,593 - core_ai.evolutionaryoptimizer - INFO - Generation 60/100: Best fitness = -0.024410, Avg fitness = -1.020380
+2025-06-20 05:38:37,594 - core_ai.evolutionaryoptimizer - INFO - Generation 61/100: Best fitness = -0.024410, Avg fitness = -1.230215
+2025-06-20 05:38:37,595 - core_ai.evolutionaryoptimizer - INFO - Generation 62/100: Best fitness = -0.024410, Avg fitness = -1.150167
+2025-06-20 05:38:37,596 - core_ai.evolutionaryoptimizer - INFO - Generation 63/100: Best fitness = -0.024410, Avg fitness = -1.009238
+2025-06-20 05:38:37,596 - core_ai.evolutionaryoptimizer - INFO - Generation 64/100: Best fitness = -0.024410, Avg fitness = -1.165005
+2025-06-20 05:38:37,597 - core_ai.evolutionaryoptimizer - INFO - Generation 65/100: Best fitness = -0.024410, Avg fitness = -0.751042
+2025-06-20 05:38:37,598 - core_ai.evolutionaryoptimizer - INFO - Generation 66/100: Best fitness = -0.024410, Avg fitness = -1.167033
+2025-06-20 05:38:37,599 - core_ai.evolutionaryoptimizer - INFO - Generation 67/100: Best fitness = -0.024410, Avg fitness = -0.845800
+2025-06-20 05:38:37,600 - core_ai.evolutionaryoptimizer - INFO - Generation 68/100: Best fitness = -0.020239, Avg fitness = -0.820475
+2025-06-20 05:38:37,601 - core_ai.evolutionaryoptimizer - INFO - Generation 69/100: Best fitness = -0.013137, Avg fitness = -1.302590
+2025-06-20 05:38:37,601 - core_ai.evolutionaryoptimizer - INFO - Generation 70/100: Best fitness = -0.013137, Avg fitness = -0.650562
+2025-06-20 05:38:37,602 - core_ai.evolutionaryoptimizer - INFO - Generation 71/100: Best fitness = -0.013137, Avg fitness = -0.753484
+2025-06-20 05:38:37,603 - core_ai.evolutionaryoptimizer - INFO - Generation 72/100: Best fitness = -0.013137, Avg fitness = -1.112702
+2025-06-20 05:38:37,604 - core_ai.evolutionaryoptimizer - INFO - Generation 73/100: Best fitness = -0.013137, Avg fitness = -1.211007
+2025-06-20 05:38:37,605 - core_ai.evolutionaryoptimizer - INFO - Generation 74/100: Best fitness = -0.013137, Avg fitness = -0.790046
+2025-06-20 05:38:37,606 - core_ai.evolutionaryoptimizer - INFO - Generation 75/100: Best fitness = -0.008896, Avg fitness = -0.844213
+2025-06-20 05:38:37,606 - core_ai.evolutionaryoptimizer - INFO - Generation 76/100: Best fitness = -0.008896, Avg fitness = -1.216072
+2025-06-20 05:38:37,607 - core_ai.evolutionaryoptimizer - INFO - Generation 77/100: Best fitness = -0.008896, Avg fitness = -0.800466
+2025-06-20 05:38:37,608 - core_ai.evolutionaryoptimizer - INFO - Generation 78/100: Best fitness = -0.008896, Avg fitness = -1.312183
+2025-06-20 05:38:37,609 - core_ai.evolutionaryoptimizer - INFO - Generation 79/100: Best fitness = -0.008896, Avg fitness = -1.145893
+2025-06-20 05:38:37,610 - core_ai.evolutionaryoptimizer - INFO - Generation 80/100: Best fitness = -0.008896, Avg fitness = -1.283938
+2025-06-20 05:38:37,611 - core_ai.evolutionaryoptimizer - INFO - Generation 81/100: Best fitness = -0.008896, Avg fitness = -0.897530
+2025-06-20 05:38:37,612 - core_ai.evolutionaryoptimizer - INFO - Generation 82/100: Best fitness = -0.008896, Avg fitness = -0.777418
+2025-06-20 05:38:37,613 - core_ai.evolutionaryoptimizer - INFO - Generation 83/100: Best fitness = -0.008287, Avg fitness = -1.369140
+2025-06-20 05:38:37,613 - core_ai.evolutionaryoptimizer - INFO - Generation 84/100: Best fitness = -0.008287, Avg fitness = -0.970248
+2025-06-20 05:38:37,614 - core_ai.evolutionaryoptimizer - INFO - Generation 85/100: Best fitness = -0.008287, Avg fitness = -0.951999
+2025-06-20 05:38:37,615 - core_ai.evolutionaryoptimizer - INFO - Generation 86/100: Best fitness = -0.008014, Avg fitness = -0.870571
+2025-06-20 05:38:37,616 - core_ai.evolutionaryoptimizer - INFO - Generation 87/100: Best fitness = -0.008014, Avg fitness = -0.995908
+2025-06-20 05:38:37,617 - core_ai.evolutionaryoptimizer - INFO - Generation 88/100: Best fitness = -0.008014, Avg fitness = -1.013009
+2025-06-20 05:38:37,618 - core_ai.evolutionaryoptimizer - INFO - Generation 89/100: Best fitness = -0.007987, Avg fitness = -0.868222
+2025-06-20 05:38:37,618 - core_ai.evolutionaryoptimizer - INFO - Generation 90/100: Best fitness = -0.007987, Avg fitness = -0.928555
+2025-06-20 05:38:37,619 - core_ai.evolutionaryoptimizer - INFO - Generation 91/100: Best fitness = -0.007987, Avg fitness = -1.116686
+2025-06-20 05:38:37,620 - core_ai.evolutionaryoptimizer - INFO - Generation 92/100: Best fitness = -0.007970, Avg fitness = -1.020168
+2025-06-20 05:38:37,621 - core_ai.evolutionaryoptimizer - INFO - Generation 93/100: Best fitness = -0.007970, Avg fitness = -0.991786
+2025-06-20 05:38:37,622 - core_ai.evolutionaryoptimizer - INFO - Generation 94/100: Best fitness = -0.007696, Avg fitness = -0.470333
+2025-06-20 05:38:37,623 - core_ai.evolutionaryoptimizer - INFO - Generation 95/100: Best fitness = -0.007696, Avg fitness = -1.019968
+2025-06-20 05:38:37,623 - core_ai.evolutionaryoptimizer - INFO - Generation 96/100: Best fitness = -0.007696, Avg fitness = -1.082042
+2025-06-20 05:38:37,624 - core_ai.evolutionaryoptimizer - INFO - Generation 97/100: Best fitness = -0.007696, Avg fitness = -0.860281
+2025-06-20 05:38:37,625 - core_ai.evolutionaryoptimizer - INFO - Generation 98/100: Best fitness = -0.007696, Avg fitness = -1.487121
+2025-06-20 05:38:37,626 - core_ai.evolutionaryoptimizer - INFO - Generation 99/100: Best fitness = -0.007696, Avg fitness = -0.898942
+2025-06-20 05:38:37,627 - core_ai.evolutionaryoptimizer - INFO - Generation 100/100: Best fitness = -0.007696, Avg fitness = -1.338345
+2025-06-20 05:38:37,627 - core_ai.evolutionaryoptimizer - INFO - Evolution completed after 100 generations
+2025-06-20 05:38:37,628 - core_ai.evolutionaryoptimizer - INFO - Best fitness: -0.007696
+2025-06-20 05:38:37,629 - root - INFO - core_ai module core_ai.evolutionaryoptimizer integration result: None
+2025-06-20 05:38:37,629 - root - ERROR - Error integrating core_ai module core_ai.codegenerator: No module named 'deap'
+2025-06-20 05:38:37,630 - root - ERROR - Error integrating core_ai module core_ai.reinforcement_memory: No module named 'sklearn'
+2025-06-20 05:38:37,631 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:38:37,631 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:38:37,631 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:38:37,631 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:38:37,636 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:38:37,636 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:38:37,648 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 5
+2025-06-20 05:38:37,914 - root - WARNING - SelfModificationEngine not available, self-improvement will be limited
+2025-06-20 05:38:37,914 - core_ai.math_brain_integration - INFO - Initializing HybridMathBrain with genius brain
+2025-06-20 05:38:37,926 - core_ai.math_brain_integration - INFO - Initialized GeniusBrain with 1024 neurons and 0.15 connectivity
+2025-06-20 05:38:37,926 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:38:37,926 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:38:37,926 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:38:37,926 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:38:37,932 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:38:37,932 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:38:37,932 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 1
+2025-06-20 05:38:37,932 - core_ai.math_brain_integration - INFO - DangerousAI integration enabled (level 1)
+2025-06-20 05:38:39,100 - core_ai.math_brain_integration - INFO - Epoch 0/100, Loss: 0.24781
+2025-06-20 05:38:39,327 - core_ai.math_brain_integration - INFO - Epoch 50/100, Loss: 0.25028
+2025-06-20 05:38:39,545 - core_ai.math_brain_integration - INFO - Brain training completed after 100 epochs
+2025-06-20 05:38:39,546 - core_ai.advanced_math_predictors - WARNING - No predictors in ensemble, returning input data
+2025-06-20 05:38:39,558 - core_ai.math_brain_integration - INFO - Evolved GeniusBrain with mutation rate 0.005
+2025-06-20 05:38:39,559 - core_ai.math_brain_integration - INFO - Evolved HybridMathBrain with rate 0.005
+2025-06-20 05:38:39,559 - root - INFO - core_ai module core_ai.math_brain_integration integration result: None
+2025-06-20 05:38:39,559 - root - ERROR - Error integrating core_ai module core_ai.helpers: No module named 'scipy'
+2025-06-20 05:38:39,567 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'sklearn'
+2025-06-20 05:38:39,567 - root - ERROR - Error integrating core_ai module core_ai.deap_config: No module named 'deap'
+2025-06-20 05:38:39,568 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'gym'
+2025-06-20 05:38:39,600 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: No module named 'sklearn'
+2025-06-20 05:38:39,600 - root - INFO - core_ai module core_ai.meta_learning_engine integration result: Instantiated MetaLearningEngine, no callable method found.
+2025-06-20 05:38:39,667 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'gym'
+2025-06-20 05:38:39,670 - core_ai.experimentrunner - WARNING - Unable to import directly from experiment_runner, using alternative import method
+2025-06-20 05:38:39,670 - core_ai.experimentrunner - ERROR - Failed to import experiment_runner module
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: basic_test_1750397919
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - INFO - Starting experiment run: basic_test_1750397919
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,671 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/basic_test_1750397919
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: function_approximation_1750397919
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Using DEAP: False
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Added function target: cos with params: None
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Starting experiment run: function_approximation_1750397919
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,672 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/function_approximation_1750397919
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: hyperparameter_tuning_1750397919
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Added configuration: default with 5 generations
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 50}
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Added configuration: config_1_population_size_50 with 5 generations
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 100}
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Added configuration: config_2_population_size_100 with 5 generations
+2025-06-20 05:38:39,673 - core_ai.experimentrunner - INFO - Parallel execution: True, max workers: 4
+2025-06-20 05:38:39,674 - core_ai.experimentrunner - INFO - Starting experiment run: hyperparameter_tuning_1750397919
+2025-06-20 05:38:39,705 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,705 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,705 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,706 - core_ai.experimentrunner - INFO - Configuration default completed
+2025-06-20 05:38:39,706 - core_ai.experimentrunner - INFO - Configuration config_1_population_size_50 completed
+2025-06-20 05:38:39,706 - core_ai.experimentrunner - INFO - Configuration config_2_population_size_100 completed
+2025-06-20 05:38:39,721 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/hyperparameter_tuning_1750397919
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Experiment run completed in 0.05 seconds
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: model_comparison_1750397919
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Added configuration: neat with 5 generations
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Added configuration: deap with 5 generations
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Added function target: polynomial with params: {'coeffs': [1, 0, 0, 1]}
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Starting experiment run: model_comparison_1750397919
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Running configuration 1/2: neat
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Configuration neat completed
+2025-06-20 05:38:39,722 - core_ai.experimentrunner - INFO - Running configuration 2/2: deap
+2025-06-20 05:38:39,723 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:38:39,723 - core_ai.experimentrunner - INFO - Configuration deap completed
+2025-06-20 05:38:39,723 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/model_comparison_1750397919
+2025-06-20 05:38:39,723 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:38:39,723 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2025-06-20 05:38:39,724 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'sklearn'
+2025-06-20 05:38:39,725 - root - ERROR - Error integrating core_ai module core_ai.metalearner: No module named 'sklearn'
+2025-06-20 05:38:39,726 - core_ai.geneticprogrammer - INFO - GeneticProgrammer initialized for python with population size 20
+2025-06-20 05:38:39,726 - core_ai.geneticprogrammer - INFO - Generating initial population for problem: Create a function to find the sum of even numbers ...
+2025-06-20 05:38:39,728 - core_ai.geneticprogrammer - INFO - Generated initial population of 20 code snippets
+2025-06-20 05:38:39,728 - core_ai.geneticprogrammer - INFO - Starting evolution for 10 generations...
+2025-06-20 05:38:39,729 - core_ai.geneticprogrammer - INFO - Generation 1/10: Best fitness = 0.0000
+2025-06-20 05:38:39,731 - core_ai.geneticprogrammer - INFO - Generation 2/10: Best fitness = 0.6000
+2025-06-20 05:38:39,732 - core_ai.geneticprogrammer - INFO - Generation 3/10: Best fitness = 0.6000
+2025-06-20 05:38:39,734 - core_ai.geneticprogrammer - INFO - Generation 4/10: Best fitness = 0.9000
+2025-06-20 05:38:39,735 - core_ai.geneticprogrammer - INFO - Generation 5/10: Best fitness = 0.9000
+2025-06-20 05:38:39,736 - core_ai.geneticprogrammer - INFO - Generation 6/10: Best fitness = 0.9000
+2025-06-20 05:38:39,738 - core_ai.geneticprogrammer - INFO - Generation 7/10: Best fitness = 0.9000
+2025-06-20 05:38:39,739 - core_ai.geneticprogrammer - INFO - Generation 8/10: Best fitness = 0.9000
+2025-06-20 05:38:39,740 - core_ai.geneticprogrammer - INFO - Generation 9/10: Best fitness = 0.9000
+2025-06-20 05:38:39,742 - core_ai.geneticprogrammer - INFO - Generation 10/10: Best fitness = 0.9000
+2025-06-20 05:38:39,743 - core_ai.geneticprogrammer - INFO - Evolution completed. Best fitness: 0.9000
+2025-06-20 05:38:39,743 - core_ai.geneticprogrammer - INFO - Saved code to /workspaces/super_ai/generated_code/genetic_solution_10_89.py
+2025-06-20 05:38:39,743 - core_ai.geneticprogrammer - INFO - Saved evolution history to /workspaces/super_ai/generated_code/evolution_history.pkl
+2025-06-20 05:38:39,743 - root - INFO - core_ai module core_ai.geneticprogrammer integration result: None
+2025-06-20 05:38:39,744 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'scipy'
+2025-06-20 05:38:39,744 - root - ERROR - Error integrating core_ai module core_ai.data_loader: No module named 'sklearn'
+2025-06-20 05:38:39,748 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: 'LearningEngine' object has no attribute 'setup_multi_gpu'
+2025-06-20 05:38:39,753 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No module named 'deap'
+2025-06-20 05:38:39,755 - core_ai.model - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'
+2025-06-20 05:38:39,755 - root - ERROR - Error integrating core_ai module core_ai.model: No section: 'SelfModifyingGenome'
+2025-06-20 05:38:39,756 - core_ai.dangerousai - WARNING - Dangerous data generated with shape (100,) and amplification factor 10.0
+2025-06-20 05:38:39,868 - core_ai.dangerousai - WARNING - Saved dangerous data plot to /workspaces/super_ai/output/test_dangerous_data.png with amplification
+2025-06-20 05:38:39,868 - root - INFO - core_ai module core_ai.dangerousai integration result: None
+2025-06-20 05:39:26,055 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:39:26,055 - __main__ - ERROR - Error loading PyTorch models: SportsPredictor.__init__() got an unexpected keyword argument 'output_size'
+2025-06-20 05:39:26,055 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:39:26,122 - core_ai.cvutils - ERROR - Error loading image /workspaces/super_ai/data/raw/equation.jpg: Image at '/workspaces/super_ai/data/raw/equation.jpg' could not be loaded.
+2025-06-20 05:39:26,122 - root - INFO - core_ai module core_ai.cvutils integration result: None
+2025-06-20 05:39:26,449 - core_ai.evolutionaryoptimizer - INFO - EvolutionaryOptimizer initialized with population size 50, mutation rate 0.1, crossover rate 0.8
+2025-06-20 05:39:26,449 - core_ai.evolutionaryoptimizer - INFO - Generating random population of 50 individuals
+2025-06-20 05:39:26,450 - core_ai.evolutionaryoptimizer - INFO - Starting evolution for 100 generations
+2025-06-20 05:39:26,450 - core_ai.evolutionaryoptimizer - INFO - Generation 1/100: Best fitness = -32.354271, Avg fitness = -85.312802
+2025-06-20 05:39:26,451 - core_ai.evolutionaryoptimizer - INFO - Generation 2/100: Best fitness = -19.514308, Avg fitness = -63.682928
+2025-06-20 05:39:26,452 - core_ai.evolutionaryoptimizer - INFO - Generation 3/100: Best fitness = -19.514308, Avg fitness = -45.161960
+2025-06-20 05:39:26,453 - core_ai.evolutionaryoptimizer - INFO - Generation 4/100: Best fitness = -19.105277, Avg fitness = -33.074517
+2025-06-20 05:39:26,453 - core_ai.evolutionaryoptimizer - INFO - Generation 5/100: Best fitness = -10.774074, Avg fitness = -22.780709
+2025-06-20 05:39:26,454 - core_ai.evolutionaryoptimizer - INFO - Generation 6/100: Best fitness = -8.560905, Avg fitness = -18.253660
+2025-06-20 05:39:26,455 - core_ai.evolutionaryoptimizer - INFO - Generation 7/100: Best fitness = -6.653187, Avg fitness = -15.092651
+2025-06-20 05:39:26,456 - core_ai.evolutionaryoptimizer - INFO - Generation 8/100: Best fitness = -6.162637, Avg fitness = -11.958080
+2025-06-20 05:39:26,457 - core_ai.evolutionaryoptimizer - INFO - Generation 9/100: Best fitness = -3.990524, Avg fitness = -9.254260
+2025-06-20 05:39:26,458 - core_ai.evolutionaryoptimizer - INFO - Generation 10/100: Best fitness = -2.905878, Avg fitness = -7.978681
+2025-06-20 05:39:26,459 - core_ai.evolutionaryoptimizer - INFO - Generation 11/100: Best fitness = -2.905878, Avg fitness = -6.620994
+2025-06-20 05:39:26,460 - core_ai.evolutionaryoptimizer - INFO - Generation 12/100: Best fitness = -2.905878, Avg fitness = -6.015603
+2025-06-20 05:39:26,461 - core_ai.evolutionaryoptimizer - INFO - Generation 13/100: Best fitness = -2.021686, Avg fitness = -4.687139
+2025-06-20 05:39:26,462 - core_ai.evolutionaryoptimizer - INFO - Generation 14/100: Best fitness = -1.944842, Avg fitness = -4.030543
+2025-06-20 05:39:26,463 - core_ai.evolutionaryoptimizer - INFO - Generation 15/100: Best fitness = -1.501929, Avg fitness = -3.856136
+2025-06-20 05:39:26,464 - core_ai.evolutionaryoptimizer - INFO - Generation 16/100: Best fitness = -1.077809, Avg fitness = -2.962014
+2025-06-20 05:39:26,465 - core_ai.evolutionaryoptimizer - INFO - Generation 17/100: Best fitness = -0.716319, Avg fitness = -2.854137
+2025-06-20 05:39:26,465 - core_ai.evolutionaryoptimizer - INFO - Generation 18/100: Best fitness = -0.699281, Avg fitness = -2.405611
+2025-06-20 05:39:26,466 - core_ai.evolutionaryoptimizer - INFO - Generation 19/100: Best fitness = -0.607309, Avg fitness = -2.121561
+2025-06-20 05:39:26,467 - core_ai.evolutionaryoptimizer - INFO - Generation 20/100: Best fitness = -0.376568, Avg fitness = -1.762038
+2025-06-20 05:39:26,469 - core_ai.evolutionaryoptimizer - INFO - Generation 21/100: Best fitness = -0.376568, Avg fitness = -1.567490
+2025-06-20 05:39:26,470 - core_ai.evolutionaryoptimizer - INFO - Generation 22/100: Best fitness = -0.376568, Avg fitness = -1.458881
+2025-06-20 05:39:26,470 - core_ai.evolutionaryoptimizer - INFO - Generation 23/100: Best fitness = -0.328060, Avg fitness = -1.766622
+2025-06-20 05:39:26,471 - core_ai.evolutionaryoptimizer - INFO - Generation 24/100: Best fitness = -0.326265, Avg fitness = -1.125305
+2025-06-20 05:39:26,472 - core_ai.evolutionaryoptimizer - INFO - Generation 25/100: Best fitness = -0.300374, Avg fitness = -1.600021
+2025-06-20 05:39:26,473 - core_ai.evolutionaryoptimizer - INFO - Generation 26/100: Best fitness = -0.114668, Avg fitness = -1.231356
+2025-06-20 05:39:26,474 - core_ai.evolutionaryoptimizer - INFO - Generation 27/100: Best fitness = -0.114668, Avg fitness = -1.152187
+2025-06-20 05:39:26,475 - core_ai.evolutionaryoptimizer - INFO - Generation 28/100: Best fitness = -0.114668, Avg fitness = -1.084823
+2025-06-20 05:39:26,476 - core_ai.evolutionaryoptimizer - INFO - Generation 29/100: Best fitness = -0.114668, Avg fitness = -1.155271
+2025-06-20 05:39:26,477 - core_ai.evolutionaryoptimizer - INFO - Generation 30/100: Best fitness = -0.094871, Avg fitness = -1.535825
+2025-06-20 05:39:26,478 - core_ai.evolutionaryoptimizer - INFO - Generation 31/100: Best fitness = -0.093775, Avg fitness = -1.259680
+2025-06-20 05:39:26,479 - core_ai.evolutionaryoptimizer - INFO - Generation 32/100: Best fitness = -0.092145, Avg fitness = -1.179860
+2025-06-20 05:39:26,480 - core_ai.evolutionaryoptimizer - INFO - Generation 33/100: Best fitness = -0.092145, Avg fitness = -1.606549
+2025-06-20 05:39:26,481 - core_ai.evolutionaryoptimizer - INFO - Generation 34/100: Best fitness = -0.077662, Avg fitness = -1.468382
+2025-06-20 05:39:26,482 - core_ai.evolutionaryoptimizer - INFO - Generation 35/100: Best fitness = -0.069365, Avg fitness = -1.320301
+2025-06-20 05:39:26,482 - core_ai.evolutionaryoptimizer - INFO - Generation 36/100: Best fitness = -0.054895, Avg fitness = -0.894841
+2025-06-20 05:39:26,483 - core_ai.evolutionaryoptimizer - INFO - Generation 37/100: Best fitness = -0.054895, Avg fitness = -1.092383
+2025-06-20 05:39:26,484 - core_ai.evolutionaryoptimizer - INFO - Generation 38/100: Best fitness = -0.054895, Avg fitness = -1.471108
+2025-06-20 05:39:26,485 - core_ai.evolutionaryoptimizer - INFO - Generation 39/100: Best fitness = -0.033398, Avg fitness = -1.170425
+2025-06-20 05:39:26,486 - core_ai.evolutionaryoptimizer - INFO - Generation 40/100: Best fitness = -0.033398, Avg fitness = -1.174697
+2025-06-20 05:39:26,487 - core_ai.evolutionaryoptimizer - INFO - Generation 41/100: Best fitness = -0.033398, Avg fitness = -1.593471
+2025-06-20 05:39:26,487 - core_ai.evolutionaryoptimizer - INFO - Generation 42/100: Best fitness = -0.031960, Avg fitness = -0.914019
+2025-06-20 05:39:26,488 - core_ai.evolutionaryoptimizer - INFO - Generation 43/100: Best fitness = -0.022526, Avg fitness = -1.177973
+2025-06-20 05:39:26,489 - core_ai.evolutionaryoptimizer - INFO - Generation 44/100: Best fitness = -0.022526, Avg fitness = -0.694527
+2025-06-20 05:39:26,490 - core_ai.evolutionaryoptimizer - INFO - Generation 45/100: Best fitness = -0.022526, Avg fitness = -0.501814
+2025-06-20 05:39:26,491 - core_ai.evolutionaryoptimizer - INFO - Generation 46/100: Best fitness = -0.022526, Avg fitness = -0.701999
+2025-06-20 05:39:26,492 - core_ai.evolutionaryoptimizer - INFO - Generation 47/100: Best fitness = -0.022526, Avg fitness = -1.102198
+2025-06-20 05:39:26,493 - core_ai.evolutionaryoptimizer - INFO - Generation 48/100: Best fitness = -0.015167, Avg fitness = -1.350888
+2025-06-20 05:39:26,493 - core_ai.evolutionaryoptimizer - INFO - Generation 49/100: Best fitness = -0.015167, Avg fitness = -0.798757
+2025-06-20 05:39:26,494 - core_ai.evolutionaryoptimizer - INFO - Generation 50/100: Best fitness = -0.015167, Avg fitness = -1.091186
+2025-06-20 05:39:26,495 - core_ai.evolutionaryoptimizer - INFO - Generation 51/100: Best fitness = -0.015167, Avg fitness = -0.691353
+2025-06-20 05:39:26,496 - core_ai.evolutionaryoptimizer - INFO - Generation 52/100: Best fitness = -0.015167, Avg fitness = -1.695950
+2025-06-20 05:39:26,497 - core_ai.evolutionaryoptimizer - INFO - Generation 53/100: Best fitness = -0.015167, Avg fitness = -1.246093
+2025-06-20 05:39:26,498 - core_ai.evolutionaryoptimizer - INFO - Generation 54/100: Best fitness = -0.015167, Avg fitness = -1.007692
+2025-06-20 05:39:26,499 - core_ai.evolutionaryoptimizer - INFO - Generation 55/100: Best fitness = -0.015167, Avg fitness = -1.018114
+2025-06-20 05:39:26,499 - core_ai.evolutionaryoptimizer - INFO - Generation 56/100: Best fitness = -0.015167, Avg fitness = -1.134064
+2025-06-20 05:39:26,500 - core_ai.evolutionaryoptimizer - INFO - Generation 57/100: Best fitness = -0.014902, Avg fitness = -1.303639
+2025-06-20 05:39:26,501 - core_ai.evolutionaryoptimizer - INFO - Generation 58/100: Best fitness = -0.014902, Avg fitness = -1.306430
+2025-06-20 05:39:26,502 - core_ai.evolutionaryoptimizer - INFO - Generation 59/100: Best fitness = -0.012368, Avg fitness = -1.036021
+2025-06-20 05:39:26,503 - core_ai.evolutionaryoptimizer - INFO - Generation 60/100: Best fitness = -0.012368, Avg fitness = -0.924239
+2025-06-20 05:39:26,504 - core_ai.evolutionaryoptimizer - INFO - Generation 61/100: Best fitness = -0.012368, Avg fitness = -0.814521
+2025-06-20 05:39:26,504 - core_ai.evolutionaryoptimizer - INFO - Generation 62/100: Best fitness = -0.012102, Avg fitness = -0.939331
+2025-06-20 05:39:26,505 - core_ai.evolutionaryoptimizer - INFO - Generation 63/100: Best fitness = -0.012102, Avg fitness = -1.060954
+2025-06-20 05:39:26,506 - core_ai.evolutionaryoptimizer - INFO - Generation 64/100: Best fitness = -0.010509, Avg fitness = -0.797350
+2025-06-20 05:39:26,507 - core_ai.evolutionaryoptimizer - INFO - Generation 65/100: Best fitness = -0.010438, Avg fitness = -0.753228
+2025-06-20 05:39:26,508 - core_ai.evolutionaryoptimizer - INFO - Generation 66/100: Best fitness = -0.010243, Avg fitness = -1.061144
+2025-06-20 05:39:26,509 - core_ai.evolutionaryoptimizer - INFO - Generation 67/100: Best fitness = -0.010243, Avg fitness = -0.948449
+2025-06-20 05:39:26,509 - core_ai.evolutionaryoptimizer - INFO - Generation 68/100: Best fitness = -0.008629, Avg fitness = -1.083708
+2025-06-20 05:39:26,510 - core_ai.evolutionaryoptimizer - INFO - Generation 69/100: Best fitness = -0.008629, Avg fitness = -0.896109
+2025-06-20 05:39:26,511 - core_ai.evolutionaryoptimizer - INFO - Generation 70/100: Best fitness = -0.008629, Avg fitness = -1.094779
+2025-06-20 05:39:26,512 - core_ai.evolutionaryoptimizer - INFO - Generation 71/100: Best fitness = -0.008629, Avg fitness = -1.149877
+2025-06-20 05:39:26,513 - core_ai.evolutionaryoptimizer - INFO - Generation 72/100: Best fitness = -0.008629, Avg fitness = -0.835371
+2025-06-20 05:39:26,514 - core_ai.evolutionaryoptimizer - INFO - Generation 73/100: Best fitness = -0.008629, Avg fitness = -0.775123
+2025-06-20 05:39:26,515 - core_ai.evolutionaryoptimizer - INFO - Generation 74/100: Best fitness = -0.008629, Avg fitness = -1.450181
+2025-06-20 05:39:26,515 - core_ai.evolutionaryoptimizer - INFO - Generation 75/100: Best fitness = -0.008629, Avg fitness = -0.793110
+2025-06-20 05:39:26,516 - core_ai.evolutionaryoptimizer - INFO - Generation 76/100: Best fitness = -0.008629, Avg fitness = -1.250235
+2025-06-20 05:39:26,517 - core_ai.evolutionaryoptimizer - INFO - Generation 77/100: Best fitness = -0.008629, Avg fitness = -0.799641
+2025-06-20 05:39:26,518 - core_ai.evolutionaryoptimizer - INFO - Generation 78/100: Best fitness = -0.008629, Avg fitness = -1.331519
+2025-06-20 05:39:26,519 - core_ai.evolutionaryoptimizer - INFO - Generation 79/100: Best fitness = -0.008629, Avg fitness = -1.345406
+2025-06-20 05:39:26,520 - core_ai.evolutionaryoptimizer - INFO - Generation 80/100: Best fitness = -0.008629, Avg fitness = -1.691500
+2025-06-20 05:39:26,521 - core_ai.evolutionaryoptimizer - INFO - Generation 81/100: Best fitness = -0.008629, Avg fitness = -1.097655
+2025-06-20 05:39:26,521 - core_ai.evolutionaryoptimizer - INFO - Generation 82/100: Best fitness = -0.008629, Avg fitness = -0.750232
+2025-06-20 05:39:26,522 - core_ai.evolutionaryoptimizer - INFO - Generation 83/100: Best fitness = -0.008629, Avg fitness = -0.730469
+2025-06-20 05:39:26,523 - core_ai.evolutionaryoptimizer - INFO - Generation 84/100: Best fitness = -0.008629, Avg fitness = -0.995533
+2025-06-20 05:39:26,524 - core_ai.evolutionaryoptimizer - INFO - Generation 85/100: Best fitness = -0.008629, Avg fitness = -0.535521
+2025-06-20 05:39:26,525 - core_ai.evolutionaryoptimizer - INFO - Generation 86/100: Best fitness = -0.008629, Avg fitness = -0.317544
+2025-06-20 05:39:26,526 - core_ai.evolutionaryoptimizer - INFO - Generation 87/100: Best fitness = -0.008629, Avg fitness = -0.772751
+2025-06-20 05:39:26,527 - core_ai.evolutionaryoptimizer - INFO - Generation 88/100: Best fitness = -0.008629, Avg fitness = -0.997358
+2025-06-20 05:39:26,528 - core_ai.evolutionaryoptimizer - INFO - Generation 89/100: Best fitness = -0.008629, Avg fitness = -1.421751
+2025-06-20 05:39:26,529 - core_ai.evolutionaryoptimizer - INFO - Generation 90/100: Best fitness = -0.008629, Avg fitness = -1.122325
+2025-06-20 05:39:26,529 - core_ai.evolutionaryoptimizer - INFO - Generation 91/100: Best fitness = -0.008629, Avg fitness = -0.781810
+2025-06-20 05:39:26,531 - core_ai.evolutionaryoptimizer - INFO - Generation 92/100: Best fitness = -0.007705, Avg fitness = -0.839928
+2025-06-20 05:39:26,532 - core_ai.evolutionaryoptimizer - INFO - Generation 93/100: Best fitness = -0.007705, Avg fitness = -1.093636
+2025-06-20 05:39:26,532 - core_ai.evolutionaryoptimizer - INFO - Generation 94/100: Best fitness = -0.007705, Avg fitness = -0.727052
+2025-06-20 05:39:26,533 - core_ai.evolutionaryoptimizer - INFO - Generation 95/100: Best fitness = -0.007705, Avg fitness = -0.887023
+2025-06-20 05:39:26,534 - core_ai.evolutionaryoptimizer - INFO - Generation 96/100: Best fitness = -0.007273, Avg fitness = -0.835966
+2025-06-20 05:39:26,535 - core_ai.evolutionaryoptimizer - INFO - Generation 97/100: Best fitness = -0.006350, Avg fitness = -1.063145
+2025-06-20 05:39:26,536 - core_ai.evolutionaryoptimizer - INFO - Generation 98/100: Best fitness = -0.006350, Avg fitness = -1.378455
+2025-06-20 05:39:26,537 - core_ai.evolutionaryoptimizer - INFO - Generation 99/100: Best fitness = -0.006350, Avg fitness = -0.641723
+2025-06-20 05:39:26,538 - core_ai.evolutionaryoptimizer - INFO - Generation 100/100: Best fitness = -0.006350, Avg fitness = -0.961247
+2025-06-20 05:39:26,539 - core_ai.evolutionaryoptimizer - INFO - Evolution completed after 100 generations
+2025-06-20 05:39:26,539 - core_ai.evolutionaryoptimizer - INFO - Best fitness: -0.006350
+2025-06-20 05:39:26,539 - root - INFO - core_ai module core_ai.evolutionaryoptimizer integration result: None
+2025-06-20 05:39:26,540 - root - ERROR - Error integrating core_ai module core_ai.codegenerator: No module named 'deap'
+2025-06-20 05:39:26,541 - root - ERROR - Error integrating core_ai module core_ai.reinforcement_memory: No module named 'sklearn'
+2025-06-20 05:39:26,542 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:39:26,542 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:39:26,542 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:39:26,542 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:39:26,547 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:39:26,547 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:39:26,558 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 5
+2025-06-20 05:39:26,831 - root - WARNING - SelfModificationEngine not available, self-improvement will be limited
+2025-06-20 05:39:26,831 - core_ai.math_brain_integration - INFO - Initializing HybridMathBrain with genius brain
+2025-06-20 05:39:26,843 - core_ai.math_brain_integration - INFO - Initialized GeniusBrain with 1024 neurons and 0.15 connectivity
+2025-06-20 05:39:26,843 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:39:26,843 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:39:26,843 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:39:26,843 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:39:26,850 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:39:26,850 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:39:26,850 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 1
+2025-06-20 05:39:26,850 - core_ai.math_brain_integration - INFO - DangerousAI integration enabled (level 1)
+2025-06-20 05:39:28,152 - core_ai.math_brain_integration - INFO - Epoch 0/100, Loss: 0.25560
+2025-06-20 05:39:28,398 - core_ai.math_brain_integration - INFO - Epoch 50/100, Loss: 0.24768
+2025-06-20 05:39:28,633 - core_ai.math_brain_integration - INFO - Brain training completed after 100 epochs
+2025-06-20 05:39:28,633 - core_ai.advanced_math_predictors - WARNING - No predictors in ensemble, returning input data
+2025-06-20 05:39:28,645 - core_ai.math_brain_integration - INFO - Evolved GeniusBrain with mutation rate 0.005
+2025-06-20 05:39:28,645 - core_ai.math_brain_integration - INFO - Evolved HybridMathBrain with rate 0.005
+2025-06-20 05:39:28,646 - root - INFO - core_ai module core_ai.math_brain_integration integration result: None
+2025-06-20 05:39:28,647 - root - ERROR - Error integrating core_ai module core_ai.helpers: No module named 'scipy'
+2025-06-20 05:39:28,650 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'sklearn'
+2025-06-20 05:39:28,651 - root - ERROR - Error integrating core_ai module core_ai.deap_config: No module named 'deap'
+2025-06-20 05:39:28,652 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'gym'
+2025-06-20 05:39:28,682 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: No module named 'sklearn'
+2025-06-20 05:39:28,683 - root - INFO - core_ai module core_ai.meta_learning_engine integration result: Instantiated MetaLearningEngine, no callable method found.
+2025-06-20 05:39:28,739 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'gym'
+2025-06-20 05:39:28,741 - core_ai.experimentrunner - WARNING - Unable to import directly from experiment_runner, using alternative import method
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - ERROR - Failed to import experiment_runner module
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: basic_test_1750397968
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - INFO - Starting experiment run: basic_test_1750397968
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,742 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/basic_test_1750397968
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: function_approximation_1750397968
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Using DEAP: False
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:39:28,743 - core_ai.experimentrunner - INFO - Added function target: cos with params: None
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Starting experiment run: function_approximation_1750397968
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/function_approximation_1750397968
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: hyperparameter_tuning_1750397968
+2025-06-20 05:39:28,744 - core_ai.experimentrunner - INFO - Added configuration: default with 5 generations
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 50}
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Added configuration: config_1_population_size_50 with 5 generations
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 100}
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Added configuration: config_2_population_size_100 with 5 generations
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Parallel execution: True, max workers: 4
+2025-06-20 05:39:28,745 - core_ai.experimentrunner - INFO - Starting experiment run: hyperparameter_tuning_1750397968
+2025-06-20 05:39:28,773 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,773 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,774 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,774 - core_ai.experimentrunner - INFO - Configuration config_1_population_size_50 completed
+2025-06-20 05:39:28,775 - core_ai.experimentrunner - INFO - Configuration default completed
+2025-06-20 05:39:28,775 - core_ai.experimentrunner - INFO - Configuration config_2_population_size_100 completed
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/hyperparameter_tuning_1750397968
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Experiment run completed in 0.05 seconds
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: model_comparison_1750397968
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Added configuration: neat with 5 generations
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Added configuration: deap with 5 generations
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Added function target: polynomial with params: {'coeffs': [1, 0, 0, 1]}
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Starting experiment run: model_comparison_1750397968
+2025-06-20 05:39:28,791 - core_ai.experimentrunner - INFO - Running configuration 1/2: neat
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - INFO - Configuration neat completed
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - INFO - Running configuration 2/2: deap
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - INFO - Configuration deap completed
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/model_comparison_1750397968
+2025-06-20 05:39:28,792 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:39:28,793 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2025-06-20 05:39:28,794 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'sklearn'
+2025-06-20 05:39:28,794 - root - ERROR - Error integrating core_ai module core_ai.metalearner: No module named 'sklearn'
+2025-06-20 05:39:28,795 - core_ai.geneticprogrammer - INFO - GeneticProgrammer initialized for python with population size 20
+2025-06-20 05:39:28,795 - core_ai.geneticprogrammer - INFO - Generating initial population for problem: Create a function to find the sum of even numbers ...
+2025-06-20 05:39:28,797 - core_ai.geneticprogrammer - INFO - Generated initial population of 20 code snippets
+2025-06-20 05:39:28,797 - core_ai.geneticprogrammer - INFO - Starting evolution for 10 generations...
+2025-06-20 05:39:28,799 - core_ai.geneticprogrammer - INFO - Generation 1/10: Best fitness = 0.0000
+2025-06-20 05:39:28,800 - core_ai.geneticprogrammer - INFO - Generation 2/10: Best fitness = 0.8000
+2025-06-20 05:39:28,802 - core_ai.geneticprogrammer - INFO - Generation 3/10: Best fitness = 0.8000
+2025-06-20 05:39:28,803 - core_ai.geneticprogrammer - INFO - Generation 4/10: Best fitness = 0.8000
+2025-06-20 05:39:28,805 - core_ai.geneticprogrammer - INFO - Generation 5/10: Best fitness = 0.8000
+2025-06-20 05:39:28,807 - core_ai.geneticprogrammer - INFO - Generation 6/10: Best fitness = 0.8000
+2025-06-20 05:39:28,808 - core_ai.geneticprogrammer - INFO - Generation 7/10: Best fitness = 0.8000
+2025-06-20 05:39:28,810 - core_ai.geneticprogrammer - INFO - Generation 8/10: Best fitness = 0.8000
+2025-06-20 05:39:28,812 - core_ai.geneticprogrammer - INFO - Generation 9/10: Best fitness = 0.9000
+2025-06-20 05:39:28,814 - core_ai.geneticprogrammer - INFO - Generation 10/10: Best fitness = 0.9000
+2025-06-20 05:39:28,815 - core_ai.geneticprogrammer - INFO - Evolution completed. Best fitness: 0.9000
+2025-06-20 05:39:28,815 - core_ai.geneticprogrammer - INFO - Saved code to /workspaces/super_ai/generated_code/genetic_solution_10_89.py
+2025-06-20 05:39:28,815 - core_ai.geneticprogrammer - INFO - Saved evolution history to /workspaces/super_ai/generated_code/evolution_history.pkl
+2025-06-20 05:39:28,815 - root - INFO - core_ai module core_ai.geneticprogrammer integration result: None
+2025-06-20 05:39:28,816 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'scipy'
+2025-06-20 05:39:28,817 - root - ERROR - Error integrating core_ai module core_ai.data_loader: No module named 'sklearn'
+2025-06-20 05:39:28,821 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: 'LearningEngine' object has no attribute 'setup_multi_gpu'
+2025-06-20 05:39:28,821 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No module named 'deap'
+2025-06-20 05:39:28,822 - core_ai.model - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'
+2025-06-20 05:39:28,822 - root - ERROR - Error integrating core_ai module core_ai.model: No section: 'SelfModifyingGenome'
+2025-06-20 05:39:28,823 - core_ai.dangerousai - WARNING - Dangerous data generated with shape (100,) and amplification factor 10.0
+2025-06-20 05:39:28,932 - core_ai.dangerousai - WARNING - Saved dangerous data plot to /workspaces/super_ai/output/test_dangerous_data.png with amplification
+2025-06-20 05:39:28,932 - root - INFO - core_ai module core_ai.dangerousai integration result: None
+2025-06-20 05:42:17,635 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:42:17,641 - __main__ - ERROR - Error loading PyTorch models: Error(s) in loading state_dict for SportsPredictor:
+	Missing key(s) in state_dict: "layer1.weight", "layer1.bias", "layer2.weight", "layer2.bias", "layer3.weight", "layer3.bias". 
+	Unexpected key(s) in state_dict: "model_state_dict", "metadata". 
+2025-06-20 05:42:17,642 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:42:17,777 - core_ai.cvutils - ERROR - Error loading image /workspaces/super_ai/data/raw/equation.jpg: Image at '/workspaces/super_ai/data/raw/equation.jpg' could not be loaded.
+2025-06-20 05:42:17,777 - root - INFO - core_ai module core_ai.cvutils integration result: None
+2025-06-20 05:42:18,283 - core_ai.evolutionaryoptimizer - INFO - EvolutionaryOptimizer initialized with population size 50, mutation rate 0.1, crossover rate 0.8
+2025-06-20 05:42:18,283 - core_ai.evolutionaryoptimizer - INFO - Generating random population of 50 individuals
+2025-06-20 05:42:18,284 - core_ai.evolutionaryoptimizer - INFO - Starting evolution for 100 generations
+2025-06-20 05:42:18,284 - core_ai.evolutionaryoptimizer - INFO - Generation 1/100: Best fitness = -33.509658, Avg fitness = -76.388689
+2025-06-20 05:42:18,285 - core_ai.evolutionaryoptimizer - INFO - Generation 2/100: Best fitness = -24.419815, Avg fitness = -53.133632
+2025-06-20 05:42:18,286 - core_ai.evolutionaryoptimizer - INFO - Generation 3/100: Best fitness = -11.047534, Avg fitness = -36.969899
+2025-06-20 05:42:18,287 - core_ai.evolutionaryoptimizer - INFO - Generation 4/100: Best fitness = -9.807327, Avg fitness = -27.156466
+2025-06-20 05:42:18,288 - core_ai.evolutionaryoptimizer - INFO - Generation 5/100: Best fitness = -3.785848, Avg fitness = -18.540717
+2025-06-20 05:42:18,288 - core_ai.evolutionaryoptimizer - INFO - Generation 6/100: Best fitness = -3.467311, Avg fitness = -13.800274
+2025-06-20 05:42:18,289 - core_ai.evolutionaryoptimizer - INFO - Generation 7/100: Best fitness = -3.371909, Avg fitness = -9.102070
+2025-06-20 05:42:18,290 - core_ai.evolutionaryoptimizer - INFO - Generation 8/100: Best fitness = -3.058007, Avg fitness = -5.486154
+2025-06-20 05:42:18,291 - core_ai.evolutionaryoptimizer - INFO - Generation 9/100: Best fitness = -1.772119, Avg fitness = -4.113640
+2025-06-20 05:42:18,292 - core_ai.evolutionaryoptimizer - INFO - Generation 10/100: Best fitness = -1.650269, Avg fitness = -3.755679
+2025-06-20 05:42:18,293 - core_ai.evolutionaryoptimizer - INFO - Generation 11/100: Best fitness = -1.189672, Avg fitness = -3.381710
+2025-06-20 05:42:18,293 - core_ai.evolutionaryoptimizer - INFO - Generation 12/100: Best fitness = -0.935794, Avg fitness = -3.152544
+2025-06-20 05:42:18,294 - core_ai.evolutionaryoptimizer - INFO - Generation 13/100: Best fitness = -0.609819, Avg fitness = -3.397071
+2025-06-20 05:42:18,295 - core_ai.evolutionaryoptimizer - INFO - Generation 14/100: Best fitness = -0.604265, Avg fitness = -2.428801
+2025-06-20 05:42:18,296 - core_ai.evolutionaryoptimizer - INFO - Generation 15/100: Best fitness = -0.565413, Avg fitness = -1.832568
+2025-06-20 05:42:18,297 - core_ai.evolutionaryoptimizer - INFO - Generation 16/100: Best fitness = -0.489695, Avg fitness = -1.792772
+2025-06-20 05:42:18,298 - core_ai.evolutionaryoptimizer - INFO - Generation 17/100: Best fitness = -0.489695, Avg fitness = -1.502658
+2025-06-20 05:42:18,299 - core_ai.evolutionaryoptimizer - INFO - Generation 18/100: Best fitness = -0.418803, Avg fitness = -1.469020
+2025-06-20 05:42:18,299 - core_ai.evolutionaryoptimizer - INFO - Generation 19/100: Best fitness = -0.418803, Avg fitness = -1.414913
+2025-06-20 05:42:18,300 - core_ai.evolutionaryoptimizer - INFO - Generation 20/100: Best fitness = -0.418803, Avg fitness = -1.185735
+2025-06-20 05:42:18,301 - core_ai.evolutionaryoptimizer - INFO - Generation 21/100: Best fitness = -0.391163, Avg fitness = -2.065185
+2025-06-20 05:42:18,302 - core_ai.evolutionaryoptimizer - INFO - Generation 22/100: Best fitness = -0.353896, Avg fitness = -1.238857
+2025-06-20 05:42:18,303 - core_ai.evolutionaryoptimizer - INFO - Generation 23/100: Best fitness = -0.327740, Avg fitness = -1.469520
+2025-06-20 05:42:18,304 - core_ai.evolutionaryoptimizer - INFO - Generation 24/100: Best fitness = -0.327740, Avg fitness = -1.224764
+2025-06-20 05:42:18,304 - core_ai.evolutionaryoptimizer - INFO - Generation 25/100: Best fitness = -0.297304, Avg fitness = -1.312044
+2025-06-20 05:42:18,305 - core_ai.evolutionaryoptimizer - INFO - Generation 26/100: Best fitness = -0.273166, Avg fitness = -1.103786
+2025-06-20 05:42:18,306 - core_ai.evolutionaryoptimizer - INFO - Generation 27/100: Best fitness = -0.192152, Avg fitness = -1.394263
+2025-06-20 05:42:18,307 - core_ai.evolutionaryoptimizer - INFO - Generation 28/100: Best fitness = -0.192152, Avg fitness = -1.391064
+2025-06-20 05:42:18,308 - core_ai.evolutionaryoptimizer - INFO - Generation 29/100: Best fitness = -0.192152, Avg fitness = -1.187893
+2025-06-20 05:42:18,309 - core_ai.evolutionaryoptimizer - INFO - Generation 30/100: Best fitness = -0.140048, Avg fitness = -1.144421
+2025-06-20 05:42:18,310 - core_ai.evolutionaryoptimizer - INFO - Generation 31/100: Best fitness = -0.140048, Avg fitness = -1.312583
+2025-06-20 05:42:18,311 - core_ai.evolutionaryoptimizer - INFO - Generation 32/100: Best fitness = -0.125272, Avg fitness = -1.570438
+2025-06-20 05:42:18,312 - core_ai.evolutionaryoptimizer - INFO - Generation 33/100: Best fitness = -0.116144, Avg fitness = -1.121807
+2025-06-20 05:42:18,312 - core_ai.evolutionaryoptimizer - INFO - Generation 34/100: Best fitness = -0.116144, Avg fitness = -0.980091
+2025-06-20 05:42:18,313 - core_ai.evolutionaryoptimizer - INFO - Generation 35/100: Best fitness = -0.107033, Avg fitness = -1.048308
+2025-06-20 05:42:18,314 - core_ai.evolutionaryoptimizer - INFO - Generation 36/100: Best fitness = -0.107033, Avg fitness = -1.021540
+2025-06-20 05:42:18,315 - core_ai.evolutionaryoptimizer - INFO - Generation 37/100: Best fitness = -0.101369, Avg fitness = -1.204144
+2025-06-20 05:42:18,316 - core_ai.evolutionaryoptimizer - INFO - Generation 38/100: Best fitness = -0.101369, Avg fitness = -1.091890
+2025-06-20 05:42:18,317 - core_ai.evolutionaryoptimizer - INFO - Generation 39/100: Best fitness = -0.099317, Avg fitness = -1.383552
+2025-06-20 05:42:18,317 - core_ai.evolutionaryoptimizer - INFO - Generation 40/100: Best fitness = -0.097806, Avg fitness = -0.787566
+2025-06-20 05:42:18,318 - core_ai.evolutionaryoptimizer - INFO - Generation 41/100: Best fitness = -0.092258, Avg fitness = -1.160641
+2025-06-20 05:42:18,319 - core_ai.evolutionaryoptimizer - INFO - Generation 42/100: Best fitness = -0.089511, Avg fitness = -1.306793
+2025-06-20 05:42:18,320 - core_ai.evolutionaryoptimizer - INFO - Generation 43/100: Best fitness = -0.080400, Avg fitness = -0.742619
+2025-06-20 05:42:18,322 - core_ai.evolutionaryoptimizer - INFO - Generation 44/100: Best fitness = -0.074346, Avg fitness = -0.677726
+2025-06-20 05:42:18,323 - core_ai.evolutionaryoptimizer - INFO - Generation 45/100: Best fitness = -0.074346, Avg fitness = -0.920139
+2025-06-20 05:42:18,323 - core_ai.evolutionaryoptimizer - INFO - Generation 46/100: Best fitness = -0.059571, Avg fitness = -1.132033
+2025-06-20 05:42:18,324 - core_ai.evolutionaryoptimizer - INFO - Generation 47/100: Best fitness = -0.051759, Avg fitness = -0.640985
+2025-06-20 05:42:18,325 - core_ai.evolutionaryoptimizer - INFO - Generation 48/100: Best fitness = -0.051759, Avg fitness = -0.652792
+2025-06-20 05:42:18,326 - core_ai.evolutionaryoptimizer - INFO - Generation 49/100: Best fitness = -0.051759, Avg fitness = -0.710996
+2025-06-20 05:42:18,327 - core_ai.evolutionaryoptimizer - INFO - Generation 50/100: Best fitness = -0.042476, Avg fitness = -0.763220
+2025-06-20 05:42:18,328 - core_ai.evolutionaryoptimizer - INFO - Generation 51/100: Best fitness = -0.040813, Avg fitness = -0.924200
+2025-06-20 05:42:18,329 - core_ai.evolutionaryoptimizer - INFO - Generation 52/100: Best fitness = -0.039170, Avg fitness = -1.082340
+2025-06-20 05:42:18,330 - core_ai.evolutionaryoptimizer - INFO - Generation 53/100: Best fitness = -0.039170, Avg fitness = -1.299638
+2025-06-20 05:42:18,330 - core_ai.evolutionaryoptimizer - INFO - Generation 54/100: Best fitness = -0.031643, Avg fitness = -0.763523
+2025-06-20 05:42:18,331 - core_ai.evolutionaryoptimizer - INFO - Generation 55/100: Best fitness = -0.031643, Avg fitness = -0.925726
+2025-06-20 05:42:18,332 - core_ai.evolutionaryoptimizer - INFO - Generation 56/100: Best fitness = -0.024415, Avg fitness = -0.694643
+2025-06-20 05:42:18,333 - core_ai.evolutionaryoptimizer - INFO - Generation 57/100: Best fitness = -0.024415, Avg fitness = -1.440183
+2025-06-20 05:42:18,334 - core_ai.evolutionaryoptimizer - INFO - Generation 58/100: Best fitness = -0.024415, Avg fitness = -1.283072
+2025-06-20 05:42:18,335 - core_ai.evolutionaryoptimizer - INFO - Generation 59/100: Best fitness = -0.024415, Avg fitness = -1.030289
+2025-06-20 05:42:18,335 - core_ai.evolutionaryoptimizer - INFO - Generation 60/100: Best fitness = -0.022579, Avg fitness = -0.929885
+2025-06-20 05:42:18,336 - core_ai.evolutionaryoptimizer - INFO - Generation 61/100: Best fitness = -0.022579, Avg fitness = -1.076035
+2025-06-20 05:42:18,337 - core_ai.evolutionaryoptimizer - INFO - Generation 62/100: Best fitness = -0.022579, Avg fitness = -0.986659
+2025-06-20 05:42:18,338 - core_ai.evolutionaryoptimizer - INFO - Generation 63/100: Best fitness = -0.021066, Avg fitness = -1.284751
+2025-06-20 05:42:18,339 - core_ai.evolutionaryoptimizer - INFO - Generation 64/100: Best fitness = -0.019619, Avg fitness = -1.517433
+2025-06-20 05:42:18,340 - core_ai.evolutionaryoptimizer - INFO - Generation 65/100: Best fitness = -0.018092, Avg fitness = -1.176188
+2025-06-20 05:42:18,340 - core_ai.evolutionaryoptimizer - INFO - Generation 66/100: Best fitness = -0.018092, Avg fitness = -0.891303
+2025-06-20 05:42:18,341 - core_ai.evolutionaryoptimizer - INFO - Generation 67/100: Best fitness = -0.018092, Avg fitness = -1.074994
+2025-06-20 05:42:18,342 - core_ai.evolutionaryoptimizer - INFO - Generation 68/100: Best fitness = -0.014242, Avg fitness = -0.947275
+2025-06-20 05:42:18,343 - core_ai.evolutionaryoptimizer - INFO - Generation 69/100: Best fitness = -0.014242, Avg fitness = -1.196290
+2025-06-20 05:42:18,344 - core_ai.evolutionaryoptimizer - INFO - Generation 70/100: Best fitness = -0.014242, Avg fitness = -1.328704
+2025-06-20 05:42:18,345 - core_ai.evolutionaryoptimizer - INFO - Generation 71/100: Best fitness = -0.014242, Avg fitness = -0.965262
+2025-06-20 05:42:18,345 - core_ai.evolutionaryoptimizer - INFO - Generation 72/100: Best fitness = -0.014242, Avg fitness = -1.067891
+2025-06-20 05:42:18,346 - core_ai.evolutionaryoptimizer - INFO - Generation 73/100: Best fitness = -0.014242, Avg fitness = -1.071123
+2025-06-20 05:42:18,347 - core_ai.evolutionaryoptimizer - INFO - Generation 74/100: Best fitness = -0.014242, Avg fitness = -0.902799
+2025-06-20 05:42:18,348 - core_ai.evolutionaryoptimizer - INFO - Generation 75/100: Best fitness = -0.014242, Avg fitness = -1.223451
+2025-06-20 05:42:18,349 - core_ai.evolutionaryoptimizer - INFO - Generation 76/100: Best fitness = -0.012376, Avg fitness = -1.708063
+2025-06-20 05:42:18,350 - core_ai.evolutionaryoptimizer - INFO - Generation 77/100: Best fitness = -0.012376, Avg fitness = -1.179329
+2025-06-20 05:42:18,351 - core_ai.evolutionaryoptimizer - INFO - Generation 78/100: Best fitness = -0.012376, Avg fitness = -1.479095
+2025-06-20 05:42:18,352 - core_ai.evolutionaryoptimizer - INFO - Generation 79/100: Best fitness = -0.012376, Avg fitness = -0.627825
+2025-06-20 05:42:18,353 - core_ai.evolutionaryoptimizer - INFO - Generation 80/100: Best fitness = -0.012376, Avg fitness = -1.163987
+2025-06-20 05:42:18,354 - core_ai.evolutionaryoptimizer - INFO - Generation 81/100: Best fitness = -0.012376, Avg fitness = -1.216583
+2025-06-20 05:42:18,354 - core_ai.evolutionaryoptimizer - INFO - Generation 82/100: Best fitness = -0.012376, Avg fitness = -1.303821
+2025-06-20 05:42:18,355 - core_ai.evolutionaryoptimizer - INFO - Generation 83/100: Best fitness = -0.012376, Avg fitness = -0.867428
+2025-06-20 05:42:18,356 - core_ai.evolutionaryoptimizer - INFO - Generation 84/100: Best fitness = -0.012376, Avg fitness = -0.867794
+2025-06-20 05:42:18,357 - core_ai.evolutionaryoptimizer - INFO - Generation 85/100: Best fitness = -0.010693, Avg fitness = -1.017819
+2025-06-20 05:42:18,358 - core_ai.evolutionaryoptimizer - INFO - Generation 86/100: Best fitness = -0.010693, Avg fitness = -0.797962
+2025-06-20 05:42:18,359 - core_ai.evolutionaryoptimizer - INFO - Generation 87/100: Best fitness = -0.010693, Avg fitness = -1.340694
+2025-06-20 05:42:18,360 - core_ai.evolutionaryoptimizer - INFO - Generation 88/100: Best fitness = -0.010693, Avg fitness = -1.285087
+2025-06-20 05:42:18,361 - core_ai.evolutionaryoptimizer - INFO - Generation 89/100: Best fitness = -0.010693, Avg fitness = -1.391503
+2025-06-20 05:42:18,362 - core_ai.evolutionaryoptimizer - INFO - Generation 90/100: Best fitness = -0.010693, Avg fitness = -1.000114
+2025-06-20 05:42:18,362 - core_ai.evolutionaryoptimizer - INFO - Generation 91/100: Best fitness = -0.010693, Avg fitness = -1.001070
+2025-06-20 05:42:18,363 - core_ai.evolutionaryoptimizer - INFO - Generation 92/100: Best fitness = -0.009128, Avg fitness = -0.632558
+2025-06-20 05:42:18,364 - core_ai.evolutionaryoptimizer - INFO - Generation 93/100: Best fitness = -0.009128, Avg fitness = -0.836571
+2025-06-20 05:42:18,365 - core_ai.evolutionaryoptimizer - INFO - Generation 94/100: Best fitness = -0.009128, Avg fitness = -0.602463
+2025-06-20 05:42:18,365 - core_ai.evolutionaryoptimizer - INFO - Generation 95/100: Best fitness = -0.008273, Avg fitness = -0.655098
+2025-06-20 05:42:18,366 - core_ai.evolutionaryoptimizer - INFO - Generation 96/100: Best fitness = -0.008273, Avg fitness = -1.151562
+2025-06-20 05:42:18,367 - core_ai.evolutionaryoptimizer - INFO - Generation 97/100: Best fitness = -0.008273, Avg fitness = -1.094668
+2025-06-20 05:42:18,368 - core_ai.evolutionaryoptimizer - INFO - Generation 98/100: Best fitness = -0.008061, Avg fitness = -1.299196
+2025-06-20 05:42:18,369 - core_ai.evolutionaryoptimizer - INFO - Generation 99/100: Best fitness = -0.008061, Avg fitness = -1.125432
+2025-06-20 05:42:18,370 - core_ai.evolutionaryoptimizer - INFO - Generation 100/100: Best fitness = -0.007438, Avg fitness = -1.046199
+2025-06-20 05:42:18,370 - core_ai.evolutionaryoptimizer - INFO - Evolution completed after 100 generations
+2025-06-20 05:42:18,370 - core_ai.evolutionaryoptimizer - INFO - Best fitness: -0.007438
+2025-06-20 05:42:18,371 - root - INFO - core_ai module core_ai.evolutionaryoptimizer integration result: None
+2025-06-20 05:42:18,375 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-20 05:42:18,375 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-20 05:42:18,376 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-20 05:42:18,376 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-20 05:42:18,376 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-20 05:42:18,376 - core_ai.codegenerator - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-20 05:42:18,376 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-20 05:42:18,377 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-20 05:42:18,377 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-20 05:42:18,378 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-20 05:42:18,378 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-20 05:42:18,378 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-20 05:42:18,379 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-20 05:42:18,379 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-20 05:42:18,379 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-20 05:42:18,380 - root - INFO - core_ai module core_ai.codegenerator integration result: None
+2025-06-20 05:42:18,380 - root - INFO - core_ai module core_ai.reinforcement_memory integration result: No main/demo/test function or class found.
+2025-06-20 05:42:18,381 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:42:18,381 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:42:18,381 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:42:18,381 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:42:18,386 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:42:18,386 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:42:18,397 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 5
+2025-06-20 05:42:18,630 - root - WARNING - SelfModificationEngine not available, self-improvement will be limited
+2025-06-20 05:42:18,631 - core_ai.math_brain_integration - INFO - Initializing HybridMathBrain with genius brain
+2025-06-20 05:42:18,640 - core_ai.math_brain_integration - INFO - Initialized GeniusBrain with 1024 neurons and 0.15 connectivity
+2025-06-20 05:42:18,640 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:42:18,640 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:42:18,640 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:42:18,640 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:42:18,644 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:42:18,644 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:42:18,645 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 1
+2025-06-20 05:42:18,645 - core_ai.math_brain_integration - INFO - DangerousAI integration enabled (level 1)
+2025-06-20 05:42:19,780 - core_ai.math_brain_integration - INFO - Epoch 0/100, Loss: 0.24756
+2025-06-20 05:42:20,035 - core_ai.math_brain_integration - INFO - Epoch 50/100, Loss: 0.24082
+2025-06-20 05:42:20,281 - core_ai.math_brain_integration - INFO - Brain training completed after 100 epochs
+2025-06-20 05:42:20,282 - core_ai.advanced_math_predictors - WARNING - No predictors in ensemble, returning input data
+2025-06-20 05:42:20,291 - core_ai.math_brain_integration - INFO - Evolved GeniusBrain with mutation rate 0.005
+2025-06-20 05:42:20,291 - core_ai.math_brain_integration - INFO - Evolved HybridMathBrain with rate 0.005
+2025-06-20 05:42:20,292 - root - INFO - core_ai module core_ai.math_brain_integration integration result: None
+2025-06-20 05:42:20,305 - core_ai.helpers - INFO - Data normalized with mean -0.16 and std 1.36
+2025-06-20 05:42:20,305 - core_ai.helpers - INFO - Normalized DataFrame:
+          A         B
+0  0.661288  0.661288
+1 -0.037898 -0.037898
+2  0.827528  0.827528
+3  1.791382  1.791382
+4 -0.143483 -0.143483
+2025-06-20 05:42:20,314 - core_ai.helpers - INFO - Data denormalized
+2025-06-20 05:42:20,314 - core_ai.helpers - INFO - Denormalized DataFrame:
+          A         B
+0  0.496714  0.993428
+1 -0.138264 -0.276529
+2  0.647689  1.295377
+3  1.523030  3.046060
+4 -0.234153 -0.468307
+2025-06-20 05:42:20,319 - core_ai.helpers - INFO - Data shuffled
+2025-06-20 05:42:20,319 - core_ai.helpers - INFO - Data split into 80 train and 20 test samples
+2025-06-20 05:42:20,319 - core_ai.helpers - INFO - Train shape: (80, 2), Test shape: (20, 2)
+2025-06-20 05:42:20,319 - core_ai.helpers - INFO - Data shuffled
+2025-06-20 05:42:20,319 - core_ai.helpers - INFO - Shuffled DataFrame:
+           A         B
+63 -1.196207 -2.392413
+11 -0.465730 -0.931460
+56 -0.839218 -1.678435
+84 -0.808494 -1.616987
+99 -0.234587 -0.469174
+2025-06-20 05:42:20,326 - core_ai.helpers - INFO - Data scaled to range [-1.00, 1.00]
+2025-06-20 05:42:20,326 - core_ai.helpers - INFO - Scaled DataFrame:
+          A         B
+0  0.393758  0.393758
+1  0.109780  0.109780
+2  0.461278  0.461278
+3  0.852752  0.852752
+4  0.066896  0.066896
+2025-06-20 05:42:20,330 - core_ai.helpers - INFO - Processed raw data: []
+2025-06-20 05:42:20,330 - core_ai.helpers - INFO - Helpers demo completed.
+2025-06-20 05:42:20,330 - root - INFO - core_ai module core_ai.helpers integration result: None
+2025-06-20 05:42:20,336 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'src.visualizer'
+2025-06-20 05:42:20,337 - root - ERROR - Error integrating core_ai module core_ai.deap_config: cannot import name 'asyncio' from 'config' (/workspaces/super_ai/core_ai/config.py)
+2025-06-20 05:42:20,360 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'seaborn'
+2025-06-20 05:42:20,407 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: 'SelfModificationManager' object has no attribute '_load_config'
+2025-06-20 05:42:20,407 - root - INFO - core_ai module core_ai.meta_learning_engine integration result: Instantiated MetaLearningEngine, no callable method found.
+2025-06-20 05:42:20,461 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'seaborn'
+2025-06-20 05:42:20,462 - core_ai.experimentrunner - WARNING - Unable to import directly from experiment_runner, using alternative import method
+2025-06-20 05:42:20,462 - core_ai.experimentrunner - ERROR - Failed to import experiment_runner module
+2025-06-20 05:42:20,462 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: basic_test_1750398140
+2025-06-20 05:42:20,462 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - Starting experiment run: basic_test_1750398140
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/basic_test_1750398140
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:42:20,463 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: function_approximation_1750398140
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Using DEAP: False
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Added function target: cos with params: None
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Starting experiment run: function_approximation_1750398140
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:42:20,464 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/function_approximation_1750398140
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: hyperparameter_tuning_1750398140
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Added configuration: default with 5 generations
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 50}
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Added configuration: config_1_population_size_50 with 5 generations
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 100}
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Added configuration: config_2_population_size_100 with 5 generations
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Parallel execution: True, max workers: 4
+2025-06-20 05:42:20,465 - core_ai.experimentrunner - INFO - Starting experiment run: hyperparameter_tuning_1750398140
+2025-06-20 05:42:20,503 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,503 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,504 - core_ai.experimentrunner - INFO - Configuration config_1_population_size_50 completed
+2025-06-20 05:42:20,505 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,505 - core_ai.experimentrunner - INFO - Configuration default completed
+2025-06-20 05:42:20,505 - core_ai.experimentrunner - INFO - Configuration config_2_population_size_100 completed
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/hyperparameter_tuning_1750398140
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - Experiment run completed in 0.06 seconds
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: model_comparison_1750398140
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - Added configuration: neat with 5 generations
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - Added configuration: deap with 5 generations
+2025-06-20 05:42:20,523 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Added function target: polynomial with params: {'coeffs': [1, 0, 0, 1]}
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Starting experiment run: model_comparison_1750398140
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Running configuration 1/2: neat
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Configuration neat completed
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Running configuration 2/2: deap
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Configuration deap completed
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/model_comparison_1750398140
+2025-06-20 05:42:20,524 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:42:20,525 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2025-06-20 05:42:20,526 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'src.evolutionaryoptimizer'
+2025-06-20 05:42:20,526 - core_ai.metalearner - INFO - Initial numeric Hyperparameters: {'population_size': 100, 'num_generations': 50, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}
+2025-06-20 05:42:20,526 - root - ERROR - Error integrating core_ai module core_ai.metalearner: name 'random' is not defined
+2025-06-20 05:42:20,527 - core_ai.geneticprogrammer - INFO - GeneticProgrammer initialized for python with population size 20
+2025-06-20 05:42:20,527 - core_ai.geneticprogrammer - INFO - Generating initial population for problem: Create a function to find the sum of even numbers ...
+2025-06-20 05:42:20,528 - core_ai.geneticprogrammer - INFO - Generated initial population of 20 code snippets
+2025-06-20 05:42:20,529 - core_ai.geneticprogrammer - INFO - Starting evolution for 10 generations...
+2025-06-20 05:42:20,530 - core_ai.geneticprogrammer - INFO - Generation 1/10: Best fitness = 0.0000
+2025-06-20 05:42:20,532 - core_ai.geneticprogrammer - INFO - Generation 2/10: Best fitness = 0.6000
+2025-06-20 05:42:20,533 - core_ai.geneticprogrammer - INFO - Generation 3/10: Best fitness = 0.9000
+2025-06-20 05:42:20,534 - core_ai.geneticprogrammer - INFO - Generation 4/10: Best fitness = 0.9000
+2025-06-20 05:42:20,537 - core_ai.geneticprogrammer - INFO - Generation 5/10: Best fitness = 0.9000
+2025-06-20 05:42:20,539 - core_ai.geneticprogrammer - INFO - Generation 6/10: Best fitness = 0.9000
+2025-06-20 05:42:20,541 - core_ai.geneticprogrammer - INFO - Generation 7/10: Best fitness = 0.9000
+2025-06-20 05:42:20,542 - core_ai.geneticprogrammer - INFO - Generation 8/10: Best fitness = 0.9000
+2025-06-20 05:42:20,544 - core_ai.geneticprogrammer - INFO - Generation 9/10: Best fitness = 0.9000
+2025-06-20 05:42:20,546 - core_ai.geneticprogrammer - INFO - Generation 10/10: Best fitness = 0.9000
+2025-06-20 05:42:20,547 - core_ai.geneticprogrammer - INFO - Evolution completed. Best fitness: 0.9000
+2025-06-20 05:42:20,547 - core_ai.geneticprogrammer - INFO - Saved code to /workspaces/super_ai/generated_code/genetic_solution_10_89.py
+2025-06-20 05:42:20,547 - core_ai.geneticprogrammer - INFO - Saved evolution history to /workspaces/super_ai/generated_code/evolution_history.pkl
+2025-06-20 05:42:20,547 - root - INFO - core_ai module core_ai.geneticprogrammer integration result: None
+2025-06-20 05:42:20,558 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'seaborn'
+2025-06-20 05:42:20,558 - core_ai.data_loader - INFO - RealTimeDataLoader initialized with 3 sources
+2025-06-20 05:42:20,558 - core_ai.data_loader - INFO - Callback registered for market
+2025-06-20 05:42:20,559 - core_ai.data_loader - INFO - Data loader state saved to /workspaces/super_ai/data/models/data_loader_state.pkl
+2025-06-20 05:42:21,060 - core_ai.data_loader - INFO - Callback received data: 69.8479962811881
+2025-06-20 05:42:21,061 - core_ai.data_loader - WARNING - Self-modifying (type: source) based on sentiment data. Count: 1
+2025-06-20 05:42:21,061 - core_ai.data_loader - WARNING - Added risky new source: sentiment_alt_1
+2025-06-20 05:42:21,561 - core_ai.data_loader - INFO - Callback received data: 81.31847838148009
+2025-06-20 05:42:21,562 - core_ai.data_loader - WARNING - Self-modifying (type: source) based on betting data. Count: 2
+2025-06-20 05:42:21,562 - core_ai.data_loader - WARNING - Added risky new source: betting_alt_2
+2025-06-20 05:42:22,063 - core_ai.data_loader - INFO - Callback received data: 42.34063663221037
+2025-06-20 05:42:22,063 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 3
+2025-06-20 05:42:22,564 - core_ai.data_loader - INFO - Callback received data: 99.99766211030285
+2025-06-20 05:42:22,564 - core_ai.data_loader - WARNING - Self-modifying (type: preprocess) based on market data. Count: 4
+2025-06-20 05:42:23,065 - core_ai.data_loader - INFO - Callback received data: 1050.1017363267802
+2025-06-20 05:42:23,566 - core_ai.data_loader - INFO - Callback received data: 280.89964528193195
+2025-06-20 05:42:23,566 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 5
+2025-06-20 05:42:24,067 - core_ai.data_loader - INFO - Callback received data: 341.30595594954207
+2025-06-20 05:42:24,568 - core_ai.data_loader - INFO - Callback received data: 546.7771336241971
+2025-06-20 05:42:25,068 - core_ai.data_loader - INFO - Callback received data: 258.9786925468606
+2025-06-20 05:42:25,069 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 6
+2025-06-20 05:42:25,561 - core_ai.data_loader - INFO - Streaming test completed after 5 seconds
+2025-06-20 05:42:25,561 - core_ai.data_loader - INFO - Latest data: {'market': {'price': 80.12592241515476, 'volume': 241}, 'sentiment': {'score': 0.10908149084886243}, 'betting': {'odds': 8.613030490600947}, 'sentiment_alt_1': None, 'betting_alt_2': None}
+2025-06-20 05:42:25,561 - root - INFO - core_ai module core_ai.data_loader integration result: None
+2025-06-20 05:42:25,564 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: 'LearningEngine' object has no attribute 'setup_multi_gpu'
+2025-06-20 05:42:25,570 - core_ai.neat_mathemagician - ERROR - Failed to load NEAT configuration from /workspaces/super_ai/config.txt: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 05:42:25,570 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 05:42:25,626 - core_ai.model - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'
+2025-06-20 05:42:25,626 - root - ERROR - Error integrating core_ai module core_ai.model: No section: 'SelfModifyingGenome'
+2025-06-20 05:42:25,627 - core_ai.dangerousai - WARNING - Dangerous data generated with shape (100,) and amplification factor 10.0
+2025-06-20 05:42:25,752 - core_ai.dangerousai - WARNING - Saved dangerous data plot to /workspaces/super_ai/output/test_dangerous_data.png with amplification
+2025-06-20 05:42:25,752 - root - INFO - core_ai module core_ai.dangerousai integration result: None
+2025-06-20 05:47:11,148 - __main__ - INFO - Starting Mathemagician AI system
+2025-06-20 05:47:11,152 - __main__ - INFO - Loaded sports predictor model from /workspaces/super_ai/models/sports_predictor.pth
+2025-06-20 05:47:11,155 - __main__ - INFO - Loaded betting predictor model from /workspaces/super_ai/models/betting_predictor.pth
+2025-06-20 05:47:11,155 - __main__ - INFO - Integrating all core_ai modules...
+2025-06-20 05:47:11,224 - core_ai.cvutils - ERROR - Error loading image /workspaces/super_ai/data/raw/equation.jpg: Image at '/workspaces/super_ai/data/raw/equation.jpg' could not be loaded.
+2025-06-20 05:47:11,224 - root - INFO - core_ai module core_ai.cvutils integration result: None
+2025-06-20 05:47:11,599 - core_ai.evolutionaryoptimizer - INFO - EvolutionaryOptimizer initialized with population size 50, mutation rate 0.1, crossover rate 0.8
+2025-06-20 05:47:11,599 - core_ai.evolutionaryoptimizer - INFO - Generating random population of 50 individuals
+2025-06-20 05:47:11,599 - core_ai.evolutionaryoptimizer - INFO - Starting evolution for 100 generations
+2025-06-20 05:47:11,600 - core_ai.evolutionaryoptimizer - INFO - Generation 1/100: Best fitness = -22.264475, Avg fitness = -80.096649
+2025-06-20 05:47:11,601 - core_ai.evolutionaryoptimizer - INFO - Generation 2/100: Best fitness = -17.433704, Avg fitness = -55.868999
+2025-06-20 05:47:11,601 - core_ai.evolutionaryoptimizer - INFO - Generation 3/100: Best fitness = -14.150953, Avg fitness = -41.316274
+2025-06-20 05:47:11,602 - core_ai.evolutionaryoptimizer - INFO - Generation 4/100: Best fitness = -14.150953, Avg fitness = -32.810493
+2025-06-20 05:47:11,603 - core_ai.evolutionaryoptimizer - INFO - Generation 5/100: Best fitness = -10.021180, Avg fitness = -21.398256
+2025-06-20 05:47:11,604 - core_ai.evolutionaryoptimizer - INFO - Generation 6/100: Best fitness = -8.146232, Avg fitness = -16.963841
+2025-06-20 05:47:11,605 - core_ai.evolutionaryoptimizer - INFO - Generation 7/100: Best fitness = -5.705417, Avg fitness = -12.490028
+2025-06-20 05:47:11,606 - core_ai.evolutionaryoptimizer - INFO - Generation 8/100: Best fitness = -3.652952, Avg fitness = -9.890512
+2025-06-20 05:47:11,608 - core_ai.evolutionaryoptimizer - INFO - Generation 9/100: Best fitness = -2.620807, Avg fitness = -7.256769
+2025-06-20 05:47:11,608 - core_ai.evolutionaryoptimizer - INFO - Generation 10/100: Best fitness = -1.598224, Avg fitness = -5.801010
+2025-06-20 05:47:11,609 - core_ai.evolutionaryoptimizer - INFO - Generation 11/100: Best fitness = -1.598224, Avg fitness = -4.668367
+2025-06-20 05:47:11,610 - core_ai.evolutionaryoptimizer - INFO - Generation 12/100: Best fitness = -1.214612, Avg fitness = -3.678354
+2025-06-20 05:47:11,611 - core_ai.evolutionaryoptimizer - INFO - Generation 13/100: Best fitness = -1.117237, Avg fitness = -3.206560
+2025-06-20 05:47:11,613 - core_ai.evolutionaryoptimizer - INFO - Generation 14/100: Best fitness = -1.117237, Avg fitness = -2.617296
+2025-06-20 05:47:11,614 - core_ai.evolutionaryoptimizer - INFO - Generation 15/100: Best fitness = -1.033972, Avg fitness = -2.668331
+2025-06-20 05:47:11,615 - core_ai.evolutionaryoptimizer - INFO - Generation 16/100: Best fitness = -0.920254, Avg fitness = -2.383767
+2025-06-20 05:47:11,616 - core_ai.evolutionaryoptimizer - INFO - Generation 17/100: Best fitness = -0.885745, Avg fitness = -2.639647
+2025-06-20 05:47:11,617 - core_ai.evolutionaryoptimizer - INFO - Generation 18/100: Best fitness = -0.783959, Avg fitness = -2.334347
+2025-06-20 05:47:11,618 - core_ai.evolutionaryoptimizer - INFO - Generation 19/100: Best fitness = -0.703040, Avg fitness = -2.193063
+2025-06-20 05:47:11,620 - core_ai.evolutionaryoptimizer - INFO - Generation 20/100: Best fitness = -0.582605, Avg fitness = -1.596377
+2025-06-20 05:47:11,621 - core_ai.evolutionaryoptimizer - INFO - Generation 21/100: Best fitness = -0.541340, Avg fitness = -1.382500
+2025-06-20 05:47:11,622 - core_ai.evolutionaryoptimizer - INFO - Generation 22/100: Best fitness = -0.379104, Avg fitness = -1.613905
+2025-06-20 05:47:11,624 - core_ai.evolutionaryoptimizer - INFO - Generation 23/100: Best fitness = -0.332162, Avg fitness = -1.728959
+2025-06-20 05:47:11,625 - core_ai.evolutionaryoptimizer - INFO - Generation 24/100: Best fitness = -0.332162, Avg fitness = -1.638348
+2025-06-20 05:47:11,626 - core_ai.evolutionaryoptimizer - INFO - Generation 25/100: Best fitness = -0.315154, Avg fitness = -1.352401
+2025-06-20 05:47:11,628 - core_ai.evolutionaryoptimizer - INFO - Generation 26/100: Best fitness = -0.213848, Avg fitness = -1.291528
+2025-06-20 05:47:11,629 - core_ai.evolutionaryoptimizer - INFO - Generation 27/100: Best fitness = -0.180876, Avg fitness = -1.366687
+2025-06-20 05:47:11,630 - core_ai.evolutionaryoptimizer - INFO - Generation 28/100: Best fitness = -0.106946, Avg fitness = -1.215323
+2025-06-20 05:47:11,631 - core_ai.evolutionaryoptimizer - INFO - Generation 29/100: Best fitness = -0.106946, Avg fitness = -1.420750
+2025-06-20 05:47:11,632 - core_ai.evolutionaryoptimizer - INFO - Generation 30/100: Best fitness = -0.099936, Avg fitness = -1.591075
+2025-06-20 05:47:11,632 - core_ai.evolutionaryoptimizer - INFO - Generation 31/100: Best fitness = -0.095449, Avg fitness = -0.799653
+2025-06-20 05:47:11,633 - core_ai.evolutionaryoptimizer - INFO - Generation 32/100: Best fitness = -0.091176, Avg fitness = -1.008859
+2025-06-20 05:47:11,634 - core_ai.evolutionaryoptimizer - INFO - Generation 33/100: Best fitness = -0.091176, Avg fitness = -1.064521
+2025-06-20 05:47:11,635 - core_ai.evolutionaryoptimizer - INFO - Generation 34/100: Best fitness = -0.066911, Avg fitness = -1.266065
+2025-06-20 05:47:11,636 - core_ai.evolutionaryoptimizer - INFO - Generation 35/100: Best fitness = -0.063050, Avg fitness = -0.841094
+2025-06-20 05:47:11,637 - core_ai.evolutionaryoptimizer - INFO - Generation 36/100: Best fitness = -0.051141, Avg fitness = -1.115207
+2025-06-20 05:47:11,638 - core_ai.evolutionaryoptimizer - INFO - Generation 37/100: Best fitness = -0.047872, Avg fitness = -1.303539
+2025-06-20 05:47:11,639 - core_ai.evolutionaryoptimizer - INFO - Generation 38/100: Best fitness = -0.047847, Avg fitness = -0.835825
+2025-06-20 05:47:11,639 - core_ai.evolutionaryoptimizer - INFO - Generation 39/100: Best fitness = -0.047847, Avg fitness = -0.684045
+2025-06-20 05:47:11,640 - core_ai.evolutionaryoptimizer - INFO - Generation 40/100: Best fitness = -0.047847, Avg fitness = -1.116606
+2025-06-20 05:47:11,641 - core_ai.evolutionaryoptimizer - INFO - Generation 41/100: Best fitness = -0.047847, Avg fitness = -1.206478
+2025-06-20 05:47:11,642 - core_ai.evolutionaryoptimizer - INFO - Generation 42/100: Best fitness = -0.043735, Avg fitness = -0.676072
+2025-06-20 05:47:11,643 - core_ai.evolutionaryoptimizer - INFO - Generation 43/100: Best fitness = -0.043735, Avg fitness = -0.901136
+2025-06-20 05:47:11,644 - core_ai.evolutionaryoptimizer - INFO - Generation 44/100: Best fitness = -0.040465, Avg fitness = -0.988480
+2025-06-20 05:47:11,645 - core_ai.evolutionaryoptimizer - INFO - Generation 45/100: Best fitness = -0.040465, Avg fitness = -0.872460
+2025-06-20 05:47:11,646 - core_ai.evolutionaryoptimizer - INFO - Generation 46/100: Best fitness = -0.040465, Avg fitness = -1.309830
+2025-06-20 05:47:11,646 - core_ai.evolutionaryoptimizer - INFO - Generation 47/100: Best fitness = -0.040465, Avg fitness = -0.806851
+2025-06-20 05:47:11,647 - core_ai.evolutionaryoptimizer - INFO - Generation 48/100: Best fitness = -0.017081, Avg fitness = -1.439831
+2025-06-20 05:47:11,648 - core_ai.evolutionaryoptimizer - INFO - Generation 49/100: Best fitness = -0.010614, Avg fitness = -1.393630
+2025-06-20 05:47:11,649 - core_ai.evolutionaryoptimizer - INFO - Generation 50/100: Best fitness = -0.010614, Avg fitness = -1.652944
+2025-06-20 05:47:11,650 - core_ai.evolutionaryoptimizer - INFO - Generation 51/100: Best fitness = -0.010614, Avg fitness = -0.802645
+2025-06-20 05:47:11,651 - core_ai.evolutionaryoptimizer - INFO - Generation 52/100: Best fitness = -0.010614, Avg fitness = -0.868286
+2025-06-20 05:47:11,651 - core_ai.evolutionaryoptimizer - INFO - Generation 53/100: Best fitness = -0.010614, Avg fitness = -0.879948
+2025-06-20 05:47:11,652 - core_ai.evolutionaryoptimizer - INFO - Generation 54/100: Best fitness = -0.010034, Avg fitness = -0.782336
+2025-06-20 05:47:11,653 - core_ai.evolutionaryoptimizer - INFO - Generation 55/100: Best fitness = -0.010034, Avg fitness = -0.770515
+2025-06-20 05:47:11,654 - core_ai.evolutionaryoptimizer - INFO - Generation 56/100: Best fitness = -0.010034, Avg fitness = -0.818853
+2025-06-20 05:47:11,656 - core_ai.evolutionaryoptimizer - INFO - Generation 57/100: Best fitness = -0.009586, Avg fitness = -1.049853
+2025-06-20 05:47:11,656 - core_ai.evolutionaryoptimizer - INFO - Generation 58/100: Best fitness = -0.009586, Avg fitness = -0.984881
+2025-06-20 05:47:11,657 - core_ai.evolutionaryoptimizer - INFO - Generation 59/100: Best fitness = -0.009453, Avg fitness = -1.166468
+2025-06-20 05:47:11,659 - core_ai.evolutionaryoptimizer - INFO - Generation 60/100: Best fitness = -0.009453, Avg fitness = -0.863762
+2025-06-20 05:47:11,659 - core_ai.evolutionaryoptimizer - INFO - Generation 61/100: Best fitness = -0.009453, Avg fitness = -0.830501
+2025-06-20 05:47:11,660 - core_ai.evolutionaryoptimizer - INFO - Generation 62/100: Best fitness = -0.009453, Avg fitness = -0.809442
+2025-06-20 05:47:11,661 - core_ai.evolutionaryoptimizer - INFO - Generation 63/100: Best fitness = -0.009382, Avg fitness = -0.848199
+2025-06-20 05:47:11,662 - core_ai.evolutionaryoptimizer - INFO - Generation 64/100: Best fitness = -0.009382, Avg fitness = -0.976274
+2025-06-20 05:47:11,663 - core_ai.evolutionaryoptimizer - INFO - Generation 65/100: Best fitness = -0.009228, Avg fitness = -0.902525
+2025-06-20 05:47:11,664 - core_ai.evolutionaryoptimizer - INFO - Generation 66/100: Best fitness = -0.008934, Avg fitness = -1.147404
+2025-06-20 05:47:11,664 - core_ai.evolutionaryoptimizer - INFO - Generation 67/100: Best fitness = -0.007907, Avg fitness = -0.739301
+2025-06-20 05:47:11,665 - core_ai.evolutionaryoptimizer - INFO - Generation 68/100: Best fitness = -0.007907, Avg fitness = -1.026045
+2025-06-20 05:47:11,666 - core_ai.evolutionaryoptimizer - INFO - Generation 69/100: Best fitness = -0.007907, Avg fitness = -0.851217
+2025-06-20 05:47:11,667 - core_ai.evolutionaryoptimizer - INFO - Generation 70/100: Best fitness = -0.007682, Avg fitness = -1.505542
+2025-06-20 05:47:11,668 - core_ai.evolutionaryoptimizer - INFO - Generation 71/100: Best fitness = -0.007549, Avg fitness = -1.163053
+2025-06-20 05:47:11,669 - core_ai.evolutionaryoptimizer - INFO - Generation 72/100: Best fitness = -0.007549, Avg fitness = -0.954892
+2025-06-20 05:47:11,670 - core_ai.evolutionaryoptimizer - INFO - Generation 73/100: Best fitness = -0.007549, Avg fitness = -1.104932
+2025-06-20 05:47:11,670 - core_ai.evolutionaryoptimizer - INFO - Generation 74/100: Best fitness = -0.006158, Avg fitness = -1.221811
+2025-06-20 05:47:11,671 - core_ai.evolutionaryoptimizer - INFO - Generation 75/100: Best fitness = -0.006158, Avg fitness = -0.621964
+2025-06-20 05:47:11,672 - core_ai.evolutionaryoptimizer - INFO - Generation 76/100: Best fitness = -0.006158, Avg fitness = -1.120484
+2025-06-20 05:47:11,673 - core_ai.evolutionaryoptimizer - INFO - Generation 77/100: Best fitness = -0.006158, Avg fitness = -0.931723
+2025-06-20 05:47:11,674 - core_ai.evolutionaryoptimizer - INFO - Generation 78/100: Best fitness = -0.006158, Avg fitness = -1.395757
+2025-06-20 05:47:11,675 - core_ai.evolutionaryoptimizer - INFO - Generation 79/100: Best fitness = -0.006158, Avg fitness = -1.194310
+2025-06-20 05:47:11,675 - core_ai.evolutionaryoptimizer - INFO - Generation 80/100: Best fitness = -0.006158, Avg fitness = -0.850638
+2025-06-20 05:47:11,676 - core_ai.evolutionaryoptimizer - INFO - Generation 81/100: Best fitness = -0.006158, Avg fitness = -0.792503
+2025-06-20 05:47:11,677 - core_ai.evolutionaryoptimizer - INFO - Generation 82/100: Best fitness = -0.006158, Avg fitness = -1.009854
+2025-06-20 05:47:11,678 - core_ai.evolutionaryoptimizer - INFO - Generation 83/100: Best fitness = -0.006158, Avg fitness = -0.828827
+2025-06-20 05:47:11,678 - core_ai.evolutionaryoptimizer - INFO - Generation 84/100: Best fitness = -0.006158, Avg fitness = -0.798092
+2025-06-20 05:47:11,679 - core_ai.evolutionaryoptimizer - INFO - Generation 85/100: Best fitness = -0.004543, Avg fitness = -0.895822
+2025-06-20 05:47:11,680 - core_ai.evolutionaryoptimizer - INFO - Generation 86/100: Best fitness = -0.004543, Avg fitness = -1.295155
+2025-06-20 05:47:11,681 - core_ai.evolutionaryoptimizer - INFO - Generation 87/100: Best fitness = -0.004543, Avg fitness = -1.009650
+2025-06-20 05:47:11,682 - core_ai.evolutionaryoptimizer - INFO - Generation 88/100: Best fitness = -0.004543, Avg fitness = -1.024542
+2025-06-20 05:47:11,683 - core_ai.evolutionaryoptimizer - INFO - Generation 89/100: Best fitness = -0.004543, Avg fitness = -0.701633
+2025-06-20 05:47:11,683 - core_ai.evolutionaryoptimizer - INFO - Generation 90/100: Best fitness = -0.004543, Avg fitness = -1.485383
+2025-06-20 05:47:11,684 - core_ai.evolutionaryoptimizer - INFO - Generation 91/100: Best fitness = -0.004543, Avg fitness = -1.039301
+2025-06-20 05:47:11,685 - core_ai.evolutionaryoptimizer - INFO - Generation 92/100: Best fitness = -0.004543, Avg fitness = -0.573189
+2025-06-20 05:47:11,686 - core_ai.evolutionaryoptimizer - INFO - Generation 93/100: Best fitness = -0.004543, Avg fitness = -0.968391
+2025-06-20 05:47:11,687 - core_ai.evolutionaryoptimizer - INFO - Generation 94/100: Best fitness = -0.004543, Avg fitness = -1.215732
+2025-06-20 05:47:11,688 - core_ai.evolutionaryoptimizer - INFO - Generation 95/100: Best fitness = -0.004543, Avg fitness = -0.958029
+2025-06-20 05:47:11,688 - core_ai.evolutionaryoptimizer - INFO - Generation 96/100: Best fitness = -0.004543, Avg fitness = -0.948668
+2025-06-20 05:47:11,689 - core_ai.evolutionaryoptimizer - INFO - Generation 97/100: Best fitness = -0.004543, Avg fitness = -0.929494
+2025-06-20 05:47:11,690 - core_ai.evolutionaryoptimizer - INFO - Generation 98/100: Best fitness = -0.004411, Avg fitness = -0.866506
+2025-06-20 05:47:11,691 - core_ai.evolutionaryoptimizer - INFO - Generation 99/100: Best fitness = -0.004411, Avg fitness = -0.948662
+2025-06-20 05:47:11,692 - core_ai.evolutionaryoptimizer - INFO - Generation 100/100: Best fitness = -0.004411, Avg fitness = -1.011828
+2025-06-20 05:47:11,693 - core_ai.evolutionaryoptimizer - INFO - Evolution completed after 100 generations
+2025-06-20 05:47:11,693 - core_ai.evolutionaryoptimizer - INFO - Best fitness: -0.004411
+2025-06-20 05:47:11,694 - root - INFO - core_ai module core_ai.evolutionaryoptimizer integration result: None
+2025-06-20 05:47:11,698 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-20 05:47:11,698 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_1.pkl
+2025-06-20 05:47:11,699 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_2.pkl
+2025-06-20 05:47:11,699 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_3.pkl
+2025-06-20 05:47:11,699 - core_ai.codegenerator - INFO - Individual successfully saved to /workspaces/super_ai/data/models/individual_4.pkl
+2025-06-20 05:47:11,699 - core_ai.codegenerator - INFO - Individual successfully loaded from /workspaces/super_ai/data/models/individual_0.pkl
+2025-06-20 05:47:11,699 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,700 - core_ai.codegenerator - INFO - Generated code for function 'dummy_function' with expression 'sin(0.0)'
+2025-06-20 05:47:11,700 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/dummy_function.py
+2025-06-20 05:47:11,700 - core_ai.codegenerator - INFO - Code successfully loaded from /workspaces/super_ai/src/dummy_function.py
+2025-06-20 05:47:11,700 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,700 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:47:11,700 - core_ai.codegenerator - INFO - Generated code for function 'math_func_0' with expression 'sin(sub(2.0, x))'
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_0.py
+2025-06-20 05:47:11,701 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Generated code for function 'math_func_1' with expression 'sub(log(sin(square(exp(x)))), add(x, x))'
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_1.py
+2025-06-20 05:47:11,701 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:47:11,701 - core_ai.codegenerator - INFO - Generated code for function 'math_func_2' with expression 'log(log(cos(sub(0.0, sub(0.0, x)))))'
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_2.py
+2025-06-20 05:47:11,702 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Generated code for function 'math_func_3' with expression 'square(cos(1.0))'
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_3.py
+2025-06-20 05:47:11,702 - core_ai.codegenerator - WARNING - No raw data available for validation.
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Individual mutated due to high MSE
+2025-06-20 05:47:11,702 - core_ai.codegenerator - INFO - Generated code for function 'math_func_4' with expression 'cos(sub(mul(div(0.0, 2.0), log(0.0)), add(x, exp(1.0))))'
+2025-06-20 05:47:11,703 - core_ai.codegenerator - INFO - Code successfully saved to /workspaces/super_ai/src/math_func_4.py
+2025-06-20 05:47:11,703 - root - INFO - core_ai module core_ai.codegenerator integration result: None
+2025-06-20 05:47:11,703 - root - INFO - core_ai module core_ai.reinforcement_memory integration result: No main/demo/test function or class found.
+2025-06-20 05:47:11,704 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:47:11,704 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:47:11,704 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:47:11,704 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:47:11,709 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:47:11,710 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:47:11,718 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 5
+2025-06-20 05:47:11,950 - root - WARNING - SelfModificationEngine not available, self-improvement will be limited
+2025-06-20 05:47:11,951 - core_ai.math_brain_integration - INFO - Initializing HybridMathBrain with genius brain
+2025-06-20 05:47:11,960 - core_ai.math_brain_integration - INFO - Initialized GeniusBrain with 1024 neurons and 0.15 connectivity
+2025-06-20 05:47:11,960 - core_ai.advanced_math_predictors - INFO - Creating advanced mathematical predictors
+2025-06-20 05:47:11,960 - core_ai.advanced_math_predictors - INFO - Initialized RiemannMatrixEnsemble with size 5
+2025-06-20 05:47:11,961 - core_ai.advanced_math_predictors - INFO - Initialized NavierStokesPredictor with memory 10
+2025-06-20 05:47:11,961 - core_ai.advanced_math_predictors - INFO - Initialized CollatzRecursivePredictor with 20 iterations
+2025-06-20 05:47:11,965 - core_ai.advanced_math_predictors - INFO - Initialized GoldbachDecomposer with 100 prime components
+2025-06-20 05:47:11,965 - core_ai.advanced_math_predictors - INFO - Initialized YangMillsPhasePredictor with sensitivity 0.2
+2025-06-20 05:47:11,965 - core_ai.dangerousai - WARNING - DangerousAI initialized with danger level 1
+2025-06-20 05:47:11,965 - core_ai.math_brain_integration - INFO - DangerousAI integration enabled (level 1)
+2025-06-20 05:47:13,071 - core_ai.math_brain_integration - INFO - Epoch 0/100, Loss: 0.25643
+2025-06-20 05:47:13,281 - core_ai.math_brain_integration - INFO - Epoch 50/100, Loss: 0.24739
+2025-06-20 05:47:13,506 - core_ai.math_brain_integration - INFO - Brain training completed after 100 epochs
+2025-06-20 05:47:13,507 - core_ai.advanced_math_predictors - WARNING - No predictors in ensemble, returning input data
+2025-06-20 05:47:13,520 - core_ai.math_brain_integration - INFO - Evolved GeniusBrain with mutation rate 0.005
+2025-06-20 05:47:13,520 - core_ai.math_brain_integration - INFO - Evolved HybridMathBrain with rate 0.005
+2025-06-20 05:47:13,521 - root - INFO - core_ai module core_ai.math_brain_integration integration result: None
+2025-06-20 05:47:13,529 - core_ai.helpers - INFO - Data normalized with mean -0.16 and std 1.36
+2025-06-20 05:47:13,529 - core_ai.helpers - INFO - Normalized DataFrame:
+          A         B
+0  0.661288  0.661288
+1 -0.037898 -0.037898
+2  0.827528  0.827528
+3  1.791382  1.791382
+4 -0.143483 -0.143483
+2025-06-20 05:47:13,536 - core_ai.helpers - INFO - Data denormalized
+2025-06-20 05:47:13,536 - core_ai.helpers - INFO - Denormalized DataFrame:
+          A         B
+0  0.496714  0.993428
+1 -0.138264 -0.276529
+2  0.647689  1.295377
+3  1.523030  3.046060
+4 -0.234153 -0.468307
+2025-06-20 05:47:13,540 - core_ai.helpers - INFO - Data shuffled
+2025-06-20 05:47:13,540 - core_ai.helpers - INFO - Data split into 80 train and 20 test samples
+2025-06-20 05:47:13,541 - core_ai.helpers - INFO - Train shape: (80, 2), Test shape: (20, 2)
+2025-06-20 05:47:13,541 - core_ai.helpers - INFO - Data shuffled
+2025-06-20 05:47:13,541 - core_ai.helpers - INFO - Shuffled DataFrame:
+           A         B
+63 -1.196207 -2.392413
+11 -0.465730 -0.931460
+56 -0.839218 -1.678435
+84 -0.808494 -1.616987
+99 -0.234587 -0.469174
+2025-06-20 05:47:13,548 - core_ai.helpers - INFO - Data scaled to range [-1.00, 1.00]
+2025-06-20 05:47:13,549 - core_ai.helpers - INFO - Scaled DataFrame:
+          A         B
+0  0.393758  0.393758
+1  0.109780  0.109780
+2  0.461278  0.461278
+3  0.852752  0.852752
+4  0.066896  0.066896
+2025-06-20 05:47:13,553 - core_ai.helpers - INFO - Processed raw data: []
+2025-06-20 05:47:13,553 - core_ai.helpers - INFO - Helpers demo completed.
+2025-06-20 05:47:13,554 - root - INFO - core_ai module core_ai.helpers integration result: None
+2025-06-20 05:47:13,557 - root - ERROR - Error integrating core_ai module core_ai.testing: No module named 'src.visualizer'
+2025-06-20 05:47:13,558 - root - ERROR - Error integrating core_ai module core_ai.deap_config: cannot import name 'asyncio' from 'config' (/workspaces/super_ai/core_ai/config.py)
+2025-06-20 05:47:13,606 - root - ERROR - Error integrating core_ai module core_ai.common_imports: No module named 'nltk'
+2025-06-20 05:47:13,632 - root - ERROR - Error integrating core_ai module core_ai.self_modification_manager: 'SelfModificationManager' object has no attribute '_load_config'
+2025-06-20 05:47:13,633 - root - INFO - core_ai module core_ai.meta_learning_engine integration result: Instantiated MetaLearningEngine, no callable method found.
+2025-06-20 05:47:13,684 - root - ERROR - Error integrating core_ai module core_ai.rl: No module named 'nltk'
+2025-06-20 05:47:13,684 - core_ai.experimentrunner - WARNING - Unable to import directly from experiment_runner, using alternative import method
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - ERROR - Failed to import experiment_runner module
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: basic_test_1750398433
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - INFO - Starting experiment run: basic_test_1750398433
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,685 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/basic_test_1750398433
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: function_approximation_1750398433
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Using DEAP: False
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Added configuration: config_1 with 5 generations
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:47:13,686 - core_ai.experimentrunner - INFO - Added function target: cos with params: None
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Starting experiment run: function_approximation_1750398433
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Running configuration 1/1: config_1
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Configuration config_1 completed
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/function_approximation_1750398433
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: hyperparameter_tuning_1750398433
+2025-06-20 05:47:13,687 - core_ai.experimentrunner - INFO - Added configuration: default with 5 generations
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 50}
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Added configuration: config_1_population_size_50 with 5 generations
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Would create configuration with params: {'population_size': 100}
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Added configuration: config_2_population_size_100 with 5 generations
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Parallel execution: True, max workers: 4
+2025-06-20 05:47:13,688 - core_ai.experimentrunner - INFO - Starting experiment run: hyperparameter_tuning_1750398433
+2025-06-20 05:47:13,723 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,723 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,724 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,724 - core_ai.experimentrunner - INFO - Configuration config_1_population_size_50 completed
+2025-06-20 05:47:13,724 - core_ai.experimentrunner - INFO - Configuration default completed
+2025-06-20 05:47:13,724 - core_ai.experimentrunner - INFO - Configuration config_2_population_size_100 completed
+2025-06-20 05:47:13,741 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/hyperparameter_tuning_1750398433
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Experiment run completed in 0.05 seconds
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - ExperimentRunner initialized: model_comparison_1750398433
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Added configuration: neat with 5 generations
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Added configuration: deap with 5 generations
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Added function target: sin with params: None
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Added function target: polynomial with params: {'coeffs': [1, 0, 0, 1]}
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Starting experiment run: model_comparison_1750398433
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Running configuration 1/2: neat
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Configuration neat completed
+2025-06-20 05:47:13,742 - core_ai.experimentrunner - INFO - Running configuration 2/2: deap
+2025-06-20 05:47:13,743 - core_ai.experimentrunner - ERROR - Placeholder run_experiment called
+2025-06-20 05:47:13,743 - core_ai.experimentrunner - INFO - Configuration deap completed
+2025-06-20 05:47:13,743 - core_ai.experimentrunner - INFO - Results saved to /workspaces/super_ai/experiments/model_comparison_1750398433
+2025-06-20 05:47:13,743 - core_ai.experimentrunner - INFO - Experiment run completed in 0.00 seconds
+2025-06-20 05:47:13,744 - root - ERROR - Error integrating core_ai module core_ai.experimentrunner: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+2025-06-20 05:47:13,744 - root - ERROR - Error integrating core_ai module core_ai.experiment_runner: No module named 'src.evolutionaryoptimizer'
+2025-06-20 05:47:13,745 - core_ai.metalearner - INFO - Initial numeric Hyperparameters: {'population_size': 100, 'num_generations': 50, 'crossover_prob': 0.8, 'mutation_prob': 0.2, 'tournament_size': 3, 'elitism': 2, 'max_depth': 5, 'init_min_depth': 1, 'init_max_depth': 3}
+2025-06-20 05:47:13,745 - root - ERROR - Error integrating core_ai module core_ai.metalearner: name 'random' is not defined
+2025-06-20 05:47:13,746 - core_ai.geneticprogrammer - INFO - GeneticProgrammer initialized for python with population size 20
+2025-06-20 05:47:13,746 - core_ai.geneticprogrammer - INFO - Generating initial population for problem: Create a function to find the sum of even numbers ...
+2025-06-20 05:47:13,747 - core_ai.geneticprogrammer - INFO - Generated initial population of 20 code snippets
+2025-06-20 05:47:13,747 - core_ai.geneticprogrammer - INFO - Starting evolution for 10 generations...
+2025-06-20 05:47:13,750 - core_ai.geneticprogrammer - INFO - Generation 1/10: Best fitness = 0.0000
+2025-06-20 05:47:13,751 - core_ai.geneticprogrammer - INFO - Generation 2/10: Best fitness = 0.6000
+2025-06-20 05:47:13,752 - core_ai.geneticprogrammer - INFO - Generation 3/10: Best fitness = 0.9000
+2025-06-20 05:47:13,754 - core_ai.geneticprogrammer - INFO - Generation 4/10: Best fitness = 0.9000
+2025-06-20 05:47:13,756 - core_ai.geneticprogrammer - INFO - Generation 5/10: Best fitness = 0.9000
+2025-06-20 05:47:13,757 - core_ai.geneticprogrammer - INFO - Generation 6/10: Best fitness = 0.9000
+2025-06-20 05:47:13,759 - core_ai.geneticprogrammer - INFO - Generation 7/10: Best fitness = 0.9000
+2025-06-20 05:47:13,762 - core_ai.geneticprogrammer - INFO - Generation 8/10: Best fitness = 0.9000
+2025-06-20 05:47:13,764 - core_ai.geneticprogrammer - INFO - Generation 9/10: Best fitness = 0.9000
+2025-06-20 05:47:13,766 - core_ai.geneticprogrammer - INFO - Generation 10/10: Best fitness = 0.9000
+2025-06-20 05:47:13,766 - core_ai.geneticprogrammer - INFO - Evolution completed. Best fitness: 0.9000
+2025-06-20 05:47:13,766 - core_ai.geneticprogrammer - INFO - Saved code to /workspaces/super_ai/generated_code/genetic_solution_10_89.py
+2025-06-20 05:47:13,767 - core_ai.geneticprogrammer - INFO - Saved evolution history to /workspaces/super_ai/generated_code/evolution_history.pkl
+2025-06-20 05:47:13,767 - root - INFO - core_ai module core_ai.geneticprogrammer integration result: None
+2025-06-20 05:47:13,769 - root - ERROR - Error integrating core_ai module core_ai.ai_data_ops_pipeline: No module named 'nltk'
+2025-06-20 05:47:13,769 - core_ai.data_loader - INFO - RealTimeDataLoader initialized with 3 sources
+2025-06-20 05:47:13,770 - core_ai.data_loader - INFO - Callback registered for market
+2025-06-20 05:47:13,770 - core_ai.data_loader - INFO - Data loader state saved to /workspaces/super_ai/data/models/data_loader_state.pkl
+2025-06-20 05:47:14,272 - core_ai.data_loader - INFO - Callback received data: 69.8479962811881
+2025-06-20 05:47:14,272 - core_ai.data_loader - WARNING - Self-modifying (type: source) based on sentiment data. Count: 1
+2025-06-20 05:47:14,272 - core_ai.data_loader - WARNING - Added risky new source: sentiment_alt_1
+2025-06-20 05:47:14,773 - core_ai.data_loader - INFO - Callback received data: 81.31847838148009
+2025-06-20 05:47:14,773 - core_ai.data_loader - WARNING - Self-modifying (type: source) based on betting data. Count: 2
+2025-06-20 05:47:14,774 - core_ai.data_loader - WARNING - Added risky new source: betting_alt_2
+2025-06-20 05:47:15,274 - core_ai.data_loader - INFO - Callback received data: 42.34063663221037
+2025-06-20 05:47:15,274 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 3
+2025-06-20 05:47:15,775 - core_ai.data_loader - INFO - Callback received data: 99.99766211030285
+2025-06-20 05:47:15,775 - core_ai.data_loader - WARNING - Self-modifying (type: preprocess) based on market data. Count: 4
+2025-06-20 05:47:16,276 - core_ai.data_loader - INFO - Callback received data: 1050.1017363267802
+2025-06-20 05:47:16,777 - core_ai.data_loader - INFO - Callback received data: 280.89964528193195
+2025-06-20 05:47:16,777 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 5
+2025-06-20 05:47:17,278 - core_ai.data_loader - INFO - Callback received data: 341.30595594954207
+2025-06-20 05:47:17,779 - core_ai.data_loader - INFO - Callback received data: 546.7771336241971
+2025-06-20 05:47:18,280 - core_ai.data_loader - INFO - Callback received data: 258.9786925468606
+2025-06-20 05:47:18,280 - core_ai.data_loader - WARNING - Self-modifying (type: buffer) based on market data. Count: 6
+2025-06-20 05:47:18,772 - core_ai.data_loader - INFO - Streaming test completed after 5 seconds
+2025-06-20 05:47:18,772 - core_ai.data_loader - INFO - Latest data: {'market': {'price': 80.12592241515476, 'volume': 241}, 'sentiment': {'score': 0.10908149084886243}, 'betting': {'odds': 8.613030490600947}, 'sentiment_alt_1': None, 'betting_alt_2': None}
+2025-06-20 05:47:18,772 - root - INFO - core_ai module core_ai.data_loader integration result: None
+2025-06-20 05:47:18,775 - root - ERROR - Error integrating core_ai module core_ai.math_predictors_integration: 'LearningEngine' object has no attribute 'setup_multi_gpu'
+2025-06-20 05:47:18,776 - core_ai.neat_mathemagician - ERROR - Failed to load NEAT configuration from /workspaces/super_ai/config.txt: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 05:47:18,776 - root - ERROR - Error integrating core_ai module core_ai.neat_mathemagician: No such config file: /workspaces/super_ai/config.txt
+2025-06-20 05:47:18,777 - core_ai.model - ERROR - Error initializing MathemagicianModel: No section: 'SelfModifyingGenome'
+2025-06-20 05:47:18,777 - root - ERROR - Error integrating core_ai module core_ai.model: No section: 'SelfModifyingGenome'
+2025-06-20 05:47:18,777 - core_ai.dangerousai - WARNING - Dangerous data generated with shape (100,) and amplification factor 10.0
+2025-06-20 05:47:18,882 - core_ai.dangerousai - WARNING - Saved dangerous data plot to /workspaces/super_ai/output/test_dangerous_data.png with amplification
+2025-06-20 05:47:18,883 - root - INFO - core_ai module core_ai.dangerousai integration result: None

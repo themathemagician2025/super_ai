@@ -19,8 +19,15 @@ import numpy as np
 from typing import Dict, Any, Optional, Union, List
 from datetime import datetime
 from model import MathemagicianModel  # For NEAT integration
-from neat import create_config  # For NEAT config
 from config import PROJECT_CONFIG  # For directory structure and settings
+
+# --- GLOBAL HELPERS ---
+def get_connections(genome):
+    if hasattr(genome, 'connections'):
+        return getattr(genome, 'connections', {})
+    elif isinstance(genome, dict):
+        return genome.get('connections', {})
+    return {}
 
 # Project directory structure
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -132,11 +139,18 @@ def get_scheduler(
     scheduler_type = scheduler_type.lower()
     try:
         if scheduler_type == 'plateau':
+            from torch.optim.lr_scheduler import ReduceLROnPlateau
+            # Remove verbose argument
             scheduler = ReduceLROnPlateau(
-                optimizer, mode=kwargs.get('mode', 'min'),
-                patience=kwargs.get('patience', 5),
+                optimizer,
+                mode=kwargs.get('mode', 'min'),
                 factor=kwargs.get('factor', 0.1),
-                verbose=kwargs.get('verbose', True)
+                patience=kwargs.get('patience', 10),
+                threshold=kwargs.get('threshold', 1e-4),
+                threshold_mode=kwargs.get('threshold_mode', 'rel'),
+                cooldown=kwargs.get('cooldown', 0),
+                min_lr=kwargs.get('min_lr', 0),
+                eps=kwargs.get('eps', 1e-8)
             )
             logger.info(
                 f"Initialized ReduceLROnPlateau: mode={
@@ -145,7 +159,7 @@ def get_scheduler(
                         'min')}, " f"patience={
                     kwargs.get(
                         'patience',
-                        5)}, factor={
+                        10)}, factor={
                     kwargs.get(
                         'factor',
                         0.1)}")
@@ -282,8 +296,18 @@ def optimize_neat_weights(model: MathemagicianModel,
     Returns:
         Dict[str, Any]: Updated genome with optimized weights.
     """
+    # Patch: ensure config is defined before use in NEAT
+    if 'config' not in locals():
+        import neat
+        config_path = os.path.join(os.path.dirname(__file__), 'config.txt')
+        config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction, neat.DefaultSpeciesSet, neat.DefaultStagnation, config_path)
+
+    # Ensure get_connections is defined before use
+
+    connections = genome.connections.items() if hasattr(genome, 'connections') else genome.get('connections', {}).items()
+
     params = {k: torch.tensor(v, requires_grad=True)
-              for k, v in genome.connections.items()}
+              for k, v in connections}
     optimizer = get_optimizer(params, lr=lr, optimizer_type='adam')
 
     for epoch in range(epochs):
@@ -299,7 +323,11 @@ def optimize_neat_weights(model: MathemagicianModel,
         # Update genome weights
         for key, param in params.items():
             if param.grad is not None:
-                genome.connections[key].weight -= lr * param.grad.item()
+                conn = get_connections(genome)
+                if hasattr(conn[key], 'weight'):
+                    conn[key].weight -= lr * param.grad.item()
+                elif isinstance(conn[key], dict):
+                    conn[key]['weight'] -= lr * param.grad.item()
 
         optimizer.step()
         logger.info(
@@ -392,9 +420,8 @@ def dangerous_optimize(
     """
     optimizer = optim.SGD(model.parameters(), lr=lr)
     criterion = torch.nn.MSELoss()
-    dummy_x = torch.randn(
-        10, model.in_features if hasattr(
-            model, 'in_features') else 10)
+    in_features = getattr(model, 'in_features', 10) if not isinstance(model, dict) else model.get('in_features', 10)
+    dummy_x = torch.randn(in_features, 10)  # Risky increase
     dummy_y = torch.randn(10, 1)
 
     for epoch in range(epochs):
@@ -447,12 +474,15 @@ def main():
 
     # NEAT weights optimization
     neat_model = MathemagicianModel("config.txt")
-    config = create_config("config.txt")
+    # Ensure config is defined before NEAT usage
+    import neat
+    config_path = os.path.join(os.path.dirname(__file__), 'config.txt')
+    config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction, neat.DefaultSpeciesSet, neat.DefaultStagnation, config_path)
     pop = neat.Population(config)
     genome = list(pop.population.values())[0]
     optimized_genome = optimize_neat_weights(neat_model, genome)
     print("Optimized NEAT genome connections sample:",
-          list(optimized_genome.connections.items())[:5])
+          list(get_connections(optimized_genome).items())[:5])
 
     # Dangerous mode demo
     dangerous_optimize(model)

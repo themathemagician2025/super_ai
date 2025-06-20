@@ -15,9 +15,8 @@ from datetime import datetime
 import pickle
 import asyncio
 from deap import base, creator, gp, tools, algorithms
-from config import PROJECT_CONFIG, get_project_config, DEAP_CONFIG, MODELS_DIR, RAW_DIR, export_config_to_dict
+from config import PROJECT_CONFIG, get_project_config, DEAP_CONFIG, MODELS_DIR, RAW_DIR
 from data_loader import load_raw_data, save_processed_data, RealTimeDataLoader
-# Removed: from evolutionaryoptimizer import optimize_deap  # Unresolved and unused
 
 # Ensure directories exist
 os.makedirs(MODELS_DIR, exist_ok=True)
@@ -33,7 +32,7 @@ logger = logging.getLogger(__name__)
 
 # Load project and DEAP configuration
 CONFIG = get_project_config()
-DEAP_CONFIG_DICT = export_config_to_dict(DEAP_CONFIG)  # Convert string to dict
+DEAP_CONFIG_DICT = DEAP_CONFIG  # Use the dictionary directly
 
 # Define the primitive set for mathematical expressions
 pset = gp.PrimitiveSet("MAIN", 1)
@@ -42,20 +41,45 @@ pset.addPrimitive(np.subtract, 2, name="sub")
 pset.addPrimitive(np.multiply, 2, name="mul")
 pset.addEphemeralConstant("rand", lambda: random.uniform(-10, 10))
 
-# Create fitness and individual classes
-creator.create("FitnessMin", base.Fitness, weights=(-1.0,))  # Minimize MSE
-creator.create("Individual", gp.PrimitiveTree, fitness=creator.FitnessMin)
+# Robust DEAP creator class creation
+try:
+    creator.create("FitnessMin", base.Fitness, weights=(-1.0,))  # Minimize MSE
+except RuntimeError:
+    pass
+try:
+    creator.create("Individual", gp.PrimitiveTree, fitness=creator.FitnessMin)
+except RuntimeError:
+    pass
 
-# Set up the DEAP GP toolbox
+# Set up the DEAP GP toolbox only if creator.Individual exists
+import copy
 toolbox = base.Toolbox()
-toolbox.register("expr", gp.genHalfAndHalf, pset=pset, min_=1, max_=3)
-toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.expr)
-toolbox.register("population", tools.initRepeat, list, toolbox.individual)
+
+# Register expr first
+expr_func = gp.genHalfAndHalf
+expr_name = "expr"
+toolbox.register(expr_name, expr_func, pset=pset, min_=1, max_=3)
+
+# Register individual using expr from toolbox.__dict__
+if hasattr(creator, "Individual"):
+    toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.__dict__[expr_name])
+else:
+    raise RuntimeError("creator.Individual was not created successfully. Check DEAP creator logic.")
+
+# Register population using individual from toolbox.__dict__
+toolbox.register("population", tools.initRepeat, list, toolbox.__dict__["individual"])
+# Register compile
 toolbox.register("compile", gp.compile, pset=pset)
+# Register mate
 toolbox.register("mate", gp.cxOnePoint)
+# Register expr_mut
 toolbox.register("expr_mut", gp.genFull, min_=1, max_=3)
-toolbox.register("mutate", gp.mutUniform, expr=toolbox.expr_mut, pset=pset)
+# Register mutate using expr_mut from toolbox.__dict__
+toolbox.register("mutate", gp.mutUniform, expr=toolbox.__dict__["expr_mut"], pset=pset)
+# Register select
 toolbox.register("select", tools.selTournament, tournsize=3)
+# Register clone
+toolbox.register("clone", copy.deepcopy)
 
 def evaluate_individual(individual: gp.PrimitiveTree, points: np.ndarray, targets: np.ndarray) -> Tuple[float]:
     """Evaluate an individual’s fitness as mean squared error."""
@@ -79,10 +103,10 @@ def evaluate_with_raw_data(individual: gp.PrimitiveTree, data: Optional[pd.DataF
     return evaluate_individual(individual, points, targets)
 
 def run_gp(
-    population_size: int = int(DEAP_CONFIG_DICT["DEAP"]["population_size"]),
-    generations: int = int(DEAP_CONFIG_DICT["DEAP"]["generations"]),
-    cxpb: float = float(DEAP_CONFIG_DICT["Crossover"]["cx_probability"]),
-    mutpb: float = float(DEAP_CONFIG_DICT["Mutation"]["mut_probability"]),
+    population_size: int = int(DEAP_CONFIG_DICT["population_size"]),
+    generations: int = int(DEAP_CONFIG_DICT["num_generations"]),
+    cxpb: float = float(DEAP_CONFIG_DICT["crossover_prob"]),
+    mutpb: float = float(DEAP_CONFIG_DICT["mutation_prob"]),
     use_raw_data: bool = True
 ) -> Tuple[List, Dict]:
     """Run genetic programming evolution process."""
@@ -161,7 +185,7 @@ class RealTimeGP:
     """Real-time genetic programming with data streams."""
     def __init__(self, rt_loader: RealTimeDataLoader):
         self.rt_loader = rt_loader
-        self.population = toolbox.population(n=int(DEAP_CONFIG_DICT["DEAP"]["population_size"]))
+        self.population = toolbox.population(n=int(DEAP_CONFIG_DICT["population_size"]))
         self.generation = 0
         self.data_buffer = []
         self.rt_loader.register_callback('market', self._update_evolution)
@@ -178,12 +202,12 @@ class RealTimeGP:
             offspring = toolbox.select(self.population, len(self.population))
             offspring = list(map(toolbox.clone, offspring))
             for child1, child2 in zip(offspring[::2], offspring[1::2]):
-                if random.random() < float(DEAP_CONFIG_DICT["Crossover"]["cx_probability"]):
+                if random.random() < float(DEAP_CONFIG_DICT["crossover_prob"]):
                     toolbox.mate(child1, child2)
                     del child1.fitness.values
                     del child2.fitness.values
             for mutant in offspring:
-                if random.random() < float(DEAP_CONFIG_DICT["Mutation"]["mut_probability"]):
+                if random.random() < float(DEAP_CONFIG_DICT["mutation_prob"]):
                     toolbox.mutate(mutant)
                     del mutant.fitness.values
             self.population = offspring
