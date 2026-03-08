@@ -689,3 +689,10 @@ The system employs multiple AI methodologies:
 Before contributing to the codebase, please familiarize yourself with the overall architecture and component interactions. The system is designed with modularity in mind, allowing for components to be improved or replaced individually.
 
 For testing new features, use the `development/examples/` directory to create demonstration scripts that test specific functionality in isolation.
+Lastly when you contribute try not to include the following in your code aka Clive Dziwomore :
+API keys, tokens, or credentials
+Private URLs or endpoints
+Personal information
+Database passwords or connection strings
+Confidential business logic
+Other sensitive data
