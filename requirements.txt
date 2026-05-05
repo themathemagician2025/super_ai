@@ -15,7 +15,7 @@ cryptography==39.0.2
 
 # Performance optimization dependencies
 flask-caching==2.0.2
-pillow==9.4.0
+pillow==12.2.0
 celery==5.2.7
 redis==4.5.1
 gunicorn==20.1.0
